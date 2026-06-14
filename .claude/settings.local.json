@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx create-vite@latest . --template react)",
+      "Bash(npx create-vite@latest naturfag-temp --template react)",
+      "Bash(mv /c/Naturfagsreppen/naturfag-temp/* /c/Naturfagsreppen/ && mv /c/Naturfagsreppen/naturfag-temp/.gitignore /c/Naturfagsreppen/ 2>/dev/null; rm -rf /c/Naturfagsreppen/naturfag-temp && ls /c/Naturfagsreppen/)",
+      "Bash(gh auth *)",
+      "PowerShell(gh auth status 2>&1)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); gh --version 2>&1)"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+.kort {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-top: 4px solid var(--emne-farge);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kort:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.topp {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ikon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.tittel {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+.beskrivelse {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.kapitler {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.kapitler li {
+  font-size: 0.875rem;
+  color: #444;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.kapitler li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--emne-farge);
+  font-weight: bold;
+}
+
+.knapp {
+  margin-top: auto;
+  padding: 0.6rem 1.2rem;
+  background: var(--emne-farge);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: opacity 0.15s;
+}
+
+.knapp:hover {
+  opacity: 0.85;
+}
