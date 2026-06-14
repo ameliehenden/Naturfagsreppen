@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(gh *)",
+      "PowerShell(git *)",
+      "PowerShell(npm *)",
+      "PowerShell(gh *)",
+      "PowerShell($env:Path = *)",
+      "PowerShell(cd C:\\Naturfagsreppen; git *)",
+      "PowerShell(cd C:\\Naturfagsreppen; npm run build *)",
+      "PowerShell(cd C:\\Naturfagsreppen; npm run lint *)",
+      "PowerShell(cd C:\\Naturfagsreppen; npm run build *; if ($?) { npm run lint * })",
+      "PowerShell(cd C:\\Naturfagsreppen; npm ci *)",
+      "PowerShell(New-Item -ItemType Directory *)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "Skill(fewer-permission-prompts)",
+      "Skill(update-config)"
+    ]
+  }
+}

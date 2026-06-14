@@ -8,7 +8,7 @@ export default function Emnekort({ emne }) {
     >
       <div className={styles.topp}>
         {emne.ikonSrc
-          ? <img className={styles.ikon} src={import.meta.env.BASE_URL + emne.ikonSrc} alt={emne.tittel} />
+          ? <img className={styles.ikonBilde} src={import.meta.env.BASE_URL + emne.ikonSrc} alt={emne.tittel} />
           : <span className={styles.ikon} aria-hidden="true">{emne.ikon}</span>
         }
         <h2 className={styles.tittel}>{emne.tittel}</h2>

@@ -23,7 +23,10 @@
       "PowerShell(npx *)",
       "PowerShell(node *)",
       "PowerShell(gh *)",
-      "PowerShell($env:Path = *)"
+      "PowerShell($env:Path = *)",
+      "Skill(fewer-permission-prompts)",
+      "Skill(fewer-permission-prompts:*)",
+      "PowerShell(Get-Content \"$env:USERPROFILE\\\\.claude\\\\projects\\\\C--Naturfagsreppen\\\\9af0e8e1-6eef-47cb-b670-0e1d69027b73.jsonl\" | ForEach-Object { try { $j = $_ | ConvertFrom-Json; if \\($j.message.role -eq \"assistant\"\\) { $j.message.content | Where-Object { $_.type -eq \"tool_use\" } | ForEach-Object { $name = $_.name; $cmd = if \\($name -eq \"Bash\" -or $name -eq \"PowerShell\"\\) { $_.input.command } else { \"\" }; [PSCustomObject]@{tool=$name;cmd=$cmd} } } } catch {} } | Group-Object tool | ForEach-Object { Write-Host \"=== $\\($_.Name\\) ===\"; $_.Group | Where-Object { $_.cmd } | ForEach-Object { $_.cmd.Split\\(\"`n\"\\)[0].Substring\\(0, [Math]::Min\\(120, $_.cmd.Length\\)\\) } | Group-Object | Sort-Object Count -Descending | Select-Object -First 30 | ForEach-Object { Write-Host \"$\\($_.Count\\)x $\\($_.Name\\)\" } })"
     ]
   }
 }
