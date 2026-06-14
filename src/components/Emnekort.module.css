@@ -82,6 +82,8 @@
   cursor: pointer;
   align-self: flex-start;
   transition: opacity 0.15s;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .knapp:hover {

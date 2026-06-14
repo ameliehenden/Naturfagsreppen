@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Emnekort.module.css';
 
 export default function Emnekort({ emne }) {
@@ -19,7 +20,7 @@ export default function Emnekort({ emne }) {
           <li key={kap}>{kap}</li>
         ))}
       </ul>
-      <button className={styles.knapp}>Start emnet →</button>
+      <Link to={`/emne/${emne.id}`} className={styles.knapp}>Start emnet →</Link>
     </article>
   );
 }
