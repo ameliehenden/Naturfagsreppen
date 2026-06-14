@@ -11,11 +11,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link to="/" className={styles.logo}>
-          <img
-            className={styles.logoBilde}
-            src={import.meta.env.BASE_URL + 'dirdal-skule-logo.svg'}
-            alt="Dirdal skule"
-          />
+          <span aria-hidden="true">🔬</span>
           <span>Naturfagsreppen</span>
         </Link>
         <nav className={styles.nav} aria-label="Hovednavigasjon">
