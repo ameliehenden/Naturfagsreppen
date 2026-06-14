@@ -1,16 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-label="Naturfagsreppen">
   <g stroke="#4ecdc4" stroke-width="2" stroke-linecap="round">
-    <g id="arm">
+    <g transform="rotate(0 24 24)">
       <line x1="24" y1="24" x2="24" y2="5"/>
       <line x1="24" y1="10" x2="19.5" y2="6"/>
       <line x1="24" y1="10" x2="28.5" y2="6"/>
       <line x1="24" y1="15" x2="20.5" y2="12"/>
       <line x1="24" y1="15" x2="27.5" y2="12"/>
     </g>
-    <use href="#arm" transform="rotate(60 24 24)"/>
-    <use href="#arm" transform="rotate(120 24 24)"/>
-    <use href="#arm" transform="rotate(180 24 24)"/>
-    <use href="#arm" transform="rotate(240 24 24)"/>
-    <use href="#arm" transform="rotate(300 24 24)"/>
+    <g transform="rotate(60 24 24)">
+      <line x1="24" y1="24" x2="24" y2="5"/>
+      <line x1="24" y1="10" x2="19.5" y2="6"/>
+      <line x1="24" y1="10" x2="28.5" y2="6"/>
+      <line x1="24" y1="15" x2="20.5" y2="12"/>
+      <line x1="24" y1="15" x2="27.5" y2="12"/>
+    </g>
+    <g transform="rotate(120 24 24)">
+      <line x1="24" y1="24" x2="24" y2="5"/>
+      <line x1="24" y1="10" x2="19.5" y2="6"/>
+      <line x1="24" y1="10" x2="28.5" y2="6"/>
+      <line x1="24" y1="15" x2="20.5" y2="12"/>
+      <line x1="24" y1="15" x2="27.5" y2="12"/>
+    </g>
+    <g transform="rotate(180 24 24)">
+      <line x1="24" y1="24" x2="24" y2="5"/>
+      <line x1="24" y1="10" x2="19.5" y2="6"/>
+      <line x1="24" y1="10" x2="28.5" y2="6"/>
+      <line x1="24" y1="15" x2="20.5" y2="12"/>
+      <line x1="24" y1="15" x2="27.5" y2="12"/>
+    </g>
+    <g transform="rotate(240 24 24)">
+      <line x1="24" y1="24" x2="24" y2="5"/>
+      <line x1="24" y1="10" x2="19.5" y2="6"/>
+      <line x1="24" y1="10" x2="28.5" y2="6"/>
+      <line x1="24" y1="15" x2="20.5" y2="12"/>
+      <line x1="24" y1="15" x2="27.5" y2="12"/>
+    </g>
+    <g transform="rotate(300 24 24)">
+      <line x1="24" y1="24" x2="24" y2="5"/>
+      <line x1="24" y1="10" x2="19.5" y2="6"/>
+      <line x1="24" y1="10" x2="28.5" y2="6"/>
+      <line x1="24" y1="15" x2="20.5" y2="12"/>
+      <line x1="24" y1="15" x2="27.5" y2="12"/>
+    </g>
   </g>
 </svg>
