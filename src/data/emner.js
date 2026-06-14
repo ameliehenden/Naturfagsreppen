@@ -42,6 +42,7 @@ export const emner = [
     id: 'kjemi',
     tittel: 'Kjemi',
     ikon: '🧪',
+    ikonSrc: 'icons/erlenmeyer.svg',
     farge: '#8e44ad',
     beskrivelse: 'Stoffenes oppbygning, kjemiske reaksjoner og periodesystemet.',
     kapitler: [

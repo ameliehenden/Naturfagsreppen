@@ -8,7 +8,22 @@
       "Bash(gh auth *)",
       "PowerShell(gh auth status 2>&1)",
       "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); gh --version 2>&1)",
-      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); gh run watch --repo ameliehenden/Naturfagsreppen --exit-status \\(gh run list --repo ameliehenden/Naturfagsreppen --limit 1 --json databaseId --jq '.[0].databaseId'\\) 2>&1)"
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); gh run watch --repo ameliehenden/Naturfagsreppen --exit-status \\(gh run list --repo ameliehenden/Naturfagsreppen --limit 1 --json databaseId --jq '.[0].databaseId'\\) 2>&1)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Edit",
+      "Write",
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(gh *)",
+      "PowerShell(git *)",
+      "PowerShell(npm *)",
+      "PowerShell(npx *)",
+      "PowerShell(node *)",
+      "PowerShell(gh *)",
+      "PowerShell($env:Path = *)"
     ]
   }
 }

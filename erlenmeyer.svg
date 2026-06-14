@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240" role="img" aria-label="Erlenmeyer flask with blue liquid">
+  <defs>
+    <clipPath id="flaskInside">
+      <path d="M82 24 L82 72 L34 200 Q32 208 40 208 L160 208 Q168 208 166 200 L118 72 L118 24 Z"></path>
+    </clipPath>
+  </defs>
+
+  
+  <g clip-path="url(#flaskInside)">
+    <rect x="30" y="150" width="140" height="70" fill="#2f86eb"></rect>
+    
+    <circle cx="78" cy="178" r="7" fill="#bfe0ff" opacity="0.9"></circle>
+    <circle cx="112" cy="190" r="5" fill="#bfe0ff" opacity="0.9"></circle>
+    <circle cx="95" cy="168" r="3.5" fill="#e3f2ff" opacity="0.95"></circle>
+  </g>
+
+  
+  <path d="M82 24 L82 72 L34 200 Q32 208 40 208 L160 208 Q168 208 166 200 L118 72 L118 24" fill="none" stroke="#1f2933" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"></path>
+
+  
+  <path d="M76 24 L124 24" fill="none" stroke="#1f2933" stroke-width="6" stroke-linecap="round"></path>
+
+  
+  <line x1="51" y1="150" x2="149" y2="150" stroke="#1f2933" stroke-width="4" stroke-linecap="round"></line>
+</svg>

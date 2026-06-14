@@ -7,7 +7,10 @@ export default function Emnekort({ emne }) {
       style={{ '--emne-farge': emne.farge }}
     >
       <div className={styles.topp}>
-        <span className={styles.ikon} aria-hidden="true">{emne.ikon}</span>
+        {emne.ikonSrc
+          ? <img className={styles.ikon} src={import.meta.env.BASE_URL + emne.ikonSrc} alt={emne.tittel} />
+          : <span className={styles.ikon} aria-hidden="true">{emne.ikon}</span>
+        }
         <h2 className={styles.tittel}>{emne.tittel}</h2>
       </div>
       <p className={styles.beskrivelse}>{emne.beskrivelse}</p>
