@@ -11,7 +11,7 @@ export default function Layout() {
         <Outlet />
         <footer className={styles.footer} id="om">
           <p>
-            <strong>Naturfag 10</strong> – et digitalt læreverk for 10. trinn, basert på Kunnskapsløftet (LK20).
+            <strong>Naturfagsreppen</strong> – et digitalt læreverk for 10. trinn, basert på Kunnskapsløftet (LK20).
           </p>
         </footer>
       </main>

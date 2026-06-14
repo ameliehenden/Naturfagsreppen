@@ -6,7 +6,7 @@ export default function Header() {
       <div className={styles.inner}>
         <div className={styles.logo}>
           <span aria-hidden="true">🔬</span>
-          <span>Naturfag 10</span>
+          <span>Naturfagsreppen</span>
         </div>
         <nav className={styles.nav} aria-label="Hovednavigasjon">
           <a href="#emner">Emner</a>
