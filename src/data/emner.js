@@ -15,7 +15,7 @@ export const emner = [
   {
     id: 'kropp-og-helse',
     tittel: 'Kropp og helse',
-    ikon: '🫀',
+    ikon: '🧠',
     farge: '#e74c3c',
     beskrivelse: 'Menneskekroppens organer, helse, seksualitet og arv.',
     kapitler: [
@@ -41,7 +41,7 @@ export const emner = [
   {
     id: 'kjemi',
     tittel: 'Kjemi',
-    ikon: '⚗️',
+    ikon: '🧪',
     farge: '#8e44ad',
     beskrivelse: 'Stoffenes oppbygning, kjemiske reaksjoner og periodesystemet.',
     kapitler: [
