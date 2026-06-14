@@ -11,7 +11,11 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link to="/" className={styles.logo}>
-          <span aria-hidden="true">🔬</span>
+          <img
+            className={styles.logoBilde}
+            src={import.meta.env.BASE_URL + 'naturfagsreppen-logo.svg'}
+            alt=""
+          />
           <span>Naturfagsreppen</span>
         </Link>
         <nav className={styles.nav} aria-label="Hovednavigasjon">
