@@ -15,12 +15,8 @@ export default function Hero() {
           alt="Dirdal skule"
         />
         <h1 className={styles.tittel}>
-          Naturfag for <span className={styles.uthev}>10. trinn</span>
+          Naturfagsrepetisjon for <span className={styles.uthev}>ungdomsskolen</span>
         </h1>
-        <p className={styles.ingress}>
-          Utforsk fagene som forklarer verden rundt deg – fra celler og atomer
-          til stjerner og klimaendringer.
-        </p>
         <a href="#emner" className={styles.knapp} onClick={scrollTilEmner}>Se alle emner ↓</a>
       </div>
     </section>
