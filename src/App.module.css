@@ -19,3 +19,12 @@
   padding: 2rem 1.5rem;
   font-size: 0.9rem;
 }
+
+@media (max-width: 600px) {
+  .innhold {
+    padding: 1.5rem 1rem 3rem;
+  }
+  .seksjonstittel {
+    font-size: 1.3rem;
+  }
+}

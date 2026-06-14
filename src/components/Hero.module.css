@@ -50,3 +50,13 @@
   background: #3dbdb4;
   transform: translateY(-2px);
 }
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 3rem 1.25rem;
+  }
+  .knapp {
+    width: 100%;
+    text-align: center;
+  }
+}

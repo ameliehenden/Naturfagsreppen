@@ -42,3 +42,12 @@
 .nav a:hover {
   color: #fff;
 }
+
+@media (max-width: 480px) {
+  .nav {
+    gap: 1rem;
+  }
+  .nav a {
+    font-size: 0.82rem;
+  }
+}
