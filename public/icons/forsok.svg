@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Praktiske forsøk">
-  <path d="M19 8 V18 L12 35 C11 38 13 40 16 40 H32 C35 40 37 38 36 35 L29 18 V8 Z" fill="#ffffff" stroke="#16a085" stroke-width="2.5" stroke-linejoin="round"/>
-  <line x1="16" y1="8" x2="32" y2="8" stroke="#16a085" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="16" y1="29" x2="32" y2="29" stroke="#9ad3c2" stroke-width="2.5" stroke-linecap="round"/>
-</svg>
