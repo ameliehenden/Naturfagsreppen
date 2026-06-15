@@ -30,6 +30,11 @@
       "PowerShell($env:Path = *)",
       "PowerShell(Remove-Item \"C:\\Naturfagsreppen\\*)",
       "PowerShell(Remove-Item C:\\Naturfagsreppen\\*)",
+      "PowerShell(Add-Type -AssemblyName System.IO.Compression.FileSystem*)",
+      "PowerShell(npm run build 2>&1; if ($?) { npm run lint 2>&1 })",
+      "PowerShell(npm run build 2>&1; if ($?) { git add *)",
+      "PowerShell(if ($?) { npm run lint *)",
+      "PowerShell(if ($?) { git add *)",
       "Skill(update-config)",
       "Skill(fewer-permission-prompts)"
     ],
