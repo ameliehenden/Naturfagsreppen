@@ -5,6 +5,7 @@ import './index.css'
 import Layout from './components/Layout'
 import Hjem from './pages/Hjem'
 import EmneSide from './pages/EmneSide'
+import Om from './pages/Om'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
         <Route element={<Layout />}>
           <Route path="/" element={<Hjem />} />
           <Route path="/emne/:id" element={<EmneSide />} />
+          <Route path="/om" element={<Om />} />
         </Route>
       </Routes>
     </HashRouter>
