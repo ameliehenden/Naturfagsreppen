@@ -6,6 +6,9 @@ on:
     - cron: '0 5 * * *'
   workflow_dispatch: # gjør at den også kan kjøres manuelt
 
+permissions:
+  issues: write
+
 jobs:
   rapport:
     runs-on: ubuntu-latest
@@ -14,6 +17,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/daglig-rapport.mjs
+      - name: Hent tall fra GoatCounter
+        run: node scripts/daglig-rapport.mjs
         env:
           GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+      - name: Lag GitHub-sak med rapporten (tildelt Amelie -> e-post)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >
+          gh issue create
+          --repo ${{ github.repository }}
+          --title "$(cat tittel.txt)"
+          --body-file rapport.md
+          --assignee ameliehenden
