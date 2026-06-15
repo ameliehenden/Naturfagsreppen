@@ -9,7 +9,7 @@ import styles from './EmneSide.module.css';
 const OPPLEGG = [
   { id: 'flashcards', navn: 'Flashcards', ikon: 'icons/flashcards.svg' },
   { id: 'quiz', navn: 'Quiz', ikon: 'icons/quiz.svg' },
-  { id: 'forsok', navn: 'Praktiske forsøk', ikon: 'icons/erlenmeyer.svg' },
+  { id: 'forsok', navn: 'Praktiske forsøk', ikon: 'icons/forsok.svg' },
   { id: 'oppgaver', navn: 'Skriftlige oppgaver', ikon: 'icons/oppgaver.svg' },
 ];
 
