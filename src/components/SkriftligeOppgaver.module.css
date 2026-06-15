@@ -1,0 +1,127 @@
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.intro {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.oppgave {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid var(--emne-farge, #16a085);
+  padding: 1.5rem;
+}
+
+.sporsmal {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #1a1a2e;
+}
+
+.nr {
+  color: var(--emne-farge, #16a085);
+  font-weight: 800;
+  margin-right: 0.25rem;
+}
+
+.tekstfelt {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  font: inherit;
+  color: #1a1a2e;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 10px;
+  resize: vertical;
+  min-height: 90px;
+}
+
+.tekstfelt:focus {
+  outline: none;
+  border-color: var(--emne-farge, #16a085);
+  box-shadow: 0 0 0 3px rgba(22, 160, 133, 0.15);
+}
+
+.sjekk {
+  margin-top: 0.85rem;
+  padding: 0.65rem 1.4rem;
+  background: var(--emne-farge, #16a085);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.sjekk:hover:not(:disabled) {
+  opacity: 0.88;
+}
+
+.sjekk:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.resultat {
+  margin-top: 1rem;
+}
+
+.melding {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.fasit {
+  background: #f1f7f5;
+  border-left: 4px solid var(--emne-farge, #16a085);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.fasitTittel {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--emne-farge, #16a085);
+  margin-bottom: 0.4rem;
+}
+
+.fasit p {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.nullstill {
+  margin-top: 1rem;
+  background: transparent;
+  border: 1.5px solid #cbd5e1;
+  color: #475569;
+  padding: 0.45rem 1.1rem;
+  border-radius: 50px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.nullstill:hover {
+  background: #f1f5f9;
+}
