@@ -3,8 +3,10 @@ import { useParams, Link } from 'react-router-dom';
 import { emner } from '../data/emner';
 import { flashcards } from '../data/flashcards';
 import { oppgaver } from '../data/oppgaver';
+import { quiz } from '../data/quiz';
 import Flashcards from '../components/Flashcards';
 import SkriftligeOppgaver from '../components/SkriftligeOppgaver';
+import Quiz from '../components/Quiz';
 import styles from './EmneSide.module.css';
 
 // Opplegg-typene vises som en ikonrad øverst på hvert emne (samme på alle).
@@ -20,6 +22,7 @@ export default function EmneSide() {
   const emne = emner.find((e) => e.id === id);
   const kortStokk = flashcards[id];
   const oppgaveListe = oppgaver[id];
+  const quizListe = quiz[id];
   const [valgt, setValgt] = useState('flashcards');
 
   if (!emne) {
@@ -65,6 +68,8 @@ export default function EmneSide() {
         <div className={styles.oppleggInnhold}>
           {valgt === 'flashcards' && kortStokk ? (
             <Flashcards kort={kortStokk} />
+          ) : valgt === 'quiz' && quizListe ? (
+            <Quiz sporsmaal={quizListe} />
           ) : valgt === 'oppgaver' && oppgaveListe ? (
             <SkriftligeOppgaver oppgaver={oppgaveListe} />
           ) : (

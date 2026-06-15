@@ -1,0 +1,140 @@
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.teller {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.sporsmal {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #1a1a2e;
+  margin: 0 0 1.25rem;
+}
+
+.alternativer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.alt {
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.45;
+  color: #1a1a2e;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+}
+
+.alt:hover:not(:disabled) {
+  border-color: var(--emne-farge, #16a085);
+  transform: translateY(-1px);
+}
+
+.alt:disabled {
+  cursor: default;
+}
+
+/* Etter svar */
+.riktig {
+  border-color: #1f9d6b;
+  background: #e9f9f1;
+  color: #0f5132;
+  font-weight: 600;
+}
+
+.feil {
+  border-color: #dc2626;
+  background: #fdecec;
+  color: #7f1d1d;
+}
+
+.dempet {
+  opacity: 0.55;
+}
+
+.tilbakemelding {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.riktigTekst {
+  margin: 0;
+  font-weight: 700;
+  color: #1f9d6b;
+}
+
+.feilTekst {
+  margin: 0;
+  font-weight: 700;
+  color: #dc2626;
+}
+
+.neste {
+  padding: 0.7rem 1.6rem;
+  background: var(--emne-farge, #16a085);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.neste:hover {
+  opacity: 0.88;
+}
+
+.resultat {
+  text-align: center;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.resultatIkon {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.resultatTittel {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin: 0 0 0.75rem;
+}
+
+.nytt {
+  background: transparent;
+  border: 1.5px solid #cbd5e1;
+  color: #475569;
+  padding: 0.6rem 1.3rem;
+  border-radius: 50px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.nytt:hover {
+  background: #f1f5f9;
+}
