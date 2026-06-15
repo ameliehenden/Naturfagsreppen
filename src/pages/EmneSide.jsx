@@ -15,6 +15,7 @@ const OPPLEGG = [
   { id: 'quiz', navn: 'Quiz', ikon: 'icons/quiz.svg' },
   { id: 'forsok', navn: 'Praktiske forsøk', ikon: 'icons/forsok.svg' },
   { id: 'oppgaver', navn: 'Skriftlige oppgaver', ikon: 'icons/oppgaver.svg' },
+  { id: 'sammenhenger', navn: 'Sammenhenger', ikon: 'icons/sammenhenger.svg' },
 ];
 
 export default function EmneSide() {
