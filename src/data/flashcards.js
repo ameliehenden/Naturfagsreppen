@@ -14,7 +14,7 @@ export const flashcards = {
   'klima-og-baerekraft': [
     {
       begrep: `Bærekraftig utvikling`,
-      forklaring: `Å utnytte naturressurser slik at de ikke ødelegges for framtidige generasjoner.`,
+      forklaring: `Å utnytte naturressurser slik at ressursen ikke ødelegges for framtidige generasjoner.`,
     },
     {
       begrep: `Føre-var-prinsippet`,
@@ -22,15 +22,15 @@ export const flashcards = {
     },
     {
       begrep: `Villmarksområde`,
-      forklaring: `Landområde som ligger mer enn 5 km fra større tekniske inngrep. (En liten, gammel hytte ødelegger det altså ikke.)`,
+      forklaring: `Landområde som ligger mer enn 5 km fra større tekniske inngrep. En liten, gammel hytte regnes ikke som et større teknisk inngrep, men et hyttefelt gjør det.`,
     },
     {
       begrep: `Interessegrupper`,
-      forklaring: `Grupper som har ulike interesser i et naturområde. Eksempel: skogen i Norge er både en viktig økonomisk ressurs og et område som bør vernes for å sikre det biologiske mangfoldet.`,
+      forklaring: `Grupper som har ulike interesser i et naturområde. Eksempel: Skogen i Norge er både en viktig økonomisk ressurs og et område som bør vernes for å sikre det biologiske mangfoldet.`,
     },
     {
       begrep: `Interessekonflikt`,
-      forklaring: `Når to interessegrupper er i konflikt om et naturområde, fordi den enes bruk av ressursen ødelegger for den andre.`,
+      forklaring: `Når to interessegrupper er i konflikt om et naturområde eller en ressurs, fordi den enes bruk av ressursen ødelegger for den andres interesse.`,
     },
     {
       begrep: `Biologisk mangfold`,
@@ -58,15 +58,35 @@ export const flashcards = {
     },
     {
       begrep: `Global oppvarming`,
-      forklaring: `Den gjennomsnittlige oppvarmingen av jorda på grunn av utslipp av klimagasser.`,
+      forklaring: `Den gjennomsnittlige temperaturen på jorda stiger på grunn av utslipp av klimagasser. Temperaturen stiger ikke like mye alle steder, og noen steder kan til og med oppleve kaldere perioder.`,
     },
     {
       begrep: `Drivhuseffekt`,
-      forklaring: `Jordas evne til å holde på sin egen varme slik at den ikke slipper ut i verdensrommet. Kortbølget stråling fra sola slipper inn, men langbølget varmestråling fra jorda slipper ikke ut, fordi molekylene i klimagassene fanger den opp.`,
+      forklaring: `Jordas evne til å holde på sin egen varme slik at den ikke slipper ut i verdensrommet. Kortbølget stråling fra sola slipper inn, men langbølget varmestråling fra jorda slipper ikke ut, fordi klimagass-molekylene fanger strålene opp og sender dem ut igjen i alle retninger, slik at noe kommer tilbake til jorda.`,
     },
     {
       begrep: `Klimasone`,
       forklaring: `Et område med samme klimatype. Vi deler oftest inn i polart, temperert, subtropisk og tropisk klima.`,
+    },
+    {
+      begrep: `Vær`,
+      forklaring: `Det du ser ut av vinduet akkurat nå: nedbør, vind, temperatur og så videre.`,
+    },
+    {
+      begrep: `Drivhusgasser`,
+      forklaring: `Gassmolekylene som absorberer langbølget varmestråling på vei ut fra jorda, slik at noe av varmen sendes tilbake til oss. Jo mer drivhusgass i atmosfæren, jo mer holder atmosfæren på jordas varme.`,
+    },
+    {
+      begrep: `Naturressurs`,
+      forklaring: `Alt vi finner i naturen som vi kan bruke til å dekke et behov, som vann, fisk eller olje og gass.`,
+    },
+    {
+      begrep: `Fornybare ressurser`,
+      forklaring: `Ressurser som fornyes i naturen, og som kan brukes uten at de nødvendigvis brukes opp. Noen ressurser er betinget fornybare, som fisk og skog.`,
+    },
+    {
+      begrep: `Forurensing`,
+      forklaring: `Alt som gjør et miljø usunt og skaper nedgang i miljøkvaliteten.`,
     },
   ],
 };
