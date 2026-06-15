@@ -7,7 +7,11 @@ export default function Om() {
 
       <div className={styles.innhold}>
         <div className={styles.bildeFelt}>
-          <div className={styles.bildePlassholder}>Bilde kommer</div>
+          <img
+            className={styles.bilde}
+            src={import.meta.env.BASE_URL + 'amelie.jpg'}
+            alt="Amelie, lektor ved Dirdal Skule"
+          />
         </div>
 
         <div className={styles.tekst}>
