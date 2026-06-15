@@ -19,9 +19,9 @@ export const quiz = {
     },
     {
       sporsmal: `Hva menes med «føre-var-prinsippet»?`,
-      riktig: `Å sette i gang tiltak mot miljøskade FØR vi har sikker vitenskapelig dokumentasjon på at noe er skadelig.`,
+      riktig: `Å sette i gang tiltak mot miljøskade før vi har sikker vitenskapelig dokumentasjon på at noe er skadelig.`,
       feil: [
-        `Å sette i gang tiltak mot miljøskade MED EN GANG vi har vitenskapelig dokumentasjon på at noe er skadelig.`,
+        `Å sette i gang tiltak mot miljøskade med en gang vi har vitenskapelig dokumentasjon på at noe er skadelig.`,
         `Å begrense bruken av en naturressurs før den forsvinner helt.`,
         `Å rydde opp i miljøskader så raskt som mulig etter at de har oppstått.`,
       ],

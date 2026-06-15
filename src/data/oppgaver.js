@@ -29,7 +29,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hva mener vi med å være «føre var»? Gi minst ett eksempel der mennesket ikke har vært føre var.`,
-      fasit: `Å være føre var betyr å sette i gang tiltak for å hindre skade FØR vi har sikker vitenskapelig kunnskap om at noe er skadelig. Eksempel der vi ikke var føre var: bruk av KFK-gasser som skadet ozonlaget, eller utstrakt bruk av plast.`,
+      fasit: `Å være føre var betyr å sette i gang tiltak for å hindre skade før vi har sikker vitenskapelig kunnskap om at noe er skadelig. Eksempel der vi ikke var føre var: bruk av KFK-gasser som skadet ozonlaget, eller utstrakt bruk av plast.`,
     },
     {
       sporsmal: `Forklar drivhuseffekten så godt du kan, ved hjelp av stråling og drivhusgasser.`,
