@@ -22,11 +22,6 @@ export const oppgaver = {
       nokkelord: ['oppvarming', 'mangfold', 'forurens', 'havforsuring'],
     },
     {
-      sporsmal: `Hvilke miljøutfordringer har vi som ikke virker på klimaet?`,
-      fasit: `Noen miljøutfordringer påvirker ikke klimaet direkte, for eksempel forsøpling og plast i naturen, lokal forurensning av vann og jord, og tap av biologisk mangfold.`,
-      nokkelord: ['forsøpling', 'plast', 'forurens', 'mangfold'],
-    },
-    {
       sporsmal: `Forklar hvordan klimaet vårt påvirkes av utslipp av CO₂ i atmosfæren.`,
       fasit: `Når vi slipper ut mer CO₂, øker mengden drivhusgasser i atmosfæren. Da holder atmosfæren bedre på varmen (forsterket drivhuseffekt), og temperaturen på jorda stiger.`,
       nokkelord: ['co2', 'drivhus', 'varme', 'temperatur'],
@@ -40,16 +35,6 @@ export const oppgaver = {
       sporsmal: `Hva mener vi med uttrykket «bærekraftig utvikling»? Gi et eksempel på en naturressurs som ikke har blitt forvaltet på en bærekraftig måte, og forklar.`,
       fasit: `Bærekraftig utvikling betyr å bruke naturressurser slik at de ikke ødelegges for framtidige generasjoner. Eksempel på dårlig forvaltning: overfiske som tømmer en fiskebestand, eller hogst av skog raskere enn den vokser opp.`,
       nokkelord: ['ressurs', 'generasjon', 'eksempel'],
-    },
-    {
-      sporsmal: `Hva mener vi med uttrykket «interessekonflikt»? Gjør rede for en valgfri interessekonflikt du kjenner til.`,
-      fasit: `En interessekonflikt er når to grupper har motstridende interesser i et område eller en ressurs, slik at den enes bruk ødelegger for den andre. Eksempel: utbygging av vindkraft mot reindrift og naturvern.`,
-      nokkelord: ['interesse', 'gruppe', 'ressurs'],
-    },
-    {
-      sporsmal: `Hvordan kan klimaendringer føre til interessekonflikter? Gi et eksempel.`,
-      fasit: `Klimaendringer kan skape knapphet på ressurser som vann, mat og land, og da kan grupper eller land komme i konflikt om dem. Eksempel: tørke som fører til strid om vann, eller issmelting som åpner for strid om nye områder i Arktis.`,
-      nokkelord: ['ressurs', 'konflikt', 'eksempel'],
     },
     {
       sporsmal: `Hva mener vi med å være «føre var»? Gi minst ett eksempel der mennesket ikke har vært føre var.`,
