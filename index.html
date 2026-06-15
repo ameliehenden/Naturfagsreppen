@@ -9,6 +9,21 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- Skru av/på telling av egne besøk: besøk siden med ?ikketell (av) eller ?tellmeg (på) -->
+    <script>
+      (function () {
+        try {
+          if (location.search.indexOf('ikketell') > -1) {
+            localStorage.setItem('skipgc', 't');
+            alert('Dine egne besøk telles nå IKKE på denne nettleseren.');
+          }
+          if (location.search.indexOf('tellmeg') > -1) {
+            localStorage.removeItem('skipgc');
+            alert('Dine egne besøk telles nå igjen på denne nettleseren.');
+          }
+        } catch (e) {}
+      })();
+    </script>
     <!-- GoatCounter: anonym besøksteller, ingen persondata -->
     <script
       data-goatcounter="https://naturfagsreppen.goatcounter.com/count"
