@@ -66,6 +66,22 @@
   font-weight: 700;
   margin: 0 0 1.25rem;
   color: #1a1a2e;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.oppleggIkon {
+  width: 32px;
+  height: 32px;
+}
+
+.oppleggTekst {
+  margin: 0 0 1.5rem;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #555;
+  max-width: 560px;
 }
 
 .kapitler {

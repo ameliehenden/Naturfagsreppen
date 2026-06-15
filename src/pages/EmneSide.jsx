@@ -1,10 +1,13 @@
 import { useParams, Link } from 'react-router-dom';
 import { emner } from '../data/emner';
+import { flashcards } from '../data/flashcards';
+import Flashcards from '../components/Flashcards';
 import styles from './EmneSide.module.css';
 
 export default function EmneSide() {
   const { id } = useParams();
   const emne = emner.find((e) => e.id === id);
+  const kortStokk = flashcards[id];
 
   if (!emne) {
     return (
@@ -31,6 +34,21 @@ export default function EmneSide() {
           <p className={styles.beskrivelse}>{emne.beskrivelse}</p>
         </div>
       </div>
+
+      {kortStokk && (
+        <div className={styles.innhold}>
+          <h2 className={styles.seksjonstittel}>
+            <img className={styles.oppleggIkon} src={import.meta.env.BASE_URL + 'icons/flashcards.svg'} alt="" />
+            Øv på begreper
+          </h2>
+          <p className={styles.oppleggTekst}>
+            Trykk på kortet for å snu det. Trykk igjen for å gå til neste kort.
+            Kortene kommer i tilfeldig rekkefølge, og noen ganger ser du
+            forklaringen først.
+          </p>
+          <Flashcards kort={kortStokk} />
+        </div>
+      )}
 
       <div className={styles.innhold}>
         <h2 className={styles.seksjonstittel}>Kapitler</h2>

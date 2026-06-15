@@ -1,0 +1,117 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.teller {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.kort {
+  width: 100%;
+  min-height: 240px;
+  background: #fff;
+  border: none;
+  border-top: 5px solid var(--emne-farge, #16a085);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+  text-align: center;
+  animation: flipIn 0.35s ease;
+  transform-origin: center;
+}
+
+.kort:hover {
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.16);
+}
+
+.kort:focus-visible {
+  outline: 3px solid var(--emne-farge, #16a085);
+  outline-offset: 3px;
+}
+
+@keyframes flipIn {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+.type {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--emne-farge, #16a085);
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+}
+
+.tekst {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #1a1a2e;
+}
+
+.hint {
+  margin-top: auto;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.nytt {
+  background: transparent;
+  border: 1.5px solid #cbd5e1;
+  color: #475569;
+  padding: 0.5rem 1.1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.nytt:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.ferdig {
+  text-align: center;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ferdigIkon {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.ferdigTittel {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.5rem;
+}
