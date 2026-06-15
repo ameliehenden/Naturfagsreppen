@@ -88,5 +88,13 @@ export const flashcards = {
       begrep: `Forurensing`,
       forklaring: `Alt som gjør et miljø usunt og skaper nedgang i miljøkvaliteten.`,
     },
+    {
+      begrep: `Havforsuring`,
+      forklaring: `Senket pH i havet fordi havet tar opp store mengder CO₂ fra atmosfæren.`,
+    },
+    {
+      begrep: `Økt havnivå`,
+      forklaring: `Havnivået stiger fordi innlandsis smelter og renner ut i havet og bidrar til mer vann. Is som allerede flyter i havet, vil ikke øke havnivået når den smelter.`,
+    },
   ],
 };
