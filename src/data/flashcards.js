@@ -74,7 +74,7 @@ export const flashcards = {
     },
     {
       begrep: `Drivhusgasser`,
-      forklaring: `Gassmolekylene som absorberer langbølget varmestråling på vei ut fra jorda, slik at noe av varmen sendes tilbake til oss. Jo mer drivhusgass i atmosfæren, jo mer holder atmosfæren på jordas varme.`,
+      forklaring: `Gassmolekylene som absorberer langbølget varmestråling på vei ut fra jorda, slik at noe av varmen sendes tilbake til oss. Jo mer drivhusgass i atmosfæren, jo mer holder atmosfæren på jordas varme. De viktigste drivhusgassene er CO₂, vanndamp og metan.`,
     },
     {
       begrep: `Naturressurs`,
