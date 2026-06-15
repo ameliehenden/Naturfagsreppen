@@ -25,6 +25,18 @@ export default function EmneSide() {
   const quizListe = quiz[id];
   const [valgt, setValgt] = useState('flashcards');
 
+  function velgOpplegg(o) {
+    setValgt(o.id);
+    // Anonym teller: registrer at noen åpnet dette opplegget
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({
+        path: `${id}/${o.id}`,
+        title: `${emne.tittel} – ${o.navn}`,
+        event: true,
+      });
+    }
+  }
+
   if (!emne) {
     return (
       <div className={styles.innhold}>
@@ -57,7 +69,7 @@ export default function EmneSide() {
               key={o.id}
               type="button"
               className={`${styles.oppleggKnapp} ${valgt === o.id ? styles.aktiv : ''}`}
-              onClick={() => setValgt(o.id)}
+              onClick={() => velgOpplegg(o)}
             >
               <img className={styles.oppleggIkon} src={import.meta.env.BASE_URL + o.ikon} alt="" />
               <span>{o.navn}</span>
