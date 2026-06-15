@@ -78,6 +78,17 @@
   font-style: italic;
 }
 
+.bytt {
+  background: none;
+  border: none;
+  color: var(--emne-farge, #16a085);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
 .nytt {
   background: transparent;
   border: 1.5px solid #cbd5e1;

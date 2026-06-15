@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Quiz">
+  <rect x="9" y="8" width="30" height="32" rx="5" fill="#ffffff" stroke="#16a085" stroke-width="2.5"/>
+  <text x="24" y="33" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#16a085">?</text>
+</svg>
