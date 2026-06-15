@@ -20,6 +20,14 @@ function Oppgave({ nr, oppgave }) {
         <span className={styles.nr}>{nr}.</span> {oppgave.sporsmal}
       </p>
 
+      {oppgave.bilde && (
+        <img
+          className={styles.bilde}
+          src={import.meta.env.BASE_URL + oppgave.bilde}
+          alt="Illustrasjon til oppgaven"
+        />
+      )}
+
       <textarea
         className={styles.tekstfelt}
         value={svar}

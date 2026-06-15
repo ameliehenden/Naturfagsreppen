@@ -36,6 +36,11 @@ export const oppgaver = {
       fasit: `Kortbølget stråling fra sola slipper gjennom atmosfæren og varmer opp jorda. Jorda sender ut langbølget varmestråling. Drivhusgassene (som CO₂ og vanndamp) fanger opp deler av denne varmestrålingen og sender den tilbake mot jorda, slik at det holder seg varmt nok til å leve. Mer drivhusgasser gir sterkere effekt og høyere temperatur.`,
     },
     {
+      sporsmal: `Ta utgangspunkt i bildet og beskriv drivhuseffekten så nøye du kan.`,
+      bilde: `drivhuseffekten.png`,
+      fasit: `På bildet kommer kortbølget stråling fra sola inn gjennom atmosfæren og varmer opp jorda (de gule pilene). Jorda sender så ut langbølget varmestråling (de røde pilene). En del av varmen slipper ut i verdensrommet, men drivhusgassene i atmosfæren fanger opp noe av den og sender den tilbake mot jorda. Slik holder atmosfæren på varmen, og det blir varmt nok til å leve. Jo mer drivhusgasser, jo mer varme holdes tilbake, og temperaturen stiger.`,
+    },
+    {
       sporsmal: `Hva er årsaken til økt havnivå?`,
       fasit: `Havnivået stiger fordi innlandsis og isbreer på land smelter og renner ut i havet, og fordi varmere vann utvider seg. Is som allerede flyter i havet, øker ikke havnivået når den smelter.`,
     },
