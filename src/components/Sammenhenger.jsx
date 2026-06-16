@@ -3,7 +3,7 @@ import styles from './Sammenhenger.module.css';
 
 export default function Sammenhenger({ data, emneId }) {
   const { senter, bokser } = data;
-  const R = 34; // avstand fra sentrum (prosent)
+  const R = 35; // avstand fra sentrum (prosent)
   const punkter = bokser.map((b, i) => {
     const vinkel = ((-90 + i * (360 / bokser.length)) * Math.PI) / 180;
     return {
