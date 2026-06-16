@@ -5,10 +5,12 @@ import { flashcards } from '../data/flashcards';
 import { oppgaver } from '../data/oppgaver';
 import { quiz } from '../data/quiz';
 import { forsok } from '../data/forsok';
+import { sammenhenger } from '../data/sammenhenger';
 import Flashcards from '../components/Flashcards';
 import SkriftligeOppgaver from '../components/SkriftligeOppgaver';
 import Quiz from '../components/Quiz';
 import PraktiskeForsok from '../components/PraktiskeForsok';
+import Sammenhenger from '../components/Sammenhenger';
 import styles from './EmneSide.module.css';
 
 // Opplegg-typene vises som en ikonrad øverst på hvert emne (samme på alle).
@@ -27,6 +29,7 @@ export default function EmneSide() {
   const oppgaveListe = oppgaver[id];
   const quizListe = quiz[id];
   const forsokListe = forsok[id];
+  const sammenhengerData = sammenhenger[id];
   const [valgt, setValgt] = useState('flashcards');
 
   function velgOpplegg(o) {
@@ -90,6 +93,8 @@ export default function EmneSide() {
             <SkriftligeOppgaver oppgaver={oppgaveListe} />
           ) : valgt === 'forsok' && forsokListe ? (
             <PraktiskeForsok forsok={forsokListe} />
+          ) : valgt === 'sammenhenger' && sammenhengerData ? (
+            <Sammenhenger data={sammenhengerData} />
           ) : (
             <p className={styles.kommer}>Dette opplegget kommer snart.</p>
           )}
