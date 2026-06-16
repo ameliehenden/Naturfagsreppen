@@ -32,13 +32,9 @@ export const oppgaver = {
       fasit: `Å være føre var betyr å sette i gang tiltak for å hindre skade før vi har sikker vitenskapelig kunnskap om at noe er skadelig. Eksempel der vi ikke var føre var: bruk av KFK-gasser som skadet ozonlaget, eller utstrakt bruk av plast.`,
     },
     {
-      sporsmal: `Forklar drivhuseffekten så godt du kan, ved hjelp av stråling og drivhusgasser.`,
-      fasit: `Kortbølget stråling fra sola slipper gjennom atmosfæren og varmer opp jorda. Jorda sender ut langbølget varmestråling. Drivhusgassene (som CO₂ og vanndamp) fanger opp deler av denne varmestrålingen og sender den tilbake mot jorda, slik at det holder seg varmt nok til å leve. Mer drivhusgasser gir sterkere effekt og høyere temperatur.`,
-    },
-    {
-      sporsmal: `Ta utgangspunkt i bildet og beskriv drivhuseffekten så nøye du kan.`,
+      sporsmal: `Ta utgangspunkt i bildet og forklar drivhuseffekten så nøye du kan. Bruk gjerne ordene stråling og drivhusgasser.`,
       bilde: `drivhuseffekten.png`,
-      fasit: `På bildet kommer kortbølget stråling fra sola inn gjennom atmosfæren og varmer opp jorda (de gule pilene). Jorda sender så ut langbølget varmestråling (de røde pilene). En del av varmen slipper ut i verdensrommet, men drivhusgassene i atmosfæren fanger opp noe av den og sender den tilbake mot jorda. Slik holder atmosfæren på varmen, og det blir varmt nok til å leve. Jo mer drivhusgasser, jo mer varme holdes tilbake, og temperaturen stiger.`,
+      fasit: `På bildet kommer kortbølget stråling fra sola inn gjennom atmosfæren og varmer opp jorda (de gule pilene). Jorda sender så ut langbølget varmestråling (de røde pilene). En del slipper ut i verdensrommet, men drivhusgassene (som CO₂, vanndamp og metan) fanger opp noe av varmen og sender den tilbake mot jorda. Slik holder atmosfæren på varmen, og det blir varmt nok til å leve. Jo mer drivhusgasser, jo mer varme holdes tilbake, og temperaturen stiger.`,
     },
     {
       sporsmal: `Hva er årsaken til økt havnivå?`,
