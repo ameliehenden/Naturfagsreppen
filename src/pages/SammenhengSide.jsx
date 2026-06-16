@@ -27,7 +27,7 @@ export default function SammenhengSide() {
             ← Tilbake til {emne.tittel}
           </Link>
           <h1 className={styles.tittel}>
-            {data.senter} <span className={styles.kobling}>×</span> {boks.navn}
+            Sammenhengen mellom {data.kortnavn || data.senter} og {boks.navn.toLowerCase()}
           </h1>
         </div>
       </div>

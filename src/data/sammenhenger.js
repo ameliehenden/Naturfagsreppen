@@ -11,6 +11,7 @@
 export const sammenhenger = {
   'klima-og-baerekraft': {
     senter: `Klima og bærekraft`,
+    kortnavn: `klima`,
     bokser: [
       { navn: `Immunsystemet`, slug: `immunsystemet`, farge: `#e74c3c`, tekst: `` },
       { navn: `Forbrenningsreaksjoner`, slug: `forbrenningsreaksjoner`, farge: `#8e44ad`, tekst: `` },

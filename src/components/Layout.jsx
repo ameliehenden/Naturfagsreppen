@@ -25,11 +25,13 @@ export default function Layout() {
       <Header />
       <main>
         <Outlet />
-        <footer className={styles.footer} id="om">
-          <p>
-            <strong>Naturfagsreppen</strong> – et digitalt læreverk for 10. trinn, basert på Kunnskapsløftet (LK20).
-          </p>
-        </footer>
+        {!location.pathname.startsWith('/sammenheng/') && (
+          <footer className={styles.footer} id="om">
+            <p>
+              <strong>Naturfagsreppen</strong> – et digitalt læreverk for 10. trinn, basert på Kunnskapsløftet (LK20).
+            </p>
+          </footer>
+        )}
       </main>
       <Feedback />
     </>
