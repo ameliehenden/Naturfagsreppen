@@ -19,7 +19,7 @@ export const sammenhenger = {
       { navn: `Livets utvikling`, slug: `livets-utvikling`, farge: `#27ae60`, tekst: `` },
       { navn: `Teknologi`, slug: `teknologi`, farge: `#2980b9`, tekst: `` },
       { navn: `Energi`, slug: `energi`, farge: `#f39c12`, tekst: `` },
-      { navn: `Karbonkretsløpet`, slug: `karbonkretslopet`, farge: `#8e44ad`, tekst: `` },
+      { navn: `Karbonkretsløpet`, slug: `karbonkretslopet`, farge: `#27ae60`, tekst: `` },
     ],
   },
 };
