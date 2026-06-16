@@ -94,7 +94,7 @@ export default function EmneSide() {
           ) : valgt === 'forsok' && forsokListe ? (
             <PraktiskeForsok forsok={forsokListe} />
           ) : valgt === 'sammenhenger' && sammenhengerData ? (
-            <Sammenhenger data={sammenhengerData} />
+            <Sammenhenger data={sammenhengerData} emneId={id} />
           ) : (
             <p className={styles.kommer}>Dette opplegget kommer snart.</p>
           )}

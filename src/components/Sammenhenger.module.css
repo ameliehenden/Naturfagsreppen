@@ -64,6 +64,14 @@
   line-height: 1.25;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.12s, box-shadow 0.12s;
+}
+
+.boks:hover {
+  transform: translate(-50%, -50%) scale(1.06);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
 }
 
 @media (max-width: 520px) {

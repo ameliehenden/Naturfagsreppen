@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
 import styles from './Sammenhenger.module.css';
 
-export default function Sammenhenger({ data }) {
+export default function Sammenhenger({ data, emneId }) {
   const { senter, bokser } = data;
   const R = 36; // avstand fra sentrum (prosent)
   const punkter = bokser.map((b, i) => {
@@ -15,7 +16,8 @@ export default function Sammenhenger({ data }) {
   return (
     <div className={styles.wrapper}>
       <p className={styles.intro}>
-        Slik henger {senter} sammen med andre temaer i naturfag:
+        Slik henger {senter} sammen med andre temaer i naturfag. Trykk på en boks
+        for å lese mer.
       </p>
       <div className={styles.stage}>
         <svg
@@ -32,13 +34,14 @@ export default function Sammenhenger({ data }) {
         <div className={styles.senter}>{senter}</div>
 
         {punkter.map((p, i) => (
-          <div
+          <Link
             key={i}
+            to={`/sammenheng/${emneId}/${p.slug}`}
             className={styles.boks}
             style={{ left: `${p.x}%`, top: `${p.y}%`, '--boks-farge': p.farge }}
           >
             {p.navn}
-          </div>
+          </Link>
         ))}
       </div>
     </div>
