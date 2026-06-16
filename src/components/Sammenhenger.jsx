@@ -4,8 +4,13 @@ import styles from './Sammenhenger.module.css';
 export default function Sammenhenger({ data, emneId }) {
   const { senter, bokser } = data;
   const R = 38; // avstand fra sentrum (prosent) – større = mer luft mellom boksene
+  // Egne vinkler for 8 bokser: de skrå boksene flyttes nærmere side-boksene,
+  // så det blir jevn avstand (brede bokser trenger mer luft mot topp/bunn).
+  const FASTE_VINKLER = [-90, -35, 0, 35, 90, 145, 180, 215];
   const punkter = bokser.map((b, i) => {
-    const vinkel = ((-90 + i * (360 / bokser.length)) * Math.PI) / 180;
+    const grader =
+      bokser.length === 8 ? FASTE_VINKLER[i] : -90 + i * (360 / bokser.length);
+    const vinkel = (grader * Math.PI) / 180;
     return {
       ...b,
       x: 50 + R * Math.cos(vinkel),
