@@ -14,7 +14,7 @@
 .stage {
   position: relative;
   width: 100%;
-  max-width: 660px;
+  max-width: 720px;
   margin: 0 auto;
   aspect-ratio: 1 / 1;
 }
@@ -52,8 +52,8 @@
 .boks {
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 10.5rem;
-  min-height: 5rem;
+  width: 11.5rem;
+  min-height: 5.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +63,7 @@
   border-radius: 14px;
   padding: 0.7rem;
   text-align: center;
-  font-size: 0.92rem;
+  font-size: 0.98rem;
   font-weight: 700;
   line-height: 1.25;
   overflow-wrap: break-word;
@@ -81,9 +81,9 @@
 
 @media (max-width: 520px) {
   .boks {
-    width: 8rem;
-    min-height: 4.2rem;
-    font-size: 0.78rem;
+    width: 7rem;
+    min-height: 4rem;
+    font-size: 0.72rem;
   }
   .senter {
     font-size: 0.82rem;
