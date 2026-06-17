@@ -11,7 +11,7 @@ export default function Hero() {
       <div className={styles.inner}>
         <img
           className={styles.logo}
-          src={import.meta.env.BASE_URL + 'dirdal-skule-logo.svg'}
+          src={import.meta.env.BASE_URL + 'dirdal-skule-logo.png'}
           alt="Dirdal skule"
         />
         <h1 className={styles.tittel}>

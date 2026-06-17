@@ -32,7 +32,7 @@ export default function Om() {
       <div className={styles.logoer}>
         <img
           className={styles.dirdalLogo}
-          src={import.meta.env.BASE_URL + 'dirdal-skule-logo.svg'}
+          src={import.meta.env.BASE_URL + 'dirdal-skule-logo.png'}
           alt="Dirdal skule"
         />
         <div className={styles.naturfagsreppenLogo}>
