@@ -51,6 +51,13 @@ function Oppgave({ nr, oppgave }) {
           <div className={styles.fasit}>
             <span className={styles.fasitTittel}>Fasit</span>
             <p>{oppgave.fasit}</p>
+            {oppgave.fasitBilde && (
+              <img
+                className={styles.fasitBilde}
+                src={import.meta.env.BASE_URL + oppgave.fasitBilde}
+                alt="Fasit-illustrasjon"
+              />
+            )}
           </div>
           <p className={styles.veiledning}>
             Les fasiten nøye og vurder selv om svaret ditt stemmer. Husk at
