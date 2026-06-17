@@ -14,10 +14,12 @@ export default function Hero() {
           src={import.meta.env.BASE_URL + 'dirdal-skule-logo.png'}
           alt="Dirdal skule"
         />
-        <h1 className={styles.tittel}>
-          Naturfagsrepetisjon for <span className={styles.uthev}>ungdomsskolen</span>
-        </h1>
-        <a href="#emner" className={styles.knapp} onClick={scrollTilEmner}>Se alle emner ↓</a>
+        <div className={styles.tekst}>
+          <h1 className={styles.tittel}>
+            Naturfagsrepetisjon for <span className={styles.uthev}>ungdomsskolen</span>
+          </h1>
+          <a href="#emner" className={styles.knapp} onClick={scrollTilEmner}>Se alle emner ↓</a>
+        </div>
       </div>
     </section>
   );
