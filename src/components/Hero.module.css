@@ -14,10 +14,11 @@
 }
 
 .logo {
-  width: 110px;
+  width: 160px;
   height: auto;
   display: block;
   flex-shrink: 0;
+  align-self: center;
 }
 
 .tekst {
