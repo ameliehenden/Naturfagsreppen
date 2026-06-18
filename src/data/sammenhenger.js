@@ -17,9 +17,9 @@ export const sammenhenger = {
         navn: `Immunsystemet`,
         slug: `immunsystemet`,
         farge: `#e74c3c`,
-        tekst: `Klimaendringer påvirker helse, ikke bare direkte i form av heteslag eller solbrenthet, men varmere klima bidrar til spredning av sykdommer og nye smittestoffer. Parasitter og dyr som sprer smitte, trives over større områder etter hvert som klimaet blir mildere.
+        tekst: `Klimaendringer påvirker helsen vår, ikke bare direkte i form av heteslag eller solbrenthet, men varmere klima bidrar til spredning av sykdommer og nye smittestoffer. Parasitter og dyr som sprer smitte, trives over større områder etter hvert som klimaet blir mildere.
 
-Ett eksempel er mygg. Mygg som ikke har kunnet etablere seg i Europa, vil kunne trives godt her når klimaet blir varmere. Mygg er kjent for å kunne være smittebærere av virus.`,
+Et eksempel er mygg. Mygg som ikke har kunnet etablere seg i Europa, vil kunne trives godt her når klimaet blir varmere. Mygg er kjent for å være smittebærere av virus.`,
       },
       {
         navn: `Forbrenningsreaksjoner`,
@@ -29,17 +29,17 @@ Ett eksempel er mygg. Mygg som ikke har kunnet etablere seg i Europa, vil kunne 
 
 To viktige forbrenningsreaksjoner er forbrenning av metangass og celleånding. Forbrenning av metangass skjer ved at høy temperatur får metan og oksygen til å reagere og danne vanndamp og karbondioksid. Denne reaksjonen frigir så mye varme at forbrenningen fortsetter så lenge det er oksygen og metan til stede.
 
-Vi har forbrenning i kroppen vår også, uten at vi har noen flamme i oss. Kroppens eget forbrenningsanlegg finner vi i mitokondriene i cellene. Her fraktes glukose fra maten vi spiser og oksygen vi puster inn. Når reaksjonen er ferdig sitter vi igjen med energi (ATP), CO₂ og vanndamp. Energien bruker vi til å holde kroppen i gang, mens CO₂ og vanndamp slippes ut via pusten.
+Vi har også forbrenning i kroppen, uten at vi har noen flamme i oss. Kroppens eget forbrenningsanlegg finner vi i mitokondriene i cellene. Hit fraktes glukose fra maten vi spiser, og oksygenet vi puster inn. Når reaksjonen er ferdig, sitter vi igjen med energi (ATP), CO₂ og vanndamp. Energien bruker vi til å holde kroppen i gang, mens CO₂ og vanndamp slippes ut via pusten.
 
-Alle levende organismer bidrar til CO₂-utslipp, men utslippet som kommer fra pusten vår var fra karbon som ble tatt ut fra atmosfæren via fotosyntesen for relativt kort tid siden. Dette utslippet påvirker derfor ikke klimaet, siden vi ikke bidrar til å tilføre ekstra karbondioksid i atmosfæren.`,
+Alle levende organismer bidrar til CO₂-utslipp, men utslippet som kommer fra pusten vår er fra karbon som ble tatt ut fra atmosfæren via fotosyntesen for relativt kort tid siden. Dette utslippet påvirker derfor ikke klimaet, siden vi ikke bidrar til å tilføre ekstra karbondioksid i atmosfæren.`,
       },
       {
         navn: `Kjemi`,
         slug: `kjemi`,
         farge: `#8e44ad`,
-        tekst: `De viktigste klimagassene er karbondioksid (CO₂), vanndamp (H₂O) og metan (CH₄). Hvilke kjemiske forbindelser disse stoffene kan danne med andre molekyler er viktig for å forstå både konsekvensene av det vi slipper ut og hvordan vi kan løse problemet.
+        tekst: `De viktigste klimagassene er karbondioksid (CO₂), vanndamp (H₂O) og metan (CH₄). Hvilke kjemiske forbindelser disse stoffene kan danne med andre molekyler, er viktig for å forstå både konsekvensene av det vi slipper ut og hvordan vi kan løse problemet.
 
-Da KFK-gasser ble sluppet ut i atmosfæren på midten av 1900-tallet, visste vi ikke at dette molekylet ville bryte ned livsviktige ozonmolekyler (O₃) i stratosfæren.
+Da KFK-gasser ble sluppet ut i atmosfæren på midten av 1900-tallet, visste vi ikke at disse gassene ville bryte ned livsviktige ozonmolekyler (O₃) i stratosfæren.
 
 Kjemi inngår også i forklaringen av havforsuring som følge av økt CO₂-opptak. CO₂-molekylene reagerer med vann og danner karbonsyre (H₂CO₃), som frigjør hydrogenioner (H⁺) og senker pH-verdien. Dette reduserer mengden karbonat som organismer trenger for å bygge skall.`,
       },
@@ -63,9 +63,9 @@ Dagens klimaendringer skjer langt raskere enn det mange arter klarer å tilpasse
         navn: `Teknologi`,
         slug: `teknologi`,
         farge: `#2980b9`,
-        tekst: `Teknologi er både en del av klimaproblemet og løsningen. Strømproduksjon ved hjelp av ikke-fornybare energikilder som kull, olje og gass er et av våre hovedproblemer. Samtidig kan teknologi gi oss karbonfangst og klimamodeller som hjelper oss å justere CO₂-nivået tilbake til et bærekraftig nivå.
+        tekst: `Teknologi er både en del av klimaproblemet og løsningen. Strømproduksjon ved hjelp av ikke-fornybare energikilder som kull, olje og gass, er et av våre hovedproblemer. Samtidig kan teknologi gi oss karbonfangst og klimamodeller som hjelper oss å justere CO₂-nivået tilbake til et bærekraftig nivå.
 
-Verden jobber med å fase ut kull og gass og heller gå over til grønne energikilder. Likevel står kull og gass i dag for omtrent 50 % av verdens CO₂-utslipp.`,
+Verden jobber med å fase ut kull og gass, og heller gå over til grønne energikilder. Likevel står kull og gass i dag for omtrent 50 % av verdens CO₂-utslipp.`,
       },
       {
         navn: `Energi`,
@@ -83,9 +83,9 @@ Jorda stråler selv ut energi, men er mye kaldere enn sola. Det er denne stråli
         farge: `#27ae60`,
         tekst: `Karbon er et grunnstoff som hele tiden beveger seg mellom atmosfæren, havet, jorda og levende organismer. Denne sirkulasjonen kalles karbonkretsløpet. Alt liv inneholder karbon.
 
-Karbon tas opp fra atmosfæren gjennom fotosyntese, der planter, alger og andre organismer omdanner CO₂ og sollys til organisk materiale. Levende organismer driver celleånding i mitokondriene og bryter ned glukose tilbake til CO₂ som slippes ut igjen. Når organismer dør, brytes de ned av mikroorganismer, og karbonet frigjøres til jord og luft. Havet tar opp enorme mengder CO₂ og fungerer som et viktig karbonlager.
+Karbon tas opp fra atmosfæren gjennom fotosyntese, der planter, alger og andre organismer omdanner CO₂ og sollys til organisk materiale. Levende organismer driver celleånding i mitokondriene, der glukose brytes ned til CO₂ som slippes ut igjen. Når organismer dør, brytes de ned av mikroorganismer, og karbonet frigjøres til jord og luft. Havet tar opp enorme mengder CO₂ og fungerer som et viktig karbonlager.
 
-Gjennom millioner av år ble døde organismer begravd under jord og havbunn og omdannet til fossil energi – kull, olje og naturgass. Dette karbonet var «låst inne» og ute av kretsløpet. Når vi brenner fossil energi, frigjør vi dette lagrede karbonet tilbake til atmosfæren på ekstremt kort tid – noe som tar naturen millioner av år å lagre, slipper vi ut i løpet av tiår.
+Gjennom millioner av år ble døde organismer begravd under jord og havbunn og omdannet til fossil energi – kull, olje og naturgass. Dette karbonet var «låst inne» og ute av kretsløpet. Når vi brenner fossil energi, frigjør vi dette lagrede karbonet tilbake til atmosfæren på ekstremt kort tid. Det som tar naturen millioner av år å lagre, slipper vi ut i løpet av tiår.
 
 Resultatet er at konsentrasjonen av CO₂ i atmosfæren stiger mye raskere enn jorda klarer å ta opp igjen. Som drivhusgass holder CO₂ på varme, og gjennomsnittstemperaturen på jorda stiger. Konsekvensene er mange: isbreer og polarisen smelter, havnivået stiger, ekstremvær blir hyppigere og kraftigere, havene blir surere (havforsuring), og økosystemer og artsmangfold trues.`,
       },
