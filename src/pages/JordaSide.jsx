@@ -4,7 +4,7 @@ import styles from './JordaSide.module.css';
 
 const KAPITLER = [
   { id: 'geologi', navn: 'Geologi', farge: '#16a085', ikon: '🌋' },
-  { id: 'okologi', navn: 'Økologi', farge: '#27ae60', ikon: '🌳' },
+  { id: 'okologi', navn: 'Økologi', farge: '#27ae60', ikon: '🦋' },
   { id: 'celler-og-livets-utvikling', navn: 'Celler og livets utvikling', farge: '#8db600', ikon: '🦠' },
 ];
 
