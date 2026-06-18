@@ -118,7 +118,7 @@ export const emner = [
     id: 'klima-og-baerekraft',
     tittel: 'Klima og bærekraft',
     ikon: '🌱',
-    farge: '#0e7060',
+    farge: '#0e7a8a',
     beskrivelse: 'Klimaendringer, naturressurser og bærekraftig utvikling.',
     kapitler: [
       'Klima og klimaendringer',
