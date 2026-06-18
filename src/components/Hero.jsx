@@ -16,7 +16,7 @@ export default function Hero() {
         />
         <div className={styles.tekst}>
           <h1 className={styles.tittel}>
-            Naturfagsrepetisjon for <span className={styles.uthev}>ungdomsskolen</span>
+            Naturfag for <span className={styles.uthev}>ungdomsskolen</span>
           </h1>
 
         </div>
