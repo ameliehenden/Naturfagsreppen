@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useSearchParams, Link } from 'react-router-dom';
 import { emner } from '../data/emner';
 import { flashcards } from '../data/flashcards';
 import { oppgaver } from '../data/oppgaver';
@@ -24,13 +24,14 @@ const OPPLEGG = [
 
 export default function EmneSide() {
   const { id } = useParams();
+  const [searchParams] = useSearchParams();
   const emne = emner.find((e) => e.id === id);
   const kortStokk = flashcards[id];
   const oppgaveListe = oppgaver[id];
   const quizListe = quiz[id];
   const forsokListe = forsok[id];
   const sammenhengerData = sammenhenger[id];
-  const [valgt, setValgt] = useState('flashcards');
+  const [valgt, setValgt] = useState(searchParams.get('tab') || 'flashcards');
 
   function velgOpplegg(o) {
     setValgt(o.id);

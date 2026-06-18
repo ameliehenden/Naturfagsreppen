@@ -23,8 +23,8 @@ export default function SammenhengSide() {
     <article style={{ '--boks-farge': boks.farge, '--emne-farge': emne.farge }}>
       <div className={styles.banner}>
         <div className={styles.bannerInner}>
-          <Link to={`/emne/${id}`} className={styles.tilbake}>
-            ← Tilbake til {emne.tittel}
+          <Link to={`/emne/${id}?tab=sammenhenger`} className={styles.tilbake}>
+            ← Tilbake til tankekartet
           </Link>
           <h1 className={styles.tittel}>
             Sammenhengen mellom {data.kortnavn || data.senter} og {boks.navn.toLowerCase()}
@@ -42,8 +42,8 @@ export default function SammenhengSide() {
         ) : (
           <p className={styles.kommer}>Innhold kommer snart.</p>
         )}
-        <Link to={`/emne/${id}`} className={styles.tilbakeKnapp}>
-          ← Tilbake til {emne.tittel}
+        <Link to={`/emne/${id}?tab=sammenhenger`} className={styles.tilbakeKnapp}>
+          ← Tilbake til tankekartet
         </Link>
       </div>
     </article>
