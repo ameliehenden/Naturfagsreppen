@@ -1,5 +1,25 @@
 export const emner = [
   {
+    id: 'nerve-og-hormonsystemet',
+    tittel: 'Nerve- og hormonsystemet',
+    ikon: '🧠',
+    farge: '#8e44ad',
+    beskrivelse: '',
+    parent: 'kropp-og-helse',
+    skjulFraForside: true,
+    kapitler: [],
+  },
+  {
+    id: 'seksualitet',
+    tittel: 'Seksualitet',
+    ikon: '🌸',
+    farge: '#e91e8c',
+    beskrivelse: '',
+    parent: 'kropp-og-helse',
+    skjulFraForside: true,
+    kapitler: [],
+  },
+  {
     id: 'geologi',
     tittel: 'Geologi',
     ikon: '🪨',
