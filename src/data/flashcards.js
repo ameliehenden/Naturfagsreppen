@@ -14,7 +14,7 @@ export const flashcards = {
   'klima-og-baerekraft': [
     {
       begrep: `Bærekraftig utvikling`,
-      forklaring: `Å utnytte naturressurser slik at ressursen ikke ødelegges for framtidige generasjoner.`,
+      forklaring: `Å dekke dagens behov uten å ødelegge mulighetene for at framtidige generasjoner skal få dekket sine behov – blant annet ved å bruke naturressurser uten å ødelegge dem.`,
     },
     {
       begrep: `Føre-var-prinsippet`,
@@ -54,7 +54,7 @@ export const flashcards = {
     },
     {
       begrep: `Ozonhull`,
-      forklaring: `Steder der ozonlaget rundt jorda (jordas solkrem) er tynnere enn det skal være. Ozonlaget har ingenting med global oppvarming å gjøre – det beskytter oss mot farlig UV-C-stråling.`,
+      forklaring: `Steder der ozonlaget rundt jorda (jordas solkrem) er tynnere enn det skal være. Ozonlaget har ingenting med global oppvarming å gjøre – det beskytter oss mot farlig UV-stråling, særlig UV-B.`,
     },
     {
       begrep: `Global oppvarming`,
@@ -94,7 +94,7 @@ export const flashcards = {
     },
     {
       begrep: `Økt havnivå`,
-      forklaring: `Havnivået stiger fordi innlandsis smelter og renner ut i havet og bidrar til mer vann. Is som allerede flyter i havet, vil ikke øke havnivået når den smelter.`,
+      forklaring: `Havnivået stiger fordi innlandsis smelter og renner ut i havet, og fordi varmere vann utvider seg. Is som allerede flyter i havet, hever ikke havnivået når den smelter.`,
     },
   ],
 };
