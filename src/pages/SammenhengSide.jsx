@@ -33,21 +33,18 @@ export default function SammenhengSide() {
       </div>
 
       <div className={styles.innhold}>
-        {boks.tekst ? (
-          boks.tekst.split('\n\n').map((avsnitt, i) => (
-            <p key={i} className={styles.tekst}>{avsnitt}</p>
-          ))
+        {boks.innhold ? (
+          boks.innhold.map((item, i) =>
+            item.type === 'bilde'
+              ? <img key={i} className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt="" />
+              : <p key={i} className={styles.tekst}>{item.verdi}</p>
+          )
         ) : (
           <p className={styles.kommer}>Innhold kommer snart.</p>
         )}
-        {boks.bilder?.map((src, i) => (
-          <img
-            key={i}
-            className={styles.bilde}
-            src={import.meta.env.BASE_URL + src}
-            alt=""
-          />
-        ))}
+        <Link to={`/emne/${id}`} className={styles.tilbakeKnapp}>
+          ← Tilbake til {emne.tittel}
+        </Link>
       </div>
     </article>
   );
