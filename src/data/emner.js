@@ -32,7 +32,7 @@ export const emner = [
   {
     id: 'geologi',
     tittel: 'Geologi',
-    ikon: '🪨',
+    ikon: '🌋',
     farge: '#16a085',
     beskrivelse: '',
     parent: 'jorda',
@@ -42,7 +42,7 @@ export const emner = [
   {
     id: 'okologi',
     tittel: 'Økologi',
-    ikon: '🌿',
+    ikon: '🦋',
     farge: '#27ae60',
     beskrivelse: '',
     parent: 'jorda',
@@ -52,7 +52,7 @@ export const emner = [
   {
     id: 'celler-og-livets-utvikling',
     tittel: 'Celler og livets utvikling',
-    ikon: '🧬',
+    ikon: '🦠',
     farge: '#8db600',
     beskrivelse: '',
     parent: 'jorda',
