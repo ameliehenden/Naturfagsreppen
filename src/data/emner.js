@@ -77,7 +77,7 @@ export const emner = [
     tittel: 'Kropp og helse',
     ikon: '🧬',
     farge: '#e74c3c',
-    beskrivelse: 'Menneskekroppens organer, helse, seksualitet og arv.',
+    beskrivelse: 'Nerve- og hormonsystemet, immunsystemet og seksualitet.',
     kapitler: [
       'Celler og arvestoff',
       'Organsystemer',
