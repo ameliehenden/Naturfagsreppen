@@ -3,9 +3,9 @@ import { emner } from '../data/emner';
 import styles from './JordaSide.module.css';
 
 const KAPITLER = [
-  { id: 'nerve-og-hormonsystemet', navn: 'Nerve- og hormonsystemet', farge: '#8e44ad', ikon: '🧠' },
+  { id: 'nerve-og-hormonsystemet', navn: 'Nerve- og hormonsystemet', farge: '#e74c3c', ikon: '🧠' },
   { id: 'seksualitet', navn: 'Seksualitet', farge: '#e91e8c', ikon: '🌸' },
-  { id: 'immunsystemet', navn: 'Immunsystemet', farge: '#e74c3c', ikon: '🛡️' },
+  { id: 'immunsystemet', navn: 'Immunsystemet', farge: '#f1c40f', ikon: '🛡️' },
 ];
 
 export default function KroppOgHelseSide() {
