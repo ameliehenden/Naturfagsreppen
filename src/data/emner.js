@@ -6,6 +6,7 @@ export const emner = [
     farge: '#16a085',
     beskrivelse: '',
     parent: 'jorda',
+    skjulFraForside: true,
     kapitler: [],
   },
   {
@@ -15,6 +16,7 @@ export const emner = [
     farge: '#27ae60',
     beskrivelse: '',
     parent: 'jorda',
+    skjulFraForside: true,
     kapitler: [],
   },
   {
@@ -24,6 +26,7 @@ export const emner = [
     farge: '#8db600',
     beskrivelse: '',
     parent: 'jorda',
+    skjulFraForside: true,
     kapitler: [],
   },
   {
