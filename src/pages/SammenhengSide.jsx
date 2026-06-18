@@ -24,7 +24,7 @@ export default function SammenhengSide() {
       <div className={styles.banner}>
         <div className={styles.bannerInner}>
           <Link to={`/emne/${id}?tab=sammenhenger`} className={styles.tilbake}>
-            ← Tilbake til tankekartet
+            ← Tilbake til Sammenhenger
           </Link>
           <h1 className={styles.tittel}>
             Sammenhengen mellom {data.kortnavn || data.senter} og {boks.navn.toLowerCase()}
@@ -43,7 +43,7 @@ export default function SammenhengSide() {
           <p className={styles.kommer}>Innhold kommer snart.</p>
         )}
         <Link to={`/emne/${id}?tab=sammenhenger`} className={styles.tilbakeKnapp}>
-          ← Tilbake til tankekartet
+          ← Tilbake til Sammenhenger
         </Link>
       </div>
     </article>
