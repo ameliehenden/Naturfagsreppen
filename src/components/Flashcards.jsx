@@ -77,7 +77,7 @@ export default function Flashcards({ kort }) {
         key={`${index}-${vist}`}
       >
         <span className={styles.type}>{type}</span>
-        <span className={styles.tekst}>{tekst}</span>
+        <span className={vist ? styles.tekstSvar : styles.tekst}>{tekst}</span>
         <span className={styles.hint}>
           {vist ? 'Trykk for neste kort →' : 'Trykk for å snu'}
         </span>
