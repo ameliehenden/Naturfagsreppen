@@ -3,9 +3,9 @@ import { emner } from '../data/emner';
 import styles from './JordaSide.module.css';
 
 const KAPITLER = [
-  { id: 'geologi', navn: 'Geologi', farge: '#16a085', ikon: '🌋' },
-  { id: 'okologi', navn: 'Økologi', farge: '#27ae60', ikon: '🦋' },
-  { id: 'celler-og-livets-utvikling', navn: 'Celler og livets utvikling', farge: '#8db600', ikon: '🦠' },
+  { id: 'geologi', navn: 'Geologi', farge: '#0e7060', ikon: '🌋' },
+  { id: 'okologi', navn: 'Økologi', farge: '#1b7a3e', ikon: '🦋' },
+  { id: 'celler-og-livets-utvikling', navn: 'Celler og livets utvikling', farge: '#5a7700', ikon: '🦠' },
 ];
 
 export default function JordaSide() {

@@ -85,6 +85,9 @@ export default function Quiz({ sporsmaal }) {
             else if (i === valgt) kl += ' ' + styles.feil;
             else kl += ' ' + styles.dempet;
           }
+          const ikon = besvart
+            ? alt.riktig ? '✓' : i === valgt ? '✗' : null
+            : null;
           return (
             <button
               key={i}
@@ -93,6 +96,7 @@ export default function Quiz({ sporsmaal }) {
               onClick={() => velg(i)}
               disabled={besvart}
             >
+              {ikon && <span className={styles.altIkon} aria-hidden="true">{ikon}</span>}
               {alt.tekst}
             </button>
           );

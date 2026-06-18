@@ -5,7 +5,10 @@ export default function Emnekort({ emne }) {
   return (
     <article
       className={styles.kort}
-      style={{ '--emne-farge': emne.farge }}
+      style={{
+        '--emne-farge': emne.farge,
+        '--emne-tekst': emne.tekstMørk ? '#1a1a2e' : '#fff',
+      }}
     >
       <div className={styles.topp}>
         {emne.ikonSrc

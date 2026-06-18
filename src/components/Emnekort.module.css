@@ -74,7 +74,7 @@
   margin-top: auto;
   padding: 0.6rem 1.2rem;
   background: var(--emne-farge);
-  color: #fff;
+  color: var(--emne-tekst, #fff);
   border: none;
   border-radius: 8px;
   font-size: 0.9rem;
@@ -88,4 +88,9 @@
 
 .knapp:hover {
   opacity: 0.85;
+}
+
+.knapp:focus-visible {
+  outline: 3px solid var(--emne-farge);
+  outline-offset: 3px;
 }

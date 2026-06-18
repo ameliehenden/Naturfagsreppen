@@ -56,7 +56,11 @@ export default function EmneSide() {
   }
 
   return (
-    <article style={{ '--emne-farge': emne.farge }}>
+    <article style={{
+      '--emne-farge': emne.farge,
+      '--emne-tekst': emne.tekstMørk ? '#1a1a2e' : '#fff',
+      '--emne-tekst-dim': emne.tekstMørk ? 'rgba(26,26,46,0.85)' : 'rgba(255,255,255,0.9)',
+    }}>
       <div className={styles.banner}>
         <div className={styles.bannerInner}>
           <Link to={emne.parent ? `/emne/${emne.parent}` : '/'} className={styles.tilbake}>

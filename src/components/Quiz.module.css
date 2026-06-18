@@ -39,6 +39,11 @@
   transition: border-color 0.15s, background 0.15s, transform 0.1s;
 }
 
+.alt:focus-visible {
+  outline: 3px solid var(--emne-farge, #16a085);
+  outline-offset: 2px;
+}
+
 .alt:hover:not(:disabled) {
   border-color: var(--emne-farge, #16a085);
   transform: translateY(-1px);
@@ -46,6 +51,11 @@
 
 .alt:disabled {
   cursor: default;
+}
+
+.altIkon {
+  margin-right: 0.5rem;
+  font-weight: 700;
 }
 
 /* Etter svar */
@@ -89,7 +99,7 @@
 .neste {
   padding: 0.7rem 1.6rem;
   background: var(--emne-farge, #16a085);
-  color: #fff;
+  color: var(--emne-tekst, #fff);
   border: none;
   border-radius: 50px;
   font-size: 1rem;

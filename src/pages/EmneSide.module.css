@@ -1,6 +1,6 @@
 .banner {
   background: var(--emne-farge);
-  color: #fff;
+  color: var(--emne-tekst, #fff);
 }
 
 .bannerInner {
@@ -12,7 +12,7 @@
 .tilbake {
   display: inline-block;
   margin-bottom: 1.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--emne-tekst-dim, rgba(255,255,255,0.9));
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 600;
