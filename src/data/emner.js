@@ -90,7 +90,7 @@ export const emner = [
     tittel: 'Teknologi',
     ikon: '⚙️',
     farge: '#2980b9',
-    beskrivelse: 'Teknologiske løsninger, design, elektronikk og programmering.',
+    beskrivelse: 'Programmering og teknologiske løsninger og utfordringer.',
     kapitler: [
       'Materialer og egenskaper',
       'Elektronikk og kretser',
