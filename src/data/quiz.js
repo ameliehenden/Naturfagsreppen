@@ -108,12 +108,12 @@ export const quiz = {
       ],
     },
     {
-      sporsmal: `Hva er havbunnen yngre enn kontinentene?`,
-      riktig: `Fordi ny havbunn dannes kontinuerlig ved midthavsryggene.`,
+      sporsmal: `Hvorfor er havbunnen yngre enn kontinentene?`,
+      riktig: `Ny havbunn dannes hele tiden ved midthavsryggene, der platene beveger seg fra hverandre.`,
       feil: [
-        `Fordi kontinentene er laget av eldre bergarter som ikke kan fornyes.`,
-        `Fordi havbunnen smeltes ned i mantelen og dannes på nytt mye raskere enn kontinentene.`,
-        `Fordi erosjon fra havet hele tiden sliper vekk de eldste lagene av havbunnen.`,
+        `Havbunnen er laget av lettere bergarter som dannes raskere enn kontinentene.`,
+        `Havet beskytter bunnen mot erosjon, så den ser yngre ut enn den er.`,
+        `Kontinentene ble dannet for millioner av år siden og har ikke forandret seg siden.`,
       ],
     },
     {
