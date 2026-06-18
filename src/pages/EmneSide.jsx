@@ -15,7 +15,7 @@ import styles from './EmneSide.module.css';
 
 // Opplegg-typene vises som en ikonrad øverst på hvert emne (samme på alle).
 const OPPLEGG = [
-  { id: 'flashcards', navn: 'Flashcards', ikon: 'icons/flashcards.svg' },
+  { id: 'flashcards', navn: 'Fagbegreper', ikon: 'icons/flashcards.svg' },
   { id: 'quiz', navn: 'Quiz', ikon: 'icons/quiz.svg' },
   { id: 'sammenhenger', navn: 'Sammenhenger', ikon: 'icons/sammenhenger.svg' },
   { id: 'oppgaver', navn: 'Skriftlige oppgaver', ikon: 'icons/oppgaver.svg' },
