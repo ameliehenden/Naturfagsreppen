@@ -40,6 +40,14 @@ export default function SammenhengSide() {
         ) : (
           <p className={styles.kommer}>Innhold kommer snart.</p>
         )}
+        {boks.bilder?.map((src, i) => (
+          <img
+            key={i}
+            className={styles.bilde}
+            src={import.meta.env.BASE_URL + src}
+            alt=""
+          />
+        ))}
       </div>
     </article>
   );
