@@ -20,6 +20,16 @@ export const emner = [
     kapitler: [],
   },
   {
+    id: 'immunsystemet',
+    tittel: 'Immunsystemet',
+    ikon: '🛡️',
+    farge: '#e74c3c',
+    beskrivelse: '',
+    parent: 'kropp-og-helse',
+    skjulFraForside: true,
+    kapitler: [],
+  },
+  {
     id: 'geologi',
     tittel: 'Geologi',
     ikon: '🪨',
