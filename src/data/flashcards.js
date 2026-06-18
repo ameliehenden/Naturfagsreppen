@@ -11,6 +11,158 @@
 //
 // Husk: behold backtick-tegnene ` rundt teksten, og komma etter } .
 export const flashcards = {
+  'geologi': [
+    {
+      begrep: `Jordskorpe`,
+      forklaring: `Det ytterste, harde laget av jorda. Havbunnskorpen er tynnere (ca. 7 km) og tettere enn kontinentalkorpen (ca. 30–50 km).`,
+    },
+    {
+      begrep: `Mantel`,
+      forklaring: `Laget mellom jordskorpen og kjernen. Utgjør mesteparten av jordas volum og består av varmt, halvfast bergartsmateriale som beveger seg svært langsomt.`,
+    },
+    {
+      begrep: `Yttre kjerne`,
+      forklaring: `Laget rundt den indre kjernen, ca. 2200 km tykt. Består av flytende jern og nikkel – bevegelsen her skaper jordas magnetfelt.`,
+    },
+    {
+      begrep: `Indre kjerne`,
+      forklaring: `Det innerste laget av jorda, ca. 1200 km i radius. Består av fast jern og nikkel med en temperatur på ca. 5000–6000°C.`,
+    },
+    {
+      begrep: `Kontinentalplater`,
+      forklaring: `De store platene av jordskorpen og øvre del av mantelen som driver sakte rundt på den plastiske mantelen. Det finnes ca. 15 store plater.`,
+    },
+    {
+      begrep: `Kontinentaldrift`,
+      forklaring: `Teorien om at kontinentene har beveget seg over millioner av år og fortsatt beveger seg i dag, drevet av konveksjonsstrømmer i mantelen.`,
+    },
+    {
+      begrep: `Pangea`,
+      forklaring: `Superkontinentet som eksisterte for ca. 300 millioner år siden, da alle jordens landmasser var samlet til ett. Pangea begynte å dele seg for ca. 175 millioner år siden.`,
+    },
+    {
+      begrep: `Midthavsryggen`,
+      forklaring: `Et undersjøisk fjellsystem der to plater beveger seg fra hverandre og ny havbunn dannes. Verdens lengste fjellkjede, ca. 65 000 km lang.`,
+    },
+    {
+      begrep: `Kontinent`,
+      forklaring: `Store, hevede landmasser som utgjør om lag 30% av jordas overflate. Det finnes 7 kontinenter.`,
+    },
+    {
+      begrep: `Havbunn`,
+      forklaring: `Bunnen av havene, som dekker ca. 70% av jordas overflate. Havbunnen er yngre enn kontinentene og skapes kontinuerlig ved midthavsryggene.`,
+    },
+    {
+      begrep: `Jordskjelv`,
+      forklaring: `Rystelser i jordskorpen som oppstår når spenninger som er bygget opp mellom plater plutselig frigjøres. Kraftige jordskjelv kan utløse tsunamier.`,
+    },
+    {
+      begrep: `Vulkan`,
+      forklaring: `Et sted der magma fra jordens indre bryter gjennom jordskorpen og strømmer ut som lava. Vulkaner finnes oftest langs plategrenser.`,
+    },
+    {
+      begrep: `Magma`,
+      forklaring: `Smeltet stein inne i jorda. Når magma bryter gjennom overflaten og renner ut, kalles det lava.`,
+    },
+    {
+      begrep: `Troposfære`,
+      forklaring: `Det nederste laget av atmosfæren, fra bakken opp til ca. 12 km høyde. Her skjer alt vær, og temperaturen synker med høyden.`,
+    },
+    {
+      begrep: `Stratosfære`,
+      forklaring: `Atmosfærelaget over troposfæren, fra ca. 12 til 50 km høyde. Her ligger ozonlaget som beskytter jorda mot skadelig UV-stråling.`,
+    },
+  ],
+  'celler-og-livets-utvikling': [
+    {
+      begrep: `Evolusjonsteorien`,
+      forklaring: `Teorien om at alle levende organismer har utviklet seg fra felles forfedre gjennom naturlig utvalg over millioner av år. Charles Darwin formulerte teorien i 1859.`,
+    },
+    {
+      begrep: `Naturlig utvalg`,
+      forklaring: `Prosessen der individer med egenskaper som passer best til miljøet, overlever og formerer seg mer enn andre. Over tid fører dette til at gunstige egenskaper spres i en populasjon.`,
+    },
+    {
+      begrep: `Felles stamfar`,
+      forklaring: `Ideen om at alle levende organismer – dyr, planter, sopp og bakterier – stammer fra den samme urgamle organismen. Jo likere to arter er, jo nærmere felles stamfar har de.`,
+    },
+    {
+      begrep: `Plantecelle`,
+      forklaring: `En eukaryot celle med cellevegg, stor vakuole og kloroplaster i tillegg til de organellene den deler med dyrecellen. Kloroplastene gjør fotosyntese mulig.`,
+    },
+    {
+      begrep: `Dyrecelle`,
+      forklaring: `En eukaryot celle uten cellevegg og kloroplaster. Har cellekjerne, mitokondrier, ribosomer og andre organeller.`,
+    },
+    {
+      begrep: `Cellemembran`,
+      forklaring: `Den tynne, fleksible "huden" rundt alle celler som kontrollerer hva som slipper inn og ut av cellen.`,
+    },
+    {
+      begrep: `Cellevegg`,
+      forklaring: `Et stivt lag utenfor cellemembran som finnes i planteceller (og bakterier og sopp). Gir støtte og form, og holder cellen fra å sprekke.`,
+    },
+    {
+      begrep: `Cytosol`,
+      forklaring: `Væsken inne i cellen som fyller opp mellomrommene mellom organellene. Inneholder proteiner, salter og andre molekyler cellen trenger for å fungere.`,
+    },
+    {
+      begrep: `Cellekjerne`,
+      forklaring: `"Kontrollsenteret" i en celle. Inneholder cellens DNA med alle arveanleggene og styrer hvilke proteiner cellen produserer.`,
+    },
+    {
+      begrep: `Ribosomer`,
+      forklaring: `Svært små strukturer i cellen der proteiner bygges opp etter oppskrift fra DNA. Finnes i alle celler, inkludert bakterier.`,
+    },
+    {
+      begrep: `Lysosomer`,
+      forklaring: `Organeller som fungerer som cellens "fordøyelsessystem". Bryter ned avfall, utslitte organeller og inntrengere ved hjelp av enzymer.`,
+    },
+    {
+      begrep: `Vakuole`,
+      forklaring: `En væskefylt "ballong" inne i cellen. Planteceller har én stor vakuole som holder cellen stram. Dyreceller kan ha mange mindre vakuoler.`,
+    },
+    {
+      begrep: `Golgiapparatet`,
+      forklaring: `Et organell som pakker og sender ut proteiner og andre stoffer fra cellen. Fungerer som cellens "postkontor".`,
+    },
+    {
+      begrep: `Mitokondrier`,
+      forklaring: `Organeller der celleåndingen foregår, slik at cellen kan produsere energi fra glukose og oksygen. Kalles gjerne cellens "kraftverk".`,
+    },
+    {
+      begrep: `Kloroplast`,
+      forklaring: `Organell i planteceller der fotosyntesen foregår. Inneholder det grønne fargestoffet klorofyll som fanger opp sollys.`,
+    },
+    {
+      begrep: `DNA`,
+      forklaring: `Det kjemiske stoffet som inneholder arveoppskriften for alle levende organismer. Finnes i cellekjernen og består av fire baser (A, T, G og C) som danner en dobbel spiral.`,
+    },
+    {
+      begrep: `Gen`,
+      forklaring: `Et avsnitt av DNA-molekylet som inneholder oppskriften på ett bestemt protein. Genene bestemmer egenskapene til en organisme.`,
+    },
+    {
+      begrep: `Genetisk variasjon`,
+      forklaring: `Forskjeller i arveegenskaper mellom individer i en populasjon. Genetisk variasjon er grunnlaget for naturlig utvalg og evolusjon.`,
+    },
+    {
+      begrep: `Mutasjon`,
+      forklaring: `En tilfeldig endring i DNA-sekvensen. Kan skje spontant eller som følge av stråling eller kjemikalier. De fleste mutasjoner er nøytrale, noen skadelige og noen gunstige.`,
+    },
+    {
+      begrep: `Celleånding`,
+      forklaring: `Prosessen der cellen bryter ned glukose og oksygen for å frigjøre energi. Foregår i mitokondriene og produserer vann og CO₂ som avfallsprodukter.`,
+    },
+    {
+      begrep: `Fotosyntesen`,
+      forklaring: `Prosessen der planteceller bruker sollys, CO₂ og vann for å lage glukose og oksygen. Foregår i kloroplastene.`,
+    },
+    {
+      begrep: `Glukose`,
+      forklaring: `Et enkelt sukkermolekyl som er cellens viktigste energikilde. Produseres gjennom fotosyntesen og brytes ned i celleåndingen.`,
+    },
+  ],
   'okologi': [
     {
       begrep: `Økologi`,
