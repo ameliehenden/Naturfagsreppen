@@ -130,7 +130,7 @@ export const emner = [
     tittel: 'Energi',
     ikon: '⚡',
     farge: '#f39c12',
-    beskrivelse: 'Energiformer, energioverføring og fornybar energi i naturen og samfunnet.',
+    beskrivelse: 'Energiformer, energioverføring og energiproduksjon.',
     kapitler: [
       'Energiformer og energikjeder',
       'Fornybar og ikke-fornybar energi',
