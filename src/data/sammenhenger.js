@@ -21,8 +21,9 @@ export const sammenhenger = {
         slug: `forbrenningsreaksjoner`,
         farge: `#8e44ad`,
         innhold: [
-          { type: 'tekst', verdi: `Forbrenningsreaksjoner er kjemiske reaksjoner der oksygen inngår i forbrenning av andre stoffer. En forbrenningsreaksjon slipper alltid ut varme, CO₂ og vanndamp. Siden alle forbrenningsreaksjoner slipper ut CO₂, er det disse kjemiske reaksjonene som har skylda for klimaendringene.` },
-          { type: 'tekst', verdi: `To viktige forbrenningsreaksjoner er forbrenning av metangass og celleånding. Forbrenning av metangass skjer ved at høy temperatur får metan og oksygen til å reagere og danne vanndamp og karbondioksid. Denne reaksjonen frigir så mye varme at forbrenningen fortsetter så lenge det er oksygen og metan til stede.` },
+          { type: 'tekst', verdi: `Forbrenningsreaksjoner er kjemiske reaksjoner der oksygen inngår i forbrenning av andre stoffer. En forbrenningsreaksjon slipper alltid ut varme, CO₂ og vanndamp. Siden alle forbrenningsreaksjoner slipper ut CO₂, er det disse kjemiske reaksjonene som har skylda for klimaendringene. Likevel er det ikke alle forbrenningsreaksjoner som påvirker klimaet. To ulike forbrenningsreaksjoner er` },
+          { type: 'liste', punkt: [`forbrenning av metangass`, `celleånding`] },
+          { type: 'tekst', verdi: `Forbrenning av metangass skjer ved at høy temperatur får metan og oksygen til å reagere og danne vanndamp og karbondioksid. Denne reaksjonen frigir så mye varme at forbrenningen fortsetter så lenge det er oksygen og metan til stede. I bildet nedenfor ser du hvordan reaksjonsligningen skrives. Dersom kull, olje eller gass, som har blitt hentet opp fra under bakken eller havbunnen forbrennes, tilføres CO₂ til atmosfæren og bidrar til økt drivhuseffekt.` },
           { type: 'bilde', src: `sammenhenger/forbrenningsreaksjoner-1.png` },
           { type: 'tekst', verdi: `Vi har også forbrenning i kroppen, uten at vi har noen flamme i oss. Kroppens eget forbrenningsanlegg finner vi i mitokondriene i cellene. Hit fraktes glukose fra maten vi spiser, og oksygenet vi puster inn. Når reaksjonen er ferdig, sitter vi igjen med energi (ATP), CO₂ og vanndamp. Energien bruker vi til å holde kroppen i gang, mens CO₂ og vanndamp slippes ut via pusten.` },
           { type: 'bilde', src: `sammenhenger/forbrenningsreaksjoner-2.png` },

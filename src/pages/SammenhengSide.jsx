@@ -37,6 +37,8 @@ export default function SammenhengSide() {
           boks.innhold.map((item, i) =>
             item.type === 'bilde'
               ? <img key={i} className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt="" />
+              : item.type === 'liste'
+              ? <ul key={i} className={styles.liste}>{item.punkt.map((p, j) => <li key={j} className={styles.listePunkt}>{p}</li>)}</ul>
               : <p key={i} className={styles.tekst}>{item.verdi}</p>
           )
         ) : (

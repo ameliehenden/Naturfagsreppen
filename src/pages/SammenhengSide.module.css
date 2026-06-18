@@ -46,6 +46,18 @@
   margin: 0 0 1rem;
 }
 
+.liste {
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
+}
+
+.listePunkt {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
 .bilde {
   display: block;
   max-width: 100%;
