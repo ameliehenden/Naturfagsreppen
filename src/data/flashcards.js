@@ -11,6 +11,60 @@
 //
 // Husk: behold backtick-tegnene ` rundt teksten, og komma etter } .
 export const flashcards = {
+  'okologi': [
+    {
+      begrep: `Økologi`,
+      forklaring: `Vitenskapen om samspillet mellom organismer og mellom organismer og miljøet de lever i.`,
+    },
+    {
+      begrep: `Økosystem`,
+      forklaring: `Et avgrenset naturområde med alle levende organismer (planter, dyr, sopp, bakterier) og de ikke-levende omgivelsene (vann, luft, jord, lys) som påvirker hverandre.`,
+    },
+    {
+      begrep: `Abiotisk faktor`,
+      forklaring: `Ikke-levende faktorer i miljøet som påvirker livet, for eksempel temperatur, lys, vann, pH og næringsinnhold i jorda.`,
+    },
+    {
+      begrep: `Biotisk faktor`,
+      forklaring: `Levende faktorer som påvirker andre organismer i miljøet, for eksempel byttedyr, rovdyr, parasitter og konkurrenter.`,
+    },
+    {
+      begrep: `Produsent`,
+      forklaring: `Planter og alger som lager sin egen mat gjennom fotosyntesen. Produsentene er alltid det første leddet i en næringskjede.`,
+    },
+    {
+      begrep: `Forbruker`,
+      forklaring: `Organismer som ikke kan lage sin egen mat og som spiser andre organismer. Primærforbrukere spiser planter, sekundærforbrukere spiser primærforbrukerne, og slik videre oppover i næringskjeden.`,
+    },
+    {
+      begrep: `Nedbryter`,
+      forklaring: `Organismer som bryter ned dødt organisk materiale – for eksempel løv, greiner og døde dyr – til enkle stoffer som plantene kan ta opp igjen. Sopp, bakterier og meitemark er viktige nedbrytere.`,
+    },
+    {
+      begrep: `Næringskjede`,
+      forklaring: `En rekke av organismer der hvert ledd spiser det forrige. Næringskjeden begynner alltid med en produsent og ender med en toppredator. Eksempel: gras → sau → ulv.`,
+    },
+    {
+      begrep: `Næringsnett`,
+      forklaring: `Et nettverk av sammenkoblede næringskjeder i et økosystem. Næringsnettet viser de faktiske spise-forbindelsene mellom alle organismer i et område og gir et mer realistisk bilde enn én enkelt næringskjede.`,
+    },
+    {
+      begrep: `Biologisk mangfold`,
+      forklaring: `Summen av all genetisk variasjon, alle arter og alle naturtyper i et område. Rikt biologisk mangfold gjør et økosystem mer stabilt og motstandsdyktig mot forstyrrelser.`,
+    },
+    {
+      begrep: `Rødlista`,
+      forklaring: `En oversikt over arter som er truet av utryddelse eller har blitt sjeldnere. Artene deles inn i kategorier etter risiko for utdøing – den alvorligste kategorien er «kritisk truet».`,
+    },
+    {
+      begrep: `Biom`,
+      forklaring: `Store naturgeografiske soner med karakteristisk vegetasjon og dyreliv, styrt av klimaet. Eksempler er tropisk regnskog, steppe, taiga (boreal skog) og tundra.`,
+    },
+    {
+      begrep: `Klimasoner`,
+      forklaring: `Store geografiske soner med karakteristisk klima, avhengig av breddegrad, havstrømmer og terreng. Klimasonen avgjør hvilke planter og dyr som kan leve der.`,
+    },
+  ],
   'klima-og-baerekraft': [
     {
       begrep: `Bærekraftig utvikling`,
