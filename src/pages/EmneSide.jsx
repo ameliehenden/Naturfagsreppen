@@ -59,7 +59,9 @@ export default function EmneSide() {
     <article style={{ '--emne-farge': emne.farge }}>
       <div className={styles.banner}>
         <div className={styles.bannerInner}>
-          <Link to="/" className={styles.tilbake}>← Tilbake til forsiden</Link>
+          <Link to={emne.parent ? `/emne/${emne.parent}` : '/'} className={styles.tilbake}>
+            ← Tilbake til {emne.parent ? emner.find((e) => e.id === emne.parent)?.tittel : 'forsiden'}
+          </Link>
           <div className={styles.bannerTopp}>
             {emne.ikonSrc
               ? <img className={styles.ikonBilde} src={import.meta.env.BASE_URL + emne.ikonSrc} alt="" />

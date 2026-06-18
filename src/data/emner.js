@@ -1,5 +1,32 @@
 export const emner = [
   {
+    id: 'geologi',
+    tittel: 'Geologi',
+    ikon: '🪨',
+    farge: '#16a085',
+    beskrivelse: '',
+    parent: 'jorda',
+    kapitler: [],
+  },
+  {
+    id: 'okologi',
+    tittel: 'Økologi',
+    ikon: '🌿',
+    farge: '#27ae60',
+    beskrivelse: '',
+    parent: 'jorda',
+    kapitler: [],
+  },
+  {
+    id: 'celler-og-livets-utvikling',
+    tittel: 'Celler og livets utvikling',
+    ikon: '🧬',
+    farge: '#8db600',
+    beskrivelse: '',
+    parent: 'jorda',
+    kapitler: [],
+  },
+  {
     id: 'jorda',
     tittel: 'Jorda',
     ikon: '🌍',

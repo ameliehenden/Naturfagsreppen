@@ -26,7 +26,7 @@ export default function JordaSide() {
           {KAPITLER.map((k) => (
             <Link
               key={k.id}
-              to={`/emne/jorda/${k.id}`}
+              to={`/emne/${k.id}`}
               className={styles.kort}
               style={{ '--kap-farge': k.farge }}
             >
