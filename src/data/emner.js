@@ -64,7 +64,7 @@ export const emner = [
     tittel: 'Jorda',
     ikon: '🌍',
     farge: '#27ae60',
-    beskrivelse: 'Jordas oppbygning, geologi, platetektonikk og biologisk utvikling.',
+    beskrivelse: 'Geologi, økologi, celler og livets utvikling.',
     kapitler: [
       'Jordas indre og plater',
       'Bergarter og mineraler',
