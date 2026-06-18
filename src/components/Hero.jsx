@@ -18,7 +18,7 @@ export default function Hero() {
           <h1 className={styles.tittel}>
             Naturfagsrepetisjon for <span className={styles.uthev}>ungdomsskolen</span>
           </h1>
-          <a href="#emner" className={styles.knapp} onClick={scrollTilEmner}>Se alle emner ↓</a>
+
         </div>
       </div>
     </section>
