@@ -34,7 +34,9 @@ export default function SammenhengSide() {
 
       <div className={styles.innhold}>
         {boks.tekst ? (
-          <p className={styles.tekst}>{boks.tekst}</p>
+          boks.tekst.split('\n\n').map((avsnitt, i) => (
+            <p key={i} className={styles.tekst}>{avsnitt}</p>
+          ))
         ) : (
           <p className={styles.kommer}>Innhold kommer snart.</p>
         )}
