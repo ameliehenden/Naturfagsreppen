@@ -3,9 +3,9 @@ import { emner } from '../data/emner';
 import styles from './JordaSide.module.css';
 
 const KAPITLER = [
-  { id: 'geologi', navn: 'Geologi', farge: '#16a085' },
-  { id: 'okologi', navn: 'Økologi', farge: '#27ae60' },
-  { id: 'celler-og-livets-utvikling', navn: 'Celler og livets utvikling', farge: '#8db600' },
+  { id: 'geologi', navn: 'Geologi', farge: '#16a085', ikon: '🌋' },
+  { id: 'okologi', navn: 'Økologi', farge: '#27ae60', ikon: '🌳' },
+  { id: 'celler-og-livets-utvikling', navn: 'Celler og livets utvikling', farge: '#8db600', ikon: '🔬' },
 ];
 
 export default function JordaSide() {
@@ -30,6 +30,7 @@ export default function JordaSide() {
               className={styles.kort}
               style={{ '--kap-farge': k.farge }}
             >
+              <span className={styles.kortIkon} aria-hidden="true">{k.ikon}</span>
               <span className={styles.kortNavn}>{k.navn}</span>
               <span className={styles.pil} aria-hidden="true">→</span>
             </Link>
