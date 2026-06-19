@@ -2,6 +2,77 @@
 // innhold: blanding av { type: 'tekst', verdi: '...' } og { type: 'bilde', src: '...' }
 // i den rekkefølgen de skal vises på siden.
 export const sammenhenger = {
+  'energi': {
+    senter: `Energi`,
+    kortnavn: `energi`,
+    bokser: [
+      {
+        navn: `Teknologi`,
+        slug: `teknologi`,
+        farge: `#1f6fa0`,
+        innhold: [
+          { type: 'tekst', verdi: `Alt teknologisk utstyr krever energi for å fungere. Elektriske kretser, motorer og datamaskiner er alle avhengige av elektrisk energi. Micro:Bit-kortet trenger strøm for å kjøre programmet sitt, og mobiltelefonen din bruker energi for hver eneste beregning den gjør.` },
+          { type: 'tekst', verdi: `Samtidig er teknologi avgjørende for å produsere og distribuere energi. Solcellepaneler omdanner lysenergi til elektrisk energi, vindturbiner omdanner bevegelsesenergi til elektrisitet, og smarte nett-systemer sørger for at strøm kan overføres fra produsent til forbruker. Teknologisk utvikling er dermed nøkkelen til overgangen til fornybar energi.` },
+        ],
+      },
+      {
+        navn: `Fotosyntesen`,
+        slug: `fotosyntesen`,
+        farge: `#8db600`,
+        innhold: [
+          { type: 'tekst', verdi: `Sola er den absolutt viktigste energikilden på jorda, og fotosyntesen er porten som slipper solenergi inn i alle levende systemer. I kloroplastene i plantecellene omdannes lysenergi til kjemisk energi lagret i glukose:` },
+          { type: 'liste', punkt: [`CO₂ + vann + sollys → glukose + oksygen`] },
+          { type: 'tekst', verdi: `Glukosen som dannes inneholder lagret kjemisk energi som siden kan frigis gjennom celleånding – enten i plantecellen selv, eller i en dyrecelle som har spist planten. Fotosyntesen er selve startpunktet for energiflyten gjennom alle næringskjeder på jorda.` },
+        ],
+      },
+      {
+        navn: `Celleånding`,
+        slug: `celesaanding`,
+        farge: `#8db600`,
+        innhold: [
+          { type: 'tekst', verdi: `Energien som er lagret i glukose gjennom fotosyntesen, frigis gjennom celleånding i mitokondriene:` },
+          { type: 'liste', punkt: [`glukose + oksygen → energi (ATP) + CO₂ + vann`] },
+          { type: 'tekst', verdi: `ATP (adenosintrifosfat) er cellens «energivaluta» – et lite molekyl som bærer energi dit den trengs og frigjør den når cellen trenger å gjøre arbeid. Celleånding foregår kontinuerlig i alle levende celler. Uten en konstant tilførsel av glukose og oksygen kan cellene ikke produsere nok energi til å overleve.` },
+        ],
+      },
+      {
+        navn: `Kjemi`,
+        slug: `kjemi`,
+        farge: `#8e44ad`,
+        innhold: [
+          { type: 'tekst', verdi: `Kjemiske reaksjoner kan enten frigjøre energi (eksoterme) eller kreve energi for å skje (endoterme). Forbrenning er et klassisk eksempel på en eksoterm reaksjon – kull, olje og gass reagerer med oksygen og frigjør store mengder varme og lys.` },
+          { type: 'tekst', verdi: `Batterier er et annet eksempel på koblingen mellom kjemi og energi. I et batteri drives elektroner gjennom en krets av spontane kjemiske reaksjoner, og lagret kjemisk energi omdannes til elektrisk energi. Elektrolyse gjør det motsatte: elektrisk energi tvinger frem kjemiske reaksjoner som ellers ikke ville skjedd – for eksempel spalting av vann til hydrogen og oksygen.` },
+        ],
+      },
+      {
+        navn: `Klima`,
+        slug: `klima`,
+        farge: `#0e7a8a`,
+        innhold: [
+          { type: 'tekst', verdi: `Sammenhengen mellom energi og klima handler først og fremst om hvilke energikilder vi velger. Forbrenning av fossile brensler – kull, olje og naturgass – frigjør CO₂ som har vært lagret i millioner av år, og dette bidraget til den økte drivhuseffekten og global oppvarming.` },
+          { type: 'tekst', verdi: `Fornybare energikilder som sol, vind og vannkraft produserer elektrisitet uten å slippe ut fossilt CO₂. Overgangen fra fossile til fornybare energikilder er derfor et av de viktigste tiltakene for å bremse klimaendringene. Fossil energi sto for over 80 % av verdens energiforbruk i 2023.` },
+        ],
+      },
+      {
+        navn: `Nervesystemet`,
+        slug: `nervesystemet`,
+        farge: `#c0392b`,
+        innhold: [
+          { type: 'tekst', verdi: `Hjernen og nervesystemet er blant de mest energikrevende delene av kroppen. Hjernen utgjør bare rundt 2 % av kroppsvekten, men bruker hele 20 % av kroppens energiforbruk. For at nerveceller skal kunne sende signaler, må de opprettholde et elektrisk potensial over membranen sin – og det krever kontinuerlig bruk av ATP.` },
+          { type: 'tekst', verdi: `Signaloverføringen i en nervecelle skjer ved at natriumioner strømmer inn og kaliumioner strømmer ut over membranen. Etter at signalet er sendt, må ionegradientene gjenopprettes av ionepumper som bruker ATP. Dersom tilførselen av glukose eller oksygen stopper – for eksempel ved et slag – vil nervecellene raskt miste evnen til å sende signaler.` },
+        ],
+      },
+      {
+        navn: `Økologi`,
+        slug: `okologi`,
+        farge: `#1b7a3e`,
+        innhold: [
+          { type: 'tekst', verdi: `I alle økosystemer starter energiflyten med sola. Produsentene (planter og alger) fanger solenergi gjennom fotosyntesen og lagrer den som kjemisk energi i organisk materiale. Denne energien overføres til primærforbrukerne som spiser plantene, og videre til sekundærforbrukerne.` },
+          { type: 'tekst', verdi: `For hvert ledd i næringskjeden går omtrent 90 % av energien tapt som varme – bare rundt 10 % overføres til neste nivå. Derfor er det alltid langt færre toppredatorer enn byttedyr i et økosystem, og derfor kan jorda forsørge langt flere mennesker dersom vi spiser planter fremfor kjøtt.` },
+        ],
+      },
+    ],
+  },
   'klima-og-baerekraft': {
     senter: `Klima og bærekraft`,
     kortnavn: `klima`,
