@@ -15,9 +15,7 @@ import Sammenhenger from '../components/Sammenhenger';
 import Sammendrag from '../components/Sammendrag';
 import styles from './EmneSide.module.css';
 
-// Opplegg-typene vises som en ikonrad øverst på hvert emne (samme på alle).
 const OPPLEGG = [
-  { id: 'sammendrag', navn: 'Sammendrag', ikon: 'icons/sammendrag.svg' },
   { id: 'flashcards', navn: 'Fagbegreper', ikon: 'icons/flashcards.svg' },
   { id: 'quiz', navn: 'Quiz', ikon: 'icons/quiz.svg' },
   { id: 'sammenhenger', navn: 'Sammenhenger', ikon: 'icons/sammenhenger.svg' },
@@ -35,11 +33,10 @@ export default function EmneSide() {
   const forsokListe = forsok[id];
   const sammenhengerData = sammenhenger[id];
   const sammendragData = sammendrag[id];
-  const [valgt, setValgt] = useState(searchParams.get('tab') || 'sammendrag');
+  const [valgt, setValgt] = useState(searchParams.get('tab') || 'flashcards');
 
   function velgOpplegg(o) {
     setValgt(o.id);
-    // Anonym teller: registrer at noen åpnet dette opplegget
     if (window.goatcounter && window.goatcounter.count) {
       window.goatcounter.count({
         path: `${id}/${o.id}`,
@@ -96,9 +93,7 @@ export default function EmneSide() {
         </div>
 
         <div className={styles.oppleggInnhold}>
-          {valgt === 'sammendrag' && sammendragData ? (
-            <Sammendrag avsnitt={sammendragData} />
-          ) : valgt === 'flashcards' && kortStokk ? (
+          {valgt === 'flashcards' && kortStokk ? (
             <Flashcards kort={kortStokk} />
           ) : valgt === 'quiz' && quizListe ? (
             <Quiz sporsmaal={quizListe} />
@@ -112,6 +107,10 @@ export default function EmneSide() {
             <p className={styles.kommer}>Dette opplegget kommer snart.</p>
           )}
         </div>
+
+        {sammendragData && sammendragData.length > 0 && (
+          <Sammendrag avsnitt={sammendragData} />
+        )}
       </div>
     </article>
   );
