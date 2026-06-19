@@ -510,4 +510,141 @@ export const quiz = {
       ],
     },
   ],
+  'immunsystemet': [
+    {
+      sporsmal: `Hva er leukocytter?`,
+      riktig: `De hvite blodcellene, som utgjør immunforsvaret.`,
+      feil: [
+        `De røde blodcellene, som frakter oksygen.`,
+        `Blodplatene, som får blodet til å størkne.`,
+        `Blodplasmaet, som er den flytende delen av blodet.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilken oppgave har de røde blodcellene (erytrocyttene)?`,
+      riktig: `De frakter oksygen rundt i kroppen.`,
+      feil: [
+        `De spiser inntrengere som bakterier og virus.`,
+        `De lager antistoffer mot smittestoff.`,
+        `De får blodet til å størkne når vi blør.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er det ytre immunforsvaret?`,
+      riktig: `Huden og slimhinnene som holder smittestoff ute av kroppen.`,
+      feil: [
+        `De hvite blodcellene som angriper smittestoff inne i kroppen.`,
+        `Antistoffene som merker smittestoff for ødeleggelse.`,
+        `Hukommelsescellene som husker tidligere smitte.`,
+      ],
+    },
+    {
+      sporsmal: `Hva kjennetegner det medfødte immunforsvaret?`,
+      riktig: `Det virker raskt og angriper alle inntrengere på samme måte.`,
+      feil: [
+        `Det er spesialisert og kjenner igjen bestemte smittestoff.`,
+        `Det bruker noen dager på å komme i gang etter smitte.`,
+        `Det dannes først etter at man har blitt vaksinert.`,
+      ],
+    },
+    {
+      sporsmal: `Hva gjør fagocyttene?`,
+      riktig: `De «spiser» inntrengere i en prosess som kalles fagocytose.`,
+      feil: [
+        `De lager antistoffer som passer til ett bestemt smittestoff.`,
+        `De danner hukommelsesceller etter en infeksjon.`,
+        `De frakter oksygen og næring til cellene.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er oppgaven til B-cellene?`,
+      riktig: `De lager antistoffer mot smittestoff.`,
+      feil: [
+        `De dreper kroppens egne celler som er blitt syke.`,
+        `De spiser inntrengere som etende celler.`,
+        `De holder smittestoff ute ved hjelp av slimhinner.`,
+      ],
+    },
+    {
+      sporsmal: `Hva gjør T-cellene (drepecellene)?`,
+      riktig: `De dreper kroppens egne celler som er blitt syke, for eksempel virusinfiserte celler og kreftceller.`,
+      feil: [
+        `De lager antistoffer som merker smittestoff.`,
+        `De spiser bakterier i en prosess kalt fagocytose.`,
+        `De danner det ytre forsvaret sammen med huden.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er et antistoff?`,
+      riktig: `Et protein som passer til ett bestemt smittestoff og merker det for ødeleggelse.`,
+      feil: [
+        `En etecelle som spiser opp inntrengere.`,
+        `Et smittestoff som gjør oss syke.`,
+        `En celle som frakter oksygen i blodet.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor reagerer immunforsvaret raskere andre gang du møter samme smittestoff?`,
+      riktig: `Fordi hukommelsesceller husker smittestoffet fra før.`,
+      feil: [
+        `Fordi de røde blodcellene har lært seg å frakte mer oksygen.`,
+        `Fordi huden blir tykkere etter en infeksjon.`,
+        `Fordi smittestoffet blir svakere hver gang det kommer tilbake.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor er feber nyttig når vi er syke?`,
+      riktig: `Smittestoffene formerer seg saktere, samtidig som immunforsvaret jobber mer effektivt.`,
+      feil: [
+        `Feber dreper alle bakterier i kroppen umiddelbart.`,
+        `Feber gjør at vi lager flere røde blodceller.`,
+        `Feber hindrer at vi blir smittet på nytt senere.`,
+      ],
+    },
+    {
+      sporsmal: `Hva inneholder en vaksine?`,
+      riktig: `Svekkede eller døde smittestoff, eller deler av dem.`,
+      feil: [
+        `Ferdige antistoffer som virker med en gang.`,
+        `Antibiotika som dreper bakterier i kroppen.`,
+        `Levende, fullt smittsomme virus.`,
+      ],
+    },
+    {
+      sporsmal: `Hvordan virker en vaksine?`,
+      riktig: `Kroppen lager antistoffer og hukommelsesceller uten at du blir ordentlig syk.`,
+      feil: [
+        `Den dreper smittestoffet direkte slik antibiotika gjør.`,
+        `Den styrker huden og slimhinnene så smitte ikke kommer inn.`,
+        `Den frakter ekstra oksygen til de syke cellene.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er flokkimmunitet?`,
+      riktig: `Når så mange er immune at smittestoffet ikke klarer å spre seg, slik at også de uvaksinerte beskyttes.`,
+      feil: [
+        `Når én person er immun mot alle kjente sykdommer.`,
+        `Når immunforsvaret angriper kroppens egne celler.`,
+        `Når en hel familie blir syke av samme smittestoff samtidig.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor regnes ikke virus som levende?`,
+      riktig: `De må kapre en levende celle for å kunne formere seg.`,
+      feil: [
+        `De er for små til å inneholde noe arvestoff.`,
+        `De består bare av vann og salter.`,
+        `De kan bare leve i kaldt vann.`,
+      ],
+    },
+    {
+      sporsmal: `Hvor i kroppen lages de hvite blodcellene?`,
+      riktig: `I beinmargen inni knoklene.`,
+      feil: [
+        `I hjertet, sammen med blodplasmaet.`,
+        `I huden, som en del av det ytre forsvaret.`,
+        `I lungene, der oksygenet kommer inn.`,
+      ],
+    },
+  ],
 };

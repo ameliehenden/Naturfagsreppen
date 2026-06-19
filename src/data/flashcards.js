@@ -303,4 +303,90 @@ export const flashcards = {
       forklaring: `Havnivået stiger fordi innlandsis smelter og renner ut i havet, og fordi varmere vann utvider seg. Is som allerede flyter i havet, hever ikke havnivået når den smelter.`,
     },
   ],
+  'immunsystemet': [
+    {
+      begrep: `Leukocytter`,
+      forklaring: `De hvite blodcellene. Dette er kroppens forsvarsceller, og de utgjør selve immunforsvaret. Det finnes flere typer, blant annet fagocytter og lymfocytter.`,
+    },
+    {
+      begrep: `Fagocytter`,
+      forklaring: `En type hvite blodceller som også kalles eteceller. De «spiser» inntrengere som bakterier og virus i en prosess som heter fagocytose. De er en del av det medfødte forsvaret og kommer raskt i gang.`,
+    },
+    {
+      begrep: `Makrofager`,
+      forklaring: `Store fagocytter (eteceller). De rydder bort smittestoff og døde celler, og jobber ekstra effektivt når kroppen har feber.`,
+    },
+    {
+      begrep: `Lymfocytter`,
+      forklaring: `En type hvite blodceller i det ervervede forsvaret. De deles i B-celler, som lager antistoffer, og T-celler, som er drepeceller. De utvikler seg over tid og bruker gjerne noen dager på å komme i gang.`,
+    },
+    {
+      begrep: `B-celler`,
+      forklaring: `Lymfocytter som lager antistoffer. Noen B-celler blir til hukommelsesceller som husker smittestoffet til senere.`,
+    },
+    {
+      begrep: `T-celler`,
+      forklaring: `Lymfocytter som fungerer som drepeceller. De dreper kroppens egne celler når disse er blitt syke, for eksempel celler som er infisert av virus eller har blitt til kreftceller.`,
+    },
+    {
+      begrep: `Antistoff`,
+      forklaring: `Et protein som lages av B-celler. Hvert antistoff passer til ett bestemt smittestoff og merker det slik at det blir uskadeliggjort.`,
+    },
+    {
+      begrep: `Hukommelsescelle`,
+      forklaring: `En lymfocytt som husker et smittestoff kroppen har møtt før. Møter kroppen samme smittestoff igjen, reagerer immunforsvaret mye raskere – det er dette en vaksine utnytter.`,
+    },
+    {
+      begrep: `Medfødt immunforsvar`,
+      forklaring: `Den delen av immunforsvaret du er født med. Det virker raskt og angriper alle inntrengere på samme måte. Fagocyttene er viktigst her.`,
+    },
+    {
+      begrep: `Ervervet immunforsvar`,
+      forklaring: `Den delen av immunforsvaret som utvikler seg gjennom livet. Det er spesialisert og lærer seg å kjenne igjen bestemte smittestoff. Lymfocyttene hører til her.`,
+    },
+    {
+      begrep: `Ytre immunforsvar`,
+      forklaring: `Kroppens første barriere mot smitte: huden og slimhinnene som holder bakterier og virus ute. Også slim, tårer, spytt og magesyre hjelper til.`,
+    },
+    {
+      begrep: `Indre immunforsvar`,
+      forklaring: `Forsvaret som tar over hvis smittestoffene kommer seg inn i kroppen. Det består av de hvite blodcellene.`,
+    },
+    {
+      begrep: `Immunitet`,
+      forklaring: `Å være motstandsdyktig mot en bestemt sykdom, slik at kroppen klarer å slå den ned før du blir syk. Du kan bli immun etter å ha hatt sykdommen eller etter å ha blitt vaksinert.`,
+    },
+    {
+      begrep: `Vaksine`,
+      forklaring: `Inneholder svekkede eller døde smittestoff, eller deler av dem. Den lurer kroppen til å lage antistoffer og hukommelsesceller uten at du blir ordentlig syk, slik at du er beskyttet senere.`,
+    },
+    {
+      begrep: `MMR-vaksine`,
+      forklaring: `En vaksine som beskytter mot tre sykdommer på én gang: meslinger, kusma og røde hunder.`,
+    },
+    {
+      begrep: `Flokkimmunitet`,
+      forklaring: `Når så mange i en befolkning er immune at smittestoffet ikke klarer å spre seg. Da beskyttes også de som ikke kan vaksinere seg, for eksempel nyfødte og syke.`,
+    },
+    {
+      begrep: `Patogen`,
+      forklaring: `En sykdomsfremkallende mikroorganisme, altså et smittestoff som kan gjøre oss syke – for eksempel et virus eller en bakterie.`,
+    },
+    {
+      begrep: `Virus`,
+      forklaring: `Et svært lite smittestoff som består av arvestoff med en proteinkappe rundt. Virus regnes ikke som levende og må kapre en levende celle for å formere seg.`,
+    },
+    {
+      begrep: `Bakterier`,
+      forklaring: `Encellede organismer uten cellekjerne. Noen bakterier gjør oss syke, mens mange andre er nyttige eller helt ufarlige.`,
+    },
+    {
+      begrep: `Beinmarg`,
+      forklaring: `Vevet inni knoklene der blodcellene lages, blant annet de hvite blodcellene i immunforsvaret.`,
+    },
+    {
+      begrep: `Feber`,
+      forklaring: `Forhøyet kroppstemperatur som kroppen bruker mot infeksjoner. Smittestoffene formerer seg saktere ved feber, samtidig som immunforsvaret jobber mer effektivt.`,
+    },
+  ],
 };

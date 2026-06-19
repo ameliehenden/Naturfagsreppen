@@ -86,4 +86,38 @@ export const sammendrag = {
       tekst: `Siden du har ett sett med 23 kromosomer fra far og ett sett fra mor, har du to gener for hver egenskap. De to variantene av det samme genet kaller vi alleler. Ofte må det ene allelet vike for det andre, slik at bare ett av dem kommer til uttrykk. Det allelet som kommer til uttrykk kaller vi dominant, mens det som ikke kommer til uttrykk kaller vi vikende eller recessivt. Dette er grunnen til at enkelte egenskaper og arvelige sykdommer kan «hoppe over» generasjoner.`,
     },
   ],
+  'immunsystemet': [
+    {
+      tittel: `Blodet vårt`,
+      tekst: `Blodet består av blodplasma – en tyktflytende væske – og tre hovedtyper blodceller. De røde blodcellene (erytrocytter) frakter oksygen rundt i kroppen. Blodplatene (trombocytter) sørger for at blodet størkner når vi blør. De hvite blodcellene (leukocytter) er kroppens forsvarsceller, og det er disse som utgjør selve immunforsvaret.`,
+    },
+    {
+      tittel: `Et ytre og et indre immunforsvar`,
+      tekst: `Immunforsvaret deles inn i et ytre og et indre forsvar. Det ytre forsvaret er kroppens første barriere: huden og slimhinnene holder bakterier, virus og andre smittestoffer ute av kroppen. Slim, magesyre, tårer og spytt hjelper også til med å fange og uskadeliggjøre inntrengere. Hvis smittestoffene likevel kommer seg inn i kroppen, møter de det indre forsvaret, som består av de hvite blodcellene. Organer som beinmarg, lymfeknuter, milten og mandlene er viktige for å produsere og lagre disse cellene.`,
+    },
+    {
+      tittel: `Medfødt og ervervet forsvar`,
+      tekst: `Det indre immunforsvaret har to deler som arbeider sammen. Det medfødte forsvaret virker raskt og angriper alle inntrengere på samme måte – her er fagocyttene viktigst. Det ervervede forsvaret utvikler seg gjennom livet og er mer spesialisert: det lærer seg å kjenne igjen bestemte smittestoffer. Det tar gjerne noen dager fra du blir smittet til det ervervede forsvaret, med lymfocyttene, kommer skikkelig i gang. Til gjengjeld husker det smittestoffet etterpå.`,
+    },
+    {
+      tittel: `De hvite blodcellene`,
+      tekst: `De hvite blodcellene (leukocyttene) finnes i flere typer. Fagocyttene kalles også eteceller, fordi de «spiser» inntrengere i en prosess som heter fagocytose. Store fagocytter kalles makrofager. Lymfocyttene deles i to hovedtyper: B-celler lager antistoffer – proteiner som passer til ett bestemt smittestoff og merker det for ødeleggelse – mens T-celler er drepeceller som dreper kroppens egne celler når de er blitt syke, for eksempel celler som er infisert av virus eller har blitt til kreftceller. Noen lymfocytter blir til hukommelsesceller. Disse husker smittestoffet, slik at kroppen reagerer mye raskere hvis den møter det samme smittestoffet igjen senere.`,
+    },
+    {
+      tittel: `Hvorfor får vi feber?`,
+      tekst: `Feber er et av kroppens våpen mot infeksjoner. De hvite blodcellene slipper ut et feberfremkallende stoff som hjernen oppfatter, og kroppen setter da i gang en «frysereaksjon» for å holde på varmen – derfor fryser vi når temperaturen stiger. De fleste sykdomsfremkallende mikroorganismene trives best ved normal kroppstemperatur på rundt 35–37 °C, og de formerer seg saktere når vi har feber. Samtidig jobber immunforsvaret mer effektivt: fagocyttene rydder bort smittestoff raskere, og kroppen aktiverer flere T-celler og produserer mer antistoff. Når temperaturen synker igjen, svetter vi. Febernedsettende medisiner gir derfor svetting, og når virkningen avtar etter noen timer, kan frysetoktene komme tilbake.`,
+    },
+    {
+      tittel: `Vaksiner`,
+      tekst: `En vaksine inneholder svekkede eller døde smittestoff, eller deler av dem. Når du blir vaksinert, tror kroppen at den er smittet, og det ervervede forsvaret setter i gang: det lager antistoffer og danner hukommelsesceller – men uten at du blir ordentlig syk. Hvis du senere møter det ekte smittestoffet, kjenner hukommelsescellene det igjen og slår det ned før det rekker å gjøre deg syk. MMR-vaksinen beskytter for eksempel mot meslinger, kusma og røde hunder.`,
+    },
+    {
+      tittel: `Vaksiner og folkehelsa`,
+      tekst: `Vaksiner er noe av det viktigste vi har for folkehelsen. Når mange nok er vaksinert mot en sykdom, får vi det vi kaller flokkimmunitet: smittestoffet finner så få mottakelige personer at det ikke klarer å spre seg. Da beskyttes også de som ikke kan vaksinere seg selv, for eksempel nyfødte eller personer med svekket immunforsvar. På denne måten har vaksiner gjort at sykdommer som tidligere tok mange liv, i dag er sjeldne.`,
+    },
+    {
+      tittel: `Immunceller mot kreft`,
+      tekst: `Forskere arbeider med å bruke kroppens egne immunceller til å behandle kreft, en metode som kalles immunterapi. Kreftceller kan nemlig «gjemme seg» for immunforsvaret, blant annet ved hjelp av et protein som heter AHR. Klarer forskerne å hindre kreftcellene i å skjule seg, blir det mye lettere for immuncellene å finne og drepe dem. Dette er et eksempel på hvordan kunnskap om immunforsvaret brukes i moderne, dagsaktuell teknologi – og det er viktig forskning, for omtrent 45 prosent av norske menn og 38 prosent av norske kvinner får en kreftdiagnose i løpet av livet.`,
+    },
+  ],
 };
