@@ -93,24 +93,37 @@ export default function EmneSide() {
         </div>
 
         <div className={styles.oppleggInnhold}>
-          {valgt === 'flashcards' && kortStokk ? (
-            <Flashcards kort={kortStokk} />
-          ) : valgt === 'quiz' && quizListe ? (
-            <Quiz sporsmaal={quizListe} />
-          ) : valgt === 'oppgaver' && oppgaveListe ? (
-            <SkriftligeOppgaver oppgaver={oppgaveListe} />
-          ) : valgt === 'forsok' && forsokListe ? (
-            <PraktiskeForsok forsok={forsokListe} />
-          ) : valgt === 'sammenhenger' && sammenhengerData ? (
-            <Sammenhenger data={sammenhengerData} emneId={id} />
+          {valgt === null ? (
+            sammendragData && sammendragData.length > 0 ? (
+              <Sammendrag avsnitt={sammendragData} />
+            ) : (
+              <p className={styles.kommer}>Velg et opplegg over for å komme i gang.</p>
+            )
           ) : (
-            <p className={styles.kommer}>Dette opplegget kommer snart.</p>
+            <>
+              <button
+                type="button"
+                className={styles.tilbakeOpplegg}
+                onClick={() => setValgt(null)}
+              >
+                ← Tilbake{sammendragData && sammendragData.length > 0 ? ' til fagteksten' : ''}
+              </button>
+              {valgt === 'flashcards' && kortStokk ? (
+                <Flashcards kort={kortStokk} />
+              ) : valgt === 'quiz' && quizListe ? (
+                <Quiz sporsmaal={quizListe} />
+              ) : valgt === 'oppgaver' && oppgaveListe ? (
+                <SkriftligeOppgaver oppgaver={oppgaveListe} />
+              ) : valgt === 'forsok' && forsokListe ? (
+                <PraktiskeForsok forsok={forsokListe} />
+              ) : valgt === 'sammenhenger' && sammenhengerData ? (
+                <Sammenhenger data={sammenhengerData} emneId={id} />
+              ) : (
+                <p className={styles.kommer}>Dette opplegget kommer snart.</p>
+              )}
+            </>
           )}
         </div>
-
-        {sammendragData && sammendragData.length > 0 && (
-          <Sammendrag avsnitt={sammendragData} />
-        )}
       </div>
     </article>
   );
