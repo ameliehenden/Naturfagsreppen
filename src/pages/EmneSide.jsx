@@ -6,15 +6,18 @@ import { oppgaver } from '../data/oppgaver';
 import { quiz } from '../data/quiz';
 import { forsok } from '../data/forsok';
 import { sammenhenger } from '../data/sammenhenger';
+import { sammendrag } from '../data/sammendrag';
 import Flashcards from '../components/Flashcards';
 import SkriftligeOppgaver from '../components/SkriftligeOppgaver';
 import Quiz from '../components/Quiz';
 import PraktiskeForsok from '../components/PraktiskeForsok';
 import Sammenhenger from '../components/Sammenhenger';
+import Sammendrag from '../components/Sammendrag';
 import styles from './EmneSide.module.css';
 
 // Opplegg-typene vises som en ikonrad øverst på hvert emne (samme på alle).
 const OPPLEGG = [
+  { id: 'sammendrag', navn: 'Sammendrag', ikon: 'icons/sammendrag.svg' },
   { id: 'flashcards', navn: 'Fagbegreper', ikon: 'icons/flashcards.svg' },
   { id: 'quiz', navn: 'Quiz', ikon: 'icons/quiz.svg' },
   { id: 'sammenhenger', navn: 'Sammenhenger', ikon: 'icons/sammenhenger.svg' },
@@ -31,7 +34,8 @@ export default function EmneSide() {
   const quizListe = quiz[id];
   const forsokListe = forsok[id];
   const sammenhengerData = sammenhenger[id];
-  const [valgt, setValgt] = useState(searchParams.get('tab') || 'flashcards');
+  const sammendragData = sammendrag[id];
+  const [valgt, setValgt] = useState(searchParams.get('tab') || 'sammendrag');
 
   function velgOpplegg(o) {
     setValgt(o.id);
@@ -92,7 +96,9 @@ export default function EmneSide() {
         </div>
 
         <div className={styles.oppleggInnhold}>
-          {valgt === 'flashcards' && kortStokk ? (
+          {valgt === 'sammendrag' && sammendragData ? (
+            <Sammendrag avsnitt={sammendragData} />
+          ) : valgt === 'flashcards' && kortStokk ? (
             <Flashcards kort={kortStokk} />
           ) : valgt === 'quiz' && quizListe ? (
             <Quiz sporsmaal={quizListe} />
