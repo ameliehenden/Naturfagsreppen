@@ -96,4 +96,46 @@ export const oppgaver = {
       fasit: `Forskere prøver å bruke kroppens egne immunceller til å behandle kreft – dette kalles immunterapi. Kreftceller kan «gjemme seg» for immunforsvaret ved hjelp av proteinet AHR. Klarer forskerne å hindre kreftcellene i å skjule seg, blir det mye lettere for immuncellene å finne og drepe dem.`,
     },
   ],
+  'celler-og-livets-utvikling': [
+    {
+      sporsmal: `Hvilke kjennetegn har alt som er levende?`,
+      fasit: `Alt levende er bygd opp av celler, tar til seg næring og skaffer seg energi, vokser og formerer seg, reagerer på ytre påvirkninger og inneholder arvestoff (DNA).`,
+    },
+    {
+      sporsmal: `Hvilke deler består en plantecelle av? Nevn så mange du kan.`,
+      fasit: `En plantecelle har blant annet cellevegg, cellemembran, cytoplasma (cellevæske), cellekjerne, mitokondrier, ribosomer, kloroplaster og en vakuole (saftrom).`,
+    },
+    {
+      sporsmal: `Hva er forskjellen på en dyrecelle og en plantecelle?`,
+      fasit: `En plantecelle har vakuole, cellevegg og kloroplaster, som dyrecellen ikke har. Dyrecellen har til gjengjeld lysosomer, som plantecellen ikke har.`,
+    },
+    {
+      sporsmal: `Skriv fotosyntesen med ord i stedet for kjemiske symboler, og forklar hvorfor fotosyntesen er så viktig for livet på jorda.`,
+      fasit: `Vann + karbondioksid blir ved hjelp av sollys til glukose + oksygen. Fotosyntesen er den eneste prosessen som lager oksygen til atmosfæren, og uten oksygen hadde ikke livet slik vi kjenner det vært mulig. I tillegg er fotosyntesen grunnlaget for all næring: alle næringskjeder starter med planter, som produserer sin egen energi gjennom fotosyntesen og er mat for andre arter videre oppover i næringskjeden.`,
+    },
+    {
+      sporsmal: `I mitokondriene skjer en motsatt prosess av fotosyntesen. Forklar det du vet om denne prosessen.`,
+      fasit: `Prosessen heter celleånding og foregår i mitokondriene. Her frigjøres energien som er lagret i glukose. Organismen får i seg glukose gjennom maten og puster inn oksygen, og celleåndingen omdanner dette til energi, vann og karbondioksid. Celleåndingen er altså det motsatte av fotosyntesen.`,
+    },
+    {
+      sporsmal: `Hva er et kromosom, og hva er et gen? Hvor i cella finner du dem?`,
+      fasit: `Et kromosom er en gigantisk kveil av DNA, og det finnes i cellekjernen. Mennesker har 23 kromosompar – ett sett fra mor og ett sett fra far. Et gen er en bit av DNA-et som inneholder koden til én bestemt egenskap, for eksempel øyenfarge.`,
+    },
+    {
+      sporsmal: `I ribosomene lages kroppens proteiner. Forklar så godt du kan hvordan kroppen bygger et protein.`,
+      fasit: `I cellekjernen ligger DNA-et. Det blir kopiert av mRNA ved hjelp av baseparene (A–T og C–G). Kopien forlater cellekjernen og drar til ribosomet, som bygger proteinet etter oppskriften. Ribosomet leser tre og tre baser om gangen – en triplettkode – og hver triplett bestemmer hvilken aminosyre som skal settes inn og i hvilken rekkefølge. Det finnes rundt 20 ulike aminosyrer, og rekkefølgen på dem avgjør hvilket protein som blir laget.`,
+    },
+    {
+      sporsmal: `Når genvariantene vi arver fra mor og far er ulike (heterozygote), kommer bare egenskapen til den ene fram, mens den andre må vike. Hva kaller vi genet som må vike, og hva kaller vi genet som kommer fram?`,
+      fasit: `Genet som må vike kaller vi recessivt (vikende). Genet som kommer fram kaller vi dominant.`,
+    },
+    {
+      sporsmal: `En svart kanin (Ff) har én dominant (F) og én recessiv (f) genvariant for farge. Den krysses med en hvit kanin (ff) som har to recessive genvarianter. Sett opp et kryssingsskjema og forklar hvilke farger ungene kan få.`,
+      fasit: `I kryssingsskjemaet kombinerer vi F og f fra den svarte kaninen med f og f fra den hvite. Da får vi to ruter med Ff og to ruter med ff. Det betyr at omtrent halvparten av ungene blir svarte (Ff, fordi F er dominant) og halvparten blir hvite (ff). Forholdet blir altså 50 % svarte og 50 % hvite.`,
+    },
+    {
+      sporsmal: `Hvilken sammenheng er det mellom karbonkretsløpet og to prosesser som skjer i cellene?`,
+      fasit: `Karbonkretsløpet består i hovedsak av fotosyntesen og celleåndingen. I fotosyntesen hentes karbondioksid fra atmosfæren og bygges om til glukose, slik at karbonet blir en del av alt levende. Celleåndingen er den motsatte prosessen: karbonet i glukosen omdannes tilbake til karbondioksid, som slippes ut i atmosfæren igjen.`,
+    },
+  ],
 };

@@ -372,6 +372,51 @@ export const quiz = {
         `At de to artene kan pare seg med hverandre og få fruktbart avkom.`,
       ],
     },
+    {
+      sporsmal: `Hvilke kjennetegn har alt som er levende?`,
+      riktig: `Det er bygd opp av celler, tar til seg næring, vokser, formerer seg og inneholder arvestoff.`,
+      feil: [
+        `Det er bygd opp av celler, kan bevege seg og puster inn oksygen.`,
+        `Det inneholder arvestoff, men trenger verken næring eller å formere seg.`,
+        `Det kan reagere på lys og lyd, men består ikke nødvendigvis av celler.`,
+      ],
+    },
+    {
+      sporsmal: `Hva kaller vi en genvariant som kommer fram selv om den bare finnes i ett eksemplar?`,
+      riktig: `Dominant.`,
+      feil: [
+        `Recessiv.`,
+        `Heterozygot.`,
+        `Mutert.`,
+      ],
+    },
+    {
+      sporsmal: `En svart kanin (Ff) krysses med en hvit kanin (ff). Hvilket forhold mellom fargene får ungene?`,
+      riktig: `Omtrent halvparten blir svarte (Ff) og halvparten hvite (ff).`,
+      feil: [
+        `Alle ungene blir svarte, fordi svart er dominant.`,
+        `Alle ungene blir hvite, fordi begge foreldrene bærer på f.`,
+        `Tre av fire blir svarte og én av fire blir hvit.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en triplettkode i proteinbyggingen?`,
+      riktig: `Tre baser etter hverandre som bestemmer hvilken aminosyre som skal settes inn.`,
+      feil: [
+        `Tre gener som sammen danner ett kromosom.`,
+        `Tre ribosomer som jobber med samme protein samtidig.`,
+        `Tre aminosyrer som til sammen utgjør ett ferdig protein.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilke to celleprosesser utgjør hoveddelen av karbonkretsløpet?`,
+      riktig: `Fotosyntesen og celleåndingen.`,
+      feil: [
+        `Fotosyntesen og proteinbyggingen.`,
+        `Celledelingen og celleåndingen.`,
+        `Fordøyelsen og celledelingen.`,
+      ],
+    },
   ],
   'klima-og-baerekraft': [
     {
