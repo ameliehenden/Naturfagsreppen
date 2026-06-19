@@ -33,7 +33,7 @@ export default function EmneSide() {
   const forsokListe = forsok[id];
   const sammenhengerData = sammenhenger[id];
   const sammendragData = sammendrag[id];
-  const [valgt, setValgt] = useState(searchParams.get('tab') || 'flashcards');
+  const [valgt, setValgt] = useState(searchParams.get('tab') || null);
 
   function velgOpplegg(o) {
     setValgt(o.id);
