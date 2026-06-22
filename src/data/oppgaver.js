@@ -1,15 +1,15 @@
 // Skriftlige oppgaver per emne. Nøkkelen er emnets id (se emner.js).
 //
 // Hvert spørsmål har:
-//   sporsmal – selve spørsmålet
-//   fasit    – modellsvaret som vises til eleven for sammenligning
+//   sporsmal, selve spørsmålet
+//   fasit   , modellsvaret som vises til eleven for sammenligning
 //
-// FASITEN ER ET UTKAST – se gjerne over og rett ordlyd.
+// FASITEN ER ET UTKAST, se gjerne over og rett ordlyd.
 export const oppgaver = {
   'klima-og-baerekraft': [
     {
       sporsmal: `Hva er forskjellen på vær og klima?`,
-      fasit: `Vær er tilstanden vi opplever akkurat nå – nedbør, vind, temperatur – og som endrer seg fra dag til dag. Klima er gjennomsnittsværet for et område over en lang periode, vanligvis 30 år.`,
+      fasit: `Vær er tilstanden vi opplever akkurat nå, nedbør, vind, temperatur, og som endrer seg fra dag til dag. Klima er gjennomsnittsværet for et område over en lang periode, vanligvis 30 år.`,
     },
     {
       sporsmal: `Nevn tre globale miljøutfordringer.`,
@@ -21,7 +21,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Forklar hvordan klimaet vårt påvirkes av mengden havis i Arktis.`,
-      fasit: `Hvit havis reflekterer mye av sollyset tilbake til verdensrommet. Når havisen smelter, blir mer mørkt hav synlig, som tar opp mer varme. Da blir det varmere, og enda mer is smelter – en selvforsterkende effekt.`,
+      fasit: `Hvit havis reflekterer mye av sollyset tilbake til verdensrommet. Når havisen smelter, blir mer mørkt hav synlig, som tar opp mer varme. Da blir det varmere, og enda mer is smelter, en selvforsterkende effekt.`,
     },
     {
       sporsmal: `Hva mener vi med uttrykket «bærekraftig utvikling»? Gi et eksempel på en naturressurs som ikke har blitt forvaltet på en bærekraftig måte, og forklar.`,
@@ -43,11 +43,11 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hvorfor er internasjonalt samarbeid viktig i klima- og miljøarbeidet?`,
-      fasit: `Klima- og miljøproblemer kjenner ingen landegrenser – utslipp i ett land påvirker hele kloden. Derfor må landene samarbeide om felles mål og avtaler (for eksempel Parisavtalen) for at tiltakene skal virke.`,
+      fasit: `Klima- og miljøproblemer kjenner ingen landegrenser, utslipp i ett land påvirker hele kloden. Derfor må landene samarbeide om felles mål og avtaler (for eksempel Parisavtalen) for at tiltakene skal virke.`,
     },
     {
       sporsmal: `Hva er en feedbackmekanisme (tilbakekoblingsmekanisme)? Gi et eksempel.`,
-      fasit: `En feedbackmekanisme er når en endring forsterker (eller demper) seg selv. Eksempel: når havis smelter, tar mørkt hav opp mer varme, som gjør at enda mer is smelter – en selvforsterkende effekt.`,
+      fasit: `En feedbackmekanisme er når en endring forsterker (eller demper) seg selv. Eksempel: når havis smelter, tar mørkt hav opp mer varme, som gjør at enda mer is smelter, en selvforsterkende effekt.`,
     },
     {
       sporsmal: `Gi eksempler på samenes tradisjonelle kunnskap om naturen, og hvordan den kan bidra til bærekraftig forvaltning.`,
@@ -61,11 +61,11 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hva er forskjellen på det ytre og det indre immunforsvaret?`,
-      fasit: `Det ytre immunforsvaret er kroppens første barriere – huden og slimhinnene som holder smittestoff ute av kroppen. Slim, tårer, spytt og magesyre hjelper også til. Det indre immunforsvaret tar over hvis smittestoffene kommer seg inn i kroppen, og består av de hvite blodcellene.`,
+      fasit: `Det ytre immunforsvaret er kroppens første barriere, huden og slimhinnene som holder smittestoff ute av kroppen. Slim, tårer, spytt og magesyre hjelper også til. Det indre immunforsvaret tar over hvis smittestoffene kommer seg inn i kroppen, og består av de hvite blodcellene.`,
     },
     {
       sporsmal: `Hva er forskjellen på det medfødte og det ervervede immunforsvaret?`,
-      fasit: `Det medfødte forsvaret er du født med. Det virker raskt og angriper alle inntrengere på samme måte, og fagocyttene er viktigst her. Det ervervede forsvaret utvikler seg gjennom livet og er spesialisert – det lærer seg å kjenne igjen bestemte smittestoff. Lymfocyttene hører til her, og det tar gjerne noen dager før dette forsvaret kommer skikkelig i gang.`,
+      fasit: `Det medfødte forsvaret er du født med. Det virker raskt og angriper alle inntrengere på samme måte, og fagocyttene er viktigst her. Det ervervede forsvaret utvikler seg gjennom livet og er spesialisert, det lærer seg å kjenne igjen bestemte smittestoff. Lymfocyttene hører til her, og det tar gjerne noen dager før dette forsvaret kommer skikkelig i gang.`,
     },
     {
       sporsmal: `Beskriv de ulike typene hvite blodceller og oppgavene deres.`,
@@ -81,11 +81,11 @@ export const oppgaver = {
     },
     {
       sporsmal: `Forklar hvordan en vaksine virker.`,
-      fasit: `En vaksine inneholder svekkede eller døde smittestoff, eller deler av dem. Når du vaksineres, tror kroppen at den er smittet og setter i gang det ervervede forsvaret: den lager antistoffer og danner hukommelsesceller – uten at du blir ordentlig syk. Møter du det ekte smittestoffet senere, kjenner hukommelsescellene det igjen og slår det ned før du rekker å bli syk.`,
+      fasit: `En vaksine inneholder svekkede eller døde smittestoff, eller deler av dem. Når du vaksineres, tror kroppen at den er smittet og setter i gang det ervervede forsvaret: den lager antistoffer og danner hukommelsesceller, uten at du blir ordentlig syk. Møter du det ekte smittestoffet senere, kjenner hukommelsescellene det igjen og slår det ned før du rekker å bli syk.`,
     },
     {
       sporsmal: `Hva er flokkimmunitet, og hvorfor er vaksiner viktige for folkehelsen?`,
-      fasit: `Flokkimmunitet er når så mange i en befolkning er immune at smittestoffet ikke klarer å spre seg. Da beskyttes også de som ikke kan vaksinere seg selv, for eksempel nyfødte og personer med svekket immunforsvar. Slik har vaksiner gjort at sykdommer som tidligere tok mange liv, i dag er sjeldne – derfor er de noe av det viktigste vi har for folkehelsen.`,
+      fasit: `Flokkimmunitet er når så mange i en befolkning er immune at smittestoffet ikke klarer å spre seg. Da beskyttes også de som ikke kan vaksinere seg selv, for eksempel nyfødte og personer med svekket immunforsvar. Slik har vaksiner gjort at sykdommer som tidligere tok mange liv, i dag er sjeldne. Derfor er de noe av det viktigste vi har for folkehelsen.`,
     },
     {
       sporsmal: `Hvorfor regnes ikke virus som levende?`,
@@ -93,7 +93,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Gi et eksempel på hvordan kunnskap om immunforsvaret brukes i moderne teknologi.`,
-      fasit: `Forskere prøver å bruke kroppens egne immunceller til å behandle kreft – dette kalles immunterapi. Kreftceller kan «gjemme seg» for immunforsvaret ved hjelp av proteinet AHR. Klarer forskerne å hindre kreftcellene i å skjule seg, blir det mye lettere for immuncellene å finne og drepe dem.`,
+      fasit: `Forskere prøver å bruke kroppens egne immunceller til å behandle kreft, dette kalles immunterapi. Kreftceller kan «gjemme seg» for immunforsvaret ved hjelp av proteinet AHR. Klarer forskerne å hindre kreftcellene i å skjule seg, blir det mye lettere for immuncellene å finne og drepe dem.`,
     },
   ],
   'celler-og-livets-utvikling': [
@@ -119,11 +119,11 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hva er et kromosom, og hva er et gen? Hvor i cella finner du dem?`,
-      fasit: `Et kromosom er en gigantisk kveil av DNA, og det finnes i cellekjernen. Mennesker har 23 kromosompar – ett sett fra mor og ett sett fra far. Et gen er en bit av DNA-et som inneholder koden til én bestemt egenskap, for eksempel øyenfarge.`,
+      fasit: `Et kromosom er en gigantisk kveil av DNA, og det finnes i cellekjernen. Mennesker har 23 kromosompar, ett sett fra mor og ett sett fra far. Et gen er en bit av DNA-et som inneholder koden til én bestemt egenskap, for eksempel øyenfarge.`,
     },
     {
       sporsmal: `I ribosomene lages kroppens proteiner. Forklar så godt du kan hvordan kroppen bygger et protein.`,
-      fasit: `I cellekjernen ligger DNA-et. Det blir kopiert av mRNA ved hjelp av baseparene (A–T og C–G). Kopien forlater cellekjernen og drar til ribosomet, som bygger proteinet etter oppskriften. Ribosomet leser tre og tre baser om gangen – en triplettkode – og hver triplett bestemmer hvilken aminosyre som skal settes inn og i hvilken rekkefølge. Det finnes rundt 20 ulike aminosyrer, og rekkefølgen på dem avgjør hvilket protein som blir laget.`,
+      fasit: `I cellekjernen ligger DNA-et. Det blir kopiert av mRNA ved hjelp av baseparene (A–T og C–G). Kopien forlater cellekjernen og drar til ribosomet, som bygger proteinet etter oppskriften. Ribosomet leser tre og tre baser om gangen, en triplettkode, og hver triplett bestemmer hvilken aminosyre som skal settes inn og i hvilken rekkefølge. Det finnes rundt 20 ulike aminosyrer, og rekkefølgen på dem avgjør hvilket protein som blir laget.`,
     },
     {
       sporsmal: `Når genvariantene vi arver fra mor og far er ulike (heterozygote), kommer bare egenskapen til den ene fram, mens den andre må vike. Hva kaller vi genet som må vike, og hva kaller vi genet som kommer fram?`,
@@ -195,7 +195,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Forklar hvordan de abiotiske faktorene påvirker de biotiske faktorene i et økosystem.`,
-      fasit: `De abiotiske (ikke-levende) faktorene bestemmer hvilke organismer som kan leve i et område. En endring i temperatur – enten kaldere eller varmere – kan for eksempel føre til at planter og dyr som er tilpasset den gamle temperaturen får problemer eller dør. Det kan også føre til at nye arter dukker opp, eller at området endrer naturtype (for eksempel mer eller mindre is), slik at det blir helt andre plante- og dyrearter der.`,
+      fasit: `De abiotiske (ikke-levende) faktorene bestemmer hvilke organismer som kan leve i et område. En endring i temperatur, enten kaldere eller varmere, kan for eksempel føre til at planter og dyr som er tilpasset den gamle temperaturen får problemer eller dør. Det kan også føre til at nye arter dukker opp, eller at området endrer naturtype (for eksempel mer eller mindre is), slik at det blir helt andre plante- og dyrearter der.`,
     },
     {
       sporsmal: `Hva er forskjellen på et biom og et økosystem? Nevn også hvilke biomer som finnes i Norge.`,
@@ -215,7 +215,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hva er forskjellen på jord og jordsmonn?`,
-      fasit: `Jord er alt løsmateriale som ligger over det faste fjellet – for eksempel mold, leire, sand, grus og store steiner. Morenejord og marin leire er vanlige typer i Norge. Jordsmonn er det vi til daglig kaller «jord»: det øverste laget av jorda som er påvirket av levende organismer. Brunjord og podsol er to vanlige typer jordsmonn i Norge.`,
+      fasit: `Jord er alt løsmateriale som ligger over det faste fjellet, for eksempel mold, leire, sand, grus og store steiner. Morenejord og marin leire er vanlige typer i Norge. Jordsmonn er det vi til daglig kaller «jord»: det øverste laget av jorda som er påvirket av levende organismer. Brunjord og podsol er to vanlige typer jordsmonn i Norge.`,
     },
   ],
   'geologi': [
@@ -229,7 +229,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hvordan er jorda bygd opp inni?`,
-      fasit: `Innerst ligger den indre kjernen, som er fast. Rundt den ligger den ytre kjernen, som er mykere og flytende. Deretter kommer mantelen, som består av varm, flytende stein som kalles magma. Ytterst ligger jordskorpa, som er fast og svært tynn – krymper vi jorda til størrelsen av et eple, er jordskorpa like tynn som skallet på eplet.`,
+      fasit: `Innerst ligger den indre kjernen, som er fast. Rundt den ligger den ytre kjernen, som er mykere og flytende. Deretter kommer mantelen, som består av varm, flytende stein som kalles magma. Ytterst ligger jordskorpa, som er fast og svært tynn, krymper vi jorda til størrelsen av et eple, er jordskorpa like tynn som skallet på eplet.`,
     },
     {
       sporsmal: `Gi så mange bevis du kan på at teorien om kontinentaldrift stemmer.`,
@@ -241,7 +241,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Vi hører av og til at vi «stammer fra apene». Forklar hvorfor dette ikke er helt riktig.`,
-      fasit: `Vi stammer ikke fra dagens aper, men vi er i slekt med dem. Mennesket og menneskeapene har en felles forfader langt tilbake i tid. For flere millioner år siden delte etterkommerne etter denne forfaderen seg i ulike retninger – én linje utviklet seg til dagens aper, og en annen linje utviklet seg til mennesket. Det er altså feil å si at vi nedstammer fra apene; vi har bare et felles opphav.`,
+      fasit: `Vi stammer ikke fra dagens aper, men vi er i slekt med dem. Mennesket og menneskeapene har en felles forfader langt tilbake i tid. For flere millioner år siden delte etterkommerne etter denne forfaderen seg i ulike retninger, én linje utviklet seg til dagens aper, og en annen linje utviklet seg til mennesket. Det er altså feil å si at vi nedstammer fra apene; vi har bare et felles opphav.`,
     },
     {
       sporsmal: `Hva er Charles Darwin kjent for, og hva mente han med «naturlig utvalg»?`,
@@ -249,7 +249,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hvordan forklarer evolusjonsteorien at ulike arter har utviklet seg? Gi minst ett eksempel.`,
-      fasit: `Tilfeldige genetiske endringer (mutasjoner) skaper variasjon innenfor en art. Gjennom naturlig utvalg overlever og formerer de best tilpassede individene seg, slik at de gunstige egenskapene blir vanligere. Over lang tid kan dette føre til at det oppstår nye arter. Et eksempel er Darwins finker på Galápagosøyene: finker med felles opphav utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørke overlevde de finkene som hadde kraftige nebb og kunne knekke harde frø, og avkommet deres fikk større nebb – et tegn på at arten endret seg over tid.`,
+      fasit: `Tilfeldige genetiske endringer (mutasjoner) skaper variasjon innenfor en art. Gjennom naturlig utvalg overlever og formerer de best tilpassede individene seg, slik at de gunstige egenskapene blir vanligere. Over lang tid kan dette føre til at det oppstår nye arter. Et eksempel er Darwins finker på Galápagosøyene: finker med felles opphav utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørke overlevde de finkene som hadde kraftige nebb og kunne knekke harde frø, og avkommet deres fikk større nebb, et tegn på at arten endret seg over tid.`,
     },
   ],
   'kjemi': [
@@ -267,7 +267,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Tegn et karbonatom (på et ark), og forklar hvordan det er bygd opp.`,
-      fasit: `Karbon er grunnstoff nummer 6, så det har 6 protoner i kjernen og 6 elektroner i skallene. Det innerste skallet har plass til bare 2 elektroner, så de 4 siste ligger i det ytterste skallet. I kjernen finnes også nøytroner – antallet kan variere, men en tommelfingerregel er at det er omtrent like mange nøytroner som protoner.`,
+      fasit: `Karbon er grunnstoff nummer 6, så det har 6 protoner i kjernen og 6 elektroner i skallene. Det innerste skallet har plass til bare 2 elektroner, så de 4 siste ligger i det ytterste skallet. I kjernen finnes også nøytroner, antallet kan variere, men en tommelfingerregel er at det er omtrent like mange nøytroner som protoner.`,
     },
     {
       sporsmal: `Hvordan er periodesystemet bygd opp? Forklar hva grupper, perioder og atomnummer er.`,
@@ -279,11 +279,11 @@ export const oppgaver = {
     },
     {
       sporsmal: `Et oksygenatom og to hydrogenatomer deler et par elektroner hver. Hva heter denne bindingen?`,
-      fasit: `Det er en elektronparbinding. Atomene gir ikke fra seg elektroner, men deler dem, slik at alle oppnår fullt ytterste skall. Fordi de deler de samme elektronene, må de holde sammen – og sammen danner de et vannmolekyl.`,
+      fasit: `Det er en elektronparbinding. Atomene gir ikke fra seg elektroner, men deler dem, slik at alle oppnår fullt ytterste skall. Fordi de deler de samme elektronene, må de holde sammen, og sammen danner de et vannmolekyl.`,
     },
     {
       sporsmal: `Hva mener vi med at det alltid er massebevaring i en kjemisk reaksjon?`,
-      fasit: `Massebevaring betyr at atomer verken kan skapes eller forsvinne. Det er nøyaktig like mange atomer av hvert slag før og etter reaksjonen – de er bare satt sammen på en ny måte, slik som legoklosser man bygger om. Derfor må det være like mange atomer på begge sider av en reaksjonslikning.`,
+      fasit: `Massebevaring betyr at atomer verken kan skapes eller forsvinne. Det er nøyaktig like mange atomer av hvert slag før og etter reaksjonen, de er bare satt sammen på en ny måte, slik som legoklosser man bygger om. Derfor må det være like mange atomer på begge sider av en reaksjonslikning.`,
     },
     {
       sporsmal: `Tegn opp pH-skalaen og forklar hvordan du bruker den.`,
@@ -299,11 +299,11 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hva er en indikator, og hvordan kan du finne ut om en vannløsning er sur eller basisk?`,
-      fasit: `En indikator er et stoff som skifter farge etter hvor surt eller basisk noe er. Du kan finne ut om en løsning er sur eller basisk ved å bruke en indikator – for eksempel pH-papir som skifter farge, eller naturlige indikatorer som enkelte planter, frukter og grønnsaker.`,
+      fasit: `En indikator er et stoff som skifter farge etter hvor surt eller basisk noe er. Du kan finne ut om en løsning er sur eller basisk ved å bruke en indikator, for eksempel pH-papir som skifter farge, eller naturlige indikatorer som enkelte planter, frukter og grønnsaker.`,
     },
     {
       sporsmal: `Hva er forskjellen på en sterk og en svak syre, og hva mener vi med at syrer og baser nøytraliserer hverandre?`,
-      fasit: `En syre gir fra seg H⁺-ioner i vann. I en sterk syre gir alle (eller mange) molekyler fra seg H⁺-ioner, mens i en svak syre gir bare noen få fra seg H⁺-ioner – flere H⁺-ioner gjør syren sterkere. At syrer og baser nøytraliserer hverandre, betyr at når de blandes, tar basen opp («spiser») H⁺-ionene fra syren. Da forsvinner både de sure og de basiske egenskapene, og løsningen blir nøytral.`,
+      fasit: `En syre gir fra seg H⁺-ioner i vann. I en sterk syre gir alle (eller mange) molekyler fra seg H⁺-ioner, mens i en svak syre gir bare noen få fra seg H⁺-ioner, flere H⁺-ioner gjør syren sterkere. At syrer og baser nøytraliserer hverandre, betyr at når de blandes, tar basen opp («spiser») H⁺-ionene fra syren. Da forsvinner både de sure og de basiske egenskapene, og løsningen blir nøytral.`,
     },
   ],
   'energi': [
@@ -313,14 +313,14 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hva mener vi med potensiell energi (stillingsenergi)? Gi et eksempel.`,
-      fasit: `Potensiell energi er energi som er lagret, og som kan bli til bevegelse. Et eple som henger i et tre er et eksempel – den potensielle energien er like stor som bevegelsesenergien eplet får når det faller. Vann i en demning, en vedkubbe og mat er andre eksempler.`,
+      fasit: `Potensiell energi er energi som er lagret, og som kan bli til bevegelse. Et eple som henger i et tre er et eksempel, den potensielle energien er like stor som bevegelsesenergien eplet får når det faller. Vann i en demning, en vedkubbe og mat er andre eksempler.`,
     },
     {
       sporsmal: `Hva sier energiloven?`,
       fasit: `Energiloven sier at energi ikke kan skapes eller forsvinne, bare overføres fra én form til en annen. For eksempel kan bevegelsesenergien i vinden overføres til elektrisk energi ved hjelp av en vindmølle.`,
     },
     {
-      sporsmal: `En ball slippes fra 1 meters høyde, treffer bakken og spretter opp igjen – men ikke like høyt. Forklar hvor energien blir av. Bruk fagord.`,
+      sporsmal: `En ball slippes fra 1 meters høyde, treffer bakken og spretter opp igjen, men ikke like høyt. Forklar hvor energien blir av. Bruk fagord.`,
       fasit: `Ballen har en viss mengde energi når den slippes. På veien ned og i sammenstøtet mister den noe energi: noe går til luftmotstand, noe til å deformere ballen (og kanskje bakken), noe blir til lydbølger, og en liten del blir til varme. Fordi en del av energien er overført til andre former, har ballen mindre bevegelsesenergi igjen og kommer derfor ikke like høyt opp som den startet.`,
     },
     {

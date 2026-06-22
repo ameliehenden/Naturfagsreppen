@@ -22,7 +22,7 @@ export const flashcards = {
     },
     {
       begrep: `Yttre kjerne`,
-      forklaring: `Laget rundt den indre kjernen, ca. 2200 km tykt. Består av flytende jern og nikkel – bevegelsen her skaper jordas magnetfelt.`,
+      forklaring: `Laget rundt den indre kjernen, ca. 2200 km tykt. Består av flytende jern og nikkel, bevegelsen her skaper jordas magnetfelt.`,
     },
     {
       begrep: `Indre kjerne`,
@@ -84,7 +84,7 @@ export const flashcards = {
     },
     {
       begrep: `Felles stamfar`,
-      forklaring: `Ideen om at alle levende organismer – dyr, planter, sopp og bakterier – stammer fra den samme urgamle organismen. Jo likere to arter er, jo nærmere felles stamfar har de.`,
+      forklaring: `Ideen om at alle levende organismer, dyr, planter, sopp og bakterier, stammer fra den samme urgamle organismen. Jo likere to arter er, jo nærmere felles stamfar har de.`,
     },
     {
       begrep: `Plantecelle`,
@@ -190,7 +190,7 @@ export const flashcards = {
     },
     {
       begrep: `Nedbryter`,
-      forklaring: `Organismer som bryter ned dødt organisk materiale – for eksempel løv, greiner og døde dyr – til enkle stoffer som plantene kan ta opp igjen. Sopp, bakterier og meitemark er viktige nedbrytere.`,
+      forklaring: `Organismer som bryter ned dødt organisk materiale, for eksempel løv, greiner og døde dyr, til enkle stoffer som plantene kan ta opp igjen. Sopp, bakterier og meitemark er viktige nedbrytere.`,
     },
     {
       begrep: `Næringskjede`,
@@ -206,7 +206,7 @@ export const flashcards = {
     },
     {
       begrep: `Rødlista`,
-      forklaring: `En oversikt over arter som er truet av utryddelse eller har blitt sjeldnere. Artene deles inn i kategorier etter risiko for utdøing – den alvorligste kategorien er «kritisk truet».`,
+      forklaring: `En oversikt over arter som er truet av utryddelse eller har blitt sjeldnere. Artene deles inn i kategorier etter risiko for utdøing, den alvorligste kategorien er «kritisk truet».`,
     },
     {
       begrep: `Biom`,
@@ -220,7 +220,7 @@ export const flashcards = {
   'klima-og-baerekraft': [
     {
       begrep: `Bærekraftig utvikling`,
-      forklaring: `Å dekke dagens behov uten å ødelegge mulighetene for at framtidige generasjoner skal få dekket sine behov – blant annet ved å bruke naturressurser uten å ødelegge dem.`,
+      forklaring: `Å dekke dagens behov uten å ødelegge mulighetene for at framtidige generasjoner skal få dekket sine behov, blant annet ved å bruke naturressurser uten å ødelegge dem.`,
     },
     {
       begrep: `Føre-var-prinsippet`,
@@ -260,7 +260,7 @@ export const flashcards = {
     },
     {
       begrep: `Ozonhull`,
-      forklaring: `Steder der ozonlaget rundt jorda (jordas solkrem) er tynnere enn det skal være. Ozonlaget har ingenting med global oppvarming å gjøre – det beskytter oss mot farlig UV-stråling, særlig UV-B.`,
+      forklaring: `Steder der ozonlaget rundt jorda (jordas solkrem) er tynnere enn det skal være. Ozonlaget har ingenting med global oppvarming å gjøre, det beskytter oss mot farlig UV-stråling, særlig UV-B.`,
     },
     {
       begrep: `Global oppvarming`,
@@ -334,7 +334,7 @@ export const flashcards = {
     },
     {
       begrep: `Hukommelsescelle`,
-      forklaring: `En lymfocytt som husker et smittestoff kroppen har møtt før. Møter kroppen samme smittestoff igjen, reagerer immunforsvaret mye raskere – det er dette en vaksine utnytter.`,
+      forklaring: `En lymfocytt som husker et smittestoff kroppen har møtt før. Møter kroppen samme smittestoff igjen, reagerer immunforsvaret mye raskere, det er dette en vaksine utnytter.`,
     },
     {
       begrep: `Medfødt immunforsvar`,
@@ -370,7 +370,7 @@ export const flashcards = {
     },
     {
       begrep: `Patogen`,
-      forklaring: `En sykdomsfremkallende mikroorganisme, altså et smittestoff som kan gjøre oss syke – for eksempel et virus eller en bakterie.`,
+      forklaring: `En sykdomsfremkallende mikroorganisme, altså et smittestoff som kan gjøre oss syke, for eksempel et virus eller en bakterie.`,
     },
     {
       begrep: `Virus`,
@@ -424,7 +424,7 @@ export const flashcards = {
     },
     {
       begrep: `Refleks`,
-      forklaring: `En rask, automatisk reaksjon der nervesignalet går til ryggmargen og sendes rett tilbake – uten å gå om hjernen. Slik kan vi for eksempel trekke hånda vekk fra noe varmt før vi kjenner smerten.`,
+      forklaring: `En rask, automatisk reaksjon der nervesignalet går til ryggmargen og sendes rett tilbake, uten å gå om hjernen. Slik kan vi for eksempel trekke hånda vekk fra noe varmt før vi kjenner smerten.`,
     },
     {
       begrep: `Smertesansen`,
@@ -436,7 +436,7 @@ export const flashcards = {
     },
     {
       begrep: `Hypofysen`,
-      forklaring: `Den overordnede hormonkjertelen – «sjefen» – som ligger under hjernen. Den styrer de andre hormonkjertlene ved å fortelle dem om de skal lage mer eller mindre hormon.`,
+      forklaring: `Den overordnede hormonkjertelen, «sjefen», som ligger under hjernen. Den styrer de andre hormonkjertlene ved å fortelle dem om de skal lage mer eller mindre hormon.`,
     },
     {
       begrep: `Adrenalin`,
@@ -468,7 +468,7 @@ export const flashcards = {
     },
     {
       begrep: `Rusmiddel`,
-      forklaring: `Et stoff man tar for å bli ruset – for å endre humør og bevissthet. Det virker på signalstoffene i hjernen. Eksempler er alkohol, nikotin og narkotika. Rusmidler kan skade kroppen og føre til avhengighet.`,
+      forklaring: `Et stoff man tar for å bli ruset, for å endre humør og bevissthet. Det virker på signalstoffene i hjernen. Eksempler er alkohol, nikotin og narkotika. Rusmidler kan skade kroppen og føre til avhengighet.`,
     },
     {
       begrep: `Doping`,
@@ -546,7 +546,7 @@ export const flashcards = {
     },
     {
       begrep: `Edelgasser`,
-      forklaring: `Grunnstoffene i gruppe 18. De har fullt ytterste skall og er svært stabile – de reagerer nesten ikke med andre stoffer.`,
+      forklaring: `Grunnstoffene i gruppe 18. De har fullt ytterste skall og er svært stabile, de reagerer nesten ikke med andre stoffer.`,
     },
     {
       begrep: `Alkalimetaller`,
@@ -628,7 +628,7 @@ export const flashcards = {
     },
     {
       begrep: `Energiloven`,
-      forklaring: `Energi kan verken skapes eller forsvinne – den kan bare overføres fra én energiform til en annen.`,
+      forklaring: `Energi kan verken skapes eller forsvinne, den kan bare overføres fra én energiform til en annen.`,
     },
     {
       begrep: `Energikvalitet`,
@@ -652,7 +652,7 @@ export const flashcards = {
     },
     {
       begrep: `Spenningsrekka`,
-      forklaring: `En rekke som viser hvor lett ulike metaller gir fra seg elektroner. Jo lenger fra hverandre to metaller står, desto større spenning gir de – som i et sitronbatteri.`,
+      forklaring: `En rekke som viser hvor lett ulike metaller gir fra seg elektroner. Jo lenger fra hverandre to metaller står, desto større spenning gir de, som i et sitronbatteri.`,
     },
     {
       begrep: `Forbrenningsreaksjon`,
@@ -684,11 +684,11 @@ export const flashcards = {
     },
     {
       begrep: `Masse`,
-      forklaring: `Stoffmengden i en gjenstand – hvor mye stoff den er bygd opp av. Måles i kilogram (kg) og er alltid den samme.`,
+      forklaring: `Stoffmengden i en gjenstand, hvor mye stoff den er bygd opp av. Måles i kilogram (kg) og er alltid den samme.`,
     },
     {
       begrep: `Tyngde`,
-      forklaring: `Kraften tyngdekraften trekker en gjenstand mot jorda med – omtrent 10 ganger massen. Tyngden varierer med hvor du er (mindre på månen), mens massen er konstant.`,
+      forklaring: `Kraften tyngdekraften trekker en gjenstand mot jorda med, omtrent 10 ganger massen. Tyngden varierer med hvor du er (mindre på månen), mens massen er konstant.`,
     },
     {
       begrep: `Arbeid`,

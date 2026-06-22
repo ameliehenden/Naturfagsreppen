@@ -5,9 +5,9 @@
 // resultat og bilder.
 export const forsok = {
   'klima-og-baerekraft': [
-    { tittel: `Havforsuring – observasjon av pH i vann` },
-    { tittel: `Havnivåstigning – varmt vann utvider seg` },
-    { tittel: `Havnivåstigning – issmelting` },
+    { tittel: `Havforsuring, observasjon av pH i vann` },
+    { tittel: `Havnivåstigning, varmt vann utvider seg` },
+    { tittel: `Havnivåstigning, issmelting` },
     { tittel: `Gass i kaldt og varmt vann` },
   ],
   'geologi': [
@@ -25,11 +25,11 @@ export const forsok = {
     { tittel: `Bruke oss selv som modell av nervecelle` },
     {
       tittel: `Tekst i farger (Stroop-testen)`,
-      innledning: `Hjernen din er så vant til å lese at den nesten ikke klarer å la være. I dette forsøket skal du si hvilken farge ordene er skrevet i – ikke lese selve ordet. Det høres lett ut, men hjernen vil hele tiden lese ordet i stedet, og da bremser den deg. Dette kalles Stroop-effekten.`,
+      innledning: `Hjernen din er så vant til å lese at den nesten ikke klarer å la være. I dette forsøket skal du si hvilken farge ordene er skrevet i, ikke lese selve ordet. Det høres lett ut, men hjernen vil hele tiden lese ordet i stedet, og da bremser den deg. Dette kalles Stroop-effekten.`,
       slik: [
         `Gå sammen to og to og ta tida på hverandre.`,
         `Først: les ordene høyt slik de står (altså selve ordet), så raskt du kan. Noter tiden.`,
-        `Så: si høyt hvilken farge hvert ord er skrevet i, så raskt du kan – uten å lese ordet. Noter tiden.`,
+        `Så: si høyt hvilken farge hvert ord er skrevet i, så raskt du kan, uten å lese ordet. Noter tiden.`,
         `Sammenlign de to tidene. Hva gikk raskest?`,
       ],
       fargeord: [
@@ -60,7 +60,7 @@ export const forsok = {
         `Hvordan tror du resultatet hadde blitt dersom teksten sto på et språk du ikke forstod?`,
         `Hva forteller dette forsøket om hvordan hjernen behandler informasjon?`,
       ],
-      forklaring: `Grunnen til at det blir krøll med fargene, er at nervesystemet er laget for å lære gjennom gjentakelse. Hver gang du leser et ord, styrkes nerveforbindelsene som kobler synet av ordet til uttalen av det. Etter hvert skjer dette nesten uten at du tenker over det, og det går nærmest automatisk. Nervesystemet er laget slik at oppgaver du har gjort mange ganger, ikke lenger krever full oppmerksomhet. Problemet i denne testen er at du nå må overstyre denne automatikken. Det krever mer bevisst kontroll fra hjernen, og det tar tid – derfor blir du langsommere og gjør flere feil når fargen og ordet ikke stemmer overens.`,
+      forklaring: `Grunnen til at det blir krøll med fargene, er at nervesystemet er laget for å lære gjennom gjentakelse. Hver gang du leser et ord, styrkes nerveforbindelsene som kobler synet av ordet til uttalen av det. Etter hvert skjer dette nesten uten at du tenker over det, og det går nærmest automatisk. Nervesystemet er laget slik at oppgaver du har gjort mange ganger, ikke lenger krever full oppmerksomhet. Problemet i denne testen er at du nå må overstyre denne automatikken. Det krever mer bevisst kontroll fra hjernen, og det tar tid. Derfor blir du langsommere og gjør flere feil når fargen og ordet ikke stemmer overens.`,
     },
   ],
   'immunsystemet': [
@@ -104,7 +104,7 @@ export const forsok = {
     },
   ],
   'kjemi': [
-    { tittel: `Påvisningsreaksjoner – kalkvann` },
+    { tittel: `Påvisningsreaksjoner, kalkvann` },
     { tittel: `Havforsuring` },
     { tittel: `Elektrolyse av kobberklorid` },
     { tittel: `Finne pH i ulike væsker` },

@@ -1,9 +1,9 @@
 // Quiz (flervalg) per emne. Nøkkelen er emnets id (se emner.js).
 //
 // Hvert spørsmål har:
-//   sporsmal – selve spørsmålet
-//   riktig   – det ene riktige svaret
-//   feil     – tre gale (men troverdige) alternativer
+//   sporsmal, selve spørsmålet
+//   riktig  , det ene riktige svaret
+//   feil    , tre gale (men troverdige) alternativer
 //
 // Alternativene stokkes tilfeldig, så rekkefølgen spiller ingen rolle.
 export const quiz = {
@@ -37,11 +37,11 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er den indre kjernen?`,
-      riktig: `Det innerste laget av jorda – fast jern og nikkel med temperaturer rundt 5000–6000°C.`,
+      riktig: `Det innerste laget av jorda, fast jern og nikkel med temperaturer rundt 5000–6000°C.`,
       feil: [
-        `Det innerste laget av jorda – flytende jern og nikkel.`,
-        `Det innerste laget av jorda – smeltet stein og mineraler.`,
-        `Det innerste laget av jorda – komprimert berggrunn under enormt trykk.`,
+        `Det innerste laget av jorda, flytende jern og nikkel.`,
+        `Det innerste laget av jorda, smeltet stein og mineraler.`,
+        `Det innerste laget av jorda, komprimert berggrunn under enormt trykk.`,
       ],
     },
     {
@@ -100,7 +100,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er forskjellen på magma og lava?`,
-      riktig: `Magma er smeltet stein inne i jorda – det kalles lava når det bryter ut på overflaten.`,
+      riktig: `Magma er smeltet stein inne i jorda, det kalles lava når det bryter ut på overflaten.`,
       feil: [
         `Magma er varmere enn lava og flyter saktere.`,
         `Magma er smeltet stein på overflaten, mens lava er smeltet stein inne i jorda.`,
@@ -118,10 +118,10 @@ export const quiz = {
     },
     {
       sporsmal: `I hvilken del av atmosfæren skjer alt vær?`,
-      riktig: `Troposfæren – det nederste laget, fra bakken opp til ca. 12 km høyde.`,
+      riktig: `Troposfæren, det nederste laget, fra bakken opp til ca. 12 km høyde.`,
       feil: [
-        `Stratosfæren – laget fra ca. 12 til 50 km høyde.`,
-        `Mesosfæren – laget fra ca. 50 til 80 km høyde.`,
+        `Stratosfæren, laget fra ca. 12 til 50 km høyde.`,
+        `Mesosfæren, laget fra ca. 50 til 80 km høyde.`,
         `Troposfæren og stratosfæren bidrar likt til værdannelsen.`,
       ],
     },
@@ -284,16 +284,16 @@ export const quiz = {
     },
     {
       sporsmal: `Hva skjer i mitokondriene?`,
-      riktig: `Celleåndingen – glukose og oksygen omdannes til energi, vann og CO₂.`,
+      riktig: `Celleåndingen, glukose og oksygen omdannes til energi, vann og CO₂.`,
       feil: [
-        `Fotosyntesen – sollys, CO₂ og vann omdannes til glukose og oksygen.`,
-        `Proteinsyntesen – DNA-oppskriften omsettes til proteiner.`,
+        `Fotosyntesen, sollys, CO₂ og vann omdannes til glukose og oksygen.`,
+        `Proteinsyntesen, DNA-oppskriften omsettes til proteiner.`,
         `Fordøyelsen av avfall og inntrengere ved hjelp av enzymer.`,
       ],
     },
     {
       sporsmal: `Hva er kloroplastenes funksjon?`,
-      riktig: `Stedet der fotosyntesen foregår – de fanger sollys ved hjelp av fargestoffet klorofyll.`,
+      riktig: `Stedet der fotosyntesen foregår, de fanger sollys ved hjelp av fargestoffet klorofyll.`,
       feil: [
         `De produserer energi ved å bryte ned glukose, akkurat som mitokondriene.`,
         `De lagrer næringsstoffer og vann til bruk i andre deler av cellen.`,
@@ -338,7 +338,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er genetisk variasjon, og hvorfor er det viktig?`,
-      riktig: `Forskjeller i arveegenskaper mellom individer – det er grunnlaget for naturlig utvalg og evolusjon.`,
+      riktig: `Forskjeller i arveegenskaper mellom individer, det er grunnlaget for naturlig utvalg og evolusjon.`,
       feil: [
         `Forskjeller i utseende mellom individer som utelukkende skyldes ulikt kosthold og miljø.`,
         `Genetiske egenskaper som er helt like hos alle individer i en populasjon.`,
@@ -452,7 +452,7 @@ export const quiz = {
       feil: [
         `Gjennomsnittlig vær og vind gjennom et helt år.`,
         `Gjennomsnittsværet for et område over mange år.`,
-        `Bare temperatur og vind – nedbør regnes som klima.`,
+        `Bare temperatur og vind, nedbør regnes som klima.`,
       ],
     },
     {
@@ -722,7 +722,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva gjør det autonome systemet?`,
-      riktig: `Styrer kjertler, glatt muskulatur og hjertet – det vi ikke styrer med viljen.`,
+      riktig: `Styrer kjertler, glatt muskulatur og hjertet, det vi ikke styrer med viljen.`,
       feil: [
         `Styrer musklene vi beveger med viljen.`,
         `Sender informasjon fra sansene til hjernen.`,
@@ -785,7 +785,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hvordan samarbeider insulin og glukagon?`,
-      riktig: `Insulin senker blodsukkeret, og glukagon øker det – sammen holder de blodsukkeret stabilt.`,
+      riktig: `Insulin senker blodsukkeret, og glukagon øker det, sammen holder de blodsukkeret stabilt.`,
       feil: [
         `Begge senker blodsukkeret så raskt som mulig.`,
         `Insulin øker blodsukkeret, og glukagon senker det.`,
@@ -797,7 +797,7 @@ export const quiz = {
       riktig: `Legemidler brukes for å forebygge, lindre eller kurere sykdom, mens rusmidler tas for å bli ruset og endre humør og bevissthet.`,
       feil: [
         `Legemidler tas for å bli ruset, mens rusmidler brukes mot sykdom.`,
-        `Det er ingen forskjell – det er to ord for det samme.`,
+        `Det er ingen forskjell, det er to ord for det samme.`,
         `Legemidler er alltid ulovlige, mens rusmidler alltid er lovlige.`,
       ],
     },
@@ -812,7 +812,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hvorfor passer rusmidler og doping inn under temaet nerve- og hormonsystemet?`,
-      riktig: `Fordi de griper inn i signalene i nerve- og hormonsystemet – rusmidler virker på hjernen, og doping forstyrrer hormonsystemet.`,
+      riktig: `Fordi de griper inn i signalene i nerve- og hormonsystemet, rusmidler virker på hjernen, og doping forstyrrer hormonsystemet.`,
       feil: [
         `Fordi de bare påvirker musklene og ingenting annet.`,
         `Fordi de styrker immunforsvaret mot sykdom.`,
@@ -825,7 +825,7 @@ export const quiz = {
       feil: [
         `Type 1 er en livsstilssykdom, mens type 2 er medfødt.`,
         `Type 1 skyldes for mye insulin, mens type 2 skyldes for mye glukagon.`,
-        `Det er ingen forskjell – det er to navn på samme sykdom.`,
+        `Det er ingen forskjell, det er to navn på samme sykdom.`,
       ],
     },
     {
@@ -989,7 +989,7 @@ export const quiz = {
       feil: [
         `Organiske syrer er alltid sterkere enn uorganiske syrer.`,
         `Organiske syrer inneholder ikke karbon, men det gjør uorganiske.`,
-        `Det er ingen forskjell – det er to navn på det samme.`,
+        `Det er ingen forskjell, det er to navn på det samme.`,
       ],
     },
     {
@@ -1077,7 +1077,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er amplituden til en bølge?`,
-      riktig: `Høyden fra midten av bølgen opp til en bølgetopp – den henger sammen med energien i bølgen.`,
+      riktig: `Høyden fra midten av bølgen opp til en bølgetopp, den henger sammen med energien i bølgen.`,
       feil: [
         `Avstanden mellom to bølgetopper.`,
         `Antall bølger per sekund.`,

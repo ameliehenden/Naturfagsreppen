@@ -13,7 +13,7 @@ export const sammendrag = {
   'geologi': [
     {
       tittel: `Jordas indre`,
-      tekst: `Jorda er bygget opp av lag, litt som en løk. Innerst finner vi den indre kjernen, som er fast og svært varm. Rundt denne ligger den ytre kjernen, som er noe mykere. Videre utover finner vi mantelen, som består av flytende stein kalt magma. Ytterst finner vi jordskorpa – det tynne, faste laget vi lever på. Jordskorpa er faktisk tynnere i forhold til resten av jorda enn skallet på en fersken er i forhold til frukten.`,
+      tekst: `Jorda er bygget opp av lag, litt som en løk. Innerst finner vi den indre kjernen, som er fast og svært varm. Rundt denne ligger den ytre kjernen, som er noe mykere. Videre utover finner vi mantelen, som består av flytende stein kalt magma. Ytterst finner vi jordskorpa, det tynne, faste laget vi lever på. Jordskorpa er faktisk tynnere i forhold til resten av jorda enn skallet på en fersken er i forhold til frukten.`,
       figur: `jordas-lag`,
     },
     {
@@ -22,7 +22,7 @@ export const sammendrag = {
     },
     {
       tittel: `Kontinentaldrift og plattektonikk`,
-      tekst: `Jordskorpa er delt inn i store steinplater kalt kontinentalplater, og disse platene beveger seg – svært langsomt, men hele tida. Hastigheten er omtrent 2 centimeter i året, noe som betyr at det faktisk blir litt lenger å reise fra Norge til USA hvert eneste år. Der plater beveger seg fra hverandre, strømmer magma opp og danner ny havbunn. Der de presser mot hverandre, kan fjell heves eller én plate skyves ned under den andre. Det var slik Atlanterhavet ble til: den eurasiske og den amerikanske platen sprakk fra hverandre i Tertiærtiden, for mellom 65 og 2 millioner år siden.`,
+      tekst: `Jordskorpa er delt inn i store steinplater kalt kontinentalplater, og disse platene beveger seg, svært langsomt, men hele tida. Hastigheten er omtrent 2 centimeter i året, noe som betyr at det faktisk blir litt lenger å reise fra Norge til USA hvert eneste år. Der plater beveger seg fra hverandre, strømmer magma opp og danner ny havbunn. Der de presser mot hverandre, kan fjell heves eller én plate skyves ned under den andre. Det var slik Atlanterhavet ble til: den eurasiske og den amerikanske platen sprakk fra hverandre i Tertiærtiden, for mellom 65 og 2 millioner år siden.`,
       figur: `kontinentaldrift`,
     },
     {
@@ -35,17 +35,17 @@ export const sammendrag = {
     },
     {
       tittel: `Jordas atmosfære og drivhuseffekten`,
-      tekst: `Atmosfæren er luftlaget rundt jorda og gjør det mulig for oss å leve her. Det nederste laget kalles troposfæren, og det er her vi finner skyer, nedbør og oksygenet vi puster. Oksygenet var ikke alltid i atmosfæren – de første milliarder av år besto lufta av andre gasser. Det var fotosyntesen som ga oss oksygenet: de første plantecellene i havet, som vi kaller planteplankton, begynte å omdanne sollys, vann og karbondioksid til glukose og oksygen. Etter hvert bygde oksygenet seg opp, først i havet, deretter i atmosfæren. Drivhuseffekten sørger for at varmen fra sola ikke slipper rett ut i verdensrommet igjen. Uten drivhuseffekten ville det vært iskalde netter og svært varme dager – og liv slik vi kjenner det ville ikke vært mulig.`,
+      tekst: `Atmosfæren er luftlaget rundt jorda og gjør det mulig for oss å leve her. Det nederste laget kalles troposfæren, og det er her vi finner skyer, nedbør og oksygenet vi puster. Oksygenet var ikke alltid i atmosfæren, de første milliarder av år besto lufta av andre gasser. Det var fotosyntesen som ga oss oksygenet: de første plantecellene i havet, som vi kaller planteplankton, begynte å omdanne sollys, vann og karbondioksid til glukose og oksygen. Etter hvert bygde oksygenet seg opp, først i havet, deretter i atmosfæren. Drivhuseffekten sørger for at varmen fra sola ikke slipper rett ut i verdensrommet igjen. Uten drivhuseffekten ville det vært iskalde netter og svært varme dager, og liv slik vi kjenner det ville ikke vært mulig.`,
     },
     {
       tittel: `Jordas historie og livets utvikling`,
-      tekst: `Jorda ble dannet for omtrent 4,5 milliarder år siden. Overflaten var i begynnelsen dekket av lava, men etter hvert størknet den til jordskorpa vi kjenner i dag. De første sporene av liv finner vi for rundt 3,8 milliarder år siden. Tida før avanserte livsformer oppsto for ca. 550 millioner år siden kaller vi jordas urtid. Siden da har livet utviklet seg gjennom evolusjon: organismer som er godt tilpasset miljøet overlever og får avkom, og slik endrer arter seg over tid. Det biologiske mangfoldet – altså variasjonen av gener, arter og naturtyper – er viktig for at økosystemene skal fungere og tåle forandringer. Mennesket og sjimpansen har felles forfedre, og det som skiller oss fra apene er blant annet at vi går oppreist, har tommelen på motsatt side, har et svært utviklet hjerne og bruker avansert språk og teknologi.`,
+      tekst: `Jorda ble dannet for omtrent 4,5 milliarder år siden. Overflaten var i begynnelsen dekket av lava, men etter hvert størknet den til jordskorpa vi kjenner i dag. De første sporene av liv finner vi for rundt 3,8 milliarder år siden. Tida før avanserte livsformer oppsto for ca. 550 millioner år siden kaller vi jordas urtid. Siden da har livet utviklet seg gjennom evolusjon: organismer som er godt tilpasset miljøet overlever og får avkom, og slik endrer arter seg over tid. Det biologiske mangfoldet, altså variasjonen av gener, arter og naturtyper, er viktig for at økosystemene skal fungere og tåle forandringer. Mennesket og sjimpansen har felles forfedre, og det som skiller oss fra apene er blant annet at vi går oppreist, har tommelen på motsatt side, har et svært utviklet hjerne og bruker avansert språk og teknologi.`,
     },
   ],
   'celler-og-livets-utvikling': [
     {
-      tittel: `Cella – livets byggestein`,
-      tekst: `Alt levende er bygd opp av celler, og cella er grunnenheten i alle levende organismer. For at noe skal regnes som levende, må det kunne skaffe seg energi, vokse og få avkom. Levende organismer reagerer også på påvirkninger utenfra, kan regulere sitt eget indre miljø, og de inneholder arvestoff. Noen organismer består av bare én celle, som amøber og bakterier. Andre er flercellede, som dyr og planter. Hos flercellede organismer er cellene som oftest spesialiserte – de har bestemte oppgaver i kroppen, slik som hudceller, blodceller og nerveceller.`,
+      tittel: `Cella, livets byggestein`,
+      tekst: `Alt levende er bygd opp av celler, og cella er grunnenheten i alle levende organismer. For at noe skal regnes som levende, må det kunne skaffe seg energi, vokse og få avkom. Levende organismer reagerer også på påvirkninger utenfra, kan regulere sitt eget indre miljø, og de inneholder arvestoff. Noen organismer består av bare én celle, som amøber og bakterier. Andre er flercellede, som dyr og planter. Hos flercellede organismer er cellene som oftest spesialiserte, de har bestemte oppgaver i kroppen, slik som hudceller, blodceller og nerveceller.`,
     },
     {
       tittel: `Celler med og uten cellekjerne`,
@@ -53,16 +53,16 @@ export const sammendrag = {
     },
     {
       tittel: `Organellene og oppgavene deres`,
-      tekst: `Hver organelle har sin egen jobb. Mitokondriene er kraftverket i cella og skaffer energi gjennom celleåndingen. Cytoplasma er cellevæska som omgir organellene. Cellekjernen inneholder kromosomer og DNA – oppskriften på hvordan organismen skal bygges. Ribosomene bygger proteiner ut fra oppskriftene i cellekjernen, og cellemembranen holder hele cella samlet. Golgiapparatet sorterer proteiner og sender dem dit de skal. Lysosomene er renholdsverket som bryter ned avfallsstoffer. I plantecellene finner vi i tillegg kloroplaster, som inneholder grønt klorofyll og er der fotosyntesen skjer, en stiv cellevegg rundt cella, og en vakuole (saftrom) som holder trykket oppe og fungerer som vannreserve.`,
+      tekst: `Hver organelle har sin egen jobb. Mitokondriene er kraftverket i cella og skaffer energi gjennom celleåndingen. Cytoplasma er cellevæska som omgir organellene. Cellekjernen inneholder kromosomer og DNA, oppskriften på hvordan organismen skal bygges. Ribosomene bygger proteiner ut fra oppskriftene i cellekjernen, og cellemembranen holder hele cella samlet. Golgiapparatet sorterer proteiner og sender dem dit de skal. Lysosomene er renholdsverket som bryter ned avfallsstoffer. I plantecellene finner vi i tillegg kloroplaster, som inneholder grønt klorofyll og er der fotosyntesen skjer, en stiv cellevegg rundt cella, og en vakuole (saftrom) som holder trykket oppe og fungerer som vannreserve.`,
       figur: `celle`,
     },
     {
-      tittel: `Virus – levende eller ikke?`,
-      tekst: `Virus er ikke celler og mangler kjennetegnene på levende organismer. Derfor regnes de ikke som levende. Et virus består bare av arvestoff (DNA) med en proteinkappe rundt, og det er svært lite – mellom 10 og 100 ganger mindre enn en bakterie. For å formere seg er virus helt avhengige av levende celler. Når et virus invaderer en celle, tar virusets arvestoff kontroll over cella, og cella begynner å produsere nye virus i stedet for å gjøre sine egne oppgaver.`,
+      tittel: `Virus, levende eller ikke?`,
+      tekst: `Virus er ikke celler og mangler kjennetegnene på levende organismer. Derfor regnes de ikke som levende. Et virus består bare av arvestoff (DNA) med en proteinkappe rundt, og det er svært lite, mellom 10 og 100 ganger mindre enn en bakterie. For å formere seg er virus helt avhengige av levende celler. Når et virus invaderer en celle, tar virusets arvestoff kontroll over cella, og cella begynner å produsere nye virus i stedet for å gjøre sine egne oppgaver.`,
     },
     {
       tittel: `Fotosyntesen`,
-      tekst: `Fotosyntesen skjer i kloroplastene i plantecellene og er helt sentral for livet på jorda. I fotosyntesen omdannes energien i sollyset til energi som både planter og dyr trenger i livsfunksjonene sine. Vann og karbondioksid blir til glukose og oksygen: 6H₂O + 6CO₂ → C₆H₁₂O₆ + 6O₂. Vannet spaltes opp, og planten beholder hydrogenet, men «spytter ut» oksygenet den ikke trenger. Glukosen lagres som stivelse og cellulose i planten – cellulose er det vi også kaller kostfiber.`,
+      tekst: `Fotosyntesen skjer i kloroplastene i plantecellene og er helt sentral for livet på jorda. I fotosyntesen omdannes energien i sollyset til energi som både planter og dyr trenger i livsfunksjonene sine. Vann og karbondioksid blir til glukose og oksygen: 6H₂O + 6CO₂ → C₆H₁₂O₆ + 6O₂. Vannet spaltes opp, og planten beholder hydrogenet, men «spytter ut» oksygenet den ikke trenger. Glukosen lagres som stivelse og cellulose i planten, cellulose er det vi også kaller kostfiber.`,
     },
     {
       tittel: `Celleånding`,
@@ -75,7 +75,7 @@ export const sammendrag = {
     },
     {
       tittel: `Kromosomer, DNA og gener`,
-      tekst: `Arvestoffet overfører informasjon fra én generasjon til den neste. Det er samlet i kromosomer inne i cellekjernen, og finnes i alle celler. Mennesket har 23 kromosompar – ett sett fra mor og ett sett fra far. Kromosomene er gigantiske, trådformede kjempemolekyler som kalles DNA. Når en celle deler seg, kopieres kromosomene slik at de nye cellene får med seg de samme genetiske kodene. Et gen er en liten bit av et DNA-molekyl, og inneholder oppskriften på et bestemt protein.`,
+      tekst: `Arvestoffet overfører informasjon fra én generasjon til den neste. Det er samlet i kromosomer inne i cellekjernen, og finnes i alle celler. Mennesket har 23 kromosompar, ett sett fra mor og ett sett fra far. Kromosomene er gigantiske, trådformede kjempemolekyler som kalles DNA. Når en celle deler seg, kopieres kromosomene slik at de nye cellene får med seg de samme genetiske kodene. Et gen er en liten bit av et DNA-molekyl, og inneholder oppskriften på et bestemt protein.`,
     },
     {
       tittel: `Oppskriften på en organisme`,
@@ -89,7 +89,7 @@ export const sammendrag = {
   'immunsystemet': [
     {
       tittel: `Blodet vårt`,
-      tekst: `Blodet består av blodplasma – en tyktflytende væske – og tre hovedtyper blodceller. De røde blodcellene (erytrocytter) frakter oksygen rundt i kroppen. Blodplatene (trombocytter) sørger for at blodet størkner når vi blør. De hvite blodcellene (leukocytter) er kroppens forsvarsceller, og det er disse som utgjør selve immunforsvaret.`,
+      tekst: `Blodet består av blodplasma, en tyktflytende væske, og tre hovedtyper blodceller. De røde blodcellene (erytrocytter) frakter oksygen rundt i kroppen. Blodplatene (trombocytter) sørger for at blodet størkner når vi blør. De hvite blodcellene (leukocytter) er kroppens forsvarsceller, og det er disse som utgjør selve immunforsvaret.`,
     },
     {
       tittel: `Et ytre og et indre immunforsvar`,
@@ -97,19 +97,19 @@ export const sammendrag = {
     },
     {
       tittel: `Medfødt og ervervet forsvar`,
-      tekst: `Det indre immunforsvaret har to deler som arbeider sammen. Det medfødte forsvaret virker raskt og angriper alle inntrengere på samme måte – her er fagocyttene viktigst. Det ervervede forsvaret utvikler seg gjennom livet og er mer spesialisert: det lærer seg å kjenne igjen bestemte smittestoffer. Det tar gjerne noen dager fra du blir smittet til det ervervede forsvaret, med lymfocyttene, kommer skikkelig i gang. Til gjengjeld husker det smittestoffet etterpå.`,
+      tekst: `Det indre immunforsvaret har to deler som arbeider sammen. Det medfødte forsvaret virker raskt og angriper alle inntrengere på samme måte. Her er fagocyttene viktigst. Det ervervede forsvaret utvikler seg gjennom livet og er mer spesialisert: det lærer seg å kjenne igjen bestemte smittestoffer. Det tar gjerne noen dager fra du blir smittet til det ervervede forsvaret, med lymfocyttene, kommer skikkelig i gang. Til gjengjeld husker det smittestoffet etterpå.`,
     },
     {
       tittel: `De hvite blodcellene`,
-      tekst: `De hvite blodcellene (leukocyttene) finnes i flere typer. Fagocyttene kalles også eteceller, fordi de «spiser» inntrengere i en prosess som heter fagocytose. Store fagocytter kalles makrofager. Lymfocyttene deles i to hovedtyper: B-celler lager antistoffer – proteiner som passer til ett bestemt smittestoff og merker det for ødeleggelse – mens T-celler er drepeceller som dreper kroppens egne celler når de er blitt syke, for eksempel celler som er infisert av virus eller har blitt til kreftceller. Noen lymfocytter blir til hukommelsesceller. Disse husker smittestoffet, slik at kroppen reagerer mye raskere hvis den møter det samme smittestoffet igjen senere.`,
+      tekst: `De hvite blodcellene (leukocyttene) finnes i flere typer. Fagocyttene kalles også eteceller, fordi de «spiser» inntrengere i en prosess som heter fagocytose. Store fagocytter kalles makrofager. Lymfocyttene deles i to hovedtyper: B-celler lager antistoffer, proteiner som passer til ett bestemt smittestoff og merker det for ødeleggelse, mens T-celler er drepeceller som dreper kroppens egne celler når de er blitt syke, for eksempel celler som er infisert av virus eller har blitt til kreftceller. Noen lymfocytter blir til hukommelsesceller. Disse husker smittestoffet, slik at kroppen reagerer mye raskere hvis den møter det samme smittestoffet igjen senere.`,
     },
     {
       tittel: `Hvorfor får vi feber?`,
-      tekst: `Feber er et av kroppens våpen mot infeksjoner. De hvite blodcellene slipper ut et feberfremkallende stoff som hjernen oppfatter, og kroppen setter da i gang en «frysereaksjon» for å holde på varmen – derfor fryser vi når temperaturen stiger. De fleste sykdomsfremkallende mikroorganismene trives best ved normal kroppstemperatur på rundt 35–37 °C, og de formerer seg saktere når vi har feber. Samtidig jobber immunforsvaret mer effektivt: fagocyttene rydder bort smittestoff raskere, og kroppen aktiverer flere T-celler og produserer mer antistoff. Når temperaturen synker igjen, svetter vi. Febernedsettende medisiner gir derfor svetting, og når virkningen avtar etter noen timer, kan frysetoktene komme tilbake.`,
+      tekst: `Feber er et av kroppens våpen mot infeksjoner. De hvite blodcellene slipper ut et feberfremkallende stoff som hjernen oppfatter, og kroppen setter da i gang en «frysereaksjon» for å holde på varmen. Derfor fryser vi når temperaturen stiger. De fleste sykdomsfremkallende mikroorganismene trives best ved normal kroppstemperatur på rundt 35–37 °C, og de formerer seg saktere når vi har feber. Samtidig jobber immunforsvaret mer effektivt: fagocyttene rydder bort smittestoff raskere, og kroppen aktiverer flere T-celler og produserer mer antistoff. Når temperaturen synker igjen, svetter vi. Febernedsettende medisiner gir derfor svetting, og når virkningen avtar etter noen timer, kan frysetoktene komme tilbake.`,
     },
     {
       tittel: `Vaksiner`,
-      tekst: `En vaksine inneholder svekkede eller døde smittestoff, eller deler av dem. Når du blir vaksinert, tror kroppen at den er smittet, og det ervervede forsvaret setter i gang: det lager antistoffer og danner hukommelsesceller – men uten at du blir ordentlig syk. Hvis du senere møter det ekte smittestoffet, kjenner hukommelsescellene det igjen og slår det ned før det rekker å gjøre deg syk. MMR-vaksinen beskytter for eksempel mot meslinger, kusma og røde hunder.`,
+      tekst: `En vaksine inneholder svekkede eller døde smittestoff, eller deler av dem. Når du blir vaksinert, tror kroppen at den er smittet, og det ervervede forsvaret setter i gang: det lager antistoffer og danner hukommelsesceller, men uten at du blir ordentlig syk. Hvis du senere møter det ekte smittestoffet, kjenner hukommelsescellene det igjen og slår det ned før det rekker å gjøre deg syk. MMR-vaksinen beskytter for eksempel mot meslinger, kusma og røde hunder.`,
     },
     {
       tittel: `Vaksiner og folkehelsa`,
@@ -117,7 +117,7 @@ export const sammendrag = {
     },
     {
       tittel: `Immunceller mot kreft`,
-      tekst: `Forskere arbeider med å bruke kroppens egne immunceller til å behandle kreft, en metode som kalles immunterapi. Kreftceller kan nemlig «gjemme seg» for immunforsvaret, blant annet ved hjelp av et protein som heter AHR. Klarer forskerne å hindre kreftcellene i å skjule seg, blir det mye lettere for immuncellene å finne og drepe dem. Dette er et eksempel på hvordan kunnskap om immunforsvaret brukes i moderne, dagsaktuell teknologi – og det er viktig forskning, for omtrent 45 prosent av norske menn og 38 prosent av norske kvinner får en kreftdiagnose i løpet av livet.`,
+      tekst: `Forskere arbeider med å bruke kroppens egne immunceller til å behandle kreft, en metode som kalles immunterapi. Kreftceller kan nemlig «gjemme seg» for immunforsvaret, blant annet ved hjelp av et protein som heter AHR. Klarer forskerne å hindre kreftcellene i å skjule seg, blir det mye lettere for immuncellene å finne og drepe dem. Dette er et eksempel på hvordan kunnskap om immunforsvaret brukes i moderne, dagsaktuell teknologi, og det er viktig forskning, for omtrent 45 prosent av norske menn og 38 prosent av norske kvinner får en kreftdiagnose i løpet av livet.`,
     },
   ],
   'nerve-og-hormonsystemet': [
@@ -127,19 +127,19 @@ export const sammendrag = {
     },
     {
       tittel: `Nervecellen`,
-      tekst: `Nervecellen er den viktigste celletypen i nervesystemet. Den har en cellekropp med cellekjerne og en lang utløper (akson) som nervesignalet sendes gjennom – denne utløperen kan være helt opptil én meter lang! En nerveimpuls er et elektrisk signal som går gjennom utløperen og over til en annen celle, for eksempel en muskelcelle. Mange utløpere samlet i en bunt kaller vi en nerve. Hvis selve cellekroppen blir ødelagt, kan den ikke erstattes, men hvis bare utløperen blir skadet, kan den vokse ut igjen. Det er derfor en som har blitt lam, noen ganger kan trene seg opp igjen – det tar lang tid, men utløperen kan gro.`,
+      tekst: `Nervecellen er den viktigste celletypen i nervesystemet. Den har en cellekropp med cellekjerne og en lang utløper (akson) som nervesignalet sendes gjennom, denne utløperen kan være helt opptil én meter lang! En nerveimpuls er et elektrisk signal som går gjennom utløperen og over til en annen celle, for eksempel en muskelcelle. Mange utløpere samlet i en bunt kaller vi en nerve. Hvis selve cellekroppen blir ødelagt, kan den ikke erstattes, men hvis bare utløperen blir skadet, kan den vokse ut igjen. Det er derfor en som har blitt lam, noen ganger kan trene seg opp igjen, det tar lang tid, men utløperen kan gro.`,
     },
     {
       tittel: `Sentralnervesystemet og hjernen`,
-      tekst: `Nervesystemet deles i to hoveddeler. Sentralnervesystemet består av hjernen og ryggmargen, og det er godt beskyttet av hodeskallen og ryggraden. Hjernen har mer enn 100 milliarder nerveceller og bruker omtrent en fjerdedel av all energien i kroppen. Den deles i tre: Storehjernen (med hjernebarken) utgjør rundt 90 prosent av hjernens vekt og gjør oss i stand til å tenke og uttrykke oss – gjennom språk, kunst, fantasi og det å utvikle verktøy og teknologi. Veslehjernen hjelper storehjernen med å finstyre bevegelsene våre. Hjernestammen styrer livsviktige funksjoner vi ikke tenker over, som hjerteslag, blodtrykk og andre automatiske bevegelser. Ryggmargen frakter signaler mellom hjernen og resten av kroppen.`,
+      tekst: `Nervesystemet deles i to hoveddeler. Sentralnervesystemet består av hjernen og ryggmargen, og det er godt beskyttet av hodeskallen og ryggraden. Hjernen har mer enn 100 milliarder nerveceller og bruker omtrent en fjerdedel av all energien i kroppen. Den deles i tre: Storehjernen (med hjernebarken) utgjør rundt 90 prosent av hjernens vekt og gjør oss i stand til å tenke og uttrykke oss, gjennom språk, kunst, fantasi og det å utvikle verktøy og teknologi. Veslehjernen hjelper storehjernen med å finstyre bevegelsene våre. Hjernestammen styrer livsviktige funksjoner vi ikke tenker over, som hjerteslag, blodtrykk og andre automatiske bevegelser. Ryggmargen frakter signaler mellom hjernen og resten av kroppen.`,
     },
     {
       tittel: `Det perifere nervesystemet`,
-      tekst: `Den andre hoveddelen er det perifere nervesystemet – alle nervene som går ut i kroppen. Det deles i tre: Det sensoriske systemet sender informasjon fra sansene inn til sentralnervesystemet. Det motoriske systemet sender beskjeder fra sentralnervesystemet ut til musklene og styrer dermed bevegelsene våre. Det autonome systemet sender signaler fra sentralnervesystemet til kjertler, glatt muskulatur og hjertet – altså det vi ikke styrer med viljen, som puls og fordøyelse.`,
+      tekst: `Den andre hoveddelen er det perifere nervesystemet, alle nervene som går ut i kroppen. Det deles i tre: Det sensoriske systemet sender informasjon fra sansene inn til sentralnervesystemet. Det motoriske systemet sender beskjeder fra sentralnervesystemet ut til musklene og styrer dermed bevegelsene våre. Det autonome systemet sender signaler fra sentralnervesystemet til kjertler, glatt muskulatur og hjertet, altså det vi ikke styrer med viljen, som puls og fordøyelse.`,
     },
     {
       tittel: `Reflekser`,
-      tekst: `Noen ganger reagerer kroppen på noe farlig før vi i det hele tatt rekker å kjenne smerte. Dette kalles en refleks. Hvis du for eksempel tar på en varm plate, går nervesignalet raskt fra hånda til ryggmargen, som sender signal rett tilbake om å trekke hånda vekk – uten å gå hele veien om hjernen. Det sparer verdifull tid. Først etterpå når smertesignalet fram til hjernen, og da kjenner du at det gjør vondt.`,
+      tekst: `Noen ganger reagerer kroppen på noe farlig før vi i det hele tatt rekker å kjenne smerte. Dette kalles en refleks. Hvis du for eksempel tar på en varm plate, går nervesignalet raskt fra hånda til ryggmargen, som sender signal rett tilbake om å trekke hånda vekk, uten å gå hele veien om hjernen. Det sparer verdifull tid. Først etterpå når smertesignalet fram til hjernen, og da kjenner du at det gjør vondt.`,
     },
     {
       tittel: `Sansene`,
@@ -151,11 +151,11 @@ export const sammendrag = {
     },
     {
       tittel: `Hormonkjertlene og hypofysen`,
-      tekst: `Hormoner lages i hormonkjertler. Noen viktige er hypofysen (som ligger på undersiden av hjernen), bukspyttkjertelen, binyrene (som lager adrenalin), skjoldbruskkjertelen, samt eggstokkene og testiklene (som lager kjønnshormoner). Hypofysen kalles den overordnede hormonkjertelen – «sjefen» – fordi den i tillegg til egne hormoner lager hormoner som styrer de andre kjertlene. Når hormonmengden i blodet er stor nok, hemmer hypofysen og hjernen produksjonen, slik at kroppen alltid har passe mengde. Hypofysen sender ut åtte ulike hormoner. To av dem, LH og FSH, gir beskjed til testiklene og eggstokkene om å lage testosteron, østrogen og progesteron. Det er altså hypofysen som bestemmer når puberteten starter.`,
+      tekst: `Hormoner lages i hormonkjertler. Noen viktige er hypofysen (som ligger på undersiden av hjernen), bukspyttkjertelen, binyrene (som lager adrenalin), skjoldbruskkjertelen, samt eggstokkene og testiklene (som lager kjønnshormoner). Hypofysen kalles den overordnede hormonkjertelen, «sjefen», fordi den i tillegg til egne hormoner lager hormoner som styrer de andre kjertlene. Når hormonmengden i blodet er stor nok, hemmer hypofysen og hjernen produksjonen, slik at kroppen alltid har passe mengde. Hypofysen sender ut åtte ulike hormoner. To av dem, LH og FSH, gir beskjed til testiklene og eggstokkene om å lage testosteron, østrogen og progesteron. Det er altså hypofysen som bestemmer når puberteten starter.`,
     },
     {
       tittel: `Viktige hormoner`,
-      tekst: `Adrenalin er kroppens «kjemp eller flykt»-hormon. Når du blir skikkelig redd, skiller binyrene ut adrenalin, som gir raskere hjerteslag slik at mer oksygen kommer til musklene og hjernen, og du blir klar til å kjempe eller flykte. Etter en stund brytes hormonet ned, og kroppen kan slappe av igjen. Adrenalin virker raskt og er litt av et unntak – de fleste andre hormoner virker langsommere. Insulin og glukagon lages i bukspyttkjertelen og har motsatt virkning: er blodsukkeret for høyt, sender bukspyttkjertelen ut insulin, som ber fettcellene ta opp glukosen og lagre den som fett. Er blodsukkeret lavt, sender den ut glukagon, som ber lever- og muskelceller om å sende glukose ut i blodet. Slik holdes blodsukkeret stabilt. Kjønnshormonene testosteron og østrogen styrer utviklingen i puberteten, og veksthormon sørger for at kroppen vokser.`,
+      tekst: `Adrenalin er kroppens «kjemp eller flykt»-hormon. Når du blir skikkelig redd, skiller binyrene ut adrenalin, som gir raskere hjerteslag slik at mer oksygen kommer til musklene og hjernen, og du blir klar til å kjempe eller flykte. Etter en stund brytes hormonet ned, og kroppen kan slappe av igjen. Adrenalin virker raskt og er litt av et unntak. De fleste andre hormoner virker langsommere. Insulin og glukagon lages i bukspyttkjertelen og har motsatt virkning: er blodsukkeret for høyt, sender bukspyttkjertelen ut insulin, som ber fettcellene ta opp glukosen og lagre den som fett. Er blodsukkeret lavt, sender den ut glukagon, som ber lever- og muskelceller om å sende glukose ut i blodet. Slik holdes blodsukkeret stabilt. Kjønnshormonene testosteron og østrogen styrer utviklingen i puberteten, og veksthormon sørger for at kroppen vokser.`,
     },
     {
       tittel: `Diabetes`,
@@ -163,13 +163,13 @@ export const sammendrag = {
     },
     {
       tittel: `Rusmidler, legemidler, doping og miljøgifter`,
-      tekst: `Mange stoffer kan påvirke signalsystemene i kroppen. Legemidler er stoffer som brukes for å forebygge, lindre eller kurere sykdom – brukt riktig er de til hjelp for kroppen, for eksempel smertestillende eller medisin mot en infeksjon. Rusmidler er stoffer man tar for å bli ruset, altså for å endre humør og bevissthet. De virker på signalstoffene i hjernen, og eksempler er alkohol, nikotin og narkotika. Rusmidler kan skade kroppen og føre til avhengighet. Doping er bruk av forbudte stoffer for å prestere bedre i idrett. Et vanlig dopingmiddel er testosteron (anabole steroider), som bygger muskler raskere, men som forstyrrer kroppens eget hormonsystem og kan gi alvorlige og varige skader – som endret kjønnsutvikling, nedsatt fruktbarhet, leverskade og økt fare for hjerteinfarkt. Til slutt finnes det miljøgifter som ligner så mye på kroppens egne hormoner at kroppen kan ta feil av dem, slik at de sender uønskede beskjeder i kroppen. Felles for alt dette er at det griper inn i de fintstemte signalene i nerve- og hormonsystemet.`,
+      tekst: `Mange stoffer kan påvirke signalsystemene i kroppen. Legemidler er stoffer som brukes for å forebygge, lindre eller kurere sykdom, brukt riktig er de til hjelp for kroppen, for eksempel smertestillende eller medisin mot en infeksjon. Rusmidler er stoffer man tar for å bli ruset, altså for å endre humør og bevissthet. De virker på signalstoffene i hjernen, og eksempler er alkohol, nikotin og narkotika. Rusmidler kan skade kroppen og føre til avhengighet. Doping er bruk av forbudte stoffer for å prestere bedre i idrett. Et vanlig dopingmiddel er testosteron (anabole steroider), som bygger muskler raskere, men som forstyrrer kroppens eget hormonsystem og kan gi alvorlige og varige skader, som endret kjønnsutvikling, nedsatt fruktbarhet, leverskade og økt fare for hjerteinfarkt. Til slutt finnes det miljøgifter som ligner så mye på kroppens egne hormoner at kroppen kan ta feil av dem, slik at de sender uønskede beskjeder i kroppen. Felles for alt dette er at det griper inn i de fintstemte signalene i nerve- og hormonsystemet.`,
     },
   ],
   'okologi': [
     {
       tittel: `Hva er økologi?`,
-      tekst: `Økologi er læren om samspillet i naturen. I et økosystem henger alt sammen: de levende organismene påvirker hverandre og blir samtidig påvirket av miljøet de lever i. Et gammelt ordtak sier at «liten tue kan velte stort lass», og det passer godt på naturen – en liten endring ett sted kan få store følger for hele økosystemet.`,
+      tekst: `Økologi er læren om samspillet i naturen. I et økosystem henger alt sammen: de levende organismene påvirker hverandre og blir samtidig påvirket av miljøet de lever i. Et gammelt ordtak sier at «liten tue kan velte stort lass», og det passer godt på naturen, en liten endring ett sted kan få store følger for hele økosystemet.`,
     },
     {
       tittel: `Biosfæren`,
@@ -181,19 +181,19 @@ export const sammendrag = {
     },
     {
       tittel: `Økosystem`,
-      tekst: `Et økosystem er et avgrenset område med en ensartet natur, der det er et samspill mellom bestemte levende og ikke-levende faktorer. Et økosystem er mindre enn et biom, og handler ikke bare om plantene, men også om dyrelivet og de ikke-levende faktorene som vann, jord, is og temperatur. Økosystemer kan variere mye i størrelse – det kan være et helt hav, et lite vann, en skog eller en myr. I Norge er blåbærskog, innsjøer, fjæra og myr viktige økosystemer.`,
+      tekst: `Et økosystem er et avgrenset område med en ensartet natur, der det er et samspill mellom bestemte levende og ikke-levende faktorer. Et økosystem er mindre enn et biom, og handler ikke bare om plantene, men også om dyrelivet og de ikke-levende faktorene som vann, jord, is og temperatur. Økosystemer kan variere mye i størrelse, det kan være et helt hav, et lite vann, en skog eller en myr. I Norge er blåbærskog, innsjøer, fjæra og myr viktige økosystemer.`,
     },
     {
       tittel: `Biotiske og abiotiske faktorer`,
-      tekst: `Alt i et økosystem deles i biotiske og abiotiske faktorer. Biotisk betyr levende, og omfatter produsenter, forbrukere og nedbrytere – altså planter, dyr og andre organismer. Abiotisk betyr ikke-levende, og omfatter blant annet jord, berggrunn, temperatur, lys, vann og klima. De abiotiske faktorene påvirker hvilke organismer som kan leve i et område. Endrer for eksempel temperaturen seg, kan arter som er tilpasset det gamle klimaet få problemer eller dø ut, mens nye arter kan komme til – og hele naturtypen kan endre seg.`,
+      tekst: `Alt i et økosystem deles i biotiske og abiotiske faktorer. Biotisk betyr levende, og omfatter produsenter, forbrukere og nedbrytere, altså planter, dyr og andre organismer. Abiotisk betyr ikke-levende, og omfatter blant annet jord, berggrunn, temperatur, lys, vann og klima. De abiotiske faktorene påvirker hvilke organismer som kan leve i et område. Endrer for eksempel temperaturen seg, kan arter som er tilpasset det gamle klimaet få problemer eller dø ut, mens nye arter kan komme til, og hele naturtypen kan endre seg.`,
     },
     {
       tittel: `Produsenter, forbrukere og nedbrytere`,
-      tekst: `De levende organismene har ulike roller. Produsentene er plantene. De kalles produsenter fordi de lager sin egen mat – glukose – gjennom fotosyntesen (vann + karbondioksid blir til glukose og oksygen). Glukosen bruker de til å bygge seg selv og vokse. Forbrukerne er dyrene; de driver ikke fotosyntese og må spise planter eller andre dyr for å få energi. Nedbryterne spiser døde planter og dyr og bryter dem ned, slik at næringsstoffene går tilbake til jorda og kan tas opp av nye produsenter. Uten planter finnes det ingen mat – verken til forbrukere eller nedbrytere – så alle næringskjeder starter med en plante.`,
+      tekst: `De levende organismene har ulike roller. Produsentene er plantene. De kalles produsenter fordi de lager sin egen mat, glukose, gjennom fotosyntesen (vann + karbondioksid blir til glukose og oksygen). Glukosen bruker de til å bygge seg selv og vokse. Forbrukerne er dyrene; de driver ikke fotosyntese og må spise planter eller andre dyr for å få energi. Nedbryterne spiser døde planter og dyr og bryter dem ned, slik at næringsstoffene går tilbake til jorda og kan tas opp av nye produsenter. Uten planter finnes det ingen mat, verken til forbrukere eller nedbrytere, så alle næringskjeder starter med en plante.`,
     },
     {
       tittel: `Næringskjeder og næringsnett`,
-      tekst: `En næringskjede viser hvem som blir spist av hvem, i en rett linje fra produsent til forbruker. Men i naturen spises de fleste artene av mer enn én annen art, og da får vi et næringsnett, som viser en større del av økosystemet. I havet er planteplankton og alger viktige produsenter – de er havets «planter», så små at vi må bruke mikroskop for å se dem, og de ligger nesten alltid nederst i næringskjeden.`,
+      tekst: `En næringskjede viser hvem som blir spist av hvem, i en rett linje fra produsent til forbruker. Men i naturen spises de fleste artene av mer enn én annen art, og da får vi et næringsnett, som viser en større del av økosystemet. I havet er planteplankton og alger viktige produsenter, de er havets «planter», så små at vi må bruke mikroskop for å se dem, og de ligger nesten alltid nederst i næringskjeden.`,
     },
     {
       tittel: `Kretsløpet i naturen`,
@@ -201,7 +201,7 @@ export const sammendrag = {
     },
     {
       tittel: `Jord og jordsmonn`,
-      tekst: `Det er forskjell på jord og jordsmonn. Jord er alt løsmateriale som ligger oppå det faste fjellet – det kan være mold, leire, sand, grus og store steiner. I Norge er morenejord og marin leire vanlige typer. Jordsmonn er det vi til daglig bare kaller «jord»: det øverste laget som er påvirket av levende organismer. Brunjord og podsol er to vanlige typer jordsmonn i Norge.`,
+      tekst: `Det er forskjell på jord og jordsmonn. Jord er alt løsmateriale som ligger oppå det faste fjellet, det kan være mold, leire, sand, grus og store steiner. I Norge er morenejord og marin leire vanlige typer. Jordsmonn er det vi til daglig bare kaller «jord»: det øverste laget som er påvirket av levende organismer. Brunjord og podsol er to vanlige typer jordsmonn i Norge.`,
     },
   ],
   'klima-og-baerekraft': [
@@ -215,7 +215,7 @@ export const sammendrag = {
     },
     {
       tittel: `Biologisk mangfold`,
-      tekst: `Biologisk mangfold er variasjonen av liv på jorda. Det omfatter den genetiske variasjonen innenfor arter og populasjoner, mangfoldet av ulike arter, og mangfoldet av økosystemer og naturtyper. Et stort mangfold gjør naturen mer robust og bedre i stand til å tåle endringer. Når arter dør ut, svekkes dette mangfoldet – og det kan ikke skapes på nytt.`,
+      tekst: `Biologisk mangfold er variasjonen av liv på jorda. Det omfatter den genetiske variasjonen innenfor arter og populasjoner, mangfoldet av ulike arter, og mangfoldet av økosystemer og naturtyper. Et stort mangfold gjør naturen mer robust og bedre i stand til å tåle endringer. Når arter dør ut, svekkes dette mangfoldet, og det kan ikke skapes på nytt.`,
     },
     {
       tittel: `Kulturlandskap`,
@@ -223,35 +223,35 @@ export const sammendrag = {
     },
     {
       tittel: `Vær og klima`,
-      tekst: `Vær er tilstanden i atmosfæren akkurat nå – sol, regn, vind og temperatur – og det endrer seg fra dag til dag. Klima er gjennomsnittsværet på et sted over en lang periode, vanligvis 30 år. Én enkelt periode med ekstremvær er derfor ikke i seg selv en klimaendring; men hvis været endrer seg varig over lang tid, snakker vi om klimaendring. Jorda deles inn i klimasoner: tropisk, subtropisk, temperert og polart klima.`,
+      tekst: `Vær er tilstanden i atmosfæren akkurat nå, altså sol, regn, vind og temperatur, og det endrer seg fra dag til dag. Klima er gjennomsnittsværet på et sted over en lang periode, vanligvis 30 år. Én enkelt periode med ekstremvær er derfor ikke i seg selv en klimaendring; men hvis været endrer seg varig over lang tid, snakker vi om klimaendring. Jorda deles inn i klimasoner: tropisk, subtropisk, temperert og polart klima.`,
     },
     {
       tittel: `Drivhuseffekten`,
-      tekst: `Drivhuseffekten gjør at ikke all varmen fra sola slipper ut igjen i verdensrommet. Du kan sammenligne det med å legge en god, varm dyne over jorda. Effekten styres av klimagasser som karbondioksid (CO₂) og vanndamp. En passe drivhuseffekt er helt nødvendig for livet – uten den ville det vært iskaldt om natta og glovarmt om dagen. Men når vi slipper ut mer klimagasser, blir drivhuseffekten sterkere, og temperaturen på jorda stiger. Det kaller vi global oppvarming.`,
+      tekst: `Drivhuseffekten gjør at ikke all varmen fra sola slipper ut igjen i verdensrommet. Du kan sammenligne det med å legge en god, varm dyne over jorda. Effekten styres av klimagasser som karbondioksid (CO₂) og vanndamp. En passe drivhuseffekt er helt nødvendig for livet, uten den ville det vært iskaldt om natta og glovarmt om dagen. Men når vi slipper ut mer klimagasser, blir drivhuseffekten sterkere, og temperaturen på jorda stiger. Det kaller vi global oppvarming.`,
     },
     {
       tittel: `Ozonlaget`,
-      tekst: `Ozonlaget ligger høyt oppe i atmosfæren og stopper de mest energirike og farlige strålene fra sola. Det påvirker ikke temperaturen på jorda særlig mye – det er altså noe annet enn drivhuseffekten. På 1900-tallet ble ozonlaget skadet av KFK-gasser, slik at det oppstod et «ozonhull». Etter at disse gassene ble forbudt gjennom internasjonalt samarbeid, er ozonlaget nå på bedringens vei og ventes å være bygd opp igjen rundt 2050.`,
+      tekst: `Ozonlaget ligger høyt oppe i atmosfæren og stopper de mest energirike og farlige strålene fra sola. Det påvirker ikke temperaturen på jorda særlig mye, det er altså noe annet enn drivhuseffekten. På 1900-tallet ble ozonlaget skadet av KFK-gasser, slik at det oppstod et «ozonhull». Etter at disse gassene ble forbudt gjennom internasjonalt samarbeid, er ozonlaget nå på bedringens vei og ventes å være bygd opp igjen rundt 2050.`,
     },
     {
       tittel: `Hvorfor slipper vi ut så mye CO₂?`,
-      tekst: `Det meste av CO₂-utslippene kommer fra at vi skaffer oss energi. Når vi brenner fossilt brensel – kull, olje og gass – for å lage strøm eller drive bilene våre, blir CO₂ et avfallsstoff. En slik forbrenningsreaksjon skjer når et brennbart stoff (ofte et hydrokarbon) reagerer med oksygen og danner karbondioksid og vann, samtidig som det frigjøres varme. For å slippe ut mindre CO₂ kan vi gå over til fornybare energikilder.`,
+      tekst: `Det meste av CO₂-utslippene kommer fra at vi skaffer oss energi. Når vi brenner fossilt brensel, kull, olje og gass, for å lage strøm eller drive bilene våre, blir CO₂ et avfallsstoff. En slik forbrenningsreaksjon skjer når et brennbart stoff (ofte et hydrokarbon) reagerer med oksygen og danner karbondioksid og vann, samtidig som det frigjøres varme. For å slippe ut mindre CO₂ kan vi gå over til fornybare energikilder.`,
     },
     {
       tittel: `Karbonkretsløpet`,
-      tekst: `Karbon finnes i alt levende, og mengden karbonatomer på jorda er den samme hele tiden – det er hvor de befinner seg som endrer seg. I fotosyntesen tar produsentene (plantene) opp CO₂ og bygger glukose. Forbrukerne spiser plantene, og gjennom celleåndingen brytes glukosen ned igjen slik at CO₂ frigjøres til atmosfæren. Nedbrytere frigjør også CO₂ når de bryter ned døde organismer. Noe organisk materiale blir ikke brutt ned – ved mangel på oksygen lagres karbonet i millioner av år som kull, olje og gass. Når vi brenner dette fossile brenselet, frigjøres det gamle karbonet igjen, og CO₂-mengden i atmosfæren øker. Å brenne fornybar biomasse gir også CO₂, men det er mindre skadelig fordi karbonet nylig ble tatt opp fra atmosfæren og inngår i det naturlige kretsløpet.`,
+      tekst: `Karbon finnes i alt levende, og mengden karbonatomer på jorda er den samme hele tiden, det er hvor de befinner seg som endrer seg. I fotosyntesen tar produsentene (plantene) opp CO₂ og bygger glukose. Forbrukerne spiser plantene, og gjennom celleåndingen brytes glukosen ned igjen slik at CO₂ frigjøres til atmosfæren. Nedbrytere frigjør også CO₂ når de bryter ned døde organismer. Noe organisk materiale blir ikke brutt ned, ved mangel på oksygen lagres karbonet i millioner av år som kull, olje og gass. Når vi brenner dette fossile brenselet, frigjøres det gamle karbonet igjen, og CO₂-mengden i atmosfæren øker. Å brenne fornybar biomasse gir også CO₂, men det er mindre skadelig fordi karbonet nylig ble tatt opp fra atmosfæren og inngår i det naturlige kretsløpet.`,
     },
     {
       tittel: `Konsekvenser: ekstremvær`,
-      tekst: `En sterkere drivhuseffekt gir en varmere atmosfære, og varm luft kan holde på mer vann. Det kan gi kraftigere regn og flom. Varmt havvann gir sterkere orkaner med mer vind og nedbør. Når temperaturforskjellene mellom steder endrer seg, endres også vindmønstrene – derfor kan noen områder få ekstrem tørke, mens andre får ekstrem nedbør. Global oppvarming forsterker ofte forskjellene: de som har det tørt fra før, får det enda tørrere, og de som har det vått, får det enda våtere.`,
+      tekst: `En sterkere drivhuseffekt gir en varmere atmosfære, og varm luft kan holde på mer vann. Det kan gi kraftigere regn og flom. Varmt havvann gir sterkere orkaner med mer vind og nedbør. Når temperaturforskjellene mellom steder endrer seg, endres også vindmønstrene. Derfor kan noen områder få ekstrem tørke, mens andre får ekstrem nedbør. Global oppvarming forsterker ofte forskjellene: de som har det tørt fra før, får det enda tørrere, og de som har det vått, får det enda våtere.`,
     },
     {
       tittel: `Havis og selvforsterkende effekter`,
-      tekst: `Temperaturen stiger over hele kloden, men ikke jevnt – det går raskest ved polene, særlig i Arktis. Dette går hardt ut over havisen. Hvit is reflekterer mye av sollyset tilbake til verdensrommet, men når isen smelter, kommer mørkt hav fram som i stedet tar opp varmen. Da blir det varmere, og enda mer is smelter. Dette kaller vi en selvforsterkende effekt (feedbackmekanisme). Mindre havis betyr også mindre biologisk mangfold, fordi mange arter er helt avhengige av isen.`,
+      tekst: `Temperaturen stiger over hele kloden, men ikke jevnt, det går raskest ved polene, særlig i Arktis. Dette går hardt ut over havisen. Hvit is reflekterer mye av sollyset tilbake til verdensrommet, men når isen smelter, kommer mørkt hav fram som i stedet tar opp varmen. Da blir det varmere, og enda mer is smelter. Dette kaller vi en selvforsterkende effekt (feedbackmekanisme). Mindre havis betyr også mindre biologisk mangfold, fordi mange arter er helt avhengige av isen.`,
     },
     {
       tittel: `Havforsuring`,
-      tekst: `Havet inneholder mye CO₂, og kaldt vann klarer å holde på mer CO₂ enn varmt. Etter at vi begynte å slippe ut mer CO₂, har havet tatt opp store mengder – men til slutt klarer det ikke å ta opp mer. Jo mer CO₂ havet tar opp, desto surere blir vannet (lavere pH). Dette skader dyr og alger som har skall av kalk, fordi kalken løses opp i surt vann.`,
+      tekst: `Havet inneholder mye CO₂, og kaldt vann klarer å holde på mer CO₂ enn varmt. Etter at vi begynte å slippe ut mer CO₂, har havet tatt opp store mengder, men til slutt klarer det ikke å ta opp mer. Jo mer CO₂ havet tar opp, desto surere blir vannet (lavere pH). Dette skader dyr og alger som har skall av kalk, fordi kalken løses opp i surt vann.`,
     },
     {
       tittel: `Føre-var-prinsippet og forvaltning`,
@@ -269,27 +269,27 @@ export const sammendrag = {
   'kjemi': [
     {
       tittel: `Atomet`,
-      tekst: `Alt rundt oss er bygd opp av bittesmå byggesteiner som kalles atomer. Ordet «atom» er gresk og betyr «udelelig», fordi den greske filosofen Demokrit mente at dette var den minste biten et stoff kunne deles opp i. Atomene er utrolig små – deler du én meter i en milliard like deler, har du en nanometer, og deler du den igjen i 100 deler, er du omtrent på størrelsen med et lite atom. I dag vet vi at atomet likevel ikke er udelelig, men består av enda mindre partikler.`,
+      tekst: `Alt rundt oss er bygd opp av bittesmå byggesteiner som kalles atomer. Ordet «atom» er gresk og betyr «udelelig», fordi den greske filosofen Demokrit mente at dette var den minste biten et stoff kunne deles opp i. Atomene er utrolig små, deler du én meter i en milliard like deler, har du en nanometer, og deler du den igjen i 100 deler, er du omtrent på størrelsen med et lite atom. I dag vet vi at atomet likevel ikke er udelelig, men består av enda mindre partikler.`,
     },
     {
       tittel: `Atomets oppbygging`,
-      tekst: `Et atom er bygd opp av tre typer partikler. Innerst ligger atomkjernen, som inneholder protoner (positivt ladet) og nøytroner (uten ladning). Rundt kjernen suser elektronene (negativt ladet). Antallet protoner bestemmer hvilket grunnstoff atomet er, og dette tallet endrer seg aldri – et gullatom forblir et gullatom. Som hovedregel er det like mange elektroner som protoner, men antallet nøytroner kan variere.`,
+      tekst: `Et atom er bygd opp av tre typer partikler. Innerst ligger atomkjernen, som inneholder protoner (positivt ladet) og nøytroner (uten ladning). Rundt kjernen suser elektronene (negativt ladet). Antallet protoner bestemmer hvilket grunnstoff atomet er, og dette tallet endrer seg aldri, et gullatom forblir et gullatom. Som hovedregel er det like mange elektroner som protoner, men antallet nøytroner kan variere.`,
     },
     {
       tittel: `Skallmodellen og skymodellen`,
-      tekst: `Siden atomene er altfor små til at vi kan se dem, bruker vi modeller for å forklare hvordan de kan se ut. I skallmodellen tegner vi elektronene i faste «skall» rundt kjernen – den er enkel og god å lære av. I skymodellen vises elektronene mer som en «sky» rundt kjernen, og den ligner mer på hvordan forskere tror et atom egentlig ser ut. Ingen av modellene gir et helt riktig bilde, men de er nyttige på hver sin måte. Atomet er for øvrig nesten bare tomrom: var kjernen så stor som en fotball, ville det nærmeste elektronet ligget to kilometer unna.`,
+      tekst: `Siden atomene er altfor små til at vi kan se dem, bruker vi modeller for å forklare hvordan de kan se ut. I skallmodellen tegner vi elektronene i faste «skall» rundt kjernen, den er enkel og god å lære av. I skymodellen vises elektronene mer som en «sky» rundt kjernen, og den ligner mer på hvordan forskere tror et atom egentlig ser ut. Ingen av modellene gir et helt riktig bilde, men de er nyttige på hver sin måte. Atomet er for øvrig nesten bare tomrom: var kjernen så stor som en fotball, ville det nærmeste elektronet ligget to kilometer unna.`,
     },
     {
       tittel: `Grunnstoffer og periodesystemet`,
-      tekst: `Et grunnstoff er et stoff som bare består av én type atom. Alle grunnstoffene vi kjenner, er samlet i periodesystemet, som forskeren Dmitrij Mendelejev laget. Her er stoffene sortert etter atomnummer, altså antall protoner. De vannrette radene kalles perioder – stoffer i samme periode har like mange elektronskall. De loddrette kolonnene kalles grupper – stoffer i samme gruppe har like mange elektroner i det ytterste skallet og dermed nokså like egenskaper. Metallene ligger til venstre i tabellen, og ikke-metallene til høyre.`,
+      tekst: `Et grunnstoff er et stoff som bare består av én type atom. Alle grunnstoffene vi kjenner, er samlet i periodesystemet, som forskeren Dmitrij Mendelejev laget. Her er stoffene sortert etter atomnummer, altså antall protoner. De vannrette radene kalles perioder, stoffer i samme periode har like mange elektronskall. De loddrette kolonnene kalles grupper, stoffer i samme gruppe har like mange elektroner i det ytterste skallet og dermed nokså like egenskaper. Metallene ligger til venstre i tabellen, og ikke-metallene til høyre.`,
     },
     {
       tittel: `Grunnstoffamilier`,
-      tekst: `Noen grupper i periodesystemet har egne navn. Edelgassene (gruppe 18) har fullt ytterste skall og er svært stabile – de reagerer nesten ikke med andre stoffer. Alkalimetallene (gruppe 1) har bare ett elektron i ytterste skall; de er myke metaller som reagerer veldig lett, fordi de bare trenger å kvitte seg med ett elektron. Halogenene (gruppe 17) har sju elektroner i ytterste skall og reagerer også lett, siden de bare mangler ett. Navnet betyr «de som lager salt», og mange av dem er giftige med stikkende lukt.`,
+      tekst: `Noen grupper i periodesystemet har egne navn. Edelgassene (gruppe 18) har fullt ytterste skall og er svært stabile, de reagerer nesten ikke med andre stoffer. Alkalimetallene (gruppe 1) har bare ett elektron i ytterste skall; de er myke metaller som reagerer veldig lett, fordi de bare trenger å kvitte seg med ett elektron. Halogenene (gruppe 17) har sju elektroner i ytterste skall og reagerer også lett, siden de bare mangler ett. Navnet betyr «de som lager salt», og mange av dem er giftige med stikkende lukt.`,
     },
     {
       tittel: `8-regelen`,
-      tekst: `Alle atomer «ønsker seg» et fullt ytterste skall. Det innerste skallet har plass til 2 elektroner, mens det ytterste som regel er fullt når det har 8 elektroner – dette kaller vi 8-regelen. For å oppnå fullt ytterskall går atomene inn i kjemiske reaksjoner, der de enten gir fra seg, tar opp eller deler elektroner med andre atomer.`,
+      tekst: `Alle atomer «ønsker seg» et fullt ytterste skall. Det innerste skallet har plass til 2 elektroner, mens det ytterste som regel er fullt når det har 8 elektroner, dette kaller vi 8-regelen. For å oppnå fullt ytterskall går atomene inn i kjemiske reaksjoner, der de enten gir fra seg, tar opp eller deler elektroner med andre atomer.`,
     },
     {
       tittel: `Ionebinding`,
@@ -297,7 +297,7 @@ export const sammendrag = {
     },
     {
       tittel: `Elektronparbinding`,
-      tekst: `I en elektronparbinding gir ikke atomene fra seg elektroner – i stedet går de sammen om å dele elektroner, slik at begge oppnår fullt ytterskall. Fordi de deler de samme elektronene, må de holde sammen. Et eksempel er vannmolekylet, der ett oksygenatom deler elektroner med to hydrogenatomer, og metan (CH₄), der ett karbonatom deler med fire hydrogenatomer.`,
+      tekst: `I en elektronparbinding gir ikke atomene fra seg elektroner, i stedet går de sammen om å dele elektroner, slik at begge oppnår fullt ytterskall. Fordi de deler de samme elektronene, må de holde sammen. Et eksempel er vannmolekylet, der ett oksygenatom deler elektroner med to hydrogenatomer, og metan (CH₄), der ett karbonatom deler med fire hydrogenatomer.`,
     },
     {
       tittel: `Kjemispråket`,
@@ -305,11 +305,11 @@ export const sammendrag = {
     },
     {
       tittel: `Kjemiske reaksjoner og massebevaring`,
-      tekst: `Når atomer og molekyler omorganiserer seg og danner nye stoffer, kaller vi det en kjemisk reaksjon. Da endrer stoffene egenskaper – de kan skifte farge eller form, endre temperatur, begynne å lyse, eller bli til gass. I en kjemisk reaksjon gjelder alltid massebevaring: atomer kan verken skapes eller forsvinne. Det er akkurat som med legoklosser – du kan bygge om til noe nytt, men du har nøyaktig de samme klossene før og etter. Derfor må det være like mange atomer av hvert slag på begge sider av en reaksjonslikning.`,
+      tekst: `Når atomer og molekyler omorganiserer seg og danner nye stoffer, kaller vi det en kjemisk reaksjon. Da endrer stoffene egenskaper, de kan skifte farge eller form, endre temperatur, begynne å lyse, eller bli til gass. I en kjemisk reaksjon gjelder alltid massebevaring: atomer kan verken skapes eller forsvinne. Det er akkurat som med legoklosser, du kan bygge om til noe nytt, men du har nøyaktig de samme klossene før og etter. Derfor må det være like mange atomer av hvert slag på begge sider av en reaksjonslikning.`,
     },
     {
       tittel: `Forbrenningsreaksjoner`,
-      tekst: `En forbrenningsreaksjon er en vanlig kjemisk reaksjon der et brennbart stoff – ofte et hydrokarbon – reagerer med oksygen og danner karbondioksid og vann. Reaksjonen frigjør varme, men trenger litt tilført varme for å starte. Når den først har startet, holder varmen fra reaksjonen den i gang av seg selv. Eksempler er forbrenning i bensin- og dieselmotorer, kullkraftverk og gassbrennere. Også celleåndingen i kroppen din er en forbrenningsreaksjon.`,
+      tekst: `En forbrenningsreaksjon er en vanlig kjemisk reaksjon der et brennbart stoff, ofte et hydrokarbon, reagerer med oksygen og danner karbondioksid og vann. Reaksjonen frigjør varme, men trenger litt tilført varme for å starte. Når den først har startet, holder varmen fra reaksjonen den i gang av seg selv. Eksempler er forbrenning i bensin- og dieselmotorer, kullkraftverk og gassbrennere. Også celleåndingen i kroppen din er en forbrenningsreaksjon.`,
     },
     {
       tittel: `Organisk kjemi og hydrokarboner`,
@@ -317,19 +317,19 @@ export const sammendrag = {
     },
     {
       tittel: `Alkoholer`,
-      tekst: `En alkohol er et hydrokarbon der ett hydrogenatom er byttet ut med en OH-gruppe (et oksygenatom med et hydrogenatom festet til seg). Alkoholer får navn på samme måte som hydrokarboner, men med endelsen «-ol» – for eksempel metanol, etanol og propanol. Fordi alkoholer har både en upolar del og en polar OH-gruppe, er de gode løsemidler som kan løse opp både vannløselige og fettløselige stoffer.`,
+      tekst: `En alkohol er et hydrokarbon der ett hydrogenatom er byttet ut med en OH-gruppe (et oksygenatom med et hydrogenatom festet til seg). Alkoholer får navn på samme måte som hydrokarboner, men med endelsen «-ol», for eksempel metanol, etanol og propanol. Fordi alkoholer har både en upolar del og en polar OH-gruppe, er de gode løsemidler som kan løse opp både vannløselige og fettløselige stoffer.`,
     },
     {
       tittel: `Karbohydrater`,
-      tekst: `Karbohydrater er et produkt av fotosyntesen, og navnet betyr egentlig «karbon + vann». Vi deler dem i tre: monosakkarider består av ett enkelt glukosemolekyl, disakkarider av to, og polysakkarider av mange glukosemolekyler i lange kjeder. Stivelse, som vi finner i plantebasert mat, er greinete kjeder av glukose, mens cellulose er rette kjeder – det vi også kaller kostfiber.`,
+      tekst: `Karbohydrater er et produkt av fotosyntesen, og navnet betyr egentlig «karbon + vann». Vi deler dem i tre: monosakkarider består av ett enkelt glukosemolekyl, disakkarider av to, og polysakkarider av mange glukosemolekyler i lange kjeder. Stivelse, som vi finner i plantebasert mat, er greinete kjeder av glukose, mens cellulose er rette kjeder, det vi også kaller kostfiber.`,
     },
     {
       tittel: `Syrer og baser`,
-      tekst: `Syrer og baser er stoffer med motsatt virkning. Syrer smaker surt, kan etse, og endrer fargen på enkelte stoffer. Baser er stoffer som kan få syrer til å forsvinne – vi sier at de nøytraliserer syrene. Både syrer og baser finnes som gass, væske og fast stoff, men oftest møter vi dem løst i vann, som sure eller basiske løsninger. En løsning som verken er sur eller basisk, kaller vi nøytral. Ordet «alkalisk» betyr det samme som basisk, og en sterk basisk løsning kaller vi lut.`,
+      tekst: `Syrer og baser er stoffer med motsatt virkning. Syrer smaker surt, kan etse, og endrer fargen på enkelte stoffer. Baser er stoffer som kan få syrer til å forsvinne, vi sier at de nøytraliserer syrene. Både syrer og baser finnes som gass, væske og fast stoff, men oftest møter vi dem løst i vann, som sure eller basiske løsninger. En løsning som verken er sur eller basisk, kaller vi nøytral. Ordet «alkalisk» betyr det samme som basisk, og en sterk basisk løsning kaller vi lut.`,
     },
     {
       tittel: `pH og indikatorer`,
-      tekst: `Hvor sur eller basisk en løsning er, måler vi med pH-skalaen, som går fra 0 til 14. En løsning med pH under 7 er sur, pH lik 7 er nøytral, og pH over 7 er basisk. Jo nærmere 0, desto surere; jo nærmere 14, desto mer basisk. For å finne pH bruker vi en indikator – et stoff som skifter farge etter hvor surt eller basisk noe er. Vi kan bruke pH-papir, men også mange planter, frukter og grønnsaker virker som indikatorer.`,
+      tekst: `Hvor sur eller basisk en løsning er, måler vi med pH-skalaen, som går fra 0 til 14. En løsning med pH under 7 er sur, pH lik 7 er nøytral, og pH over 7 er basisk. Jo nærmere 0, desto surere; jo nærmere 14, desto mer basisk. For å finne pH bruker vi en indikator, et stoff som skifter farge etter hvor surt eller basisk noe er. Vi kan bruke pH-papir, men også mange planter, frukter og grønnsaker virker som indikatorer.`,
     },
     {
       tittel: `Sterke og svake syrer og baser`,
@@ -337,13 +337,13 @@ export const sammendrag = {
     },
     {
       tittel: `Nøytralisering`,
-      tekst: `Blander vi en syre og en base i vann, nøytraliserer de hverandre. Det skjer fordi basen tar opp H⁺-ionene fra syren. Når H⁺-ionene blir «spist», forsvinner de sure egenskapene – og samtidig forsvinner de basiske egenskapene til basen. Er alle H⁺-ionene tatt opp, er løsningen nøytral. Dette brukes for eksempel når man tilsetter kalk i innsjøer som er blitt sure av sur nedbør, slik at pH-verdien stiger igjen.`,
+      tekst: `Blander vi en syre og en base i vann, nøytraliserer de hverandre. Det skjer fordi basen tar opp H⁺-ionene fra syren. Når H⁺-ionene blir «spist», forsvinner de sure egenskapene, og samtidig forsvinner de basiske egenskapene til basen. Er alle H⁺-ionene tatt opp, er løsningen nøytral. Dette brukes for eksempel når man tilsetter kalk i innsjøer som er blitt sure av sur nedbør, slik at pH-verdien stiger igjen.`,
     },
   ],
   'energi': [
     {
       tittel: `Hva er energi?`,
-      tekst: `Energi er litt vanskelig å forklare med få ord, men vi kan si at energi er noe som får ting til å skje. Ordet kommer fra det greske «energia», som betyr aktivitet eller virksomhet. Ingenting virker uten energi – verken TV-en eller kroppen vår. Det aller meste av energien vi har på jorda, kommer opprinnelig fra sola. Det viktigste unntaket er varmen i jordas indre.`,
+      tekst: `Energi er litt vanskelig å forklare med få ord, men vi kan si at energi er noe som får ting til å skje. Ordet kommer fra det greske «energia», som betyr aktivitet eller virksomhet. Ingenting virker uten energi, verken TV-en eller kroppen vår. Det aller meste av energien vi har på jorda, kommer opprinnelig fra sola. Det viktigste unntaket er varmen i jordas indre.`,
     },
     {
       tittel: `Bevegelsesenergi og stillingsenergi`,
@@ -355,7 +355,7 @@ export const sammendrag = {
     },
     {
       tittel: `Energiloven`,
-      tekst: `Energiloven er en av de viktigste lovene i naturfag. Den sier at energi ikke kan skapes eller forsvinne – den kan bare overføres fra én energiform til en annen. Når vindmølla går, blir for eksempel bevegelsesenergien i vinden overført til elektrisk energi. Energien blir altså aldri «borte», den bare skifter form.`,
+      tekst: `Energiloven er en av de viktigste lovene i naturfag. Den sier at energi ikke kan skapes eller forsvinne, den kan bare overføres fra én energiform til en annen. Når vindmølla går, blir for eksempel bevegelsesenergien i vinden overført til elektrisk energi. Energien blir altså aldri «borte», den bare skifter form.`,
     },
     {
       tittel: `Energikvalitet og energioverganger`,
@@ -363,15 +363,15 @@ export const sammendrag = {
     },
     {
       tittel: `Elektrisk strøm`,
-      tekst: `Elektrisk strøm er elektrisk ladde partikler – elektroner – som beveger seg i samme retning gjennom en ledning. Strøm er et mål på hvor mange elektroner som passerer gjennom ledningen per sekund. Elektrisk strøm er altså en form for bevegelsesenergi.`,
+      tekst: `Elektrisk strøm er elektrisk ladde partikler, elektroner, som beveger seg i samme retning gjennom en ledning. Strøm er et mål på hvor mange elektroner som passerer gjennom ledningen per sekund. Elektrisk strøm er altså en form for bevegelsesenergi.`,
     },
     {
       tittel: `Å lage strøm`,
-      tekst: `Vi kan lage (indusere) strøm ved hjelp av en spole og en magnet. Når vi beveger magneten gjennom spolen, eller roterer den inni, settes elektronene i bevegelse, og det induseres strøm i ledningen. Det er nettopp dette en generator gjør, og generatorer brukes i de fleste kraftverk – som vannkraft, vindkraft, gasskraft, atomkraft og bølgekraft. Solcellepaneler er et unntak: de lager elektrisk energi direkte fra sollyset, uten generator.`,
+      tekst: `Vi kan lage (indusere) strøm ved hjelp av en spole og en magnet. Når vi beveger magneten gjennom spolen, eller roterer den inni, settes elektronene i bevegelse, og det induseres strøm i ledningen. Det er nettopp dette en generator gjør, og generatorer brukes i de fleste kraftverk, som vannkraft, vindkraft, gasskraft, atomkraft og bølgekraft. Solcellepaneler er et unntak: de lager elektrisk energi direkte fra sollyset, uten generator.`,
     },
     {
       tittel: `Å lagre energi`,
-      tekst: `Potensiell energi er lett å lagre, for eksempel som vedkubber eller som vann i et vannmagasin. Bevegelsesenergi må derimot brukes med en gang – med mindre vi har et batteri. Et batteri lagrer energi som vi kan bruke når vi trenger den. Et morsomt eksempel er sitronbatteriet: det er egentlig metallene, ikke sitronen, som lager strømmen. To ulike metaller gir fra seg elektroner ulikt, og sitronen fungerer bare som en «bru» mellom dem.`,
+      tekst: `Potensiell energi er lett å lagre, for eksempel som vedkubber eller som vann i et vannmagasin. Bevegelsesenergi må derimot brukes med en gang, med mindre vi har et batteri. Et batteri lagrer energi som vi kan bruke når vi trenger den. Et morsomt eksempel er sitronbatteriet: det er egentlig metallene, ikke sitronen, som lager strømmen. To ulike metaller gir fra seg elektroner ulikt, og sitronen fungerer bare som en «bru» mellom dem.`,
     },
     {
       tittel: `Energibruk og miljø`,
@@ -379,7 +379,7 @@ export const sammendrag = {
     },
     {
       tittel: `Stråling: lyd og lys`,
-      tekst: `Stråling er bølger som sprer energi utover. Lyd og lys er stråling som vi kan oppfatte. Lyd oppstår når luft (eller et annet stoff) settes i bevegelse, og lyd må derfor ha et stoff å bevege seg i. Stråling som lys trenger derimot ikke noe stoff – det er grunnen til at lyset fra sola kan reise gjennom det tomme verdensrommet og helt fram til oss.`,
+      tekst: `Stråling er bølger som sprer energi utover. Lyd og lys er stråling som vi kan oppfatte. Lyd oppstår når luft (eller et annet stoff) settes i bevegelse, og lyd må derfor ha et stoff å bevege seg i. Stråling som lys trenger derimot ikke noe stoff, det er grunnen til at lyset fra sola kan reise gjennom det tomme verdensrommet og helt fram til oss.`,
     },
     {
       tittel: `Bølger: amplitude, bølgelengde og frekvens`,
@@ -387,7 +387,7 @@ export const sammendrag = {
     },
     {
       tittel: `Det elektromagnetiske spekteret`,
-      tekst: `Det elektromagnetiske spekteret er en oversikt over alle de elektromagnetiske bølgelengdene og hva vi kaller dem. De lengste bølgene er radiobølger, og de korteste er gammastråler. I en liten del på midten finner vi det synlige lyset, der rødt lys har litt lengre bølgelengde enn blått. Stråling brukes til utrolig mye teknologi i dag: WiFi, Bluetooth, radio, fjernkontroller, GPS via satellitter, røntgen og laser – alt sammen bruker elektromagnetisk stråling.`,
+      tekst: `Det elektromagnetiske spekteret er en oversikt over alle de elektromagnetiske bølgelengdene og hva vi kaller dem. De lengste bølgene er radiobølger, og de korteste er gammastråler. I en liten del på midten finner vi det synlige lyset, der rødt lys har litt lengre bølgelengde enn blått. Stråling brukes til utrolig mye teknologi i dag: WiFi, Bluetooth, radio, fjernkontroller, GPS via satellitter, røntgen og laser, alt sammen bruker elektromagnetisk stråling.`,
     },
     {
       tittel: `Krefter`,
@@ -395,19 +395,19 @@ export const sammendrag = {
     },
     {
       tittel: `Masse og tyngde`,
-      tekst: `Masse betyr stoffmengde – altså hvor mye stoff (protoner, nøytroner og elektroner) en gjenstand er bygd opp av. Masse måles i kilogram (kg) og er alltid den samme. Tyngde er derimot en kraft: tyngdekraften trekker gjenstanden mot jorda med en kraft på omtrent 10 ganger massen (egentlig 9,81). En gjenstand på 50 kg har derfor en tyngde på cirka 500 N på jorda. På månen, der tyngdekraften er svakere, blir tyngden bare rundt 80 N – men massen er fortsatt 50 kg. Tyngden varierer altså med hvor du er, mens massen alltid er den samme.`,
+      tekst: `Masse betyr stoffmengde, altså hvor mye stoff (protoner, nøytroner og elektroner) en gjenstand er bygd opp av. Masse måles i kilogram (kg) og er alltid den samme. Tyngde er derimot en kraft: tyngdekraften trekker gjenstanden mot jorda med en kraft på omtrent 10 ganger massen (egentlig 9,81). En gjenstand på 50 kg har derfor en tyngde på cirka 500 N på jorda. På månen, der tyngdekraften er svakere, blir tyngden bare rundt 80 N, men massen er fortsatt 50 kg. Tyngden varierer altså med hvor du er, mens massen alltid er den samme.`,
     },
     {
       tittel: `Arbeid og effekt`,
-      tekst: `I fysikken gjør en kraft et arbeid når den flytter på noe. Arbeid regnes ut som kraft ganger strekning, og måles i newtonmeter (Nm) eller joule (J). Dytter du en vogn med en kraft på 10 N i 20 meter, har du gjort et arbeid på 200 joule. Effekt forteller hvor raskt arbeidet blir gjort: effekt er arbeid delt på tid. Springer du opp en bakke på 15 minutter, eller går rolig på halvannen time, gjør du det samme arbeidet – men effekten er mye større når du springer.`,
+      tekst: `I fysikken gjør en kraft et arbeid når den flytter på noe. Arbeid regnes ut som kraft ganger strekning, og måles i newtonmeter (Nm) eller joule (J). Dytter du en vogn med en kraft på 10 N i 20 meter, har du gjort et arbeid på 200 joule. Effekt forteller hvor raskt arbeidet blir gjort: effekt er arbeid delt på tid. Springer du opp en bakke på 15 minutter, eller går rolig på halvannen time, gjør du det samme arbeidet, men effekten er mye større når du springer.`,
     },
     {
       tittel: `Fart, akselerasjon og Newtons 2. lov`,
-      tekst: `Gjennomsnittsfart regnes ut som strekning delt på tid. Akselerasjon er fartsendring delt på tid – altså hvor raskt farten endrer seg. For at noe skal øke eller minke i fart, må det virke en kraft som dytter eller drar; uten krefter blir det ingen akselerasjon. Dette er kjernen i Newtons 2. lov, som sier at kraft = masse × akselerasjon (F = m · a).`,
+      tekst: `Gjennomsnittsfart regnes ut som strekning delt på tid. Akselerasjon er fartsendring delt på tid, altså hvor raskt farten endrer seg. For at noe skal øke eller minke i fart, må det virke en kraft som dytter eller drar; uten krefter blir det ingen akselerasjon. Dette er kjernen i Newtons 2. lov, som sier at kraft = masse × akselerasjon (F = m · a).`,
     },
     {
       tittel: `Hvorfor bilbeltet redder liv`,
-      tekst: `Et bilbelte er et godt eksempel på fysikk i praksis. I et kræsj endres farten veldig mye på svært kort tid – det gir en enorm akselerasjon, som er farlig for kroppen. Bilbeltet gjør «kræsjtiden» litt lengre, slik at akselerasjonen blir mindre og kræsjet mindre farlig. I tillegg fordeler beltet kraften fra kræsjet over en større flate av kroppen. Det er samme idé som at en nål lett går gjennom en pappeske, mens en flat hånd ikke gjør det – kraften virker på et mye mindre areal med nåla.`,
+      tekst: `Et bilbelte er et godt eksempel på fysikk i praksis. I et kræsj endres farten veldig mye på svært kort tid, det gir en enorm akselerasjon, som er farlig for kroppen. Bilbeltet gjør «kræsjtiden» litt lengre, slik at akselerasjonen blir mindre og kræsjet mindre farlig. I tillegg fordeler beltet kraften fra kræsjet over en større flate av kroppen. Det er samme idé som at en nål lett går gjennom en pappeske, mens en flat hånd ikke gjør det, kraften virker på et mye mindre areal med nåla.`,
     },
   ],
 };

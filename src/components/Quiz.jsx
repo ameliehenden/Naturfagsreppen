@@ -108,7 +108,7 @@ export default function Quiz({ sporsmaal }) {
           <p className={q.alternativer[valgt].riktig ? styles.riktigTekst : styles.feilTekst}>
             {q.alternativer[valgt].riktig
               ? 'Riktig! 🎉'
-              : 'Ikke helt – riktig svar er markert grønt.'}
+              : 'Ikke helt. Riktig svar er markert grønt.'}
           </p>
           <button type="button" className={styles.neste} onClick={neste}>
             {index + 1 < runde.length ? 'Neste spørsmål →' : 'Se resultatet'}
