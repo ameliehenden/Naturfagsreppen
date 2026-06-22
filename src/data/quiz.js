@@ -838,4 +838,168 @@ export const quiz = {
       ],
     },
   ],
+  'kjemi': [
+    {
+      sporsmal: `Hva er et atom?`,
+      riktig: `Den minste byggesteinen et stoff kan deles opp i.`,
+      feil: [
+        `Flere atomer som er satt sammen til en enhet.`,
+        `Et elektrisk ladet stoff som gir fra seg H⁺-ioner.`,
+        `Den minste delen av en celle.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilken ladning har de tre partiklene i et atom?`,
+      riktig: `Protoner er positive, nøytroner er uten ladning, og elektroner er negative.`,
+      feil: [
+        `Protoner er negative, nøytroner er positive, og elektroner er uten ladning.`,
+        `Protoner er uten ladning, nøytroner er negative, og elektroner er positive.`,
+        `Alle tre er positivt ladet.`,
+      ],
+    },
+    {
+      sporsmal: `Hva bestemmer hvilket grunnstoff et atom er?`,
+      riktig: `Antallet protoner i kjernen.`,
+      feil: [
+        `Antallet nøytroner i kjernen.`,
+        `Antallet elektroner i ytterste skall.`,
+        `Hvor mange skall atomet har.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er et grunnstoff?`,
+      riktig: `Et stoff som bare består av én type atom.`,
+      feil: [
+        `Et stoff som består av minst to ulike atomer.`,
+        `Den minste partikkelen i en kjemisk reaksjon.`,
+        `Et atom som har blitt elektrisk ladet.`,
+      ],
+    },
+    {
+      sporsmal: `Hva forteller en gruppe (loddrett kolonne) i periodesystemet?`,
+      riktig: `At stoffene har like mange elektroner i ytterste skall og dermed nokså like egenskaper.`,
+      feil: [
+        `At stoffene har like mange elektronskall.`,
+        `At stoffene har nøyaktig samme antall nøytroner.`,
+        `At stoffene alltid reagerer med hverandre.`,
+      ],
+    },
+    {
+      sporsmal: `Hva kjennetegner edelgassene?`,
+      riktig: `De har fullt ytterste skall og er svært stabile, så de reagerer nesten ikke med andre stoffer.`,
+      feil: [
+        `De har ett elektron i ytterste skall og reagerer veldig lett.`,
+        `De mangler ett elektron og reagerer lett for å lage salt.`,
+        `De er myke metaller som lett gir fra seg elektroner.`,
+      ],
+    },
+    {
+      sporsmal: `Hva sier 8-regelen?`,
+      riktig: `At atomer «ønsker seg» 8 elektroner i ytterste skall (2 i det innerste).`,
+      feil: [
+        `At alle atomer har 8 protoner i kjernen.`,
+        `At et atom kan ha maksimalt 8 skall.`,
+        `At det alltid dannes 8 nye stoffer i en reaksjon.`,
+      ],
+    },
+    {
+      sporsmal: `Hva skjer i en ionebinding?`,
+      riktig: `Det ene atomet gir fra seg elektroner og blir positivt, det andre tar dem opp og blir negativt, og de motsatte ladningene holder sammen.`,
+      feil: [
+        `Atomene deler elektroner med hverandre likt.`,
+        `Atomene bytter protoner i kjernen.`,
+        `Atomene smelter sammen til ett nytt atom.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en elektronparbinding?`,
+      riktig: `En binding der atomer deler elektroner med hverandre, som i vann og metan.`,
+      feil: [
+        `En binding der et atom gir fra seg elektroner til et annet.`,
+        `En binding mellom to ioner med motsatt ladning.`,
+        `En binding der nøytroner deles mellom to kjerner.`,
+      ],
+    },
+    {
+      sporsmal: `Hva betyr massebevaring i en kjemisk reaksjon?`,
+      riktig: `At atomer verken kan skapes eller forsvinne, så det er like mange atomer før og etter.`,
+      feil: [
+        `At stoffene alltid veier mer etter reaksjonen.`,
+        `At noen atomer forsvinner når nye stoffer dannes.`,
+        `At massen alltid blir til energi.`,
+      ],
+    },
+    {
+      sporsmal: `Hva dannes i en forbrenningsreaksjon når et hydrokarbon brenner?`,
+      riktig: `Karbondioksid og vann, samtidig som det frigjøres varme.`,
+      feil: [
+        `Oksygen og glukose, samtidig som det frigjøres varme.`,
+        `Bare vanndamp, uten at det dannes noen gass.`,
+        `Hydrogen og rent karbon.`,
+      ],
+    },
+    {
+      sporsmal: `Hva kjennetegner organisk kjemi?`,
+      riktig: `Det er kjemien om stoffer som inneholder karbon.`,
+      feil: [
+        `Det er kjemien om stoffer som inneholder oksygen.`,
+        `Det er kjemien om alle metaller.`,
+        `Det er kjemien om syrer og baser.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er et hydrokarbon?`,
+      riktig: `Et organisk stoff som bare består av hydrogen og karbon.`,
+      feil: [
+        `Et stoff som bare består av hydrogen og oksygen.`,
+        `Et stoff som inneholder en OH-gruppe.`,
+        `Et stoff som gir fra seg H⁺-ioner i vann.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er det som gir syrene de sure egenskapene?`,
+      riktig: `H⁺-ionene som syremolekylene gir fra seg i vann.`,
+      feil: [
+        `OH-gruppene som syren tar opp fra vannet.`,
+        `Nøytronene i syremolekylene.`,
+        `At syren tar opp H⁺-ioner fra omgivelsene.`,
+      ],
+    },
+    {
+      sporsmal: `Hva viser pH-skalaen?`,
+      riktig: `Hvor sur eller basisk en løsning er, på en skala fra 0 til 14.`,
+      feil: [
+        `Hvor mye et stoff veier.`,
+        `Hvor mange atomer et molekyl består av.`,
+        `Hvor raskt en kjemisk reaksjon går.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er forskjellen på en sterk og en svak syre?`,
+      riktig: `I en sterk syre gir alle molekylene fra seg H⁺-ioner, mens i en svak syre gir bare noen av dem fra seg H⁺-ioner.`,
+      feil: [
+        `En sterk syre har lav pH fordi den inneholder mer vann.`,
+        `En sterk syre tar opp H⁺-ioner, mens en svak gir dem fra seg.`,
+        `En sterk syre er alltid organisk, mens en svak alltid er uorganisk.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er forskjellen på organiske og uorganiske syrer?`,
+      riktig: `Organiske syrer er som regel svake og finnes i planter og dyr, mens uorganiske syrer ofte er sterke og finnes i mineraler.`,
+      feil: [
+        `Organiske syrer er alltid sterkere enn uorganiske syrer.`,
+        `Organiske syrer inneholder ikke karbon, men det gjør uorganiske.`,
+        `Det er ingen forskjell – det er to navn på det samme.`,
+      ],
+    },
+    {
+      sporsmal: `Hva skjer når en syre og en base nøytraliserer hverandre?`,
+      riktig: `Basen tar opp H⁺-ionene fra syren, slik at både de sure og de basiske egenskapene forsvinner.`,
+      feil: [
+        `Syren og basen forsterker hverandre og blir farligere.`,
+        `Det dannes en enda sterkere syre.`,
+        `Løsningen blir mer basisk enn før.`,
+      ],
+    },
+  ],
 };

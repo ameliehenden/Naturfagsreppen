@@ -483,4 +483,134 @@ export const flashcards = {
       forklaring: `Et skadelig stoff i miljøet. Enkelte miljøgifter ligner så mye på kroppens egne hormoner at kroppen tar feil av dem, slik at de sender uønskede beskjeder i hormonsystemet.`,
     },
   ],
+  'kjemi': [
+    {
+      begrep: `Atom`,
+      forklaring: `Den minste byggesteinen et stoff kan deles opp i. Ordet betyr «udelelig». Alt rundt oss er bygd opp av atomer.`,
+    },
+    {
+      begrep: `Atomets oppbygging`,
+      forklaring: `Et atom har en kjerne med protoner (positive) og nøytroner (uten ladning), og elektroner (negative) som suser rundt kjernen.`,
+    },
+    {
+      begrep: `Proton`,
+      forklaring: `En positivt ladet partikkel i atomkjernen. Antallet protoner bestemmer hvilket grunnstoff atomet er, og er det samme som atomnummeret.`,
+    },
+    {
+      begrep: `Nøytron`,
+      forklaring: `En partikkel i atomkjernen uten elektrisk ladning. Antallet nøytroner kan variere i atomer av samme grunnstoff.`,
+    },
+    {
+      begrep: `Elektron`,
+      forklaring: `En negativt ladet partikkel som beveger seg rundt atomkjernen i skall. Det er som regel like mange elektroner som protoner.`,
+    },
+    {
+      begrep: `Grunnstoff`,
+      forklaring: `Et stoff som bare består av én type atom. Alle grunnstoffene er samlet i periodesystemet.`,
+    },
+    {
+      begrep: `Skallmodellen`,
+      forklaring: `En enkel modell av atomet der elektronene tegnes i faste skall rundt kjernen. God å lære av.`,
+    },
+    {
+      begrep: `Skymodellen`,
+      forklaring: `En modell der elektronene vises som en «sky» rundt kjernen. Den ligner mer på hvordan forskere tror atomet egentlig ser ut.`,
+    },
+    {
+      begrep: `Periodesystemet`,
+      forklaring: `En tabell over alle grunnstoffene, sortert etter atomnummer. Vannrette rader kalles perioder, loddrette kolonner kalles grupper.`,
+    },
+    {
+      begrep: `Atomnummer`,
+      forklaring: `Tallet som forteller hvor mange protoner et atom har i kjernen. Det bestemmer hvilket grunnstoff atomet er.`,
+    },
+    {
+      begrep: `8-regelen`,
+      forklaring: `Atomer «ønsker seg» fullt ytterste skall. Det innerste skallet har plass til 2 elektroner, mens det ytterste som regel er fullt med 8.`,
+    },
+    {
+      begrep: `Ion`,
+      forklaring: `Et atom som har blitt elektrisk ladet ved å gi fra seg eller ta opp elektroner. Et positivt ion har gitt fra seg elektroner, et negativt har tatt opp.`,
+    },
+    {
+      begrep: `Molekyl`,
+      forklaring: `Flere atomer satt sammen. Mens ett enkelt atom er én byggekloss, er et molekyl flere byggeklosser bundet sammen.`,
+    },
+    {
+      begrep: `Ionebinding`,
+      forklaring: `En binding der det ene atomet gir fra seg elektroner (og blir positivt) og det andre tar dem opp (og blir negativt). De motsatte ladningene holder sammen, som i bordsalt (NaCl).`,
+    },
+    {
+      begrep: `Elektronparbinding`,
+      forklaring: `En binding der atomer deler elektroner med hverandre, slik at begge oppnår fullt ytterskall. Eksempler er vann og metan.`,
+    },
+    {
+      begrep: `Edelgasser`,
+      forklaring: `Grunnstoffene i gruppe 18. De har fullt ytterste skall og er svært stabile – de reagerer nesten ikke med andre stoffer.`,
+    },
+    {
+      begrep: `Alkalimetaller`,
+      forklaring: `Grunnstoffene i gruppe 1. Myke metaller med ett elektron i ytterste skall som reagerer veldig lett, fordi de bare trenger å gi fra seg ett elektron.`,
+    },
+    {
+      begrep: `Halogener`,
+      forklaring: `Grunnstoffene i gruppe 17. De har sju elektroner i ytterste skall og reagerer lett. Navnet betyr «de som lager salt», og mange er giftige.`,
+    },
+    {
+      begrep: `Kjemisk formel`,
+      forklaring: `Symboler som viser hvilke og hvor mange atomer et stoff består av. For eksempel betyr O₂ ett oksygenmolekyl av to oksygenatomer.`,
+    },
+    {
+      begrep: `Reaksjonslikning`,
+      forklaring: `En «setning» på kjemispråket som viser hva som skjer i en kjemisk reaksjon, for eksempel 2H₂ + O₂ → 2H₂O.`,
+    },
+    {
+      begrep: `Massebevaring`,
+      forklaring: `At atomer verken kan skapes eller forsvinne i en kjemisk reaksjon. Det er like mange atomer av hvert slag før og etter reaksjonen.`,
+    },
+    {
+      begrep: `Forbrenningsreaksjon`,
+      forklaring: `En reaksjon der et brennbart stoff reagerer med oksygen og danner karbondioksid og vann, samtidig som det frigjøres varme.`,
+    },
+    {
+      begrep: `Organisk kjemi`,
+      forklaring: `Kjemien om stoffer som inneholder karbon. Alle organiske stoffer er bygd opp av kjeder med karbonatomer.`,
+    },
+    {
+      begrep: `Hydrokarbon`,
+      forklaring: `Et organisk stoff som bare består av hydrogen og karbon. Deles i alkaner (enkeltbinding), alkener (dobbeltbinding) og alkyner (trippelbinding).`,
+    },
+    {
+      begrep: `Alkohol`,
+      forklaring: `Et hydrokarbon der ett hydrogenatom er byttet ut med en OH-gruppe. Får navn med endelsen «-ol», som metanol og etanol.`,
+    },
+    {
+      begrep: `Karbohydrat`,
+      forklaring: `Et produkt av fotosyntesen, bygd av glukose. Monosakkarid = ett glukosemolekyl, disakkarid = to, polysakkarid = mange (som stivelse og cellulose).`,
+    },
+    {
+      begrep: `Syre`,
+      forklaring: `Et stoff som smaker surt, kan etse, og gir fra seg H⁺-ioner i vann. Det er H⁺-ionene som gir de sure egenskapene.`,
+    },
+    {
+      begrep: `Base`,
+      forklaring: `Et stoff som kan nøytralisere syrer ved å ta opp H⁺-ioner. Basiske løsninger kalles også alkaliske, og sterke basiske løsninger kalles lut.`,
+    },
+    {
+      begrep: `pH-skalaen`,
+      forklaring: `En skala fra 0 til 14 som viser hvor sur eller basisk en løsning er. Under 7 er surt, 7 er nøytralt, og over 7 er basisk.`,
+    },
+    {
+      begrep: `Indikator`,
+      forklaring: `Et stoff som skifter farge etter hvor surt eller basisk noe er. Vi kan bruke pH-papir, men også mange planter og grønnsaker.`,
+    },
+    {
+      begrep: `H⁺-ion`,
+      forklaring: `Den lille biten som løsner når et syremolekyl spaltes i vann. Jo flere H⁺-ioner en syre gir fra seg, desto sterkere er den.`,
+    },
+    {
+      begrep: `Nøytralisering`,
+      forklaring: `Når en syre og en base blandes og opphever hverandre. Basen tar opp H⁺-ionene fra syren, slik at både de sure og de basiske egenskapene forsvinner.`,
+    },
+  ],
 };

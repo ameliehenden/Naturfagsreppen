@@ -252,4 +252,58 @@ export const oppgaver = {
       fasit: `Tilfeldige genetiske endringer (mutasjoner) skaper variasjon innenfor en art. Gjennom naturlig utvalg overlever og formerer de best tilpassede individene seg, slik at de gunstige egenskapene blir vanligere. Over lang tid kan dette føre til at det oppstår nye arter. Et eksempel er Darwins finker på Galápagosøyene: finker med felles opphav utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørke overlevde de finkene som hadde kraftige nebb og kunne knekke harde frø, og avkommet deres fikk større nebb – et tegn på at arten endret seg over tid.`,
     },
   ],
+  'kjemi': [
+    {
+      sporsmal: `Hva er forskjellen på et atom og et molekyl?`,
+      fasit: `Et atom er den minste byggesteinen, bygd opp av små partikler (protoner, nøytroner og elektroner). Et molekyl er flere atomer satt sammen. Med andre ord: én byggekloss er et atom, mens flere byggeklosser bundet sammen er et molekyl.`,
+    },
+    {
+      sporsmal: `Hvilken elektrisk ladning har de tre partiklene et atom er bygd opp av, og hva kalles et elektrisk ladet atom?`,
+      fasit: `Protoner er positive, nøytroner er uten ladning (nøytrale), og elektroner er negative. Et atom som har blitt elektrisk ladet, kalles et ion. Atomet blir ladet ved å gi fra seg eller ta opp elektroner.`,
+    },
+    {
+      sporsmal: `Hvorfor bruker vi modeller av atomet, og hvilke to modeller kjenner du til?`,
+      fasit: `Atomer er så små at vi ikke kan se dem, og derfor bruker vi modeller for å vise hvordan de kan se ut. To vanlige modeller er skallmodellen, som er enkel og god å lære av, og skymodellen, som ligner mer på hvordan forskere tror atomet egentlig ser ut. Ingen av modellene er helt riktige, men de er nyttige på hver sin måte.`,
+    },
+    {
+      sporsmal: `Tegn et karbonatom (på et ark), og forklar hvordan det er bygd opp.`,
+      fasit: `Karbon er grunnstoff nummer 6, så det har 6 protoner i kjernen og 6 elektroner i skallene. Det innerste skallet har plass til bare 2 elektroner, så de 4 siste ligger i det ytterste skallet. I kjernen finnes også nøytroner – antallet kan variere, men en tommelfingerregel er at det er omtrent like mange nøytroner som protoner.`,
+    },
+    {
+      sporsmal: `Hvordan er periodesystemet bygd opp? Forklar hva grupper, perioder og atomnummer er.`,
+      fasit: `Periodesystemet er en tabell over alle grunnstoffene, sortert etter atomnummer (antall protoner i kjernen). De vannrette radene kalles perioder; stoffer i samme periode har like mange elektronskall. De loddrette kolonnene kalles grupper; stoffer i samme gruppe har like mange elektroner i ytterste skall og dermed nokså like egenskaper. Atomnummeret forteller hvor mange protoner et atom har, og dermed hvilket grunnstoff det er.`,
+    },
+    {
+      sporsmal: `Vanlig bordsalt (natriumklorid) er laget av natrium og klor. Hva heter bindingen som holder atomene sammen, og hvordan foregår den?`,
+      fasit: `Bindingen heter ionebinding. Natrium har ett elektron i ytterste skall og gir det fra seg, slik at det blir et positivt ion (Na⁺). Klor mangler ett elektron på å få fullt ytterskall og tar opp dette elektronet, slik at det blir et negativt ion (Cl⁻). De motsatte ladningene trekker hverandre til seg og holder sammen.`,
+    },
+    {
+      sporsmal: `Et oksygenatom og to hydrogenatomer deler et par elektroner hver. Hva heter denne bindingen?`,
+      fasit: `Det er en elektronparbinding. Atomene gir ikke fra seg elektroner, men deler dem, slik at alle oppnår fullt ytterste skall. Fordi de deler de samme elektronene, må de holde sammen – og sammen danner de et vannmolekyl.`,
+    },
+    {
+      sporsmal: `Hva mener vi med at det alltid er massebevaring i en kjemisk reaksjon?`,
+      fasit: `Massebevaring betyr at atomer verken kan skapes eller forsvinne. Det er nøyaktig like mange atomer av hvert slag før og etter reaksjonen – de er bare satt sammen på en ny måte, slik som legoklosser man bygger om. Derfor må det være like mange atomer på begge sider av en reaksjonslikning.`,
+    },
+    {
+      sporsmal: `Tegn opp pH-skalaen og forklar hvordan du bruker den.`,
+      fasit: `pH-skalaen går fra 0 til 14. Løsninger med pH under 7 er sure, pH lik 7 er nøytralt, og pH over 7 er basisk. Jo nærmere 0, desto surere er løsningen; jo nærmere 14, desto mer basisk. For å finne pH bruker vi en indikator, for eksempel pH-papir.`,
+    },
+    {
+      sporsmal: `Gi eksempel på tre syrer og to baser, og hva vi bruker dem til.`,
+      fasit: `Eksempler på syrer: sitronsyre og eddiksyre (organiske syrer som brukes i matlaging) og saltsyre eller svovelsyre (uorganiske syrer som brukes i industrien, blant annet til kunstgjødsel og sprengstoff). Eksempler på baser: natriumhydroksid (lut, som løser opp fett og brukes til å rense avløp) og ammoniakk (som brukes til vindusvask fordi den løser fett uten å skumme).`,
+    },
+    {
+      sporsmal: `Forklar forskjellen på organiske og uorganiske syrer.`,
+      fasit: `Organiske syrer er som regel svake syrer som finnes i planter og dyr, og de brukes ofte i matlaging (for eksempel sitronsyre og eddiksyre). Uorganiske syrer er ofte sterke syrer som finnes i mineraler, og de brukes mye i industrien (for eksempel saltsyre og svovelsyre). Det er de uorganiske syrene som kan være svært farlige.`,
+    },
+    {
+      sporsmal: `Hva er en indikator, og hvordan kan du finne ut om en vannløsning er sur eller basisk?`,
+      fasit: `En indikator er et stoff som skifter farge etter hvor surt eller basisk noe er. Du kan finne ut om en løsning er sur eller basisk ved å bruke en indikator – for eksempel pH-papir som skifter farge, eller naturlige indikatorer som enkelte planter, frukter og grønnsaker.`,
+    },
+    {
+      sporsmal: `Hva er forskjellen på en sterk og en svak syre, og hva mener vi med at syrer og baser nøytraliserer hverandre?`,
+      fasit: `En syre gir fra seg H⁺-ioner i vann. I en sterk syre gir alle (eller mange) molekyler fra seg H⁺-ioner, mens i en svak syre gir bare noen få fra seg H⁺-ioner – flere H⁺-ioner gjør syren sterkere. At syrer og baser nøytraliserer hverandre, betyr at når de blandes, tar basen opp («spiser») H⁺-ionene fra syren. Da forsvinner både de sure og de basiske egenskapene, og løsningen blir nøytral.`,
+    },
+  ],
 };

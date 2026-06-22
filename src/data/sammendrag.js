@@ -266,4 +266,78 @@ export const sammendrag = {
       tekst: `Ofte må vi veie ulike hensyn mot hverandre, og da oppstår interessekonflikter. Et isfritt Arktis kan åpne for skipsfart og olje, men er en katastrofe for naturen. Ved Aralsjøen ble elvene ledet bort for å vanne jordbruk, slik at verdens fjerde største innsjø nesten forsvant, og fiskerne mistet livsgrunnlaget. Ved Altaelva sto utbygging av kraftverk mot å bevare laksen og samiske rettigheter. Slike saker viser at vern av natur og bruk av natur kan komme i konflikt, og at det sjelden finnes enkle svar.`,
     },
   ],
+  'kjemi': [
+    {
+      tittel: `Atomet`,
+      tekst: `Alt rundt oss er bygd opp av bittesmå byggesteiner som kalles atomer. Ordet «atom» er gresk og betyr «udelelig», fordi den greske filosofen Demokrit mente at dette var den minste biten et stoff kunne deles opp i. Atomene er utrolig små – deler du én meter i en milliard like deler, har du en nanometer, og deler du den igjen i 100 deler, er du omtrent på størrelsen med et lite atom. I dag vet vi at atomet likevel ikke er udelelig, men består av enda mindre partikler.`,
+    },
+    {
+      tittel: `Atomets oppbygging`,
+      tekst: `Et atom er bygd opp av tre typer partikler. Innerst ligger atomkjernen, som inneholder protoner (positivt ladet) og nøytroner (uten ladning). Rundt kjernen suser elektronene (negativt ladet). Antallet protoner bestemmer hvilket grunnstoff atomet er, og dette tallet endrer seg aldri – et gullatom forblir et gullatom. Som hovedregel er det like mange elektroner som protoner, men antallet nøytroner kan variere.`,
+    },
+    {
+      tittel: `Skallmodellen og skymodellen`,
+      tekst: `Siden atomene er altfor små til at vi kan se dem, bruker vi modeller for å forklare hvordan de kan se ut. I skallmodellen tegner vi elektronene i faste «skall» rundt kjernen – den er enkel og god å lære av. I skymodellen vises elektronene mer som en «sky» rundt kjernen, og den ligner mer på hvordan forskere tror et atom egentlig ser ut. Ingen av modellene gir et helt riktig bilde, men de er nyttige på hver sin måte. Atomet er for øvrig nesten bare tomrom: var kjernen så stor som en fotball, ville det nærmeste elektronet ligget to kilometer unna.`,
+    },
+    {
+      tittel: `Grunnstoffer og periodesystemet`,
+      tekst: `Et grunnstoff er et stoff som bare består av én type atom. Alle grunnstoffene vi kjenner, er samlet i periodesystemet, som forskeren Dmitrij Mendelejev laget. Her er stoffene sortert etter atomnummer, altså antall protoner. De vannrette radene kalles perioder – stoffer i samme periode har like mange elektronskall. De loddrette kolonnene kalles grupper – stoffer i samme gruppe har like mange elektroner i det ytterste skallet og dermed nokså like egenskaper. Metallene ligger til venstre i tabellen, og ikke-metallene til høyre.`,
+    },
+    {
+      tittel: `Grunnstoffamilier`,
+      tekst: `Noen grupper i periodesystemet har egne navn. Edelgassene (gruppe 18) har fullt ytterste skall og er svært stabile – de reagerer nesten ikke med andre stoffer. Alkalimetallene (gruppe 1) har bare ett elektron i ytterste skall; de er myke metaller som reagerer veldig lett, fordi de bare trenger å kvitte seg med ett elektron. Halogenene (gruppe 17) har sju elektroner i ytterste skall og reagerer også lett, siden de bare mangler ett. Navnet betyr «de som lager salt», og mange av dem er giftige med stikkende lukt.`,
+    },
+    {
+      tittel: `8-regelen`,
+      tekst: `Alle atomer «ønsker seg» et fullt ytterste skall. Det innerste skallet har plass til 2 elektroner, mens det ytterste som regel er fullt når det har 8 elektroner – dette kaller vi 8-regelen. For å oppnå fullt ytterskall går atomene inn i kjemiske reaksjoner, der de enten gir fra seg, tar opp eller deler elektroner med andre atomer.`,
+    },
+    {
+      tittel: `Ionebinding`,
+      tekst: `Når et atom gir fra seg eller tar opp elektroner, blir det elektrisk ladet, og da kaller vi det et ion. I en ionebinding gir det ene atomet fra seg elektroner og blir et positivt ion, mens det andre tar dem opp og blir et negativt ion. De motsatte ladningene trekker hverandre til seg og holder sammen. Et eksempel er vanlig bordsalt, natriumklorid: natrium gir fra seg sitt ene ytterelektron til klor, og de to ionene (Na⁺ og Cl⁻) binder seg sammen.`,
+    },
+    {
+      tittel: `Elektronparbinding`,
+      tekst: `I en elektronparbinding gir ikke atomene fra seg elektroner – i stedet går de sammen om å dele elektroner, slik at begge oppnår fullt ytterskall. Fordi de deler de samme elektronene, må de holde sammen. Et eksempel er vannmolekylet, der ett oksygenatom deler elektroner med to hydrogenatomer, og metan (CH₄), der ett karbonatom deler med fire hydrogenatomer.`,
+    },
+    {
+      tittel: `Kjemispråket`,
+      tekst: `I kjemien bruker vi symboler i stedet for ord. Hvert grunnstoff har sin bokstav, for eksempel O for oksygen. Et lite tall foran viser hvor mange atomer eller molekyler vi har (2O = to oksygenatomer), mens et lite senket tall viser hvor mange atomer som er bundet sammen i ett molekyl (O₂ = ett oksygenmolekyl). En reaksjonslikning er en hel «setning» på kjemispråket. For eksempel betyr 2H₂ + O₂ → 2H₂O at to hydrogenmolekyler og ett oksygenmolekyl reagerer og danner to vannmolekyler.`,
+    },
+    {
+      tittel: `Kjemiske reaksjoner og massebevaring`,
+      tekst: `Når atomer og molekyler omorganiserer seg og danner nye stoffer, kaller vi det en kjemisk reaksjon. Da endrer stoffene egenskaper – de kan skifte farge eller form, endre temperatur, begynne å lyse, eller bli til gass. I en kjemisk reaksjon gjelder alltid massebevaring: atomer kan verken skapes eller forsvinne. Det er akkurat som med legoklosser – du kan bygge om til noe nytt, men du har nøyaktig de samme klossene før og etter. Derfor må det være like mange atomer av hvert slag på begge sider av en reaksjonslikning.`,
+    },
+    {
+      tittel: `Forbrenningsreaksjoner`,
+      tekst: `En forbrenningsreaksjon er en vanlig kjemisk reaksjon der et brennbart stoff – ofte et hydrokarbon – reagerer med oksygen og danner karbondioksid og vann. Reaksjonen frigjør varme, men trenger litt tilført varme for å starte. Når den først har startet, holder varmen fra reaksjonen den i gang av seg selv. Eksempler er forbrenning i bensin- og dieselmotorer, kullkraftverk og gassbrennere. Også celleåndingen i kroppen din er en forbrenningsreaksjon.`,
+    },
+    {
+      tittel: `Organisk kjemi og hydrokarboner`,
+      tekst: `Organisk kjemi er kjemien om stoffer som inneholder karbon (C), og alle slike stoffer er bygd opp av kjeder med karbonatomer. De enkleste kalles hydrokarboner, fordi de bare består av hydrogen og karbon. Vi deler dem i alkaner (bare enkeltbindinger, «mettet» med hydrogen), alkener (med en dobbeltbinding) og alkyner (med en trippelbinding). Navnet sier hvor mange karbonatomer som ligger på rekke: met- (1), et- (2), prop- (3), but- (4), pent- (5) og så videre. Hydrokarboner er brennbare, blander seg ikke med vann, og går fra gass til væske til fast stoff jo lengre karbonkjeden er.`,
+    },
+    {
+      tittel: `Alkoholer`,
+      tekst: `En alkohol er et hydrokarbon der ett hydrogenatom er byttet ut med en OH-gruppe (et oksygenatom med et hydrogenatom festet til seg). Alkoholer får navn på samme måte som hydrokarboner, men med endelsen «-ol» – for eksempel metanol, etanol og propanol. Fordi alkoholer har både en upolar del og en polar OH-gruppe, er de gode løsemidler som kan løse opp både vannløselige og fettløselige stoffer.`,
+    },
+    {
+      tittel: `Karbohydrater`,
+      tekst: `Karbohydrater er et produkt av fotosyntesen, og navnet betyr egentlig «karbon + vann». Vi deler dem i tre: monosakkarider består av ett enkelt glukosemolekyl, disakkarider av to, og polysakkarider av mange glukosemolekyler i lange kjeder. Stivelse, som vi finner i plantebasert mat, er greinete kjeder av glukose, mens cellulose er rette kjeder – det vi også kaller kostfiber.`,
+    },
+    {
+      tittel: `Syrer og baser`,
+      tekst: `Syrer og baser er stoffer med motsatt virkning. Syrer smaker surt, kan etse, og endrer fargen på enkelte stoffer. Baser er stoffer som kan få syrer til å forsvinne – vi sier at de nøytraliserer syrene. Både syrer og baser finnes som gass, væske og fast stoff, men oftest møter vi dem løst i vann, som sure eller basiske løsninger. En løsning som verken er sur eller basisk, kaller vi nøytral. Ordet «alkalisk» betyr det samme som basisk, og en sterk basisk løsning kaller vi lut.`,
+    },
+    {
+      tittel: `pH og indikatorer`,
+      tekst: `Hvor sur eller basisk en løsning er, måler vi med pH-skalaen, som går fra 0 til 14. En løsning med pH under 7 er sur, pH lik 7 er nøytral, og pH over 7 er basisk. Jo nærmere 0, desto surere; jo nærmere 14, desto mer basisk. For å finne pH bruker vi en indikator – et stoff som skifter farge etter hvor surt eller basisk noe er. Vi kan bruke pH-papir, men også mange planter, frukter og grønnsaker virker som indikatorer.`,
+    },
+    {
+      tittel: `Sterke og svake syrer og baser`,
+      tekst: `Når en syre løses i vann, kan molekylene spaltes og gi fra seg en liten bit som kalles et H⁺-ion. Det er disse H⁺-ionene som gir syren de sure egenskapene. I en sterk syre gir alle molekylene fra seg H⁺-ioner, mens i en svak syre er det bare noen som gjør det. Baser virker motsatt: de tar opp (eller «spiser») H⁺-ioner. I en sterk base tar nesten alle molekylene opp H⁺-ioner, mens i en svak base er det bare noen få. Vi deler også syrer i organiske syrer (svake, finnes i planter og dyr og brukes i mat, som sitronsyre og eddiksyre) og uorganiske syrer (sterke, finnes i mineraler og brukes i industrien, som saltsyre og svovelsyre).`,
+    },
+    {
+      tittel: `Nøytralisering`,
+      tekst: `Blander vi en syre og en base i vann, nøytraliserer de hverandre. Det skjer fordi basen tar opp H⁺-ionene fra syren. Når H⁺-ionene blir «spist», forsvinner de sure egenskapene – og samtidig forsvinner de basiske egenskapene til basen. Er alle H⁺-ionene tatt opp, er løsningen nøytral. Dette brukes for eksempel når man tilsetter kalk i innsjøer som er blitt sure av sur nedbør, slik at pH-verdien stiger igjen.`,
+    },
+  ],
 };
