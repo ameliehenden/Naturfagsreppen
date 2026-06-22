@@ -138,4 +138,46 @@ export const oppgaver = {
       fasit: `Karbonkretsløpet består i hovedsak av fotosyntesen og celleåndingen. I fotosyntesen hentes karbondioksid fra atmosfæren og bygges om til glukose, slik at karbonet blir en del av alt levende. Celleåndingen er den motsatte prosessen: karbonet i glukosen omdannes tilbake til karbondioksid, som slippes ut i atmosfæren igjen.`,
     },
   ],
+  'nerve-og-hormonsystemet': [
+    {
+      sporsmal: `Hvordan er en nervecelle bygd opp, og hvilken del tåler ikke å bli skadet?`,
+      fasit: `En nervecelle har en cellekjerne og en lang tråd som kalles akson, og det er gjennom aksonet nervesignalene sendes. Hvis cellekjernen blir skadet, dør nervecellen, og kroppen lager ikke nye nerveceller i hjernen. Hvis bare aksonet blir skadet eller kuttet, kan det derimot gro ut igjen så lenge skaden ikke er for stor. Det er derfor en som har blitt lam noen ganger kan trene seg opp igjen.`,
+    },
+    {
+      sporsmal: `Nervesystemet er delt i to deler. Hva heter de, og hva kjennetegner dem?`,
+      fasit: `Nervesystemet består av sentralnervesystemet og det perifere nervesystemet. Sentralnervesystemet er hjernen og ryggmargen, og det er beskyttet av hodeskallen og ryggraden. Det perifere nervesystemet er alle nervene som går ut i resten av kroppen.`,
+    },
+    {
+      sporsmal: `Koble systemet til riktig beskrivelse: Det autonome systemet, det motoriske systemet og det sensoriske systemet.`,
+      fasit: `Det sensoriske systemet sender informasjon fra sansene inn til sentralnervesystemet. Det motoriske systemet sender informasjon fra sentralnervesystemet til musklene og styrer dermed bevegelsene. Det autonome systemet sender informasjon fra sentralnervesystemet til kjertler, glatt muskulatur og hjertet.`,
+    },
+    {
+      sporsmal: `Hvilken oppgave har veslehjernen?`,
+      fasit: `Veslehjernen hjelper storehjernen med å styre og finjustere bevegelsene våre, slik at de blir jevne og presise.`,
+    },
+    {
+      sporsmal: `Fortell om smertesansen. Hva er spesielt med den?`,
+      fasit: `Smertesansen er en forsvarsmekanisme. Den forteller oss at det vi gjør kan skade kroppen, og smerten skremmer oss slik at vi lar være å gjøre noe som er farlig. Slik passer vi ekstra godt på neste gang.`,
+    },
+    {
+      sporsmal: `Noen ganger reagerer kroppen før vi kjenner smerte. Hva kalles dette, og hvordan går nervesignalet?`,
+      fasit: `Dette kalles en refleks. Nervesignalet går fra et sted på kroppen til ryggmargen, med beskjed om at vi kan bli skadet. Ryggmargen sender da signal rett tilbake om å flytte kroppsdelen vekk med en gang. Signalet går ikke helt til hjernen, fordi det ville tatt for lang tid. Først etterpå når signalet hjernen, og da kjenner vi smerten.`,
+    },
+    {
+      sporsmal: `Hva er et hormon, og hva er likheter og forskjeller mellom hormonsystemet og nervesystemet?`,
+      fasit: `Et hormon er et kjemisk signalstoff som sendes med blodet med en beskjed til en bestemt mottaker. Likheten er at både hormonsystemet og nervesystemet gir beskjeder, bare på ulike måter. Forskjellene er at nervesignaler går raskt og virker kort tid (som en e-post), mens hormoner går langsommere og virker lenge (som et postbud). Nervesignaler sendes gjennom nervene til et bestemt sted, mens hormoner sendes med blodet til hele kroppen.`,
+    },
+    {
+      sporsmal: `Nevn tre hormonkjertler der det lages hormoner, og forklar hvorfor hypofysen kalles den overordnede hormonkjertelen.`,
+      fasit: `Eksempler på hormonkjertler er hypofysen, bukspyttkjertelen og binyrene (andre er skjoldbruskkjertelen, eggstokkene og testiklene). Hypofysen kalles «sjefen» fordi den styrer de andre hormonkjertlene: den sender ut hormoner som forteller de andre kjertlene om de skal lage mer eller mindre hormon, og passer slik på at kroppen har riktig mengde hormoner i blodet.`,
+    },
+    {
+      sporsmal: `Nevn to hormoner, og forklar hvilken oppgave de har i kroppen.`,
+      fasit: `Adrenalin er et «kjemp eller flykt»-hormon som skilles ut når vi blir redde. Det gir raskere hjerteslag slik at mer oksygen kommer til hjernen og musklene, og gjør oss klare til å kjempe eller flykte. Insulin og glukagon styrer mengden glukose i blodet: insulin senker blodsukkeret og lagrer energi som fett, mens glukagon øker blodsukkeret igjen når kroppen trenger energi.`,
+    },
+    {
+      sporsmal: `Hva er forskjellen på legemidler, rusmidler og doping, og hvorfor hører de hjemme i dette emnet?`,
+      fasit: `Legemidler brukes for å forebygge, lindre eller kurere sykdom, og er til hjelp for kroppen når de brukes riktig. Rusmidler tas for å bli ruset, altså for å endre humør og bevissthet; de virker på signalstoffene i hjernen og kan skade kroppen og gi avhengighet (for eksempel alkohol, nikotin og narkotika). Doping er bruk av forbudte stoffer for å prestere bedre i idrett, for eksempel anabole steroider som ligner testosteron. Alle tre hører hjemme i dette emnet fordi de griper inn i signalene i nerve- og hormonsystemet.`,
+    },
+  ],
 };

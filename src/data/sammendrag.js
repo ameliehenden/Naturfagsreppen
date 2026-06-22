@@ -120,4 +120,46 @@ export const sammendrag = {
       tekst: `Forskere arbeider med å bruke kroppens egne immunceller til å behandle kreft, en metode som kalles immunterapi. Kreftceller kan nemlig «gjemme seg» for immunforsvaret, blant annet ved hjelp av et protein som heter AHR. Klarer forskerne å hindre kreftcellene i å skjule seg, blir det mye lettere for immuncellene å finne og drepe dem. Dette er et eksempel på hvordan kunnskap om immunforsvaret brukes i moderne, dagsaktuell teknologi – og det er viktig forskning, for omtrent 45 prosent av norske menn og 38 prosent av norske kvinner får en kreftdiagnose i løpet av livet.`,
     },
   ],
+  'nerve-og-hormonsystemet': [
+    {
+      tittel: `Kroppens to styringssystemer`,
+      tekst: `Kroppen har to systemer som styrer og samordner alt som skjer i den: nervesystemet og hormonsystemet. Begge sender beskjeder, men på hver sin måte. Nervesystemet sender raske elektriske signaler gjennom nervene til ett bestemt sted, mens hormonsystemet sender kjemiske stoffer (hormoner) med blodet ut i hele kroppen. Vi kan sammenligne nervesystemet med en e-post som kommer fram med en gang, og hormonsystemet med et postbud som bruker litt lengre tid. Sammen sørger de for at kroppen fungerer som en helhet.`,
+    },
+    {
+      tittel: `Nervecellen`,
+      tekst: `Nervesystemet er bygd opp av nerveceller. En nervecelle har en cellekjerne og en lang tråd som kalles akson, og det er gjennom aksonet nervesignalene sendes. Hvis selve cellekjernen blir skadet, dør nervecellen, og kroppen lager ikke nye nerveceller i hjernen. Men hvis bare aksonet blir skadet eller kuttet, kan det vokse ut igjen så lenge skaden ikke er for stor. Det er derfor en person som har blitt lam, noen ganger kan trene seg opp igjen – det tar lang tid, men aksonet kan gro.`,
+    },
+    {
+      tittel: `Sentralnervesystemet`,
+      tekst: `Nervesystemet deles i to hoveddeler. Sentralnervesystemet består av hjernen og ryggmargen, og det er godt beskyttet av hodeskallen og ryggraden. Hjernen har flere deler: storehjernen styrer tanker, sanser og viljestyrte bevegelser, mens veslehjernen hjelper storehjernen med å finstyre bevegelsene våre slik at de blir jevne og presise. Ryggmargen frakter signaler mellom hjernen og resten av kroppen.`,
+    },
+    {
+      tittel: `Det perifere nervesystemet`,
+      tekst: `Den andre hoveddelen er det perifere nervesystemet – alle nervene som går ut i kroppen. Det deles i tre: Det sensoriske systemet sender informasjon fra sansene inn til sentralnervesystemet. Det motoriske systemet sender beskjeder fra sentralnervesystemet ut til musklene og styrer dermed bevegelsene våre. Det autonome systemet sender signaler fra sentralnervesystemet til kjertler, glatt muskulatur og hjertet – altså det vi ikke styrer med viljen, som puls og fordøyelse.`,
+    },
+    {
+      tittel: `Reflekser`,
+      tekst: `Noen ganger reagerer kroppen på noe farlig før vi i det hele tatt rekker å kjenne smerte. Dette kalles en refleks. Hvis du for eksempel tar på en varm plate, går nervesignalet raskt fra hånda til ryggmargen, som sender signal rett tilbake om å trekke hånda vekk – uten å gå hele veien om hjernen. Det sparer verdifull tid. Først etterpå når smertesignalet fram til hjernen, og da kjenner du at det gjør vondt.`,
+    },
+    {
+      tittel: `Sansene`,
+      tekst: `Sansene gir hjernen informasjon om verden rundt oss og om kroppens egen tilstand. Vi har synssansen, hørselssansen, lukte- og smakssansen, likevektssansen og kroppssansene. En sans som er litt spesiell, er smertesansen. Den fungerer som en forsvarsmekanisme: smerte forteller oss at noe kan skade kroppen, slik at vi passer oss og lar være å gjøre det igjen.`,
+    },
+    {
+      tittel: `Hva er et hormon?`,
+      tekst: `Et hormon er et kjemisk signalstoff som slippes ut i blodet med en beskjed til en bestemt mottaker i kroppen. Selv om hormonet føres med blodet til hele kroppen, virker det først når det treffer riktig sted. Hormonsystemet og nervesystemet ligner på hverandre ved at begge gir beskjeder, men de gjør det på ulike måter: nervesignaler går raskt og virker kort tid, mens hormoner virker langsommere, men ofte over lengre tid.`,
+    },
+    {
+      tittel: `Hormonkjertlene`,
+      tekst: `Hormoner lages i hormonkjertler. Noen viktige er hypofysen (som ligger under hjernen), bukspyttkjertelen, binyrene (som ligger oppå nyrene), skjoldbruskkjertelen, samt eggstokkene og testiklene. Hypofysen kalles den overordnede hormonkjertelen – «sjefen» – fordi den styrer de andre kjertlene ved å sende ut hormoner som forteller dem om de skal lage mer eller mindre av sine egne hormoner. På den måten passer hypofysen på at kroppen har passe mengde hormoner i blodet.`,
+    },
+    {
+      tittel: `Viktige hormoner`,
+      tekst: `Adrenalin er kroppens «kjemp eller flykt»-hormon. Når du blir redd eller stresset, skiller binyrene ut adrenalin, som gir raskere hjerteslag slik at mer oksygen kommer til musklene og hjernen, og du blir klar til å kjempe eller flykte. Insulin og glukagon lages i bukspyttkjertelen og samarbeider om å holde blodsukkeret (mengden glukose i blodet) stabilt: insulin senker blodsukkeret og lagrer energi som fett, mens glukagon øker blodsukkeret igjen når kroppen trenger energi. Kjønnshormonene testosteron og østrogen styrer utviklingen i puberteten, og veksthormon sørger for at kroppen vokser.`,
+    },
+    {
+      tittel: `Rusmidler, legemidler og doping`,
+      tekst: `Mange stoffer kan påvirke nerve- og hormonsystemet. Legemidler er stoffer som brukes for å forebygge, lindre eller kurere sykdom – brukt riktig er de til hjelp for kroppen, for eksempel smertestillende eller medisin mot en infeksjon. Rusmidler er stoffer man tar for å bli ruset, altså for å endre humør og bevissthet. De virker på signalstoffene i hjernen, og eksempler er alkohol, nikotin og narkotika. Rusmidler kan skade kroppen og føre til avhengighet. Doping er bruk av forbudte stoffer for å prestere bedre i idrett. Et vanlig dopingmiddel er anabole steroider, som ligner kjønnshormonet testosteron og bygger muskler raskere – men som samtidig forstyrrer kroppens eget hormonsystem og kan gi alvorlige helseskader. Felles for alle tre er at de griper inn i de fintstemte signalene i nerve- og hormonsystemet.`,
+    },
+  ],
 };

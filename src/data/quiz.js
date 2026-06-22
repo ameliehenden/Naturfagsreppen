@@ -692,4 +692,132 @@ export const quiz = {
       ],
     },
   ],
+  'nerve-og-hormonsystemet': [
+    {
+      sporsmal: `Hvilke to deler består nervesystemet av?`,
+      riktig: `Sentralnervesystemet og det perifere nervesystemet.`,
+      feil: [
+        `Det motoriske systemet og det sensoriske systemet.`,
+        `Storehjernen og veslehjernen.`,
+        `Nervesystemet og hormonsystemet.`,
+      ],
+    },
+    {
+      sporsmal: `Hva består sentralnervesystemet av?`,
+      riktig: `Hjernen og ryggmargen.`,
+      feil: [
+        `Alle nervene som går ut i kroppen.`,
+        `Hjernen og alle sansene.`,
+        `Ryggmargen og det autonome systemet.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er oppgaven til det motoriske systemet?`,
+      riktig: `Å sende beskjeder fra sentralnervesystemet ut til musklene og styre bevegelsene.`,
+      feil: [
+        `Å sende informasjon fra sansene inn til sentralnervesystemet.`,
+        `Å styre kjertler, hjerte og fordøyelse uten viljen.`,
+        `Å beskytte hjernen og ryggmargen mot skader.`,
+      ],
+    },
+    {
+      sporsmal: `Hva gjør det autonome systemet?`,
+      riktig: `Styrer kjertler, glatt muskulatur og hjertet – det vi ikke styrer med viljen.`,
+      feil: [
+        `Styrer musklene vi beveger med viljen.`,
+        `Sender informasjon fra sansene til hjernen.`,
+        `Lager nye nerveceller når noen blir skadet.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilken del av nervecellen kan vokse ut igjen hvis den blir skadet?`,
+      riktig: `Aksonet (nervetråden).`,
+      feil: [
+        `Cellekjernen.`,
+        `Selve hjernecellen.`,
+        `Ingen deler kan gro igjen.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en refleks?`,
+      riktig: `En rask, automatisk reaksjon der signalet går til ryggmargen og rett tilbake, uten å gå om hjernen.`,
+      feil: [
+        `En reaksjon der hjernen nøye vurderer hva som er best å gjøre.`,
+        `En bevegelse vi bestemmer oss for med viljen.`,
+        `Et hormon som skilles ut når vi blir redde.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er et hormon?`,
+      riktig: `Et kjemisk signalstoff som sendes med blodet til en bestemt mottaker i kroppen.`,
+      feil: [
+        `Et elektrisk signal som sendes raskt gjennom nervene.`,
+        `En celle som frakter oksygen rundt i kroppen.`,
+        `Et stoff som bare finnes i hjernen.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er den viktigste forskjellen på nervesystemet og hormonsystemet?`,
+      riktig: `Nervesignaler går raskt og virker kort tid, mens hormoner virker langsommere, men ofte over lengre tid.`,
+      feil: [
+        `Nervesystemet bruker blodet, mens hormonsystemet bruker nervene.`,
+        `Hormonsystemet er raskt, mens nervesystemet er tregt.`,
+        `Bare nervesystemet gir beskjeder; hormonsystemet lagrer energi.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor kalles hypofysen den overordnede hormonkjertelen?`,
+      riktig: `Fordi den styrer de andre hormonkjertlene og bestemmer om de skal lage mer eller mindre hormon.`,
+      feil: [
+        `Fordi den er den største hormonkjertelen i kroppen.`,
+        `Fordi den lager alle hormonene kroppen trenger.`,
+        `Fordi den ligger nærmest hjertet.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilken oppgave har adrenalin?`,
+      riktig: `Det gjør kroppen klar til å kjempe eller flykte, blant annet med raskere hjerteslag.`,
+      feil: [
+        `Det senker blodsukkeret og lagrer energi som fett.`,
+        `Det sørger for at kroppen vokser.`,
+        `Det styrer utviklingen i puberteten.`,
+      ],
+    },
+    {
+      sporsmal: `Hvordan samarbeider insulin og glukagon?`,
+      riktig: `Insulin senker blodsukkeret, og glukagon øker det – sammen holder de blodsukkeret stabilt.`,
+      feil: [
+        `Begge senker blodsukkeret så raskt som mulig.`,
+        `Insulin øker blodsukkeret, og glukagon senker det.`,
+        `De styrer kroppens vekst i puberteten.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er forskjellen på legemidler og rusmidler?`,
+      riktig: `Legemidler brukes for å forebygge, lindre eller kurere sykdom, mens rusmidler tas for å bli ruset og endre humør og bevissthet.`,
+      feil: [
+        `Legemidler tas for å bli ruset, mens rusmidler brukes mot sykdom.`,
+        `Det er ingen forskjell – det er to ord for det samme.`,
+        `Legemidler er alltid ulovlige, mens rusmidler alltid er lovlige.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er doping?`,
+      riktig: `Bruk av forbudte stoffer for å prestere bedre i idrett.`,
+      feil: [
+        `All bruk av legemidler mot sykdom.`,
+        `En type hormon kroppen lager selv under trening.`,
+        `En lovlig metode for å bygge muskler raskere.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor passer rusmidler og doping inn under temaet nerve- og hormonsystemet?`,
+      riktig: `Fordi de griper inn i signalene i nerve- og hormonsystemet – rusmidler virker på hjernen, og doping forstyrrer hormonsystemet.`,
+      feil: [
+        `Fordi de bare påvirker musklene og ingenting annet.`,
+        `Fordi de styrker immunforsvaret mot sykdom.`,
+        `Fordi de lages naturlig i hormonkjertlene.`,
+      ],
+    },
+  ],
 };

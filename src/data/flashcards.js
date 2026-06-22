@@ -389,4 +389,90 @@ export const flashcards = {
       forklaring: `Forhøyet kroppstemperatur som kroppen bruker mot infeksjoner. Smittestoffene formerer seg saktere ved feber, samtidig som immunforsvaret jobber mer effektivt.`,
     },
   ],
+  'nerve-og-hormonsystemet': [
+    {
+      begrep: `Nervecelle`,
+      forklaring: `Byggesteinen i nervesystemet. Den har en cellekjerne og en lang tråd kalt akson, som nervesignalene sendes gjennom. Et skadet akson kan gro igjen, men en skadet cellekjerne kan ikke erstattes.`,
+    },
+    {
+      begrep: `Sentralnervesystemet`,
+      forklaring: `Hjernen og ryggmargen. Det er godt beskyttet av hodeskallen og ryggraden, og er kroppens «hovedkontor» som tar imot og sender ut signaler.`,
+    },
+    {
+      begrep: `Det perifere nervesystemet`,
+      forklaring: `Alle nervene som går ut i kroppen, utenfor hjernen og ryggmargen. Det deles i det sensoriske, det motoriske og det autonome systemet.`,
+    },
+    {
+      begrep: `Det sensoriske systemet`,
+      forklaring: `Den delen av det perifere nervesystemet som sender informasjon fra sansene inn til sentralnervesystemet.`,
+    },
+    {
+      begrep: `Det motoriske systemet`,
+      forklaring: `Den delen av det perifere nervesystemet som sender beskjeder fra sentralnervesystemet ut til musklene, og som dermed styrer bevegelsene våre.`,
+    },
+    {
+      begrep: `Det autonome systemet`,
+      forklaring: `Den delen av det perifere nervesystemet som sender signaler til kjertler, glatt muskulatur og hjertet. Det styrer det vi ikke kontrollerer med viljen, som puls og fordøyelse.`,
+    },
+    {
+      begrep: `Storehjernen`,
+      forklaring: `Den største delen av hjernen. Den styrer tanker, sanser og viljestyrte bevegelser.`,
+    },
+    {
+      begrep: `Veslehjernen`,
+      forklaring: `Den delen av hjernen som hjelper storehjernen med å finstyre bevegelsene, slik at de blir jevne og presise.`,
+    },
+    {
+      begrep: `Refleks`,
+      forklaring: `En rask, automatisk reaksjon der nervesignalet går til ryggmargen og sendes rett tilbake – uten å gå om hjernen. Slik kan vi for eksempel trekke hånda vekk fra noe varmt før vi kjenner smerten.`,
+    },
+    {
+      begrep: `Smertesansen`,
+      forklaring: `En forsvarsmekanisme som forteller oss at noe kan skade kroppen, slik at vi passer oss og lar være å gjøre det igjen.`,
+    },
+    {
+      begrep: `Hormon`,
+      forklaring: `Et kjemisk signalstoff som slippes ut i blodet med en beskjed til en bestemt mottaker i kroppen. Det virker først når det treffer riktig sted.`,
+    },
+    {
+      begrep: `Hypofysen`,
+      forklaring: `Den overordnede hormonkjertelen – «sjefen» – som ligger under hjernen. Den styrer de andre hormonkjertlene ved å fortelle dem om de skal lage mer eller mindre hormon.`,
+    },
+    {
+      begrep: `Adrenalin`,
+      forklaring: `Kroppens «kjemp eller flykt»-hormon. Det skilles ut fra binyrene når du er redd eller stresset, og gir raskere hjerteslag slik at mer oksygen kommer til musklene og hjernen.`,
+    },
+    {
+      begrep: `Insulin`,
+      forklaring: `Et hormon fra bukspyttkjertelen som senker blodsukkeret (mengden glukose i blodet) og lagrer energi som fett.`,
+    },
+    {
+      begrep: `Glukagon`,
+      forklaring: `Et hormon fra bukspyttkjertelen som øker blodsukkeret når kroppen trenger energi. Det samarbeider med insulin om å holde blodsukkeret stabilt.`,
+    },
+    {
+      begrep: `Testosteron`,
+      forklaring: `Det viktigste mannlige kjønnshormonet. Det styrer mye av utviklingen i puberteten hos gutter.`,
+    },
+    {
+      begrep: `Østrogen`,
+      forklaring: `Det viktigste kvinnelige kjønnshormonet. Det styrer mye av utviklingen i puberteten hos jenter.`,
+    },
+    {
+      begrep: `Veksthormon`,
+      forklaring: `Et hormon fra hypofysen som sørger for at kroppen vokser.`,
+    },
+    {
+      begrep: `Legemiddel`,
+      forklaring: `Et stoff som brukes for å forebygge, lindre eller kurere sykdom. Brukt riktig er det til hjelp for kroppen, for eksempel smertestillende eller antibiotika.`,
+    },
+    {
+      begrep: `Rusmiddel`,
+      forklaring: `Et stoff man tar for å bli ruset – for å endre humør og bevissthet. Det virker på signalstoffene i hjernen. Eksempler er alkohol, nikotin og narkotika. Rusmidler kan skade kroppen og føre til avhengighet.`,
+    },
+    {
+      begrep: `Doping`,
+      forklaring: `Bruk av forbudte stoffer for å prestere bedre i idrett. Et vanlig dopingmiddel er anabole steroider, som ligner testosteron og bygger muskler raskt, men forstyrrer kroppens eget hormonsystem og kan gi alvorlige helseskader.`,
+    },
+  ],
 };
