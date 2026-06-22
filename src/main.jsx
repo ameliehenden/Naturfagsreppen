@@ -7,6 +7,7 @@ import ScrollToTop from './components/ScrollToTop'
 import Hjem from './pages/Hjem'
 import JordaSide from './pages/JordaSide'
 import KroppOgHelseSide from './pages/KroppOgHelseSide'
+import TeknologiSide from './pages/TeknologiSide'
 import EmneSide from './pages/EmneSide'
 import SammenhengSide from './pages/SammenhengSide'
 import Om from './pages/Om'
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Hjem />} />
           <Route path="/emne/jorda" element={<JordaSide />} />
           <Route path="/emne/kropp-og-helse" element={<KroppOgHelseSide />} />
+          <Route path="/emne/teknologi-og-vitenskap" element={<TeknologiSide />} />
           <Route path="/emne/:id" element={<EmneSide />} />
           <Route path="/sammenheng/:id/:slug" element={<SammenhengSide />} />
           <Route path="/om" element={<Om />} />
