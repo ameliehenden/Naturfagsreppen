@@ -218,4 +218,38 @@ export const oppgaver = {
       fasit: `Jord er alt løsmateriale som ligger over det faste fjellet – for eksempel mold, leire, sand, grus og store steiner. Morenejord og marin leire er vanlige typer i Norge. Jordsmonn er det vi til daglig kaller «jord»: det øverste laget av jorda som er påvirket av levende organismer. Brunjord og podsol er to vanlige typer jordsmonn i Norge.`,
     },
   ],
+  'geologi': [
+    {
+      sporsmal: `Omtrent når og hvor oppstod livet på jorda?`,
+      fasit: `Livet oppstod for omtrent 3,7–3,8 milliarder år siden, og det oppstod i havet. De første organismene var encellede bakterier (blågrønnbakterier).`,
+    },
+    {
+      sporsmal: `Hvordan oppstod det oksygengass i atmosfæren? Beskriv så godt du kan.`,
+      fasit: `De første organismene laget sin egen mat ved hjelp av fotosyntesen. Til det trengte de karbondioksid, som fantes i lufta, og hydrogen. Hydrogenet hentet de fra vannmolekyler, som de spaltet i fotosyntesen. De brukte selve hydrogenet, mens oksygenet ble til overs som et avfallsstoff. Oksygenet økte først sakte i havet, og da havet ikke kunne ta opp mer, begynte oksygenet å stige opp i atmosfæren.`,
+    },
+    {
+      sporsmal: `Hvordan er jorda bygd opp inni?`,
+      fasit: `Innerst ligger den indre kjernen, som er fast. Rundt den ligger den ytre kjernen, som er mykere og flytende. Deretter kommer mantelen, som består av varm, flytende stein som kalles magma. Ytterst ligger jordskorpa, som er fast og svært tynn – krymper vi jorda til størrelsen av et eple, er jordskorpa like tynn som skallet på eplet.`,
+    },
+    {
+      sporsmal: `Gi så mange bevis du kan på at teorien om kontinentaldrift stemmer.`,
+      fasit: `Det finnes flere bevis: 1) Kontinentene passer sammen som puslespillbrikker, noe som tyder på at de en gang hang sammen i ett superkontinent kalt Pangea. 2) Man har funnet like plante- og dyrefossiler på begge sider av havet. 3) De samme bergartene og fjellkjedene fortsetter fra den ene siden av havet til den andre. 4) Satellitter måler at platene fortsatt beveger seg i dag. 5) Vulkaner og jordskjelv opptrer langs grensene mellom platene.`,
+    },
+    {
+      sporsmal: `Hva er en midthavsrygg?`,
+      fasit: `En midthavsrygg er en fjellrygg på havbunnen, der to plater beveger seg fra hverandre. Når platene skilles, strømmer magma opp i sprekken, størkner og danner ny havbunn. Det er blant annet ved en midthavsrygg at Nord-Amerika og Europa ble skilt fra hverandre da Pangea sprakk opp.`,
+    },
+    {
+      sporsmal: `Vi hører av og til at vi «stammer fra apene». Forklar hvorfor dette ikke er helt riktig.`,
+      fasit: `Vi stammer ikke fra dagens aper, men vi er i slekt med dem. Mennesket og menneskeapene har en felles forfader langt tilbake i tid. For flere millioner år siden delte etterkommerne etter denne forfaderen seg i ulike retninger – én linje utviklet seg til dagens aper, og en annen linje utviklet seg til mennesket. Det er altså feil å si at vi nedstammer fra apene; vi har bare et felles opphav.`,
+    },
+    {
+      sporsmal: `Hva er Charles Darwin kjent for, og hva mente han med «naturlig utvalg»?`,
+      fasit: `Charles Darwin er kjent for utviklingslæren (evolusjonsteorien). Han mente at alt liv på jorda er i slekt og har et felles opphav. Med «naturlig utvalg» mente han at de individene som er best tilpasset miljøet, har størst sjanse til å overleve og få avkom. Dermed fører de egenskapene (genene) sine videre til neste generasjon, og over tid blir de gunstige egenskapene vanligere i bestanden.`,
+    },
+    {
+      sporsmal: `Hvordan forklarer evolusjonsteorien at ulike arter har utviklet seg? Gi minst ett eksempel.`,
+      fasit: `Tilfeldige genetiske endringer (mutasjoner) skaper variasjon innenfor en art. Gjennom naturlig utvalg overlever og formerer de best tilpassede individene seg, slik at de gunstige egenskapene blir vanligere. Over lang tid kan dette føre til at det oppstår nye arter. Et eksempel er Darwins finker på Galápagosøyene: finker med felles opphav utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørke overlevde de finkene som hadde kraftige nebb og kunne knekke harde frø, og avkommet deres fikk større nebb – et tegn på at arten endret seg over tid.`,
+    },
+  ],
 };
