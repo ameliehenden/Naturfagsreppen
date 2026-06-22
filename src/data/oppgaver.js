@@ -306,4 +306,38 @@ export const oppgaver = {
       fasit: `En syre gir fra seg H⁺-ioner i vann. I en sterk syre gir alle (eller mange) molekyler fra seg H⁺-ioner, mens i en svak syre gir bare noen få fra seg H⁺-ioner – flere H⁺-ioner gjør syren sterkere. At syrer og baser nøytraliserer hverandre, betyr at når de blandes, tar basen opp («spiser») H⁺-ionene fra syren. Da forsvinner både de sure og de basiske egenskapene, og løsningen blir nøytral.`,
     },
   ],
+  'energi': [
+    {
+      sporsmal: `Hva mener vi med bevegelsesenergi? Gi et eksempel.`,
+      fasit: `Bevegelsesenergi er energien noe har når det er i bevegelse. Eksempler er elektrisitet (elektroner som beveger seg), vind, lys og en ball som ruller.`,
+    },
+    {
+      sporsmal: `Hva mener vi med potensiell energi (stillingsenergi)? Gi et eksempel.`,
+      fasit: `Potensiell energi er energi som er lagret, og som kan bli til bevegelse. Et eple som henger i et tre er et eksempel – den potensielle energien er like stor som bevegelsesenergien eplet får når det faller. Vann i en demning, en vedkubbe og mat er andre eksempler.`,
+    },
+    {
+      sporsmal: `Hva sier energiloven?`,
+      fasit: `Energiloven sier at energi ikke kan skapes eller forsvinne, bare overføres fra én form til en annen. For eksempel kan bevegelsesenergien i vinden overføres til elektrisk energi ved hjelp av en vindmølle.`,
+    },
+    {
+      sporsmal: `En ball slippes fra 1 meters høyde, treffer bakken og spretter opp igjen – men ikke like høyt. Forklar hvor energien blir av. Bruk fagord.`,
+      fasit: `Ballen har en viss mengde energi når den slippes. På veien ned og i sammenstøtet mister den noe energi: noe går til luftmotstand, noe til å deformere ballen (og kanskje bakken), noe blir til lydbølger, og en liten del blir til varme. Fordi en del av energien er overført til andre former, har ballen mindre bevegelsesenergi igjen og kommer derfor ikke like høyt opp som den startet.`,
+    },
+    {
+      sporsmal: `Elektrisk strøm er en type bevegelsesenergi. Hva trenger vi for å lage (indusere) strøm? Forklar ut fra forsøket.`,
+      fasit: `Vi trenger en spole og en magnet (i forsøket brukte vi i tillegg et voltmeter og to ledninger med krokodilleklemmer). For å indusere strøm må vi bevege magneten gjennom spolen flere ganger, eller rotere den inni. Da induseres det vekselstrøm i ledningen, og vi så et lite utslag på voltmeteret.`,
+    },
+    {
+      sporsmal: `Tegn en bølge og forklar hvor du finner amplituden og bølgelengden.`,
+      fasit: `Amplituden er høyden fra midten av bølgen og opp til en bølgetopp (eller ned til en bølgebunn). Bølgelengden er avstanden mellom to like punkter på bølgen, for eksempel fra én bølgetopp til den neste.`,
+    },
+    {
+      sporsmal: `Hva mener vi med frekvens, og hva er det elektromagnetiske spekteret en oversikt over?`,
+      fasit: `Frekvens er antallet svingninger (bølger) per sekund. Det elektromagnetiske spekteret er en oversikt over de elektromagnetiske bølgelengdene og hva vi kaller dem. De lengste bølgene er radiobølger, og de korteste er gammastråler. I en liten del på midten finner vi det synlige lyset, der rødt lys har litt lengre bølgelengde enn blått.`,
+    },
+    {
+      sporsmal: `Hva kan stråling brukes til i teknologien vi har i dag?`,
+      fasit: `Stråling brukes til svært mye: WiFi og Bluetooth, radiobølger til å sende informasjon (for eksempel i en fjernkontroll), GPS-navigasjon via satellitter, vanlig radio, røntgenmaskiner, laserlys og lyset fra lampene rundt oss. Alt dette sender ut eller bruker stråling.`,
+    },
+  ],
 };

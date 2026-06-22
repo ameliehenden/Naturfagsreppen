@@ -613,4 +613,98 @@ export const flashcards = {
       forklaring: `Når en syre og en base blandes og opphever hverandre. Basen tar opp H⁺-ionene fra syren, slik at både de sure og de basiske egenskapene forsvinner.`,
     },
   ],
+  'energi': [
+    {
+      begrep: `Energi`,
+      forklaring: `Noe som får ting til å skje. Ordet kommer fra greske «energia» (aktivitet). Ingenting virker uten energi, og energi kan overføres fra én form til en annen.`,
+    },
+    {
+      begrep: `Bevegelsesenergi (kinetisk energi)`,
+      forklaring: `Energien noe har når det er i bevegelse, for eksempel en rullende ball, vinden eller elektrisk strøm.`,
+    },
+    {
+      begrep: `Stillingsenergi (potensiell energi)`,
+      forklaring: `Lagret energi som kan bli til bevegelse, for eksempel et eple i et tre, vann i et magasin eller en strukket strikk.`,
+    },
+    {
+      begrep: `Energiloven`,
+      forklaring: `Energi kan verken skapes eller forsvinne – den kan bare overføres fra én energiform til en annen.`,
+    },
+    {
+      begrep: `Energikvalitet`,
+      forklaring: `Et mål på hvor lett energien er å utnytte. Høyverdig energi (som elektrisk energi) er lett å bruke, mens lavverdig energi (som spredt varme) er vanskelig å utnytte.`,
+    },
+    {
+      begrep: `Energiovergang`,
+      forklaring: `At energi går fra én form eller ting til en annen, for eksempel sol → gress → ku → muskler → sykkel → dynamo → lys.`,
+    },
+    {
+      begrep: `Elektrisk strøm`,
+      forklaring: `Elektroner som beveger seg i samme retning gjennom en ledning. Strøm måler hvor mange elektroner som passerer per sekund.`,
+    },
+    {
+      begrep: `Generator`,
+      forklaring: `En maskin som lager elektrisk strøm ved å bevege en magnet inni en spole. Brukes i blant annet vann-, vind-, gass- og atomkraft.`,
+    },
+    {
+      begrep: `Batteri`,
+      forklaring: `Lagrer energi som vi kan bruke når vi trenger den. I et batteri er det metallene og hvordan de gir fra seg elektroner, som lager strømmen.`,
+    },
+    {
+      begrep: `Spenningsrekka`,
+      forklaring: `En rekke som viser hvor lett ulike metaller gir fra seg elektroner. Jo lenger fra hverandre to metaller står, desto større spenning gir de – som i et sitronbatteri.`,
+    },
+    {
+      begrep: `Forbrenningsreaksjon`,
+      forklaring: `En kjemisk reaksjon der et brennbart stoff reagerer med oksygen og danner karbondioksid og vann, samtidig som det frigjøres varme. Brukes i mange kraftverk.`,
+    },
+    {
+      begrep: `Stråling`,
+      forklaring: `Bølger som sprer energi utover. Lyd og lys er stråling vi kan oppfatte. Stråling som lys trenger ikke noe stoff og kan reise gjennom verdensrommet.`,
+    },
+    {
+      begrep: `Amplitude`,
+      forklaring: `Høyden fra midten av en bølge opp til en bølgetopp (eller ned til en bølgebunn). Henger sammen med hvor mye energi bølgen har.`,
+    },
+    {
+      begrep: `Bølgelengde`,
+      forklaring: `Avstanden mellom to like punkter på en bølge, for eksempel fra én bølgetopp til den neste.`,
+    },
+    {
+      begrep: `Frekvens`,
+      forklaring: `Antall svingninger (bølger) per sekund.`,
+    },
+    {
+      begrep: `Det elektromagnetiske spekteret`,
+      forklaring: `En oversikt over alle de elektromagnetiske bølgelengdene. Radiobølger er lengst, gammastråler kortest, og det synlige lyset ligger i en liten del på midten.`,
+    },
+    {
+      begrep: `Kraft`,
+      forklaring: `Noe som dytter på eller drar i en gjenstand. Måles i enheten newton (N).`,
+    },
+    {
+      begrep: `Masse`,
+      forklaring: `Stoffmengden i en gjenstand – hvor mye stoff den er bygd opp av. Måles i kilogram (kg) og er alltid den samme.`,
+    },
+    {
+      begrep: `Tyngde`,
+      forklaring: `Kraften tyngdekraften trekker en gjenstand mot jorda med – omtrent 10 ganger massen. Tyngden varierer med hvor du er (mindre på månen), mens massen er konstant.`,
+    },
+    {
+      begrep: `Arbeid`,
+      forklaring: `Det en kraft gjør når den flytter på noe. Arbeid = kraft × strekning, og måles i newtonmeter (Nm) eller joule (J).`,
+    },
+    {
+      begrep: `Effekt`,
+      forklaring: `Hvor raskt et arbeid blir gjort. Effekt = arbeid delt på tid.`,
+    },
+    {
+      begrep: `Akselerasjon`,
+      forklaring: `Hvor raskt farten endrer seg (fartsendring delt på tid). Uten en kraft som dytter eller drar, blir det ingen akselerasjon.`,
+    },
+    {
+      begrep: `Newtons 2. lov`,
+      forklaring: `Kraft = masse × akselerasjon (F = m · a). Jo større kraft, desto større akselerasjon for samme masse.`,
+    },
+  ],
 };

@@ -340,4 +340,74 @@ export const sammendrag = {
       tekst: `Blander vi en syre og en base i vann, nøytraliserer de hverandre. Det skjer fordi basen tar opp H⁺-ionene fra syren. Når H⁺-ionene blir «spist», forsvinner de sure egenskapene – og samtidig forsvinner de basiske egenskapene til basen. Er alle H⁺-ionene tatt opp, er løsningen nøytral. Dette brukes for eksempel når man tilsetter kalk i innsjøer som er blitt sure av sur nedbør, slik at pH-verdien stiger igjen.`,
     },
   ],
+  'energi': [
+    {
+      tittel: `Hva er energi?`,
+      tekst: `Energi er litt vanskelig å forklare med få ord, men vi kan si at energi er noe som får ting til å skje. Ordet kommer fra det greske «energia», som betyr aktivitet eller virksomhet. Ingenting virker uten energi – verken TV-en eller kroppen vår. Det aller meste av energien vi har på jorda, kommer opprinnelig fra sola. Det viktigste unntaket er varmen i jordas indre.`,
+    },
+    {
+      tittel: `Bevegelsesenergi og stillingsenergi`,
+      tekst: `All energi kan deles i to hovedtyper. Bevegelsesenergi (kinetisk energi) er energien noe har når det er i bevegelse, for eksempel en ball som ruller, vinden eller elektrisk strøm. Stillingsenergi (potensiell energi) er energi som er «lagret» og som kan bli til bevegelse, for eksempel et eple som henger i et tre, vann i et magasin eller en strukket strikk. Den potensielle energien til eplet er lik den bevegelsesenergien det får når det faller.`,
+    },
+    {
+      tittel: `Energiformer`,
+      tekst: `Energi finnes i mange former og mange steder: energi i mat, i musklene våre, i lyd, i en strukket strikk og i en vedkubbe, elektrisk energi, og strålingsenergi fra sola. Energien kan overføres fra én form til en annen, og fra én ting til en annen.`,
+    },
+    {
+      tittel: `Energiloven`,
+      tekst: `Energiloven er en av de viktigste lovene i naturfag. Den sier at energi ikke kan skapes eller forsvinne – den kan bare overføres fra én energiform til en annen. Når vindmølla går, blir for eksempel bevegelsesenergien i vinden overført til elektrisk energi. Energien blir altså aldri «borte», den bare skifter form.`,
+    },
+    {
+      tittel: `Energikvalitet og energioverganger`,
+      tekst: `En energiovergang viser hvor energien tar veien. Et eksempel: sol → gress → ku → muskler → sykkel → dynamo → lys. Selv om energien aldri forsvinner, blir litt av den «mindre nyttig» for hver overgang. Når en lyspære lyser, bruker den elektrisk energi og avgir varme til omgivelsene. Vi sier at energien går fra en høyverdig energiform, som er lett å utnytte (for eksempel elektrisk energi), til en lavverdig energiform, som er vanskelig å utnytte (for eksempel spredt varme). Dette kaller vi energikvalitet.`,
+    },
+    {
+      tittel: `Elektrisk strøm`,
+      tekst: `Elektrisk strøm er elektrisk ladde partikler – elektroner – som beveger seg i samme retning gjennom en ledning. Strøm er et mål på hvor mange elektroner som passerer gjennom ledningen per sekund. Elektrisk strøm er altså en form for bevegelsesenergi.`,
+    },
+    {
+      tittel: `Å lage strøm`,
+      tekst: `Vi kan lage (indusere) strøm ved hjelp av en spole og en magnet. Når vi beveger magneten gjennom spolen, eller roterer den inni, settes elektronene i bevegelse, og det induseres strøm i ledningen. Det er nettopp dette en generator gjør, og generatorer brukes i de fleste kraftverk – som vannkraft, vindkraft, gasskraft, atomkraft og bølgekraft. Solcellepaneler er et unntak: de lager elektrisk energi direkte fra sollyset, uten generator.`,
+    },
+    {
+      tittel: `Å lagre energi`,
+      tekst: `Potensiell energi er lett å lagre, for eksempel som vedkubber eller som vann i et vannmagasin. Bevegelsesenergi må derimot brukes med en gang – med mindre vi har et batteri. Et batteri lagrer energi som vi kan bruke når vi trenger den. Et morsomt eksempel er sitronbatteriet: det er egentlig metallene, ikke sitronen, som lager strømmen. To ulike metaller gir fra seg elektroner ulikt, og sitronen fungerer bare som en «bru» mellom dem.`,
+    },
+    {
+      tittel: `Energibruk og miljø`,
+      tekst: `Mye av energien vi bruker, lager vi ved å brenne fossilt brensel som kull, olje og gass. I en forbrenningsreaksjon reagerer det brennbare stoffet med oksygen og danner blant annet karbondioksid (CO₂). Store utslipp av CO₂ gir økt drivhuseffekt og global oppvarming, med mer ekstremvær og høyere havnivå. Lokalt kan energiproduksjon føre til tap av urørt natur, mindre biologisk mangfold, interessekonflikter og lysforurensning. Visste du forresten at «mining» av kryptovaluta bruker så mye strøm at det er helt forbudt i flere land?`,
+    },
+    {
+      tittel: `Stråling: lyd og lys`,
+      tekst: `Stråling er bølger som sprer energi utover. Lyd og lys er stråling som vi kan oppfatte. Lyd oppstår når luft (eller et annet stoff) settes i bevegelse, og lyd må derfor ha et stoff å bevege seg i. Stråling som lys trenger derimot ikke noe stoff – det er grunnen til at lyset fra sola kan reise gjennom det tomme verdensrommet og helt fram til oss.`,
+    },
+    {
+      tittel: `Bølger: amplitude, bølgelengde og frekvens`,
+      tekst: `En bølge beskrives med tre størrelser. Amplituden er høyden fra midten av bølgen opp til en bølgetopp (eller ned til en bølgebunn), og henger sammen med hvor mye energi bølgen har. Bølgelengden er avstanden mellom to like punkter på bølgen, for eksempel fra én bølgetopp til den neste. Frekvensen er antallet svingninger (bølger) per sekund. Når en bølge brer seg utover et større område, blir amplituden mindre (energien fordeles), mens frekvensen og bølgelengden er de samme. Derfor blir for eksempel lyden svakere jo lenger unna kilden du kommer.`,
+    },
+    {
+      tittel: `Det elektromagnetiske spekteret`,
+      tekst: `Det elektromagnetiske spekteret er en oversikt over alle de elektromagnetiske bølgelengdene og hva vi kaller dem. De lengste bølgene er radiobølger, og de korteste er gammastråler. I en liten del på midten finner vi det synlige lyset, der rødt lys har litt lengre bølgelengde enn blått. Stråling brukes til utrolig mye teknologi i dag: WiFi, Bluetooth, radio, fjernkontroller, GPS via satellitter, røntgen og laser – alt sammen bruker elektromagnetisk stråling.`,
+    },
+    {
+      tittel: `Krefter`,
+      tekst: `En kraft er rett og slett noe som dytter på eller drar i en gjenstand. Vi måler kraft i enheten newton (N). Krefter kan endre farten eller formen til noe. For eksempel kan vi bruke en fjærvekt til å måle hvor stor kraft som trengs for å dra noe bortover et gulv, og se hvordan friksjonen påvirker dette.`,
+    },
+    {
+      tittel: `Masse og tyngde`,
+      tekst: `Masse betyr stoffmengde – altså hvor mye stoff (protoner, nøytroner og elektroner) en gjenstand er bygd opp av. Masse måles i kilogram (kg) og er alltid den samme. Tyngde er derimot en kraft: tyngdekraften trekker gjenstanden mot jorda med en kraft på omtrent 10 ganger massen (egentlig 9,81). En gjenstand på 50 kg har derfor en tyngde på cirka 500 N på jorda. På månen, der tyngdekraften er svakere, blir tyngden bare rundt 80 N – men massen er fortsatt 50 kg. Tyngden varierer altså med hvor du er, mens massen alltid er den samme.`,
+    },
+    {
+      tittel: `Arbeid og effekt`,
+      tekst: `I fysikken gjør en kraft et arbeid når den flytter på noe. Arbeid regnes ut som kraft ganger strekning, og måles i newtonmeter (Nm) eller joule (J). Dytter du en vogn med en kraft på 10 N i 20 meter, har du gjort et arbeid på 200 joule. Effekt forteller hvor raskt arbeidet blir gjort: effekt er arbeid delt på tid. Springer du opp en bakke på 15 minutter, eller går rolig på halvannen time, gjør du det samme arbeidet – men effekten er mye større når du springer.`,
+    },
+    {
+      tittel: `Fart, akselerasjon og Newtons 2. lov`,
+      tekst: `Gjennomsnittsfart regnes ut som strekning delt på tid. Akselerasjon er fartsendring delt på tid – altså hvor raskt farten endrer seg. For at noe skal øke eller minke i fart, må det virke en kraft som dytter eller drar; uten krefter blir det ingen akselerasjon. Dette er kjernen i Newtons 2. lov, som sier at kraft = masse × akselerasjon (F = m · a).`,
+    },
+    {
+      tittel: `Hvorfor bilbeltet redder liv`,
+      tekst: `Et bilbelte er et godt eksempel på fysikk i praksis. I et kræsj endres farten veldig mye på svært kort tid – det gir en enorm akselerasjon, som er farlig for kroppen. Bilbeltet gjør «kræsjtiden» litt lengre, slik at akselerasjonen blir mindre og kræsjet mindre farlig. I tillegg fordeler beltet kraften fra kræsjet over en større flate av kroppen. Det er samme idé som at en nål lett går gjennom en pappeske, mens en flat hånd ikke gjør det – kraften virker på et mye mindre areal med nåla.`,
+    },
+  ],
 };

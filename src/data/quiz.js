@@ -1002,4 +1002,141 @@ export const quiz = {
       ],
     },
   ],
+  'energi': [
+    {
+      sporsmal: `Hva er bevegelsesenergi?`,
+      riktig: `Energien noe har når det er i bevegelse, som en rullende ball eller vinden.`,
+      feil: [
+        `Lagret energi som ennå ikke er satt i bevegelse.`,
+        `Energien som finnes i en vedkubbe før den brennes.`,
+        `Energien i et eple som henger i et tre.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er et eksempel på stillingsenergi (potensiell energi)?`,
+      riktig: `Vann som ligger i et vannmagasin høyt oppe.`,
+      feil: [
+        `Vinden som blåser over en åker.`,
+        `Elektrisk strøm i en ledning.`,
+        `Lyset som stråler ut fra en lyspære.`,
+      ],
+    },
+    {
+      sporsmal: `Hva sier energiloven?`,
+      riktig: `Energi kan verken skapes eller forsvinne, bare overføres fra én form til en annen.`,
+      feil: [
+        `Energi blir borte litt etter litt hver gang den brukes.`,
+        `Energi kan lages fra ingenting hvis man har en generator.`,
+        `Energi finnes bare i to former som ikke kan byttes om.`,
+      ],
+    },
+    {
+      sporsmal: `Hva mener vi med at energi går fra høyverdig til lavverdig form?`,
+      riktig: `Den går fra en form som er lett å utnytte til en som er vanskelig å utnytte, som spredt varme.`,
+      feil: [
+        `At energien blir kraftigere og lettere å bruke for hver overgang.`,
+        `At mengden energi øker når den skifter form.`,
+        `At energien forsvinner helt til slutt.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er elektrisk strøm?`,
+      riktig: `Elektroner som beveger seg i samme retning gjennom en ledning.`,
+      feil: [
+        `Protoner som hopper mellom to magneter.`,
+        `Varme som sprer seg utover i en metalltråd.`,
+        `Lys som sendes gjennom en ledning.`,
+      ],
+    },
+    {
+      sporsmal: `Hva trenger du for å lage (indusere) strøm?`,
+      riktig: `En spole og en magnet som beveges i forhold til hverandre.`,
+      feil: [
+        `To like metaller som ligger helt i ro.`,
+        `En sitron og et stykke papir.`,
+        `En varm gjenstand og et termometer.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er det egentlig som avgjør hvor sterkt et sitronbatteri blir?`,
+      riktig: `Metallene som brukes, og hvor langt fra hverandre de står i spenningsrekka.`,
+      feil: [
+        `Hvor sur sitronen er.`,
+        `Hvor stor sitronen er.`,
+        `Hvor mange ledninger man kobler til.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor kan lys reise gjennom verdensrommet, mens lyd ikke kan?`,
+      riktig: `Fordi lys er stråling som ikke trenger noe stoff, mens lyd må ha et stoff å bevege seg i.`,
+      feil: [
+        `Fordi lys er mye raskere enn lyd.`,
+        `Fordi lyd er en form for stråling, men lys er det ikke.`,
+        `Fordi verdensrommet er for kaldt for lyd.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er amplituden til en bølge?`,
+      riktig: `Høyden fra midten av bølgen opp til en bølgetopp – den henger sammen med energien i bølgen.`,
+      feil: [
+        `Avstanden mellom to bølgetopper.`,
+        `Antall bølger per sekund.`,
+        `Hvor raskt bølgen beveger seg.`,
+      ],
+    },
+    {
+      sporsmal: `Hva skjer med en bølge når den brer seg utover et større område?`,
+      riktig: `Amplituden blir mindre, mens frekvensen og bølgelengden er de samme.`,
+      feil: [
+        `Bølgelengden blir kortere, mens amplituden er den samme.`,
+        `Frekvensen øker, mens amplituden er den samme.`,
+        `Alt blir mindre: både amplitude, frekvens og bølgelengde.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er forskjellen på masse og tyngde?`,
+      riktig: `Masse er stoffmengden og er alltid den samme, mens tyngde er en kraft som varierer med hvor du er.`,
+      feil: [
+        `Masse er en kraft, mens tyngde er stoffmengden.`,
+        `De er to ord for nøyaktig det samme.`,
+        `Masse måles i newton, mens tyngde måles i kilogram.`,
+      ],
+    },
+    {
+      sporsmal: `Hvordan regner vi ut arbeid?`,
+      riktig: `Arbeid = kraft × strekning.`,
+      feil: [
+        `Arbeid = kraft delt på tid.`,
+        `Arbeid = masse × akselerasjon.`,
+        `Arbeid = strekning delt på tid.`,
+      ],
+    },
+    {
+      sporsmal: `Hva forteller effekten oss?`,
+      riktig: `Hvor raskt et arbeid blir gjort (arbeid delt på tid).`,
+      feil: [
+        `Hvor stor kraft som brukes.`,
+        `Hvor lang strekning noe flyttes.`,
+        `Hvor stor masse en gjenstand har.`,
+      ],
+    },
+    {
+      sporsmal: `Hva sier Newtons 2. lov?`,
+      riktig: `Kraft = masse × akselerasjon (F = m · a).`,
+      feil: [
+        `Kraft = masse delt på akselerasjon.`,
+        `Kraft = arbeid × tid.`,
+        `Kraft = masse × fart.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor er bilbeltet med på å redde liv i et kræsj?`,
+      riktig: `Det gjør kræsjtiden lengre, slik at akselerasjonen blir mindre, og fordeler kraften over en større flate.`,
+      feil: [
+        `Det gjør at farten endres raskere, slik at kræsjet går fortere over.`,
+        `Det øker tyngdekraften som holder deg fast i setet.`,
+        `Det fjerner all kraft fra kræsjet helt.`,
+      ],
+    },
+  ],
 };

@@ -73,6 +73,35 @@ export const forsok = {
   'energi': [
     { tittel: `Hvor mye energi bruker du?` },
     { tittel: `Indusere strøm i en ledning` },
+    {
+      tittel: `Sitronbatteri`,
+      innledning: `I dette forsøket skal dere bruke en sitron til å lage et batteri. Målet er å få en diode (en liten lampe) til å lyse ved å koble ulike metaller til sitronen.`,
+      utstyr: [
+        `En sitron`,
+        `2 krokodilleklemmer`,
+        `Galvanisert spiker (sink)`,
+        `Kobber`,
+        `Blyant eller grafitt`,
+        `Magnesiumbånd`,
+        `Voltmeter`,
+        `Diode`,
+      ],
+      slik: [
+        `Stikk to ulike metaller inn i sitronen, og koble dem opp i en lukket krets med et voltmeter, slik at du kan lese av spenningen.`,
+        `Lag en tabell der du skriver opp hvilke metaller du bruker, og hvor stort utslag du får på voltmeteret. Tips: bruk spenningsrekka for å se hvilke metaller det lønner seg å sette ved siden av hverandre.`,
+        `Ta bort voltmeteret og fest krokodilleklemmene til hvert sitt ben på en diode. Lyser den? Skriv også dette inn i tabellen.`,
+        `Tips: pusser du metallene med stålull først, får du enda større spenning.`,
+        `Vask utstyret og benken som har blitt tilgriset av sitron, og rydd på plass.`,
+      ],
+      sporsmal: [
+        `Hva er strøm?`,
+        `Hvordan virker sitronbatteriet?`,
+        `Stemmer resultatet ditt med spenningsrekka?`,
+        `Hva slags energi er det i en sitron?`,
+        `Er sitronen egentlig et batteri?`,
+      ],
+      forklaring: `Det er ikke sitronen i seg selv som lager strømmen, men metallene. To ulike metaller gir fra seg elektroner i ulik grad, og jo lenger fra hverandre de står i spenningsrekka (Li, Na, Mg, Al, Zn, Fe, Ni, Sn, Pb, H, Cu, Ag, Hg, Au, Pt, C), desto større blir spenningen. Magnesium og karbon (grafitt) står langt fra hverandre og gir høy spenning, mens sink og kobber står nærmere hverandre og gir mindre. Sitronen fungerer bare som en «bru» som lar elektronene vandre fra det ene metallet til det andre.`,
+    },
   ],
   'kjemi': [
     { tittel: `Påvisningsreaksjoner – kalkvann` },
