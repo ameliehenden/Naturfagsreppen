@@ -8,7 +8,7 @@ export default function PraktiskeForsok({ forsok }) {
       </p>
       <div className={styles.liste}>
         {forsok.map((f, i) => {
-          const harInnhold = f.innledning || f.slik || f.fargeord || f.sporsmal;
+          const harInnhold = f.innledning || f.slik || f.fargeord || f.sporsmal || f.forklaring;
           return (
             <div key={i} className={`${styles.kort} ${harInnhold ? styles.kortApen : ''}`}>
               <span className={styles.nr}>{i + 1}</span>
@@ -42,6 +42,13 @@ export default function PraktiskeForsok({ forsok }) {
                         <ul className={styles.sporsmal}>
                           {f.sporsmal.map((s, j) => <li key={j}>{s}</li>)}
                         </ul>
+                      </>
+                    )}
+
+                    {f.forklaring && (
+                      <>
+                        <h4 className={styles.deltittel}>Hvorfor skjer dette?</h4>
+                        <p className={styles.tekst}>{f.forklaring}</p>
                       </>
                     )}
                   </>

@@ -60,6 +60,7 @@ export const forsok = {
         `Hvordan tror du resultatet hadde blitt dersom teksten sto på et språk du ikke forstod?`,
         `Hva forteller dette forsøket om hvordan hjernen behandler informasjon?`,
       ],
+      forklaring: `Grunnen til at det blir krøll med fargene, er at nervesystemet er laget for å lære gjennom gjentakelse. Hver gang du leser et ord, styrkes nerveforbindelsene som kobler synet av ordet til uttalen av det. Etter hvert skjer dette nesten uten at du tenker over det, og det går nærmest automatisk. Nervesystemet er laget slik at oppgaver du har gjort mange ganger, ikke lenger krever full oppmerksomhet. Problemet i denne testen er at du nå må overstyre denne automatikken. Det krever mer bevisst kontroll fra hjernen, og det tar tid – derfor blir du langsommere og gjør flere feil når fargen og ordet ikke stemmer overens.`,
     },
   ],
   'immunsystemet': [
