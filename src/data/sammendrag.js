@@ -166,4 +166,42 @@ export const sammendrag = {
       tekst: `Mange stoffer kan påvirke signalsystemene i kroppen. Legemidler er stoffer som brukes for å forebygge, lindre eller kurere sykdom – brukt riktig er de til hjelp for kroppen, for eksempel smertestillende eller medisin mot en infeksjon. Rusmidler er stoffer man tar for å bli ruset, altså for å endre humør og bevissthet. De virker på signalstoffene i hjernen, og eksempler er alkohol, nikotin og narkotika. Rusmidler kan skade kroppen og føre til avhengighet. Doping er bruk av forbudte stoffer for å prestere bedre i idrett. Et vanlig dopingmiddel er testosteron (anabole steroider), som bygger muskler raskere, men som forstyrrer kroppens eget hormonsystem og kan gi alvorlige og varige skader – som endret kjønnsutvikling, nedsatt fruktbarhet, leverskade og økt fare for hjerteinfarkt. Til slutt finnes det miljøgifter som ligner så mye på kroppens egne hormoner at kroppen kan ta feil av dem, slik at de sender uønskede beskjeder i kroppen. Felles for alt dette er at det griper inn i de fintstemte signalene i nerve- og hormonsystemet.`,
     },
   ],
+  'okologi': [
+    {
+      tittel: `Hva er økologi?`,
+      tekst: `Økologi er læren om samspillet i naturen. I et økosystem henger alt sammen: de levende organismene påvirker hverandre og blir samtidig påvirket av miljøet de lever i. Et gammelt ordtak sier at «liten tue kan velte stort lass», og det passer godt på naturen – en liten endring ett sted kan få store følger for hele økosystemet.`,
+    },
+    {
+      tittel: `Biosfæren`,
+      tekst: `Biosfæren er alle stedene på jorda der vi finner liv. Den strekker seg fra det høyeste fjellet, Mount Everest, helt ned til Marianegropa, det dypeste stedet i Stillehavet. Overalt der det finnes liv, er vi i biosfæren.`,
+    },
+    {
+      tittel: `Biom`,
+      tekst: `Et biom er et stort område med en bestemt, karakteristisk type vegetasjon (planteliv). Eksempler på biomer er regnskog, savanne, ørken, steppe, løvskog, barskog og tundra. Biomene er svært store og henger sammen med klimaet, så de endrer seg gjerne med breddegradene. I Norge finner vi blant annet sommergrønn løvskog, barskog og tundra.`,
+    },
+    {
+      tittel: `Økosystem`,
+      tekst: `Et økosystem er et avgrenset område med en ensartet natur, der det er et samspill mellom bestemte levende og ikke-levende faktorer. Et økosystem er mindre enn et biom, og handler ikke bare om plantene, men også om dyrelivet og de ikke-levende faktorene som vann, jord, is og temperatur. Økosystemer kan variere mye i størrelse – det kan være et helt hav, et lite vann, en skog eller en myr. I Norge er blåbærskog, innsjøer, fjæra og myr viktige økosystemer.`,
+    },
+    {
+      tittel: `Biotiske og abiotiske faktorer`,
+      tekst: `Alt i et økosystem deles i biotiske og abiotiske faktorer. Biotisk betyr levende, og omfatter produsenter, forbrukere og nedbrytere – altså planter, dyr og andre organismer. Abiotisk betyr ikke-levende, og omfatter blant annet jord, berggrunn, temperatur, lys, vann og klima. De abiotiske faktorene påvirker hvilke organismer som kan leve i et område. Endrer for eksempel temperaturen seg, kan arter som er tilpasset det gamle klimaet få problemer eller dø ut, mens nye arter kan komme til – og hele naturtypen kan endre seg.`,
+    },
+    {
+      tittel: `Produsenter, forbrukere og nedbrytere`,
+      tekst: `De levende organismene har ulike roller. Produsentene er plantene. De kalles produsenter fordi de lager sin egen mat – glukose – gjennom fotosyntesen (vann + karbondioksid blir til glukose og oksygen). Glukosen bruker de til å bygge seg selv og vokse. Forbrukerne er dyrene; de driver ikke fotosyntese og må spise planter eller andre dyr for å få energi. Nedbryterne spiser døde planter og dyr og bryter dem ned, slik at næringsstoffene går tilbake til jorda og kan tas opp av nye produsenter. Uten planter finnes det ingen mat – verken til forbrukere eller nedbrytere – så alle næringskjeder starter med en plante.`,
+    },
+    {
+      tittel: `Næringskjeder og næringsnett`,
+      tekst: `En næringskjede viser hvem som blir spist av hvem, i en rett linje fra produsent til forbruker. Men i naturen spises de fleste artene av mer enn én annen art, og da får vi et næringsnett, som viser en større del av økosystemet. I havet er planteplankton og alger viktige produsenter – de er havets «planter», så små at vi må bruke mikroskop for å se dem, og de ligger nesten alltid nederst i næringskjeden.`,
+    },
+    {
+      tittel: `Kretsløpet i naturen`,
+      tekst: `Energi og næringsstoffer går i en evig krets i naturen. Produsentene fanger energien fra sola gjennom fotosyntesen, forbrukerne får i seg energien ved å spise, og nedbryterne sørger til slutt for at næringsstoffene fra døde organismer føres tilbake til jorda. Der kan produsentene ta dem opp igjen, og kretsløpet starter på nytt. Slik blir de samme stoffene brukt om og om igjen.`,
+    },
+    {
+      tittel: `Jord og jordsmonn`,
+      tekst: `Det er forskjell på jord og jordsmonn. Jord er alt løsmateriale som ligger oppå det faste fjellet – det kan være mold, leire, sand, grus og store steiner. I Norge er morenejord og marin leire vanlige typer. Jordsmonn er det vi til daglig bare kaller «jord»: det øverste laget som er påvirket av levende organismer. Brunjord og podsol er to vanlige typer jordsmonn i Norge.`,
+    },
+  ],
 };

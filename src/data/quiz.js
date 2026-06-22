@@ -819,5 +819,23 @@ export const quiz = {
         `Fordi de lages naturlig i hormonkjertlene.`,
       ],
     },
+    {
+      sporsmal: `Hva er forskjellen på diabetes type 1 og type 2?`,
+      riktig: `Type 1 er medfødt og skyldes mangel på insulin, mens type 2 er en livsstilssykdom der kroppen har blitt mindre følsom for sitt eget insulin.`,
+      feil: [
+        `Type 1 er en livsstilssykdom, mens type 2 er medfødt.`,
+        `Type 1 skyldes for mye insulin, mens type 2 skyldes for mye glukagon.`,
+        `Det er ingen forskjell – det er to navn på samme sykdom.`,
+      ],
+    },
+    {
+      sporsmal: `Hvordan kan miljøgifter påvirke hormonsystemet?`,
+      riktig: `Noen miljøgifter ligner kroppens egne hormoner, slik at kroppen tar feil av dem og de sender uønskede beskjeder.`,
+      feil: [
+        `De dreper alle nervecellene de kommer i kontakt med.`,
+        `De styrker hormonsystemet slik at det virker raskere.`,
+        `De bygger muskler på samme måte som doping.`,
+      ],
+    },
   ],
 };

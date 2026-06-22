@@ -474,5 +474,13 @@ export const flashcards = {
       begrep: `Doping`,
       forklaring: `Bruk av forbudte stoffer for å prestere bedre i idrett. Et vanlig dopingmiddel er anabole steroider, som ligner testosteron og bygger muskler raskt, men forstyrrer kroppens eget hormonsystem og kan gi alvorlige helseskader.`,
     },
+    {
+      begrep: `Diabetes`,
+      forklaring: `En sykdom knyttet til hormonet insulin. Ved diabetes type 1 (medfødt) mangler kroppen insulin, slik at den ikke klarer å regulere blodsukkeret. Ved diabetes type 2 (livsstilssykdom) har kroppen blitt mindre følsom for sitt eget insulin.`,
+    },
+    {
+      begrep: `Miljøgift`,
+      forklaring: `Et skadelig stoff i miljøet. Enkelte miljøgifter ligner så mye på kroppens egne hormoner at kroppen tar feil av dem, slik at de sender uønskede beskjeder i hormonsystemet.`,
+    },
   ],
 };

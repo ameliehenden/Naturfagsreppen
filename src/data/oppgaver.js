@@ -180,4 +180,42 @@ export const oppgaver = {
       fasit: `Legemidler brukes for å forebygge, lindre eller kurere sykdom, og er til hjelp for kroppen når de brukes riktig. Rusmidler tas for å bli ruset, altså for å endre humør og bevissthet; de virker på signalstoffene i hjernen og kan skade kroppen og gi avhengighet (for eksempel alkohol, nikotin og narkotika). Doping er bruk av forbudte stoffer for å prestere bedre i idrett, for eksempel anabole steroider som ligner testosteron. Alle tre hører hjemme i dette emnet fordi de griper inn i signalene i nerve- og hormonsystemet.`,
     },
   ],
+  'okologi': [
+    {
+      sporsmal: `Hva betyr økologi?`,
+      fasit: `Økologi er læren om samspillet i naturen.`,
+    },
+    {
+      sporsmal: `Hva er et økosystem, og hvilke økosystemer finnes i Norge? Nevn minst tre.`,
+      fasit: `Et økosystem er et avgrenset område med en ensartet natur, der det er et samspill mellom bestemte biotiske og abiotiske faktorer som gir området et typisk utseende og bestemte arter. Eksempler på økosystemer i Norge er blåbærskog, fjæra, myr og innsjøer.`,
+    },
+    {
+      sporsmal: `Vi deler alt i et økosystem inn i biotiske og abiotiske faktorer. Hva betyr dette, og gi noen eksempler på hver av dem.`,
+      fasit: `Det betyr at vi deler alt inn i en levende og en ikke-levende del. Biotisk betyr levende, og abiotisk betyr ikke-levende. Viktige biotiske faktorer kan være ulike plantearter, dyrearter og plankton. Viktige abiotiske faktorer kan være temperatur, nedbør/vann og lys.`,
+    },
+    {
+      sporsmal: `Forklar hvordan de abiotiske faktorene påvirker de biotiske faktorene i et økosystem.`,
+      fasit: `De abiotiske (ikke-levende) faktorene bestemmer hvilke organismer som kan leve i et område. En endring i temperatur – enten kaldere eller varmere – kan for eksempel føre til at planter og dyr som er tilpasset den gamle temperaturen får problemer eller dør. Det kan også føre til at nye arter dukker opp, eller at området endrer naturtype (for eksempel mer eller mindre is), slik at det blir helt andre plante- og dyrearter der.`,
+    },
+    {
+      sporsmal: `Hva er forskjellen på et biom og et økosystem? Nevn også hvilke biomer som finnes i Norge.`,
+      fasit: `Et biom er et stort område med en bestemt type vegetasjon (planteliv). Biomer er svært store og endrer seg ofte med breddegradene. Et økosystem er et mindre område, og handler ikke bare om plantene, men også om dyrelivet og de ikke-levende faktorene som vann, is, jord og temperatur. I Norge finner vi blant annet biomene sommergrønn løvskog, barskog og tundra.`,
+    },
+    {
+      sporsmal: `Planter er spesielle sammenlignet med dyr på grunn av fotosyntesen. Forklar hvorfor planter kalles produsenter.`,
+      fasit: `Planter bruker fotosyntesen til å lage glukose, som er næring for planten selv. De produserer altså sin egen mat, og kalles derfor produsenter.`,
+    },
+    {
+      sporsmal: `Hvilke produsenter er viktige for økosystemene i havet?`,
+      fasit: `Planteplankton og alger er svært viktige produsenter for økosystemene i havet. De ligger nesten alltid nederst i næringskjeden.`,
+    },
+    {
+      sporsmal: `Forklar forskjellen på en næringskjede og et næringsnett.`,
+      fasit: `En næringskjede viser hvem som blir spist av hvem, i en rett linje fra produsent til forbruker. Et næringsnett viser en større del av økosystemet, fordi de fleste artene er mat for mer enn én annen art. Næringsnettet henger dermed sammen flere næringskjeder.`,
+    },
+    {
+      sporsmal: `Hva er forskjellen på jord og jordsmonn?`,
+      fasit: `Jord er alt løsmateriale som ligger over det faste fjellet – for eksempel mold, leire, sand, grus og store steiner. Morenejord og marin leire er vanlige typer i Norge. Jordsmonn er det vi til daglig kaller «jord»: det øverste laget av jorda som er påvirket av levende organismer. Brunjord og podsol er to vanlige typer jordsmonn i Norge.`,
+    },
+  ],
 };
