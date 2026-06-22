@@ -23,21 +23,53 @@ async function api(sti) {
   return res.json();
 }
 
-let total = 0;
+// GoatCounter vil ha tidspunkt «rounded to the hour». Vi sender derfor hele
+// gårsdagen med klokkeslett, men prøver også ren dato som reserve – slik at
+// rapporten virker uansett hvilket format API-et godtar.
+async function hentStats(endepunkt, ekstra = '') {
+  const varianter = [
+    `start=${igaar}T00:00:00Z&end=${igaar}T23:59:59Z`,
+    `start=${igaar}&end=${igaar}`,
+  ];
+  let sisteFeil;
+  for (const q of varianter) {
+    try {
+      return await api(`${endepunkt}?${q}${ekstra}`);
+    } catch (e) {
+      sisteFeil = e;
+    }
+  }
+  throw sisteFeil;
+}
+
 let hits = [];
-let feil = null;
+let total = null;
+const feil = [];
+
+// Hent sidene/opplegga (hver for seg, så én feil ikke stopper resten).
 try {
-  const t = await api(`/stats/total?start=${igaar}&end=${igaar}`);
-  total = t.total ?? 0;
-  const h = await api(`/stats/hits?start=${igaar}&end=${igaar}&limit=100`);
+  const h = await hentStats('/stats/hits', '&limit=100');
   hits = h.hits ?? [];
 } catch (e) {
-  feil = String(e);
-  console.error(feil);
+  feil.push(String(e));
+  console.error(e);
+}
+
+// Hent totalen. Faller tilbake til å summere sidevisningene om kallet svikter.
+try {
+  const t = await hentStats('/stats/total');
+  total = t.total ?? 0;
+} catch (e) {
+  feil.push(String(e));
+  console.error(e);
 }
 
 const opplegg = hits.filter((x) => x.event);
 const sider = hits.filter((x) => !x.event);
+
+if (total === null) {
+  total = sider.reduce((sum, x) => sum + (x.count ?? 0), 0);
+}
 
 const L = [];
 L.push(`## Naturfagsreppen – rapport for ${datoTekst}`);
@@ -55,9 +87,9 @@ if (sider.length) {
   L.push('**Mest besøkte sider:**');
   sider.slice(0, 10).forEach((s) => L.push(`- ${s.path}: ${s.count}`));
 }
-if (feil) {
+if (feil.length) {
   L.push('');
-  L.push(`_Merk: klarte ikke å hente alle tall (${feil})._`);
+  L.push(`_Merk: klarte ikke å hente alle tall (${feil.join('; ')})._`);
 }
 
 const rapport = L.join('\n');
