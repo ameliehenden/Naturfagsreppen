@@ -7,15 +7,51 @@ export default function PraktiskeForsok({ forsok }) {
         Beskrivelser, resultater og bilder legges inn etter hvert som vi gjør forsøkene.
       </p>
       <div className={styles.liste}>
-        {forsok.map((f, i) => (
-          <div key={i} className={styles.kort}>
-            <span className={styles.nr}>{i + 1}</span>
-            <div>
-              <h3 className={styles.tittel}>{f.tittel}</h3>
-              <p className={styles.status}>Kommer senere</p>
+        {forsok.map((f, i) => {
+          const harInnhold = f.innledning || f.slik || f.fargeord || f.sporsmal;
+          return (
+            <div key={i} className={`${styles.kort} ${harInnhold ? styles.kortApen : ''}`}>
+              <span className={styles.nr}>{i + 1}</span>
+              <div className={styles.kortInnhold}>
+                <h3 className={styles.tittel}>{f.tittel}</h3>
+
+                {harInnhold ? (
+                  <>
+                    {f.innledning && <p className={styles.tekst}>{f.innledning}</p>}
+
+                    {f.fargeord && (
+                      <p className={styles.fargeord} aria-hidden="true">
+                        {f.fargeord.map((o, j) => (
+                          <span key={j} style={{ color: o.farge }}>{o.ord}</span>
+                        ))}
+                      </p>
+                    )}
+
+                    {f.slik && (
+                      <>
+                        <h4 className={styles.deltittel}>Slik gjør du</h4>
+                        <ol className={styles.steg}>
+                          {f.slik.map((s, j) => <li key={j}>{s}</li>)}
+                        </ol>
+                      </>
+                    )}
+
+                    {f.sporsmal && (
+                      <>
+                        <h4 className={styles.deltittel}>Tenk over</h4>
+                        <ul className={styles.sporsmal}>
+                          {f.sporsmal.map((s, j) => <li key={j}>{s}</li>)}
+                        </ul>
+                      </>
+                    )}
+                  </>
+                ) : (
+                  <p className={styles.status}>Kommer senere</p>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
