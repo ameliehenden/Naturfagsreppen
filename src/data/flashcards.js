@@ -984,5 +984,9 @@ export const flashcards = {
       begrep: `Forskningsetikk`,
       forklaring: `Reglene som sørger for at forskning foregår ærlig og ansvarlig, og at mennesker, dyr og resultater behandles riktig.`,
     },
+    {
+      begrep: `Data`,
+      forklaring: `Opplysningene og målingene man samler inn i en undersøkelse. Dataene er grunnlaget for resultatene og for konklusjonen man trekker.`,
+    },
   ],
 };
