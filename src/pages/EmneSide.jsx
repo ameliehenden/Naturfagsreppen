@@ -33,6 +33,7 @@ export default function EmneSide() {
   const forsokListe = forsok[id];
   const sammenhengerData = sammenhenger[id];
   const sammendragData = sammendrag[id];
+  const synligeOpplegg = OPPLEGG.filter((o) => !(emne?.skjulOpplegg || []).includes(o.id));
   const [valgt, setValgt] = useState(searchParams.get('tab') || null);
 
   function velgOpplegg(o) {
@@ -79,7 +80,7 @@ export default function EmneSide() {
 
       <div className={styles.innhold}>
         <div className={styles.oppleggRad}>
-          {OPPLEGG.map((o) => (
+          {synligeOpplegg.map((o) => (
             <button
               key={o.id}
               type="button"

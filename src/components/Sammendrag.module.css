@@ -25,6 +25,42 @@
   margin: 0;
 }
 
+.tabell {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.tabellKol {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 0.75rem 0.5rem;
+}
+
+.tabellTittel {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--emne-farge, #1a1a2e);
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.tabellListe {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #2a2a2a;
+}
+
+@media (max-width: 600px) {
+  .tabell {
+    grid-template-columns: 1fr;
+  }
+}
+
 .figur {
   margin-top: 0.75rem;
   max-width: 460px;

@@ -805,4 +805,102 @@ export const flashcards = {
       forklaring: `Å gi en datamaskin presise beskjeder om hva den skal gjøre. Datamaskinen gjør akkurat det den får beskjed om.`,
     },
   ],
+  'seksualitet': [
+    {
+      begrep: `Biologisk kjønn`,
+      forklaring: `Det kjønnet vi er født med, oftest mann eller kvinne. Noen er født interkjønn, det vil si med kroppslige trekk fra begge kjønn.`,
+    },
+    {
+      begrep: `Seksuell legning`,
+      forklaring: `Hvem man blir forelsket i eller tiltrukket av. Eksempler er heterofil, homofil, bifil, panseksuell og aseksuell.`,
+    },
+    {
+      begrep: `Kjønnsidentitet`,
+      forklaring: `Hvilket kjønn man selv opplever at man er. Hos de fleste passer den sammen med det biologiske kjønnet, men ikke hos alle.`,
+    },
+    {
+      begrep: `Heterofil`,
+      forklaring: `Å bli tiltrukket av det motsatte kjønnet.`,
+    },
+    {
+      begrep: `Homofil`,
+      forklaring: `Å bli tiltrukket av samme kjønn som en selv.`,
+    },
+    {
+      begrep: `Bifil`,
+      forklaring: `Å kunne bli tiltrukket av både eget og motsatt kjønn.`,
+    },
+    {
+      begrep: `Aseksuell`,
+      forklaring: `Å ha liten eller ingen seksuell tiltrekning til andre.`,
+    },
+    {
+      begrep: `Ikke-binær`,
+      forklaring: `En kjønnsidentitet der man verken opplever seg som bare mann eller bare kvinne.`,
+    },
+    {
+      begrep: `LHBTQ+`,
+      forklaring: `En paraplybetegnelse for alle som har en annen kombinasjon av biologisk kjønn, seksuell legning og kjønnsidentitet enn den vanligste. Står blant annet for lesbisk, homofil, bifil, transperson og skeiv.`,
+    },
+    {
+      begrep: `Seksuelt overførbar infeksjon (SOI)`,
+      forklaring: `En infeksjon som smitter ved seksuell kontakt. De fleste smitter ved ubeskyttet sex, og noen også via blod.`,
+    },
+    {
+      begrep: `Klamydia`,
+      forklaring: `Den vanligste seksuelt overførbare infeksjonen blant ungdom. Gir ofte få symptomer, men kan behandles med antibiotika.`,
+    },
+    {
+      begrep: `Gonoré`,
+      forklaring: `En seksuelt overførbar infeksjon forårsaket av bakterier. Behandles med antibiotika.`,
+    },
+    {
+      begrep: `Hiv og aids`,
+      forklaring: `Hiv er et virus som svekker immunforsvaret og kan smitte via sex og blod. Ubehandlet kan det utvikle seg til aids. Hiv kan behandles, men ikke kureres helt.`,
+    },
+    {
+      begrep: `Kjønnsvorter (HPV)`,
+      forklaring: `En svært vanlig virusinfeksjon som smitter ved sex. HPV-vaksinen beskytter mot kjønnsvorter og enkelte former for kreft.`,
+    },
+    {
+      begrep: `Herpes`,
+      forklaring: `En virusinfeksjon som gir sår, og som smitter ved hud- og slimhinnekontakt. Den kan dempes, men ikke kureres helt.`,
+    },
+    {
+      begrep: `Syfilis`,
+      forklaring: `En seksuelt overførbar infeksjon forårsaket av bakterier. Kan behandles med antibiotika.`,
+    },
+    {
+      begrep: `Hepatitt B`,
+      forklaring: `En virusinfeksjon som angriper leveren og smitter via blod og sex. Det finnes vaksine mot hepatitt B.`,
+    },
+    {
+      begrep: `Prevensjon`,
+      forklaring: `Ulike måter å hindre graviditet på. Noen typer er hormonelle, andre ikke.`,
+    },
+    {
+      begrep: `Kondom`,
+      forklaring: `Det eneste prevensjonsmiddelet som både hindrer graviditet og beskytter mot seksuelt overførbare infeksjoner.`,
+    },
+    {
+      begrep: `P-piller`,
+      forklaring: `Hormonell prevensjon i pilleform som hindrer eggløsning. Beskytter ikke mot SOI.`,
+    },
+    {
+      begrep: `Minipillen`,
+      forklaring: `En hormonell pille med bare ett hormon, som et alternativ til vanlige p-piller. Beskytter ikke mot SOI.`,
+    },
+    {
+      begrep: `Spiral`,
+      forklaring: `Et lite prevensjonsmiddel som settes inn i livmoren og virker lenge. Finnes som hormonspiral og kobberspiral. Beskytter ikke mot SOI.`,
+    },
+    {
+      begrep: `Pessar`,
+      forklaring: `Et ikke-hormonelt prevensjonsmiddel som settes inn og hindrer sædcellene i å nå egget. Beskytter ikke mot SOI.`,
+    },
+    {
+      begrep: `HPV-vaksine`,
+      forklaring: `En vaksine som beskytter mot HPV-viruset, og dermed mot kjønnsvorter og enkelte former for kreft. Tilbys alle i Norge.`,
+    },
+  ],
 };

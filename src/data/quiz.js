@@ -1258,4 +1258,123 @@ export const quiz = {
       ],
     },
   ],
+  'seksualitet': [
+    {
+      sporsmal: `Hva menes med biologisk kjønn?`,
+      riktig: `Det kjønnet vi er født med.`,
+      feil: [
+        `Hvem man blir tiltrukket av.`,
+        `Hvilket kjønn man selv opplever at man er.`,
+        `Hvilke klær man liker å gå med.`,
+      ],
+    },
+    {
+      sporsmal: `Hva handler seksuell legning om?`,
+      riktig: `Hvem man blir forelsket i eller tiltrukket av.`,
+      feil: [
+        `Hvilket kjønn man er født med.`,
+        `Hvilket kjønn man selv opplever at man er.`,
+        `Hvilket prevensjonsmiddel man bruker.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er kjønnsidentitet?`,
+      riktig: `Hvilket kjønn man selv opplever at man er.`,
+      feil: [
+        `Det kjønnet legen bestemte ved fødselen.`,
+        `Hvem man er glad i.`,
+        `Antall kromosomer man har.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er LHBTQ+?`,
+      riktig: `En paraplybetegnelse for alle som har en annen kombinasjon av kjønn, legning og identitet enn den vanligste.`,
+      feil: [
+        `Navnet på en bestemt seksuell legning.`,
+        `En type prevensjonsmiddel.`,
+        `En seksuelt overførbar infeksjon.`,
+      ],
+    },
+    {
+      sporsmal: `Hva betyr det at noen er bifil?`,
+      riktig: `At man kan bli tiltrukket av både eget og motsatt kjønn.`,
+      feil: [
+        `At man ikke blir tiltrukket av noen.`,
+        `At man bare blir tiltrukket av samme kjønn.`,
+        `At man er født med trekk fra begge kjønn.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en seksuelt overførbar infeksjon (SOI)?`,
+      riktig: `En infeksjon som smitter ved seksuell kontakt.`,
+      feil: [
+        `En infeksjon man bare kan få av dårlig kosthold.`,
+        `En sykdom som alltid smitter gjennom lufta.`,
+        `En arvelig sykdom man er født med.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilken SOI er vanligst blant ungdom?`,
+      riktig: `Klamydia.`,
+      feil: [
+        `Syfilis.`,
+        `Hepatitt B.`,
+        `Hiv.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor er det viktig å teste seg for SOI etter ubeskyttet sex?`,
+      riktig: `Fordi mange SOI gir få eller ingen symptomer, men likevel kan smitte videre og skade kroppen.`,
+      feil: [
+        `Fordi alle SOI alltid gir tydelige symptomer med en gang.`,
+        `Fordi SOI bare smitter hvis man tester seg.`,
+        `Fordi testen i seg selv hindrer at man blir smittet.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilket prevensjonsmiddel beskytter også mot seksuelt overførbare infeksjoner?`,
+      riktig: `Kondom.`,
+      feil: [
+        `P-piller.`,
+        `Spiral.`,
+        `P-sprøyte.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er hovedoppgaven til prevensjon?`,
+      riktig: `Å hindre graviditet.`,
+      feil: [
+        `Å kurere seksuelt overførbare infeksjoner.`,
+        `Å bestemme barnets kjønn.`,
+        `Å øke den seksuelle lysten.`,
+      ],
+    },
+    {
+      sporsmal: `Hva beskytter HPV-vaksinen mot?`,
+      riktig: `Kjønnsvorter og enkelte former for kreft.`,
+      feil: [
+        `Alle seksuelt overførbare infeksjoner.`,
+        `Graviditet.`,
+        `Hiv og aids.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er forskjellen på hormonell og ikke-hormonell prevensjon?`,
+      riktig: `Hormonell prevensjon, som p-piller, bruker hormoner for å hindre graviditet, mens ikke-hormonell, som kondom og kobberspiral, ikke gjør det.`,
+      feil: [
+        `Hormonell prevensjon beskytter mot SOI, det gjør aldri ikke-hormonell.`,
+        `Det er ingen forskjell, det er to navn på det samme.`,
+        `Ikke-hormonell prevensjon virker bare for menn.`,
+      ],
+    },
+    {
+      sporsmal: `Hvor kan ungdom få veiledning og prevensjon billig eller gratis?`,
+      riktig: `Hos helsesykepleier eller på helsestasjon for ungdom.`,
+      feil: [
+        `Bare hos en privat lege mot full betaling.`,
+        `Bare på apoteket uten å snakke med noen.`,
+        `Ingen steder før man er myndig.`,
+      ],
+    },
+  ],
 };

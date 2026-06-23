@@ -17,6 +17,7 @@ export const emner = [
     beskrivelse: '',
     parent: 'kropp-og-helse',
     skjulFraForside: true,
+    skjulOpplegg: ['oppgaver'],
     kapitler: [],
   },
   {

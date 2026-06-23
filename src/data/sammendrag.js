@@ -456,4 +456,27 @@ export const sammendrag = {
       tekst: `Å programmere er å gi en datamaskin en nøyaktig oppskrift på hva den skal gjøre, steg for steg. En slik oppskrift kalles en algoritme. Datamaskinen gjør akkurat det den får beskjed om, så vi må tenke grundig gjennom rekkefølgen og alle mulige tilfeller, det kaller vi algoritmisk tenkning. Med en liten datamaskin som micro:bit kan vi for eksempel programmere et trafikklys, et automatisk gatelys eller en fjernstyrt bil, og lære hvordan teknologiske systemer som styrer noe faktisk virker.`,
     },
   ],
+  'seksualitet': [
+    {
+      tittel: `Kjønn, legning og identitet`,
+      tekst: `Når vi snakker om kjønn og seksualitet, er det viktig å bruke fagbegrepene riktig, for dette er et tema som kan vekke følelser og sterke meninger. Vi har alle et biologisk kjønn som vi er født med. Vi har også en seksuell legning, som handler om hvem vi blir tiltrukket av. I tillegg har vi en kjønnsidentitet, altså hvilket kjønn vi selv opplever at vi er. Hos de fleste passer kjønnsidentiteten sammen med det biologiske kjønnet, mens noen få opplever at de ikke gjør det. Disse tre tingene er uavhengige av hverandre, slik tabellen under viser.`,
+      tabell: [
+        { tittel: `Biologisk kjønn`, rader: [`Mann`, `Kvinne`, `Interkjønn`] },
+        { tittel: `Seksuell legning`, rader: [`Heterofil`, `Homofil`, `Bifil`, `Panseksuell`, `Aseksuell`] },
+        { tittel: `Kjønnsidentitet`, rader: [`Kvinne`, `Mann`, `Ikke-binær`, `Transperson`, `Agender`, `Kjønnsflytende`] },
+      ],
+    },
+    {
+      tittel: `Hva betyr LHBTQ+?`,
+      tekst: `Den vanligste kombinasjonen er en heterofil person som identifiserer seg med sitt biologiske kjønn, for eksempel en heterofil kvinne som opplever seg som kvinne. Men det finnes mange andre kombinasjoner av biologisk kjønn, seksuell legning og kjønnsidentitet. LHBTQ+ er en paraplybetegnelse som samler alle disse. Bokstavene står blant annet for lesbisk, homofil, bifil, transperson og skeiv (queer), og plusset viser at det finnes enda flere måter å være på. Det viktigste er å møte alle med respekt, uansett hvordan de identifiserer seg eller hvem de er glad i.`,
+    },
+    {
+      tittel: `Seksuelt overførbare infeksjoner (SOI)`,
+      tekst: `Seksuelt overførbare infeksjoner, ofte forkortet SOI, er sykdommer som smitter ved seksuell kontakt. De fleste smitter gjennom ubeskyttet sex, men noen, som hiv og hepatitt B, kan også smitte gjennom blod. Eksempler på SOI er klamydia, gonoré, hiv, kjønnsvorter (HPV), herpes, syfilis og hepatitt B. Klamydia er den vanligste blant ungdom. Mange SOI gir få eller ingen symptomer, og derfor er det viktig å teste seg dersom man har hatt ubeskyttet sex. De fleste SOI kan behandles, men noen, som hiv og herpes, kan man ikke bli helt kvitt. Kondom er det eneste prevensjonsmiddelet som også beskytter mot SOI, og HPV-vaksinen beskytter mot kjønnsvorter og enkelte former for kreft.`,
+    },
+    {
+      tittel: `Prevensjon`,
+      tekst: `Prevensjon er ulike måter å hindre graviditet på. Noen typer er hormonelle, som p-piller, minipillen, p-sprøyte, p-plaster og hormonspiral. De hindrer blant annet at det blir eggløsning. Andre typer er ikke hormonelle, som kondom, pessar og kobberspiral. Kondomet er spesielt viktig, fordi det er det eneste prevensjonsmiddelet som både hindrer graviditet og beskytter mot seksuelt overførbare infeksjoner. Ungdom kan få veiledning og mange prevensjonsmidler gratis eller billig hos helsesykepleier eller på helsestasjon for ungdom.`,
+    },
+  ],
 };
