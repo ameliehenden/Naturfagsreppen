@@ -493,8 +493,12 @@ export const sammendrag = {
       tekst: `I dagligtale betyr «teori» en gjetning, men i vitenskapen betyr en teori noe helt annet: en grundig testet forklaring som er støttet av svært mye bevis, slik som evolusjonsteorien. En modell er en forenkling av virkeligheten som hjelper oss å forstå noe vi ikke kan se direkte, for eksempel atommodellene eller klimamodellene. En naturlov er noe som alltid gjelder i naturen, som energiloven.`,
     },
     {
+      tittel: `Årsak og virkning`,
+      tekst: `En viktig del av vitenskap er å finne ut hva som er årsaken til at noe skjer (virkningen). Men her er det lett å trå feil, for at to ting skjer samtidig, betyr ikke at den ene forårsaker den andre. Et kjent eksempel: om sommeren selges det mer iskrem, og samtidig er det flere som drukner. Det betyr selvsagt ikke at iskrem får folk til å drukne. Den egentlige årsaken er det varme været, som både får folk til å kjøpe iskrem og til å bade mer. Derfor må forskere undersøke nøye før de kan slå fast at noe faktisk er årsaken til noe annet.`,
+    },
+    {
       tittel: `Kildekritikk, bias og forskningsetikk`,
-      tekst: `Ikke all informasjon er til å stole på, og derfor må vi bruke kildekritikk og vurdere om en kilde er pålitelig. Vi må også være klar over bias, altså skjevhet eller forutinntatthet som kan farge resultatene. Før forskning blir publisert, blir den vanligvis fagfellevurdert, det vil si kontrollert av andre forskere. Forskningsetikk er reglene som sørger for at forskning foregår ærlig og ansvarlig, slik at hverken mennesker, dyr eller resultater blir behandlet feil.`,
+      tekst: `Ikke all informasjon er til å stole på, og derfor må vi bruke kildekritikk og vurdere om en kilde er pålitelig. Vi må også være klar over bias, altså skjevhet eller forutinntatthet som kan farge resultatene. Et eksempel: dersom et godterifirma betaler for en undersøkelse som konkluderer med at godteri er sunt, har vi god grunn til å mistenke at resultatet er farget av hvem som betalte. Bias kan også skje helt ubevisst, for hvis du virkelig håper at hypotesen din stemmer, kan du komme til å legge mest merke til det som støtter den, og overse det som taler imot. Før forskning blir publisert, blir den vanligvis fagfellevurdert, det vil si kontrollert av andre forskere. Forskningsetikk er reglene som sørger for at forskning foregår ærlig og ansvarlig, slik at hverken mennesker, dyr eller resultater blir behandlet feil.`,
     },
   ],
 };
