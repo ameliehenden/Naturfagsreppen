@@ -428,6 +428,10 @@ export const sammendrag = {
       tekst: `Vi kan produsere elektrisk energi fra fornybare energikilder, som vann, vind og sol, og fra ikke-fornybare kilder, som kull, olje og gass. I Norge kommer det aller meste av strømmen fra vannkraft, som er fornybar og gir lite klimagassutslipp. Men all energiproduksjon påvirker naturen på en eller annen måte: vannkraft demmer opp elver og endrer landskap, og vindkraft kan komme i konflikt med urørt natur og dyreliv. Derfor må vi alltid veie nytten av energien opp mot konsekvensene for miljøet.`,
     },
     {
+      tittel: `Binære tall og ASCII`,
+      tekst: `Datamaskiner forstår egentlig bare to verdier: av og på, som vi skriver som 0 og 1. Dette kalles det binære tallsystemet. For å sende tekst må bokstavene gjøres om til tall, og deretter til binære koder. ASCII er en slik standard, der hver bokstav har sitt eget tall: A er 65, B er 66 og så videre. Bokstaven A blir dermed til den binære koden 01000001. På denne måten kan tekst, bilder og lyd sendes som lange rekker av nuller og enere. For å hindre at uvedkommende leser informasjonen, kan den krypteres, altså gjøres om etter en hemmelig nøkkel som bare avsender og mottaker har.`,
+    },
+    {
       tittel: `Analoge og digitale signaler`,
       tekst: `Informasjon kan sendes som analoge eller digitale signaler. Et analogt signal endrer seg jevnt og flytende, omtrent som en bølge. Et digitalt signal består derimot av tall, oftest bare av de to verdiene 0 og 1. Digitale signaler er mindre følsomme for støy og lettere å lagre og kopiere uten at kvaliteten blir dårligere. Det er derfor nesten all moderne teknologi, som mobiler og datamaskiner, bruker digitale signaler.`,
     },
@@ -446,26 +450,6 @@ export const sammendrag = {
     {
       tittel: `Internett, IP-adresser og rutere`,
       tekst: `Alt som kobler seg til internett, enten det er en mobil, en datamaskin eller en server, får tildelt en unik IP-adresse, omtrent som en postadresse på nettet. Når du henter en nettside, sendes informasjonen i små pakker som hopper fra datamaskin til datamaskin fram til riktig adresse. Datamaskinene som styrer trafikken kalles rutere. En ruter fungerer som et veikryss som vet den raskeste veien videre, slik at pakkene finner fram selv om de må innom mange ledd underveis.`,
-    },
-    {
-      tittel: `Binære tall og ASCII`,
-      tekst: `Datamaskiner forstår egentlig bare to verdier: av og på, som vi skriver som 0 og 1. Dette kalles det binære tallsystemet. For å sende tekst må bokstavene gjøres om til tall, og deretter til binære koder. ASCII er en slik standard, der hver bokstav har sitt eget tall: A er 65, B er 66 og så videre. Bokstaven A blir dermed til den binære koden 01000001. På denne måten kan tekst, bilder og lyd sendes som lange rekker av nuller og enere. For å hindre at uvedkommende leser informasjonen, kan den krypteres, altså gjøres om etter en hemmelig nøkkel som bare avsender og mottaker har.`,
-    },
-    {
-      tittel: `Lys: refleksjon og lysbryting`,
-      tekst: `Lys blir reflektert av alt det treffer, og noen overflater reflekterer mer enn andre. At vi ser månen lyse, skyldes for eksempel at den reflekterer lys fra sola. Ved refleksjon er innfallsvinkelen lik refleksjonsvinkelen. Når lys går fra ett stoff til et annet, for eksempel fra luft ned i vann, endrer det retning. Dette kalles lysbryting. Lyset tar nemlig alltid den raskeste veien, og siden det går saktere i tette stoffer, lønner det seg å «svinge». Går lyset inn i et tettere stoff, brytes det mot innfallsloddet; går det inn i et tynnere stoff, brytes det fra.`,
-    },
-    {
-      tittel: `Linser og totalrefleksjon`,
-      tekst: `Vi utnytter lysbryting i linser. En konveks linse (samlelinse) samler lysstrålene i ett punkt og brukes blant annet til å gi skarpt syn. En konkav linse (spredningslinse) sprer strålene fra hverandre. Ved en bestemt vinkel kan lyset bli helt reflektert tilbake i stedet for å gå ut av stoffet. Dette kalles totalrefleksjon, og det utnyttes i teknologi som fiberkabler, der lyssignaler fraktes over lange avstander, og i optiske instrumenter som brukes blant annet på sykehus.`,
-    },
-    {
-      tittel: `Farger og hvordan vi ser dem`,
-      tekst: `Hvitt lys inneholder egentlig alle farger. Det ser vi når sollys brytes gjennom et glassprisme og deles opp i fargene i solspekteret. Ingenting har farge før det blir truffet av lys. Når lys treffer et stoff, blir noen farger absorbert (slukt) og andre reflektert, og det er fargen på det reflekterte lyset vi ser. En tomat ser rød ut fordi den reflekterer rødt lys og absorberer resten. Et stoff som reflekterer alt lys, ser hvitt ut, mens et som absorberer alt, ser svart ut.`,
-    },
-    {
-      tittel: `Øyet og synet`,
-      tekst: `Øyet tar imot lys gjennom pupillen, og pupillen styrer hvor mye lys som slipper inn: den er stor når det er mørkt og liten når det er lyst. Lyset brytes i hornhinnen og i den konvekse øyelinsen, som samler bildet skarpt på netthinnen bakerst i øyet. Netthinnen er full av sanseceller av to typer: tapper, som oppfatter farger, og staver, som oppfatter svart og hvitt. Vi har tre slags tapper, for rødt, grønt og blått lys, og er en av dem svekket, blir man fargeblind. Hjernen tolker signalene fra øyet og setter sammen bildet vi ser.`,
     },
     {
       tittel: `Programmering og algoritmisk tenkning`,
