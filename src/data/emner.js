@@ -74,7 +74,7 @@ export const emner = [
   {
     id: 'vitenskap',
     tittel: 'Vitenskap',
-    ikon: '🔬',
+    ikon: '💡',
     farge: '#6d4aa7',
     beskrivelse: '',
     parent: 'teknologi-og-vitenskap',

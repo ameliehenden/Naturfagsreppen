@@ -4,7 +4,7 @@ import styles from './JordaSide.module.css';
 
 const KAPITLER = [
   { id: 'teknologi', navn: 'Teknologi', farge: '#1f6fa0', ikon: '⚙️' },
-  { id: 'vitenskap', navn: 'Vitenskap', farge: '#6d4aa7', ikon: '🔬' },
+  { id: 'vitenskap', navn: 'Vitenskap', farge: '#6d4aa7', ikon: '💡' },
 ];
 
 export default function TeknologiSide() {
