@@ -707,4 +707,126 @@ export const flashcards = {
       forklaring: `Kraft = masse × akselerasjon (F = m · a). Jo større kraft, desto større akselerasjon for samme masse.`,
     },
   ],
+  'teknologi': [
+    {
+      begrep: `Teknologi`,
+      forklaring: `Utvikling av redskaper og systemer vi bruker i hverdagen, innenfor blant annet transport, industri, medisin, kommunikasjon og underholdning.`,
+    },
+    {
+      begrep: `Genteknologi`,
+      forklaring: `Teknologi som handler om gener og arv, der man analyserer og endrer DNA, for eksempel for å kurere sykdom eller gjøre planter mer motstandsdyktige.`,
+    },
+    {
+      begrep: `Nanoteknologi`,
+      forklaring: `Teknologi på nanometernivå, der man setter sammen atomer på nye måter for å lage materialer med helt nye egenskaper.`,
+    },
+    {
+      begrep: `Generator`,
+      forklaring: `En maskin som lager elektrisk strøm ved å bevege en magnet inni en spole. Brukes i nesten alle kraftverk.`,
+    },
+    {
+      begrep: `Transformator`,
+      forklaring: `En enhet som endrer spenningen på strømmen. Spenningen settes høyt for å sende strøm langt med minst mulig tap, og ned igjen før den når hjemmene.`,
+    },
+    {
+      begrep: `Fornybar energikilde`,
+      forklaring: `En energikilde som ikke blir brukt opp, som vann, vind og sol. I Norge kommer det meste av strømmen fra vannkraft.`,
+    },
+    {
+      begrep: `Ikke-fornybar energikilde`,
+      forklaring: `En energikilde det finnes en begrenset mengde av, og som gir klimagassutslipp når den brukes, som kull, olje og gass.`,
+    },
+    {
+      begrep: `Analogt signal`,
+      forklaring: `Et signal som endrer seg jevnt og flytende, omtrent som en bølge.`,
+    },
+    {
+      begrep: `Digitalt signal`,
+      forklaring: `Et signal som består av tall, oftest bare 0 og 1. Det er mindre følsomt for støy og lett å lagre og kopiere uten å miste kvalitet.`,
+    },
+    {
+      begrep: `Diode`,
+      forklaring: `En elektronisk komponent som bare slipper strømmen gjennom én vei. Brukes til å styre strømmen riktig vei i en krets.`,
+    },
+    {
+      begrep: `Lysdiode (LED)`,
+      forklaring: `En diode som sender ut lys. Bruker lite energi og varer svært lenge, og brukes som varsellys og som lyskilde i lamper.`,
+    },
+    {
+      begrep: `Elektronisk kommunikasjonssystem`,
+      forklaring: `Et system som frakter informasjon fra en avsender til en mottaker, for eksempel internett, mobilnett eller radio.`,
+    },
+    {
+      begrep: `Sender og mottaker`,
+      forklaring: `Senderen er startpunktet som bestemmer hvilken informasjon som skal sendes, og mottakeren er endepunktet som tar imot den.`,
+    },
+    {
+      begrep: `IP-adresse`,
+      forklaring: `En unik adresse som alt som kobler seg til internett får tildelt, omtrent som en postadresse på nettet.`,
+    },
+    {
+      begrep: `Ruter`,
+      forklaring: `En datamaskin som styrer datatrafikken på internett. Den fungerer som et veikryss som vet den raskeste veien videre til riktig adresse.`,
+    },
+    {
+      begrep: `Grensesnitt`,
+      forklaring: `Koblingen mellom to deler i et kommunikasjonssystem, for eksempel en skjerm, et tastatur eller talestyring.`,
+    },
+    {
+      begrep: `Bluetooth`,
+      forklaring: `Trådløs kommunikasjon over korte avstander, mellom enheter som er nær hverandre.`,
+    },
+    {
+      begrep: `Wifi`,
+      forklaring: `Trådløs kommunikasjon som dekker et mindre område, for eksempel et hjem eller en skole (småcelle), og gir tilgang til internett.`,
+    },
+    {
+      begrep: `4G og 5G`,
+      forklaring: `Mobilnett (storcelle) som dekker store områder og gir tilgang til internett der du måtte være.`,
+    },
+    {
+      begrep: `Binære tall`,
+      forklaring: `Tallsystemet datamaskiner bruker, med bare to verdier: 0 og 1 (av og på).`,
+    },
+    {
+      begrep: `ASCII`,
+      forklaring: `En standard der hver bokstav har sitt eget tall, slik at tekst kan gjøres om til binær kode. A er 65, altså 01000001.`,
+    },
+    {
+      begrep: `Kryptering`,
+      forklaring: `Å gjøre informasjon om etter en hemmelig nøkkel, slik at bare avsender og mottaker kan lese den.`,
+    },
+    {
+      begrep: `Refleksjon`,
+      forklaring: `Når lys kastes tilbake fra en overflate. Innfallsvinkelen er da lik refleksjonsvinkelen. Vi ser månen fordi den reflekterer sollys.`,
+    },
+    {
+      begrep: `Lysbryting`,
+      forklaring: `Når lys endrer retning idet det går fra ett stoff til et annet, for eksempel fra luft ned i vann. Skjer fordi lyset tar den raskeste veien.`,
+    },
+    {
+      begrep: `Totalrefleksjon`,
+      forklaring: `Når lys blir fullstendig reflektert tilbake i stedet for å gå ut av et stoff. Utnyttes i fiberkabler og optiske instrumenter.`,
+    },
+    {
+      begrep: `Konveks linse`,
+      forklaring: `En samlelinse som samler lysstrålene i ett punkt. Brukes blant annet i øyet og i briller for å gi skarpt syn.`,
+    },
+    {
+      begrep: `Konkav linse`,
+      forklaring: `En spredningslinse som sprer lysstrålene fra hverandre.`,
+    },
+    {
+      begrep: `Netthinne`,
+      forklaring: `Laget bakerst i øyet der bildet samles. Den er full av sanseceller, tapper som oppfatter farger og staver som oppfatter svart og hvitt.`,
+    },
+    {
+      begrep: `Algoritme`,
+      forklaring: `En nøyaktig oppskrift, steg for steg, på hvordan en oppgave skal løses. Grunnlaget for all programmering.`,
+    },
+    {
+      begrep: `Programmering`,
+      forklaring: `Å gi en datamaskin presise beskjeder om hva den skal gjøre. Datamaskinen gjør akkurat det den får beskjed om.`,
+    },
+  ],
 };

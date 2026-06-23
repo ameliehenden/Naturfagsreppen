@@ -1139,4 +1139,159 @@ export const quiz = {
       ],
     },
   ],
+  'teknologi': [
+    {
+      sporsmal: `Hva handler teknologi om?`,
+      riktig: `Å utvikle redskaper og systemer vi bruker i hverdagen.`,
+      feil: [
+        `Bare å lage avanserte datamaskiner og roboter.`,
+        `Å studere planter og dyr i naturen.`,
+        `Å forske på verdensrommet og stjernene.`,
+      ],
+    },
+    {
+      sporsmal: `Hva gjør en generator?`,
+      riktig: `Lager elektrisk strøm ved å bevege en magnet inni en spole.`,
+      feil: [
+        `Endrer spenningen på strømmen i strømnettet.`,
+        `Lagrer elektrisk energi til senere bruk.`,
+        `Gjør digitale signaler om til analoge.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er oppgaven til en transformator?`,
+      riktig: `Å endre spenningen på strømmen.`,
+      feil: [
+        `Å lage strøm fra bevegelse.`,
+        `Å gjøre vekselstrøm om til likestrøm.`,
+        `Å måle hvor mye strøm som brukes.`,
+      ],
+    },
+    {
+      sporsmal: `Hvor kommer det meste av strømmen i Norge fra?`,
+      riktig: `Vannkraft, som er en fornybar energikilde.`,
+      feil: [
+        `Kullkraft, som er en ikke-fornybar energikilde.`,
+        `Atomkraft.`,
+        `Solceller på hustak.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er forskjellen på et analogt og et digitalt signal?`,
+      riktig: `Et analogt signal endrer seg jevnt og flytende, mens et digitalt signal består av tall, oftest 0 og 1.`,
+      feil: [
+        `Et digitalt signal endrer seg jevnt, mens et analogt består av tall.`,
+        `Analoge signaler er alltid trådløse, digitale er alltid med kabel.`,
+        `Det er ingen forskjell, det er to ord for det samme.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er spesielt med en diode?`,
+      riktig: `Den slipper strømmen gjennom bare én vei.`,
+      feil: [
+        `Den lagrer strøm slik et batteri gjør.`,
+        `Den øker spenningen i kretsen.`,
+        `Den slipper strømmen like godt begge veier.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor brukes lysdioder (LED) i stadig flere lamper?`,
+      riktig: `De bruker lite energi og varer svært lenge.`,
+      feil: [
+        `De gir et mye varmere lys enn andre pærer.`,
+        `De er billigst mulig å produsere.`,
+        `De lager sin egen strøm og trenger ikke kobles til nettet.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilke deler må til for at et elektronisk kommunikasjonssystem skal virke?`,
+      riktig: `Blant annet en sender, en mottaker, informasjon, en adresse og en vei (ruting).`,
+      feil: [
+        `Bare en sender og litt strøm.`,
+        `Kun en datamaskin med skjerm.`,
+        `En generator og en transformator.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilken type trådløs kommunikasjon har lengst rekkevidde?`,
+      riktig: `Satellitt, som kan nå nesten hvor som helst på jorda.`,
+      feil: [
+        `Bluetooth.`,
+        `Wifi.`,
+        `NFC.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en IP-adresse?`,
+      riktig: `En unik adresse som alt som kobler seg til internett får tildelt.`,
+      feil: [
+        `Navnet på nettleseren du bruker.`,
+        `En type kabel som kobler datamaskiner sammen.`,
+        `Et passord som beskytter nettsiden din.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilke to verdier bygger det binære tallsystemet på?`,
+      riktig: `0 og 1 (av og på).`,
+      feil: [
+        `1 til 10.`,
+        `Bokstavene A og B.`,
+        `Pluss og minus.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er ASCII?`,
+      riktig: `En standard der hver bokstav har sitt eget tall, så tekst kan gjøres om til binær kode.`,
+      feil: [
+        `Et program for å redigere bilder.`,
+        `En type trådløst nettverk.`,
+        `Navnet på den første datamaskinen.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor endrer lys retning når det går fra luft ned i vann?`,
+      riktig: `Fordi lyset tar den raskeste veien, og det går saktere i tette stoffer som vann.`,
+      feil: [
+        `Fordi vannet trekker lyset mot seg som en magnet.`,
+        `Fordi lyset blir tyngre under vann.`,
+        `Fordi fargene i lyset forsvinner i vann.`,
+      ],
+    },
+    {
+      sporsmal: `Hva utnytter vi totalrefleksjon til?`,
+      riktig: `Fiberkabler som frakter lyssignaler over lange avstander.`,
+      feil: [
+        `Å lage strøm fra sollys.`,
+        `Å forsterke lyden i høyttalere.`,
+        `Å lagre data på en harddisk.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor ser en tomat rød ut?`,
+      riktig: `Den reflekterer rødt lys og absorberer resten av fargene.`,
+      feil: [
+        `Den absorberer rødt lys og reflekterer resten.`,
+        `Den lager sitt eget røde lys.`,
+        `Fordi rødt er den eneste fargen i sollyset.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilke sanseceller i øyet oppfatter farger?`,
+      riktig: `Tappene.`,
+      feil: [
+        `Stavene.`,
+        `Pupillen.`,
+        `Hornhinnen.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en algoritme?`,
+      riktig: `En nøyaktig oppskrift, steg for steg, på hvordan en oppgave skal løses.`,
+      feil: [
+        `En feil i et dataprogram.`,
+        `En type datamaskin.`,
+        `Et trådløst signal.`,
+      ],
+    },
+  ],
 };

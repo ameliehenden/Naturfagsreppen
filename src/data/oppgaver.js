@@ -340,4 +340,42 @@ export const oppgaver = {
       fasit: `Stråling brukes til svært mye: WiFi og Bluetooth, radiobølger til å sende informasjon (for eksempel i en fjernkontroll), GPS-navigasjon via satellitter, vanlig radio, røntgenmaskiner, laserlys og lyset fra lampene rundt oss. Alt dette sender ut eller bruker stråling.`,
     },
   ],
+  'teknologi': [
+    {
+      sporsmal: `Hva er en generator, og hva er en transformator?`,
+      fasit: `En generator lager elektrisk strøm ved å bevege en magnet inni en spole, og den finnes i nesten alle kraftverk. En transformator endrer spenningen på strømmen, slik at den kan settes høyt når den skal sendes langt, og ned igjen til trygg spenning før den når hjemmene.`,
+    },
+    {
+      sporsmal: `Hvorfor trenger vi generatorer og transformatorer når vi skal produsere og frakte elektrisitet?`,
+      fasit: `Vi trenger generatoren for i det hele tatt å lage strømmen, ved å gjøre bevegelse om til elektrisk energi. Transformatoren trengs fordi strømmen skal fraktes over lange avstander i strømnettet. Når spenningen settes svært høyt, går det minst mulig energi tapt på veien, og deretter transformeres spenningen ned igjen til et trygt nivå før strømmen brukes hjemme.`,
+    },
+    {
+      sporsmal: `Hvordan produserer vi elektrisk energi i Norge, og hvilke konsekvenser har det for naturen sammenlignet med andre land?`,
+      fasit: `I Norge kommer det aller meste av strømmen fra vannkraft, som er en fornybar energikilde med lite klimagassutslipp. Mange andre land bruker i større grad ikke-fornybare kilder som kull, olje og gass, som gir store CO₂-utslipp. Norsk vannkraft er altså renere for klimaet, men også den påvirker naturen: elver demmes opp, landskap endres og dyreliv kan forstyrres. Uansett energikilde må vi veie nytten opp mot konsekvensene for miljøet.`,
+    },
+    {
+      sporsmal: `Hva er forskjellen på fornybare og ikke-fornybare energikilder? Gi eksempler på hver.`,
+      fasit: `Fornybare energikilder blir ikke brukt opp og fornyer seg selv, som vann, vind og sol. Ikke-fornybare energikilder finnes det en begrenset mengde av, og de gir klimagassutslipp når de brukes, som kull, olje og gass. Fornybare kilder er mer bærekraftige, men også de kan påvirke naturen lokalt.`,
+    },
+    {
+      sporsmal: `Hva er forskjellen på et analogt og et digitalt signal?`,
+      fasit: `Et analogt signal endrer seg jevnt og flytende, omtrent som en bølge. Et digitalt signal består av tall, oftest bare 0 og 1. Digitale signaler er mindre følsomme for støy og lettere å lagre og kopiere uten at kvaliteten blir dårligere. Derfor bruker nesten all moderne teknologi digitale signaler.`,
+    },
+    {
+      sporsmal: `Beskriv et elektronisk kommunikasjonssystem, og forklar hvordan informasjon overføres fra avsender til mottaker.`,
+      fasit: `Et elektronisk kommunikasjonssystem frakter informasjon fra en avsender til en mottaker, for eksempel via internett eller mobilnettet. Senderen bestemmer hvilken informasjon som skal sendes, og gjør den om til et signal (ofte digitalt, som nuller og enere). Informasjonen merkes med en adresse som viser hvor den skal, og sendes så gjennom systemet, trådløst eller via kabel, og videre fra ruter til ruter som finner riktig vei. Til slutt når informasjonen mottakeren, som gjør signalet om til noe vi kan forstå igjen, som tekst, lyd eller bilde. Underveis sørger overvåking og kontroll for å oppdage feil og hindre at uvedkommende får tilgang.`,
+    },
+    {
+      sporsmal: `Velg ett kommunikasjonssystem (for eksempel mobiltelefon, satellitt eller internett) og forklar noen fordeler og ulemper det gir samfunnet.`,
+      fasit: `Eksempel med internett: Fordelene er at vi raskt kan kommunisere med hverandre over hele verden, finne informasjon, samarbeide og bruke tjenester uansett hvor vi er. Ulempene er blant annet at personlig informasjon kan komme på avveie, at vi blir svært avhengige av at systemene virker, fare for nettmobbing og falsk informasjon, og at all teknologien krever mye energi og ressurser å lage og drive. (Andre system, som mobil eller satellitt, kan brukes på samme måte med egne fordeler og ulemper.)`,
+    },
+    {
+      sporsmal: `Hva er ASCII og binære tall, og hvordan henger de sammen når vi sender en tekstmelding?`,
+      fasit: `Datamaskiner forstår egentlig bare to verdier, 0 og 1, som er det binære tallsystemet. ASCII er en standard der hver bokstav har sitt eget tall, for eksempel A = 65. For å sende tekst gjøres hver bokstav først om til ASCII-tallet sitt, og deretter om til en binær kode (A blir 01000001). Hele meldingen sendes dermed som en lang rekke med nuller og enere, som mottakeren gjør tilbake til bokstaver igjen. For å hindre at andre leser meldingen, kan den krypteres med en hemmelig nøkkel.`,
+    },
+    {
+      sporsmal: `Hvordan har den elektriske revolusjonen endret måten vi lever på, og hvordan påvirker den naturen?`,
+      fasit: `Elektrisiteten har endret hverdagen vår fullstendig: vi har lys, varme, kjøleskap, datamaskiner, internett og transport som alle er avhengige av strøm. Det har gjort livene enklere og åpnet for kommunikasjon og teknologi vi ikke kunne tenkt oss før. Samtidig krever all denne teknologien mye energi, og produksjonen av strøm og elektronikk påvirker naturen, gjennom utslipp, naturinngrep og avfall fra utstyr vi kaster. Derfor er det viktig å bruke energien fornuftig og tenke på miljøet når vi utvikler ny teknologi.`,
+    },
+  ],
 };
