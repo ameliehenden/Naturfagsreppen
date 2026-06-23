@@ -3,9 +3,6 @@ import styles from './PraktiskeForsok.module.css';
 export default function PraktiskeForsok({ forsok }) {
   return (
     <div className={styles.wrapper}>
-      <p className={styles.intro}>
-        Beskrivelser, resultater og bilder legges inn etter hvert som vi gjør forsøkene.
-      </p>
       <div className={styles.liste}>
         {forsok.map((f, i) => {
           const harInnhold = f.innledning || f.utstyr || f.slik || f.fargeord || f.sporsmal || f.forklaring;
