@@ -1377,4 +1377,132 @@ export const quiz = {
       ],
     },
   ],
+  'vitenskap': [
+    {
+      sporsmal: `Hva er en hypotese?`,
+      riktig: `En testbar påstand om hva man tror vil skje.`,
+      feil: [
+        `Et endelig svar som allerede er bevist.`,
+        `Resultatet man sitter igjen med etter forsøket.`,
+        `En feil som oppstod under forsøket.`,
+      ],
+    },
+    {
+      sporsmal: `Hva betyr ordet «teori» i vitenskapen?`,
+      riktig: `En grundig testet forklaring som er støttet av svært mye bevis.`,
+      feil: [
+        `En løs gjetning man ikke har undersøkt.`,
+        `En mening en forsker har uten bevis.`,
+        `Et forsøk som ikke er gjennomført ennå.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en feilkilde?`,
+      riktig: `Noe som kan ha påvirket resultatet og gjort det mindre sikkert.`,
+      feil: [
+        `Selve konklusjonen i et forsøk.`,
+        `En kilde man har brukt til bakgrunnsteori.`,
+        `Et annet ord for hypotese.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en kontrollgruppe?`,
+      riktig: `En gruppe som ikke får behandlingen man tester, og som man sammenligner med.`,
+      feil: [
+        `Gruppen som får dobbelt så mye av behandlingen.`,
+        `De som styrer hele forsøket.`,
+        `En gruppe som kontrollerer at utstyret virker.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en modell i naturfag?`,
+      riktig: `En forenkling av virkeligheten som hjelper oss å forstå noe vi ikke kan se direkte.`,
+      feil: [
+        `En nøyaktig kopi av virkeligheten i full størrelse.`,
+        `En person som viser fram et forsøk.`,
+        `Et endelig bevis på at noe er sant.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en naturlov?`,
+      riktig: `Noe som alltid gjelder i naturen, som energiloven.`,
+      feil: [
+        `En regel politikerne har vedtatt om naturen.`,
+        `En hypotese som ennå ikke er testet.`,
+        `En forklaring som bare gjelder noen ganger.`,
+      ],
+    },
+    {
+      sporsmal: `Hva menes med kildekritikk?`,
+      riktig: `Å vurdere om en kilde er til å stole på.`,
+      feil: [
+        `Å kritisere alle som er uenige med deg.`,
+        `Å bruke så mange kilder som mulig uansett kvalitet.`,
+        `Å skrive en konklusjon uten kilder.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er bias?`,
+      riktig: `Skjevhet eller forutinntatthet som kan farge et resultat i en bestemt retning.`,
+      feil: [
+        `Et måleinstrument som brukes i forsøk.`,
+        `Et annet ord for et godt og sikkert resultat.`,
+        `En type kontrollgruppe.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er fagfellevurdering?`,
+      riktig: `At andre forskere kontrollerer et arbeid før det blir publisert.`,
+      feil: [
+        `At forskeren karaktersetter sitt eget arbeid.`,
+        `At elevene retter hverandres prøver.`,
+        `At resultatet sjekkes av en datamaskin.`,
+      ],
+    },
+    {
+      sporsmal: `Hvilken rekkefølge følger en vitenskapelig undersøkelse ofte?`,
+      riktig: `Hypotese, metode, resultat og konklusjon.`,
+      feil: [
+        `Konklusjon, resultat, hypotese og metode.`,
+        `Resultat, hypotese, konklusjon og metode.`,
+        `Metode, konklusjon, hypotese og resultat.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er en variabel i et forsøk?`,
+      riktig: `Noe som kan endre seg, og som man enten endrer med vilje eller måler.`,
+      feil: [
+        `Noe som aldri kan forandre seg.`,
+        `Et annet ord for konklusjonen.`,
+        `Selve forskeren som gjør forsøket.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor er det viktig å nevne feilkilder i en rapport?`,
+      riktig: `Fordi det viser hvor sikre resultatene er, og hva som kunne påvirket dem.`,
+      feil: [
+        `Fordi rapporten må være så lang som mulig.`,
+        `Fordi feilkilder beviser at forsøket var mislykket.`,
+        `Det er ikke viktig, feilkilder kan utelates.`,
+      ],
+    },
+    {
+      sporsmal: `Hva er forskjellen på en hypotese og en konklusjon?`,
+      riktig: `Hypotesen er det vi tror på forhånd, mens konklusjonen er det vi finner ut etterpå.`,
+      feil: [
+        `Det er to ord for nøyaktig det samme.`,
+        `Hypotesen kommer etter forsøket, konklusjonen før.`,
+        `Hypotesen er alltid riktig, konklusjonen alltid feil.`,
+      ],
+    },
+    {
+      sporsmal: `Hvorfor er det viktig at forskning blir etterprøvd av andre?`,
+      riktig: `For å sjekke at resultatene er pålitelige og ikke bare gjelder én gang.`,
+      feil: [
+        `For at forskeren skal få mer betalt.`,
+        `For å gjøre forskningen vanskeligere å forstå.`,
+        `Det er ikke viktig, ett forsøk er nok.`,
+      ],
+    },
+  ],
 };

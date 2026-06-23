@@ -647,4 +647,73 @@ export const sammenhenger = {
       },
     ],
   },
+  'vitenskap': {
+    senter: `Vitenskap`,
+    kortnavn: `vitenskap`,
+    bokser: [
+      {
+        navn: `Teknologi`,
+        slug: `teknologi`,
+        farge: `#1f6fa0`,
+        innhold: [
+          { type: 'tekst', verdi: `Mye av teknologien vi bruker hver dag, er et resultat av forskning. Når forskere finner ut noe nytt om for eksempel elektrisitet, materialer eller lys, kan ingeniører bruke denne kunnskapen til å lage ny teknologi.` },
+          { type: 'tekst', verdi: `Slik henger vitenskap og teknologi tett sammen: vitenskapen gir oss forståelsen, og teknologien gjør den om til praktiske løsninger som mobiler, solceller og medisinsk utstyr.` },
+        ],
+      },
+      {
+        navn: `Utviklingslæra`,
+        slug: `utviklingslaera`,
+        farge: `#6b8e00`,
+        innhold: [
+          { type: 'tekst', verdi: `Utviklingslæra, eller evolusjonsteorien, er et godt eksempel på hva en vitenskapelig teori er. I dagligtale betyr «teori» en gjetning, men i vitenskapen er en teori en grundig testet forklaring som er støttet av svært mye bevis.` },
+          { type: 'tekst', verdi: `Evolusjonsteorien bygger på funn fra mange fagfelt, som fossiler, DNA og observasjoner av dyr og planter. Den er etterprøvd igjen og igjen, og er derfor blant de best underbygde teoriene vi har.` },
+        ],
+      },
+      {
+        navn: `Klima`,
+        slug: `klima`,
+        farge: `#0e7a8a`,
+        innhold: [
+          { type: 'tekst', verdi: `Klimaforskere bruker modeller for å forstå og forutsi klimaet. En modell er en forenkling av virkeligheten, ofte en stor datasimulering som regner på hvordan temperatur, hav og atmosfære henger sammen.` },
+          { type: 'tekst', verdi: `Modeller kan aldri få med absolutt alt, men de er likevel et av de viktigste verktøyene vi har for å se hva som kan skje med klimaet i framtiden. Derfor er det viktig å forstå både hva modeller kan og ikke kan fortelle oss.` },
+        ],
+      },
+      {
+        navn: `Geologi`,
+        slug: `geologi`,
+        farge: `#0e7060`,
+        innhold: [
+          { type: 'tekst', verdi: `Geologi handler mye om årsak og virkning. Når kontinentalplatene beveger seg (årsak), oppstår det jordskjelv og vulkanutbrudd (virkning). Vitenskap går nettopp ut på å finne slike årsakssammenhenger.` },
+          { type: 'tekst', verdi: `Ved å lete etter hva som forårsaker hva, kan forskere forklare hvorfor ting skjer, og noen ganger til og med forutsi det, slik som hvor det er størst fare for jordskjelv.` },
+        ],
+      },
+      {
+        navn: `Immunsystemet`,
+        slug: `immunsystemet`,
+        farge: `#b8860b`,
+        innhold: [
+          { type: 'tekst', verdi: `Innenfor medisin er forskningsetikk og kildekritikk svært viktig. Vaksiner og medisiner må testes grundig og fagfellevurderes før de tas i bruk, slik at vi vet at de er trygge og virker.` },
+          { type: 'tekst', verdi: `Her ser vi forskjellen på skolemedisin og naturmedisin: skolemedisin bygger på grundig, etterprøvd og fagfellevurdert forskning, mens mange påstander innen naturmedisin ikke er testet på samme måte. Da er det viktig å bruke kildekritikk og spørre seg hva som faktisk er bevist.` },
+        ],
+      },
+      {
+        navn: `Kjemi`,
+        slug: `kjemi`,
+        farge: `#8e44ad`,
+        innhold: [
+          { type: 'tekst', verdi: `Atomer er altfor små til at vi kan se dem, så i kjemien bruker vi modeller for å forstå hvordan de er bygd opp. Skallmodellen og skymodellen er begge forenklinger som hver på sin måte hjelper oss å forklare hvordan atomer ser ut og oppfører seg.` },
+          { type: 'tekst', verdi: `At vi har flere modeller av det samme, viser noe viktig om vitenskap: en modell er ikke virkeligheten selv, men et nyttig verktøy for å forstå den.` },
+        ],
+      },
+      {
+        navn: `Energi`,
+        slug: `energi`,
+        farge: `#c87f0a`,
+        innhold: [
+          { type: 'tekst', verdi: `Energiloven er et eksempel på en naturlov, noe som alltid gjelder i naturen. Den sier at energi ikke kan skapes eller forsvinne, bare gå over fra én form til en annen.` },
+          { type: 'tekst', verdi: `Naturlover er noe av det vitenskapen leter etter: regler som holder hver eneste gang, uansett hvor og når vi undersøker dem. Slike lover gjør at vi kan forstå og forutsi hvordan verden virker.` },
+        ],
+      },
+    ],
+  },
 };

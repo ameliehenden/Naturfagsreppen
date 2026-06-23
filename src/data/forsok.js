@@ -116,4 +116,51 @@ export const forsok = {
     { tittel: `Programmere fjernstyrt bil med Micro:Bit` },
     { tittel: `Programmere trafikklys med Micro:Bit` },
   ],
+  'vitenskap': [
+    {
+      tittel: `Hvor fort løser sukker seg i vann?`,
+      innledning: `I dette forsøket skal dere undersøke hva som påvirker hvor fort sukker løser seg opp i vann. Dette er en fin øvelse i å bruke den vitenskapelige metoden: dere lager en hypotese, styrer variablene og noterer resultatene. Etterpå skal dere skrive en rapport.`,
+      utstyr: [
+        `Sukker`,
+        `Vann (kaldt og varmt)`,
+        `Like glass eller begerglass`,
+        `Skje til å røre`,
+        `Klokke eller stoppeklokke`,
+      ],
+      slik: [
+        `Lag en hypotese: hva tror dere får sukkeret til å løse seg raskest? (For eksempel varmt vann, eller å røre.)`,
+        `Bestem hvilken variabel dere vil teste, for eksempel temperaturen på vannet. Husk å holde alt annet likt (samme mengde vann og sukker).`,
+        `Ha samme mengde sukker i hvert glass, og start klokka.`,
+        `Mål hvor lang tid det tar før sukkeret er helt oppløst i hvert glass, og skriv det inn i en tabell.`,
+        `Vil dere teste flere ting? Gjenta forsøket der dere for eksempel rører i det ene glasset, eller bruker grovt og fint sukker.`,
+      ],
+      sporsmal: [
+        `Hva fikk sukkeret til å løse seg raskest?`,
+        `Stemte hypotesen deres?`,
+        `Hvilke feilkilder kan ha påvirket resultatet?`,
+      ],
+    },
+    {
+      tittel: `Beskytt et fallende egg`,
+      innledning: `Her skal dere lage en innpakning som beskytter et rått egg slik at det ikke knuser når det slippes fra høyden. Dette er et teknologi- og forskningsforsøk der dere planlegger, tester og forbedrer en løsning, og lærer hvordan krefter virker i et støt.`,
+      utstyr: [
+        `Et rått egg per gruppe`,
+        `Materialer til innpakning (for eksempel papir, bobleplast, ballonger, sugerør, teip, bomull)`,
+        `Et sted å slippe egget fra (samme høyde for alle)`,
+        `Søppelpose eller avis til å beskytte gulvet`,
+      ],
+      slik: [
+        `Lag en hypotese om hva slags innpakning som vil beskytte egget best, og hvorfor.`,
+        `Bygg innpakningen rundt egget med materialene dere har valgt.`,
+        `Slipp egget fra avtalt høyde, og se om det overlevde.`,
+        `Noter resultatet. Forbedre løsningen og prøv igjen, eller slipp fra større høyde.`,
+        `Rydd opp og kast knuste egg og tilgriset materiale.`,
+      ],
+      sporsmal: [
+        `Hvilken innpakning beskyttet egget best, og hvorfor tror dere det?`,
+        `Hvordan klarte innpakningen å gjøre støtet mindre farlig for egget? (Tenk på kræsjtid og å fordele kraften.)`,
+        `Hva ville dere endret hvis dere skulle gjort forsøket på nytt?`,
+      ],
+    },
+  ],
 };

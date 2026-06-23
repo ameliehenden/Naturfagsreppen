@@ -903,4 +903,86 @@ export const flashcards = {
       forklaring: `En vaksine som beskytter mot HPV-viruset, og dermed mot kjønnsvorter og enkelte former for kreft. Tilbys alle i Norge.`,
     },
   ],
+  'vitenskap': [
+    {
+      begrep: `Vitenskapelig metode`,
+      forklaring: `En systematisk måte å skaffe sikker kunnskap på: gjøre observasjoner, lage en hypotese, teste den med forsøk og trekke en konklusjon.`,
+    },
+    {
+      begrep: `Forskning`,
+      forklaring: `Systematisk arbeid for å skaffe ny kunnskap, der man undersøker noe grundig og etterprøver det man finner.`,
+    },
+    {
+      begrep: `Hypotese`,
+      forklaring: `En testbar påstand om hva man tror vil skje, som man undersøker gjennom forsøk.`,
+    },
+    {
+      begrep: `Observasjon`,
+      forklaring: `Noe man legger merke til eller måler, og som man bygger videre på i en undersøkelse.`,
+    },
+    {
+      begrep: `Variabel`,
+      forklaring: `Noe i et forsøk som kan endre seg. Den vi endrer med vilje, og det vi måler, må vi holde styr på for at forsøket skal være rettferdig.`,
+    },
+    {
+      begrep: `Kontrollgruppe`,
+      forklaring: `En gruppe som ikke får behandlingen man tester, og som man sammenligner resultatene med.`,
+    },
+    {
+      begrep: `Metode`,
+      forklaring: `Framgangsmåten i et forsøk, altså nøyaktig hvordan undersøkelsen blir gjennomført.`,
+    },
+    {
+      begrep: `Resultat`,
+      forklaring: `Det man finner ut i et forsøk, altså dataene og observasjonene man sitter igjen med.`,
+    },
+    {
+      begrep: `Konklusjon`,
+      forklaring: `Det resultatene forteller oss, blant annet om hypotesen stemte eller ikke.`,
+    },
+    {
+      begrep: `Bakgrunnsteori`,
+      forklaring: `Kunnskapen vi allerede har om et tema, og som vi bygger undersøkelsen vår på.`,
+    },
+    {
+      begrep: `Feilkilde`,
+      forklaring: `Noe som kan ha påvirket resultatet og gjort det mindre sikkert, for eksempel unøyaktig måling.`,
+    },
+    {
+      begrep: `Refleksjoner`,
+      forklaring: `Å tenke kritisk gjennom forsøket etterpå: hva gikk bra, hva kunne vært gjort bedre, og hvilke feilkilder fantes.`,
+    },
+    {
+      begrep: `Teori`,
+      forklaring: `I vitenskapen en grundig testet forklaring støttet av mye bevis, som evolusjonsteorien. Det betyr noe helt annet enn en gjetning.`,
+    },
+    {
+      begrep: `Modell`,
+      forklaring: `En forenkling av virkeligheten som hjelper oss å forstå noe vi ikke kan se direkte, for eksempel en atommodell eller en klimamodell.`,
+    },
+    {
+      begrep: `Naturlov`,
+      forklaring: `Noe som alltid gjelder i naturen, som energiloven.`,
+    },
+    {
+      begrep: `Årsak-virkning`,
+      forklaring: `Sammenhengen mellom noe som skjer (årsaken) og følgen av det (virkningen). Vitenskap leter etter slike sammenhenger.`,
+    },
+    {
+      begrep: `Kildekritikk`,
+      forklaring: `Å vurdere om en kilde er til å stole på, for eksempel hvem som står bak og om informasjonen kan etterprøves.`,
+    },
+    {
+      begrep: `Bias`,
+      forklaring: `Skjevhet eller forutinntatthet som kan farge en undersøkelse eller et resultat i en bestemt retning.`,
+    },
+    {
+      begrep: `Fagfellevurdering`,
+      forklaring: `At andre forskere kontrollerer et forskningsarbeid før det blir publisert, for å sikre at det holder god kvalitet.`,
+    },
+    {
+      begrep: `Forskningsetikk`,
+      forklaring: `Reglene som sørger for at forskning foregår ærlig og ansvarlig, og at mennesker, dyr og resultater behandles riktig.`,
+    },
+  ],
 };

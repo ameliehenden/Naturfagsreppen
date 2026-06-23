@@ -378,4 +378,22 @@ export const oppgaver = {
       fasit: `Elektrisiteten har endret hverdagen vår fullstendig: vi har lys, varme, kjøleskap, datamaskiner, internett og transport som alle er avhengige av strøm. Det har gjort livene enklere og åpnet for kommunikasjon og teknologi vi ikke kunne tenkt oss før. Samtidig krever all denne teknologien mye energi, og produksjonen av strøm og elektronikk påvirker naturen, gjennom utslipp, naturinngrep og avfall fra utstyr vi kaster. Derfor er det viktig å bruke energien fornuftig og tenke på miljøet når vi utvikler ny teknologi.`,
     },
   ],
+  'vitenskap': [
+    {
+      sporsmal: `Skriv en rapport fra et av forsøkene under Praktiske forsøk. Hva bør en god rapport inneholde?`,
+      fasit: `En god rapport følger den vitenskapelige metoden og inneholder: en overskrift og hva forsøket gikk ut på, en hypotese (hva du trodde ville skje), en liste over utstyret du brukte, en metode (framgangsmåten, skrevet så tydelig at andre kan gjøre forsøket likt), resultatene dine (gjerne med tabell eller graf), en konklusjon (hva resultatene viser, og om hypotesen stemte), og til slutt refleksjoner om mulige feilkilder og hva som kunne vært gjort bedre.`,
+    },
+    {
+      sporsmal: `Forklar stegene i den vitenskapelige metoden.`,
+      fasit: `Først gjør man observasjoner og bygger på bakgrunnsteori, altså det man allerede vet. Så lager man en hypotese, en testbar påstand om hva man tror vil skje. Deretter bestemmer man en metode og gjennomfører forsøket, mens man holder styr på variablene. Man noterer resultatene, og trekker en konklusjon om hypotesen stemte. Til slutt reflekterer man over feilkilder og hva som kan forbedres.`,
+    },
+    {
+      sporsmal: `Hva er en feilkilde, og hvorfor er det viktig å ta med feilkilder i en rapport?`,
+      fasit: `En feilkilde er noe som kan ha påvirket resultatet og gjort det mindre sikkert, for eksempel unøyaktig måling, dårlig utstyr eller at man ikke klarte å holde alle variablene like. Det er viktig å ta med feilkilder fordi det viser hvor pålitelige resultatene er, og hjelper andre å gjøre forsøket bedre neste gang.`,
+    },
+    {
+      sporsmal: `Hvorfor er kildekritikk viktig når du leter etter informasjon på nettet?`,
+      fasit: `Fordi hvem som helst kan legge ut informasjon på nettet, og ikke alt er riktig. Med kildekritikk vurderer du om kilden er til å stole på, for eksempel hvem som står bak, om de har en grunn til å være forutinntatt (bias), og om informasjonen stemmer med andre pålitelige kilder. Forskning som er fagfellevurdert, er som regel mer pålitelig.`,
+    },
+  ],
 };

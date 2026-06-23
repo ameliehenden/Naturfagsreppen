@@ -479,4 +479,22 @@ export const sammendrag = {
       tekst: `Prevensjon er ulike måter å hindre graviditet på. Noen typer er hormonelle, som p-piller, minipillen, p-sprøyte, p-plaster og hormonspiral. De hindrer blant annet at det blir eggløsning. Andre typer er ikke hormonelle, som kondom, pessar og kobberspiral. Kondomet er spesielt viktig, fordi det er det eneste prevensjonsmiddelet som både hindrer graviditet og beskytter mot seksuelt overførbare infeksjoner. Ungdom kan få veiledning og mange prevensjonsmidler gratis eller billig hos helsesykepleier eller på helsestasjon for ungdom.`,
     },
   ],
+  'vitenskap': [
+    {
+      tittel: `Hva er vitenskap?`,
+      tekst: `Vitenskap er en systematisk måte å skaffe seg sikker kunnskap om verden på. I stedet for å tro eller gjette, undersøker forskere ting grundig og etterprøver det de finner. Kjernen i vitenskap er den vitenskapelige metoden: vi gjør observasjoner, lager en hypotese, tester den med forsøk, og trekker en konklusjon ut fra resultatene.`,
+    },
+    {
+      tittel: `Stegene i en undersøkelse`,
+      tekst: `En vitenskapelig undersøkelse følger gjerne faste steg. Først bygger vi på bakgrunnsteori, altså det vi allerede vet. Så lager vi en hypotese, en testbar påstand om hva vi tror vil skje. Deretter velger vi en metode, altså hvordan forsøket skal gjøres, og passer på å styre variablene. Ofte bruker vi en kontrollgruppe å sammenligne med. Når vi har gjennomført forsøket, noterer vi resultatene og trekker en konklusjon om hypotesen stemte. Til slutt reflekterer vi over mulige feilkilder, altså ting som kan ha påvirket resultatet.`,
+    },
+    {
+      tittel: `Teori, modell og naturlov`,
+      tekst: `I dagligtale betyr «teori» en gjetning, men i vitenskapen betyr en teori noe helt annet: en grundig testet forklaring som er støttet av svært mye bevis, slik som evolusjonsteorien. En modell er en forenkling av virkeligheten som hjelper oss å forstå noe vi ikke kan se direkte, for eksempel atommodellene eller klimamodellene. En naturlov er noe som alltid gjelder i naturen, som energiloven.`,
+    },
+    {
+      tittel: `Kildekritikk, bias og forskningsetikk`,
+      tekst: `Ikke all informasjon er til å stole på, og derfor må vi bruke kildekritikk og vurdere om en kilde er pålitelig. Vi må også være klar over bias, altså skjevhet eller forutinntatthet som kan farge resultatene. Før forskning blir publisert, blir den vanligvis fagfellevurdert, det vil si kontrollert av andre forskere. Forskningsetikk er reglene som sørger for at forskning foregår ærlig og ansvarlig, slik at hverken mennesker, dyr eller resultater blir behandlet feil.`,
+    },
+  ],
 };
