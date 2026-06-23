@@ -1249,42 +1249,6 @@ export const quiz = {
       ],
     },
     {
-      sporsmal: `Hvorfor endrer lys retning når det går fra luft ned i vann?`,
-      riktig: `Fordi lyset tar den raskeste veien, og det går saktere i tette stoffer som vann.`,
-      feil: [
-        `Fordi vannet trekker lyset mot seg som en magnet.`,
-        `Fordi lyset blir tyngre under vann.`,
-        `Fordi fargene i lyset forsvinner i vann.`,
-      ],
-    },
-    {
-      sporsmal: `Hva utnytter vi totalrefleksjon til?`,
-      riktig: `Fiberkabler som frakter lyssignaler over lange avstander.`,
-      feil: [
-        `Å lage strøm fra sollys.`,
-        `Å forsterke lyden i høyttalere.`,
-        `Å lagre data på en harddisk.`,
-      ],
-    },
-    {
-      sporsmal: `Hvorfor ser en tomat rød ut?`,
-      riktig: `Den reflekterer rødt lys og absorberer resten av fargene.`,
-      feil: [
-        `Den absorberer rødt lys og reflekterer resten.`,
-        `Den lager sitt eget røde lys.`,
-        `Fordi rødt er den eneste fargen i sollyset.`,
-      ],
-    },
-    {
-      sporsmal: `Hvilke sanseceller i øyet oppfatter farger?`,
-      riktig: `Tappene.`,
-      feil: [
-        `Stavene.`,
-        `Pupillen.`,
-        `Hornhinnen.`,
-      ],
-    },
-    {
       sporsmal: `Hva er en algoritme?`,
       riktig: `En nøyaktig oppskrift, steg for steg, på hvordan en oppgave skal løses.`,
       feil: [

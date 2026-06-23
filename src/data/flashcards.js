@@ -797,30 +797,6 @@ export const flashcards = {
       forklaring: `Å gjøre informasjon om etter en hemmelig nøkkel, slik at bare avsender og mottaker kan lese den.`,
     },
     {
-      begrep: `Refleksjon`,
-      forklaring: `Når lys kastes tilbake fra en overflate. Innfallsvinkelen er da lik refleksjonsvinkelen. Vi ser månen fordi den reflekterer sollys.`,
-    },
-    {
-      begrep: `Lysbryting`,
-      forklaring: `Når lys endrer retning idet det går fra ett stoff til et annet, for eksempel fra luft ned i vann. Skjer fordi lyset tar den raskeste veien.`,
-    },
-    {
-      begrep: `Totalrefleksjon`,
-      forklaring: `Når lys blir fullstendig reflektert tilbake i stedet for å gå ut av et stoff. Utnyttes i fiberkabler og optiske instrumenter.`,
-    },
-    {
-      begrep: `Konveks linse`,
-      forklaring: `En samlelinse som samler lysstrålene i ett punkt. Brukes blant annet i øyet og i briller for å gi skarpt syn.`,
-    },
-    {
-      begrep: `Konkav linse`,
-      forklaring: `En spredningslinse som sprer lysstrålene fra hverandre.`,
-    },
-    {
-      begrep: `Netthinne`,
-      forklaring: `Laget bakerst i øyet der bildet samles. Den er full av sanseceller, tapper som oppfatter farger og staver som oppfatter svart og hvitt.`,
-    },
-    {
       begrep: `Algoritme`,
       forklaring: `En nøyaktig oppskrift, steg for steg, på hvordan en oppgave skal løses. Grunnlaget for all programmering.`,
     },
