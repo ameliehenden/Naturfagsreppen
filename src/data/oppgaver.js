@@ -380,8 +380,30 @@ export const oppgaver = {
   ],
   'vitenskap': [
     {
-      sporsmal: `Skriv en rapport fra et av forsøkene under Praktiske forsøk. Hva bør en god rapport inneholde?`,
-      fasit: `En god rapport følger den vitenskapelige metoden og inneholder: en overskrift og hva forsøket gikk ut på, en hypotese (hva du trodde ville skje), en liste over utstyret du brukte, en metode (framgangsmåten, skrevet så tydelig at andre kan gjøre forsøket likt), resultatene dine (gjerne med tabell eller graf), en konklusjon (hva resultatene viser, og om hypotesen stemte), og til slutt refleksjoner om mulige feilkilder og hva som kunne vært gjort bedre.`,
+      sporsmal: `Skriv en rapport fra et av forsøkene under Praktiske forsøk. Hva skal en god rapport inneholde?`,
+      fasit: `Bruk denne oppskriften på rapporten:
+
+Forside: Lag en fin forside med en kort og presis overskrift (tittelen på forsøket), og med navn, klasse og dato. Ta med navnene på alle du har samarbeidet med, slik at det er tydelig hvem som skriver rapporten.
+
+Inni rapporten skal du ha disse overskriftene:
+
+Innledning: Skriv om hensikten med forsøket. Hvorfor gjør vi det, og hva vil vi finne ut?
+
+Bakgrunnsteori: Ta med teori som er relevant for forsøket, slik at man forstår innholdet i rapporten. Tenk at bestemor skal forstå hva du har gjort og lært, bare ved å lese rapporten din.
+
+Hypotese: Hva tror du blir resultatet? Skriv hva du trodde ville skje før forsøket, og hvorfor.
+
+Utstyr: Lag en liste over utstyret som ble brukt. Ta gjerne med en skisse eller et bilde av forsøksoppsettet (eller tegn det).
+
+Metode: Beskriv punktvis det som ble gjort, så detaljert at en som ikke var med, kan gjøre forsøket selv ved å følge beskrivelsen din.
+
+Resultater og observasjoner: Beskriv det du så, hørte, luktet eller følte. Sett målinger inn i en tabell, og ta med tegninger, bilder eller utregninger der det passer.
+
+Drøfting og feilkilder: Se kritisk på resultatene og vurder om de er til å stole på. Forklar det du har målt og observert, beskriv mulige feilkilder og vurder om de er store eller små, og hva du kunne gjort annerledes.
+
+Konklusjon: Ta utgangspunkt i hensikten og hypotesen. Stemte det? Hva ble svaret? Konklusjonen er en kort oppsummering av hele rapporten.
+
+Kilder: Oppgi kildene du har brukt. Bruker du nettet, ta med hele lenken; bruker du læreboka, oppgi sidetall.`,
     },
     {
       sporsmal: `Forklar stegene i den vitenskapelige metoden.`,
