@@ -486,7 +486,7 @@ export const sammendrag = {
     },
     {
       tittel: `Stegene i en undersøkelse`,
-      tekst: `En vitenskapelig undersøkelse følger gjerne faste steg. Først bygger vi på bakgrunnsteori, altså det vi allerede vet. Så lager vi en hypotese, en testbar påstand om hva vi tror vil skje. Deretter velger vi en metode, altså hvordan forsøket skal gjøres, og passer på å styre variablene. Ofte bruker vi en kontrollgruppe å sammenligne med. Når vi har gjennomført forsøket, noterer vi resultatene og trekker en konklusjon om hypotesen stemte. Til slutt reflekterer vi over mulige feilkilder, altså ting som kan ha påvirket resultatet.`,
+      tekst: `En vitenskapelig undersøkelse følger gjerne faste steg. Først bygger vi på bakgrunnsteori, altså det vi allerede vet. Så lager vi en hypotese, en testbar påstand om hva vi tror vil skje. Deretter velger vi en metode, altså hvordan forsøket skal gjøres, og passer på å styre variablene. Ofte bruker vi en kontrollgruppe å sammenligne med. Når vi har gjennomført forsøket, noterer vi resultatene og trekker en konklusjon om hypotesen stemte. Til slutt reflekterer vi over mulige feilkilder, altså ting som kan ha påvirket resultatet. Dette er den samme fremgangsmåten forskere bruker i alle naturfaglige emner, enten de undersøker hvordan immunforsvaret bekjemper virus, hvordan kontinentalplatene beveger seg, eller hvordan klimaet endrer seg.`,
     },
     {
       tittel: `Teori, modell og naturlov`,
