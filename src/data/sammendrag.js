@@ -105,7 +105,7 @@ export const sammendrag = {
     },
     {
       tittel: `Hvorfor får vi feber?`,
-      tekst: `Feber er et av kroppens våpen mot infeksjoner. De hvite blodcellene slipper ut et feberfremkallende stoff som hjernen oppfatter, og kroppen setter da i gang en «frysereaksjon» for å holde på varmen. Derfor fryser vi når temperaturen stiger. De fleste sykdomsfremkallende mikroorganismene trives best ved normal kroppstemperatur på rundt 35–37 °C, og de formerer seg saktere når vi har feber. Samtidig jobber immunforsvaret mer effektivt: fagocyttene rydder bort smittestoff raskere, og kroppen aktiverer flere T-celler og produserer mer antistoff. Når temperaturen synker igjen, svetter vi. Febernedsettende medisiner gir derfor svetting, og når virkningen avtar etter noen timer, kan frysetoktene komme tilbake.`,
+      tekst: `Feber er et av kroppens våpen mot infeksjoner. De hvite blodcellene slipper ut et feberfremkallende stoff som hjernen oppfatter, og kroppen setter da i gang en «frysereaksjon» for å holde på varmen. Derfor fryser vi når temperaturen stiger. De fleste sykdomsfremkallende mikroorganismene trives best ved normal kroppstemperatur på rundt 36,5–37,5 °C, og de formerer seg saktere når vi har feber. Samtidig jobber immunforsvaret mer effektivt: fagocyttene rydder bort smittestoff raskere, og kroppen aktiverer flere T-celler og produserer mer antistoff. Når temperaturen synker igjen, svetter vi. Febernedsettende medisiner gir derfor svetting, og når virkningen avtar etter noen timer, kan frysetoktene komme tilbake.`,
     },
     {
       tittel: `Vaksiner`,
