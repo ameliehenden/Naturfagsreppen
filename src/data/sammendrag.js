@@ -13,12 +13,12 @@ export const sammendrag = {
   'geologi': [
     {
       tittel: `Jordas indre`,
-      tekst: `Jorda er bygget opp av lag, litt som en løk. Innerst finner vi den indre kjernen, som er fast og svært varm. Rundt denne ligger den ytre kjernen, som er noe mykere. Videre utover finner vi mantelen, som består av flytende stein kalt magma. Ytterst finner vi jordskorpa, det tynne, faste laget vi lever på. Jordskorpa er faktisk tynnere i forhold til resten av jorda enn skallet på en fersken er i forhold til frukten.`,
+      tekst: `Jorda er bygget opp av lag, litt som en løk. Innerst finner vi den indre kjernen, som er fast og svært varm. Rundt denne ligger den ytre kjernen, som er noe mykere. Videre utover finner vi mantelen, som består av halvfast stein som beveger seg svært langsomt. Ytterst finner vi jordskorpa, det tynne, faste laget vi lever på. Jordskorpa er faktisk tynnere i forhold til resten av jorda enn skallet på en fersken er i forhold til frukten.`,
       figur: `jordas-lag`,
     },
     {
       tittel: `Ytre og indre krefter`,
-      tekst: `Jordoverflata formes av to typer krefter. De ytre kreftene kommer fra energien til sola og driver vind, nedbør, bølger og isbreer som gradvis sliper ned og former landskapet. De indre kreftene kommer fra den varme magmaen i mantelen, som strømmer rundt inne i jorda og driver kontinentalplatene. Det er altså sola som former overflata utenfra, mens jordas indre varme driver de store geologiske prosessene.`,
+      tekst: `Jordoverflata formes av to typer krefter. De ytre kreftene kommer fra energien til sola og driver vind, nedbør, bølger og isbreer som gradvis sliper ned og former landskapet. De indre kreftene kommer fra den halvfaste steinen i mantelen, som strømmer svært langsomt inne i jorda og driver kontinentalplatene. Det er altså sola som former overflata utenfra, mens jordas indre varme driver de store geologiske prosessene.`,
     },
     {
       tittel: `Kontinentaldrift og plattektonikk`,
