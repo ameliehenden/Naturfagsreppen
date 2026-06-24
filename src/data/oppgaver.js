@@ -229,7 +229,7 @@ export const oppgaver = {
     },
     {
       sporsmal: `Hvordan er jorda bygd opp inni?`,
-      fasit: `Innerst ligger den indre kjernen, som er fast. Rundt den ligger den ytre kjernen, som er mykere og flytende. Deretter kommer mantelen, som består av varm, flytende stein som kalles magma. Ytterst ligger jordskorpa, som er fast og svært tynn, krymper vi jorda til størrelsen av et eple, er jordskorpa like tynn som skallet på eplet.`,
+      fasit: `Innerst ligger den indre kjernen, som er fast. Rundt den ligger den ytre kjernen, som er mykere og flytende. Deretter kommer mantelen, som består av varm, flytende stein som kalles magma. Ytterst ligger jordskorpen, som er fast og svært tynn, krymper vi jorda til størrelsen av et eple, er jordskorpen like tynn som skallet på eplet.`,
     },
     {
       sporsmal: `Gi så mange bevis du kan på at teorien om kontinentaldrift stemmer.`,

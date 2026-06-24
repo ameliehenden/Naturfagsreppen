@@ -13,7 +13,7 @@ export const sammendrag = {
   'geologi': [
     {
       tittel: `Jordas indre`,
-      tekst: `Jorda er bygget opp av lag, litt som en løk. Innerst finner vi den indre kjernen, som er fast og svært varm. Rundt denne ligger den ytre kjernen, som er noe mykere. Videre utover finner vi mantelen, som består av halvfast stein som beveger seg svært langsomt. Ytterst finner vi jordskorpa, det tynne, faste laget vi lever på. Jordskorpa er faktisk tynnere i forhold til resten av jorda enn skallet på en fersken er i forhold til frukten.`,
+      tekst: `Jorda er bygget opp av lag, litt som en løk. Innerst finner vi den indre kjernen, som er fast og svært varm. Rundt denne ligger den ytre kjernen, som er noe mykere. Videre utover finner vi mantelen, som består av halvfast stein som beveger seg svært langsomt. Ytterst finner vi jordskorpen, det tynne, faste laget vi lever på. Jordskorpen er faktisk tynnere i forhold til resten av jorda enn skallet på en fersken er i forhold til frukten.`,
       figur: `jordas-lag`,
     },
     {
@@ -22,7 +22,7 @@ export const sammendrag = {
     },
     {
       tittel: `Kontinentaldrift og plattektonikk`,
-      tekst: `Jordskorpa er delt inn i store steinplater kalt kontinentalplater, og disse platene beveger seg, svært langsomt, men hele tida. Hastigheten er omtrent 2 centimeter i året, noe som betyr at det faktisk blir litt lenger å reise fra Norge til USA hvert eneste år. Der plater beveger seg fra hverandre, strømmer magma opp og danner ny havbunn. Der de presser mot hverandre, kan fjell heves eller én plate skyves ned under den andre. Det var slik Atlanterhavet ble til: den eurasiske og den amerikanske platen sprakk fra hverandre i Tertiærtiden, for mellom 65 og 2 millioner år siden.`,
+      tekst: `Jordskorpen er delt inn i store steinplater kalt kontinentalplater, og disse platene beveger seg, svært langsomt, men hele tida. Hastigheten er omtrent 2 centimeter i året, noe som betyr at det faktisk blir litt lenger å reise fra Norge til USA hvert eneste år. Der plater beveger seg fra hverandre, strømmer magma opp og danner ny havbunn. Der de presser mot hverandre, kan fjell heves eller én plate skyves ned under den andre. Det var slik Atlanterhavet ble til: den eurasiske og den amerikanske platen sprakk fra hverandre i Tertiærtiden, for mellom 65 og 2 millioner år siden.`,
       figur: `kontinentaldrift`,
     },
     {
@@ -31,7 +31,7 @@ export const sammendrag = {
     },
     {
       tittel: `Vulkaner og jordskjelv`,
-      tekst: `Langs sprekkene mellom kontinentalplatene skjer det mye geologisk aktivitet. Der plater glir mot hverandre, presses en plate ned under den andre og smelter om til magma. Denne magmaen kan trenge opp og danne vulkaner. Der plater glir forbi hverandre, bygges det opp spenninger som plutselig frigjøres som jordskjelv. Et kart over registrerte jordskjelv og vulkanutbrudd viser tydelig hvor disse sprekksystemene befinner seg. Jordskjelv i havet kan skape enorme bølger kalt tsunamier.`,
+      tekst: `Langs sprekkene mellom kontinentalplatene skjer det mye geologisk aktivitet. Der plater glir mot hverandre, presses en plate ned under den andre og smelter om til magma. Denne magmaen kan trenge opp og danne vulkaner. Der plater glir forbi hverandre, bygges det opp spenninger som plutselig frigjøres som jordskjelv. Et kart over registrerte jordskjelv og vulkanutbrudd viser tydelig hvor disse sprekksystemene befinner seg. Jordskjelv i havet kan skape enorme bølger kalt tsunamier. Vulkaner slipper også ut store mengder karbondioksid og andre gasser. Dette er en naturlig del av karbonkretsløpet, men menneskeskapte utslipp er langt større og skjer mye raskere enn det naturen klarer å håndtere.`,
     },
     {
       tittel: `Jordas atmosfære og drivhuseffekten`,
@@ -39,7 +39,7 @@ export const sammendrag = {
     },
     {
       tittel: `Jordas historie og livets utvikling`,
-      tekst: `Jorda ble dannet for omtrent 4,5 milliarder år siden. Overflaten var i begynnelsen dekket av lava, men etter hvert størknet den til jordskorpa vi kjenner i dag. De første sporene av liv finner vi for rundt 3,8 milliarder år siden. Tida før avanserte livsformer oppsto for ca. 550 millioner år siden kaller vi jordas urtid. Siden da har livet utviklet seg gjennom evolusjon: organismer som er godt tilpasset miljøet overlever og får avkom, og slik endrer arter seg over tid. Det biologiske mangfoldet, altså variasjonen av gener, arter og naturtyper, er viktig for at økosystemene skal fungere og tåle forandringer. Mennesket og sjimpansen har felles forfedre, og det som skiller oss fra apene er blant annet at vi går oppreist, har tommelen på motsatt side, har et svært utviklet hjerne og bruker avansert språk og teknologi.`,
+      tekst: `Jorda ble dannet for omtrent 4,5 milliarder år siden. Overflaten var i begynnelsen dekket av lava, men etter hvert størknet den til jordskorpen vi kjenner i dag. De første sporene av liv finner vi for rundt 3,8 milliarder år siden. Tida før avanserte livsformer oppsto for ca. 550 millioner år siden kaller vi jordas urtid. Siden da har livet utviklet seg gjennom evolusjon: organismer som er godt tilpasset miljøet overlever og får avkom, og slik endrer arter seg over tid. Det biologiske mangfoldet, altså variasjonen av gener, arter og naturtyper, er viktig for at økosystemene skal fungere og tåle forandringer. Mennesket og sjimpansen har felles forfedre, og det som skiller oss fra apene er blant annet at vi går oppreist, har tommelen på motsatt side, har et svært utviklet hjerne og bruker avansert språk og teknologi.`,
     },
   ],
   'celler-og-livets-utvikling': [
@@ -66,7 +66,7 @@ export const sammendrag = {
     },
     {
       tittel: `Celleånding`,
-      tekst: `Celleåndingen foregår i mitokondriene og kan ses på som det motsatte av fotosyntesen. Mens planten lagrer energi i glukose gjennom fotosyntesen, henter både planter og dyr ut denne energien igjen ved å forbrenne glukose. Glukose og oksygen blir til energi, karbondioksid og vann: C₆H₁₂O₆ + 6O₂ → energi + 6CO₂ + 6H₂O. Slik henger fotosyntesen og celleåndingen sammen i et kretsløp som forsyner alt levende med energi.`,
+      tekst: `Celleåndingen foregår i mitokondriene og kan ses på som det motsatte av fotosyntesen. Mens planten lagrer energi i glukose gjennom fotosyntesen, henter både planter og dyr ut denne energien igjen ved å forbrenne glukose. Glukose og oksygen blir til energi, karbondioksid og vann: C₆H₁₂O₆ + 6O₂ → energi + 6CO₂ + 6H₂O. Slik henger fotosyntesen og celleåndingen sammen i et kretsløp som forsyner alt levende med energi. Celleånding skjer ikke bare i planteceller, men i alle kroppens celler, inkludert muskelceller og nerveceller. Det er derfor vi puster raskere når vi er i bevegelse, musklene trenger mer oksygen for å produsere energi.`,
       figur: `fotosyntese-celleanding`,
     },
     {
@@ -490,7 +490,7 @@ export const sammendrag = {
     },
     {
       tittel: `Teori, modell og naturlov`,
-      tekst: `I dagligtale betyr «teori» en gjetning, men i vitenskapen betyr en teori noe helt annet: en grundig testet forklaring som er støttet av svært mye bevis, slik som evolusjonsteorien. En modell er en forenkling av virkeligheten som hjelper oss å forstå noe vi ikke kan se direkte, for eksempel atommodellene eller klimamodellene. En naturlov er noe som alltid gjelder i naturen, som energiloven.`,
+      tekst: `I dagligtale betyr «teori» en gjetning, men i vitenskapen betyr en teori noe helt annet: en grundig testet forklaring som er støttet av svært mye bevis, slik som evolusjonsteorien. En modell er en forenkling av virkeligheten som hjelper oss å forstå noe vi ikke kan se direkte, for eksempel atommodellene eller klimamodellene. En naturlov er noe som alltid gjelder i naturen, som energiloven. Evolusjonsteorien er et godt eksempel: den kalles en teori fordi den er grundig testet og støttet av enorme mengder bevis fra fossiler, genetikk og observasjoner av levende arter.`,
     },
     {
       tittel: `Årsak og virkning`,
