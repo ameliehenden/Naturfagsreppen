@@ -27,6 +27,10 @@ export default function Om() {
             presentert på en oversiktlig og ryddig måte. Elevene kan repetere faguttrykk
             eller opparbeide seg en god forståelse for sammenheng mellom de ulike emnene.
           </p>
+          <p>
+            Har du spørsmål eller tilbakemeldinger, er du velkommen til å ta kontakt med
+            meg på e-post: <a href="mailto:amelie-he@gjesdalskolen.com">amelie-he@gjesdalskolen.com</a>.
+          </p>
         </div>
       </div>
 
