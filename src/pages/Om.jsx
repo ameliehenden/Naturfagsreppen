@@ -30,6 +30,8 @@ export default function Om() {
           <p>
             Har du spørsmål eller tilbakemeldinger, er du velkommen til å ta kontakt med
             meg på e-post: <a href="mailto:amelie-he@gjesdalskolen.com">amelie-he@gjesdalskolen.com</a>.
+            Du kan også bruke tilbakemeldingsknappen på siden, men den er anonym. Ønsker
+            du svar, må du derfor huske å legge igjen e-postadressen din i tilbakemeldingen.
           </p>
         </div>
       </div>
