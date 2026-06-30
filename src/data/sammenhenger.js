@@ -647,10 +647,10 @@ export const sammenhenger = {
         farge: `#27ae60`,
         innhold: [
           { type: 'tekst', verdi: `Karbon er et grunnstoff som hele tiden beveger seg mellom atmosfæren, havet, jorda og levende organismer. Denne sirkulasjonen kalles karbonkretsløpet. Alt liv inneholder karbon.` },
-          { type: 'bilde', src: `sammenhenger/karbonkretslopet.png` },
           { type: 'tekst', verdi: `Karbon tas opp fra atmosfæren gjennom fotosyntese, der planter, alger og andre organismer omdanner CO₂ og sollys til organisk materiale. Levende organismer driver celleånding i mitokondriene, der glukose brytes ned til CO₂ som slippes ut igjen. Når organismer dør, brytes de ned av mikroorganismer, og karbonet frigjøres til jord og luft. Havet tar også opp enorme mengder CO₂ og fungerer som et viktig karbonlager. Denne delen av karbonkretsløpet kan kalles for det raske karbonkretsløpet.` },
           { type: 'tekst', verdi: `Gjennom millioner av år ble døde organismer begravd under jord og havbunn og omdannet til fossil energi, kull, olje og naturgass. Dette karbonet var «låst inne» og ute av kretsløpet. Når vi brenner fossil energi, frigjør vi dette lagrede karbonet tilbake til atmosfæren på ekstremt kort tid. Det som tar naturen millioner av år å lagre, slipper vi ut i løpet av tiår.` },
           { type: 'tekst', verdi: `Resultatet er at konsentrasjonen av CO₂ i atmosfæren stiger mye raskere enn jorda klarer å ta opp igjen. Som drivhusgass holder CO₂ på varme, og gjennomsnittstemperaturen på jorda stiger. Konsekvensene er mange: isbreer og polarisen smelter, havnivået stiger, ekstremvær blir hyppigere og kraftigere, havene blir surere (havforsuring), og økosystemer og artsmangfold trues.` },
+          { type: 'bilde', src: `sammenhenger/karbonkretslopet.png` },
         ],
       },
     ],
