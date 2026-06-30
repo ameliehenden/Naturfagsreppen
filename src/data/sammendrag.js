@@ -277,6 +277,8 @@ export const sammendrag = {
     {
       tittel: `Ozonlaget`,
       tekst: `Ozonlaget ligger høyt oppe i atmosfæren og stopper de mest energirike og farlige strålene fra sola. Det påvirker ikke temperaturen på jorda særlig mye, det er altså noe annet enn drivhuseffekten. På 1900-tallet ble ozonlaget skadet av KFK-gasser, slik at det oppstod et «ozonhull». Etter at disse gassene ble forbudt gjennom internasjonalt samarbeid, er ozonlaget nå på bedringens vei og ventes å være bygd opp igjen rundt 2050.`,
+      bilde: `sammendrag/klima/ozon.png`,
+      bildeBredd: `50%`,
     },
   ],
   'kjemi': [
