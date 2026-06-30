@@ -591,6 +591,7 @@ export const sammenhenger = {
           { type: 'tekst', verdi: `Da KFK-gasser ble sluppet ut i atmosfæren på midten av 1900-tallet, visste vi ikke at disse gassene ville bryte ned livsviktige ozonmolekyler (O₃) i stratosfæren.` },
           { type: 'tekst', verdi: `Vi var altså ikke føre var da vi startet med produksjon av kjøleskap og frysebokser med KFK-gasser. Da vi forstod denne sammenhengen, startet et internasjonalt samarbeid for å forby KFK-gasser og rette opp skadene på ozonlaget. Den dag i dag er ozonlaget langt på bedringens vei, men vi er ennå ikke helt i mål.` },
           { type: 'tekst', verdi: `Kjemi inngår også i forklaringen av havforsuring som følge av økt CO₂-opptak. CO₂-molekylene reagerer med vann og danner karbonsyre (H₂CO₃), som frigjør hydrogenioner (H⁺) og senker pH-verdien. Dette reduserer mengden karbonat som organismer trenger for å bygge skall.` },
+          { type: 'tekst', verdi: `Når vi sier havforsuring, betyr det at havet blir surere, men vannet er faktisk fortsatt basisk. Siden industrialiseringen startet, har gjennomsnittlig pH i havoverflaten gått fra ca. 8,2 til litt under 8,1. Det høres veldig lite ut, men siden pH-skalaen er logaritmisk, tilsvarer dette en økning i surhet på omtrent 30 %.` },
         ],
       },
       {
