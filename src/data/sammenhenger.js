@@ -634,10 +634,10 @@ export const sammenhenger = {
           { type: 'overskrift', verdi: `Energiproduksjon gir klimaendringer` },
           { type: 'tekst', verdi: `Når vi ser på sammenhengen mellom energi og klima, er det de ikke-fornybare energikildene, kull, olje og gass, som i størst grad bidrar til økt CO₂-innhold i atmosfæren. Rundt år 1900 lå antall CO₂-molekyler i atmosfæren på omtrent 295 ppm (parts per million). I dag har vi omtrent 427 ppm. Det er denne økningen som i stor grad gir oss klimaendringene og den økte drivhuseffekten vi ser nå.` },
           { type: 'tekst', verdi: `Sola er vår viktigste energikilde og står for nesten all energi på jorda. Unntaket er energien som vi finner i jordas indre.` },
-          { type: 'bilde', src: `sammenhenger/energi.png` },
           { type: 'tekst', verdi: `Strålingsenergien fra sola kommer i form av UV-stråler og synlig lys, det vi kaller kortbølget stråling. De farligste UV-strålene stoppes av ozonlaget, mens synlig lys stort sett passerer gjennom atmosfæren.` },
           { type: 'overskrift', verdi: `Drivhuseffekten fanger energi` },
           { type: 'tekst', verdi: `Jorda stråler selv ut energi, men er mye kaldere enn sola. Det er denne strålingen som ikke får passere fritt gjennom atmosfæren, fordi drivhusgassene absorberer den. Drivhusgassene varmes opp og stråler varme ut igjen, noe mot verdensrommet og noe tilbake til jorda. Jo mer drivhusgass i atmosfæren, jo mindre varme klarer å slippe ut fra jorda, noe som bidrar til global oppvarming.` },
+          { type: 'bilde', src: `sammenhenger/energi.png` },
         ],
       },
       {
