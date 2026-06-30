@@ -621,6 +621,7 @@ export const sammenhenger = {
         slug: `teknologi`,
         farge: `#2980b9`,
         innhold: [
+          { type: 'overskrift', verdi: `Teknologi – både utfordringen og løsningen` },
           { type: 'tekst', verdi: `Teknologi er både en del av klimaproblemet og løsningen. Strømproduksjon ved hjelp av ikke-fornybare energikilder som kull, olje og gass, er et av våre hovedproblemer. Samtidig kan teknologi gi oss karbonfangst og klimamodeller som hjelper oss å justere CO₂-nivået tilbake til et bærekraftig nivå.` },
           { type: 'bilde', src: `sammenhenger/teknologi.png` },
           { type: 'tekst', verdi: `Verden jobber med å fase ut kull og gass, og heller gå over til grønne energikilder. Likevel sto kull alene for rundt 40 % av de energirelaterte CO₂-utslippene i 2023, og fossil energi samlet for over 80 % (kilde: IEA, 2024).` },
