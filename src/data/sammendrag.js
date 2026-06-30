@@ -233,6 +233,7 @@ export const sammendrag = {
       tittel: `Kulturlandskap`,
       tekst: `Et kulturlandskap er et landskap som er formet av menneskelig aktivitet, og som oftest av jordbruk. En blomstereng er et godt eksempel: den er skapt og holdt ved like av slått og beite, og er hjemsted for mange truede arter. Slutter jordbruket, gror enga igjen, og artene som levde der, forsvinner. Kulturlandskapet er altså avhengig av at vi fortsetter å bruke det.`,
       bilde: `sammendrag/klima/kulturlandskap.png`,
+      bildeBredd: `60%`,
     },
     {
       tittel: `Karbonkretsløpet`,
@@ -243,6 +244,7 @@ export const sammendrag = {
       tittel: `Vær og klima`,
       tekst: `Vær er tilstanden i atmosfæren akkurat nå, altså sol, regn, vind og temperatur, og det endrer seg fra dag til dag. Klima er gjennomsnittsværet på et sted over en lang periode, vanligvis 30 år. Én enkelt periode med ekstremvær er derfor ikke i seg selv en klimaendring; men hvis været endrer seg varig over lang tid, snakker vi om klimaendring. Jorda deles inn i klimasoner: tropisk, subtropisk, temperert og polart klima. Tropisk sone finner du rundt ekvator og forbindes ofte med regnskog. Her er klimaet varmt og fuktig og det er stabilt året gjennom. Subtropisk sone finner du utenfor den tropiske sonen og forbindes ofte med ørken. Her er det ofte svært lite nedbør, varmt om dagen og kaldt om natten. Temperert klima er det klimaet vi forbinder med klimaet i Sør-Norge og store deler av Europa. Fuktig, med årstider. Polart klima finner vi helt nord og helt sør på kloden og forbindes med tundra og evig is. Samtidig regnes denne sonen også som tørr, med lite nedbør.`,
       bilde: `sammendrag/klima/klimasoner.png`,
+      bildeBredd: `60%`,
     },
     {
       tittel: `Drivhuseffekten`,

@@ -30,6 +30,7 @@ export default function Sammendrag({ avsnitt }) {
               src={import.meta.env.BASE_URL + a.bilde}
               alt={a.bildeAlt || a.tittel}
               className={styles.bildeImg}
+              style={a.bildeBredd ? { maxWidth: a.bildeBredd } : undefined}
             />
           )}
           {a.bilder && (
