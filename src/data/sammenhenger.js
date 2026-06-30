@@ -635,7 +635,7 @@ export const sammenhenger = {
           { type: 'tekst', verdi: `Sola er vår viktigste energikilde og står for nesten all energi på jorda. Unntaket er energien som vi finner i jordas indre.` },
           { type: 'bilde', src: `sammenhenger/energi.png` },
           { type: 'tekst', verdi: `Strålingsenergien fra sola kommer i form av UV-stråler og synlig lys, det vi kaller kortbølget stråling. De farligste UV-strålene stoppes av ozonlaget, mens synlig lys stort sett passerer gjennom atmosfæren.` },
-          { type: 'tekst', verdi: `Jorda stråler selv ut energi, men er mye kaldere enn sola. Det er denne strålingen som ikke får passere fritt gjennom atmosfæren, fordi drivhusgassene absorberer den. Drivhusgassene varmes opp og stråler varme ut igjen, noe mot verdensrommet og noe tilbake til jorda. Jo mer drivhusgass i atmosfæren, jo mer varme holdes tilbake, noe som bidrar til global oppvarming.` },
+          { type: 'tekst', verdi: `Jorda stråler selv ut energi, men er mye kaldere enn sola. Det er denne strålingen som ikke får passere fritt gjennom atmosfæren, fordi drivhusgassene absorberer den. Drivhusgassene varmes opp og stråler varme ut igjen, noe mot verdensrommet og noe tilbake til jorda. Jo mer drivhusgass i atmosfæren, jo mindre varme klarer å slippe ut fra jorda, noe som bidrar til global oppvarming.` },
         ],
       },
       {
