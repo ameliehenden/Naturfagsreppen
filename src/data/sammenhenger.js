@@ -589,6 +589,7 @@ export const sammenhenger = {
           { type: 'tekst', verdi: `De viktigste klimagassene er karbondioksid (CO₂), vanndamp (H₂O) og metan (CH₄). Hvilke kjemiske forbindelser disse stoffene kan danne med andre molekyler, er viktig for å forstå både konsekvensene av det vi slipper ut og hvordan vi kan løse problemet.` },
           { type: 'bilde', src: `sammenhenger/kjemi.png` },
           { type: 'tekst', verdi: `Da KFK-gasser ble sluppet ut i atmosfæren på midten av 1900-tallet, visste vi ikke at disse gassene ville bryte ned livsviktige ozonmolekyler (O₃) i stratosfæren.` },
+          { type: 'tekst', verdi: `Vi var altså ikke føre var da vi startet med produksjon av kjøleskap og frysebokser med KFK-gasser. Da vi forstod denne sammenhengen, startet et internasjonalt samarbeid for å forby KFK-gasser og rette opp skadene på ozonlaget. Den dag i dag er ozonlaget langt på bedringens vei, men vi er ennå ikke helt i mål.` },
           { type: 'tekst', verdi: `Kjemi inngår også i forklaringen av havforsuring som følge av økt CO₂-opptak. CO₂-molekylene reagerer med vann og danner karbonsyre (H₂CO₃), som frigjør hydrogenioner (H⁺) og senker pH-verdien. Dette reduserer mengden karbonat som organismer trenger for å bygge skall.` },
         ],
       },
