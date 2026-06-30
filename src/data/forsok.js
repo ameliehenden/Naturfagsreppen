@@ -17,9 +17,6 @@ export const forsok = {
         `En kald brus`,
         `En varm brus`,
       ],
-      slik: [
-        `Skru av korken på de to brusflaskene og observer om du hører eller kjenner forskjell når du åpner dem.`,
-      ],
       sporsmal: [
         `Hvordan påvirker global oppvarming havets evne til å være et lager for CO₂?`,
       ],
