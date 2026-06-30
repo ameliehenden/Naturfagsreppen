@@ -25,7 +25,7 @@ const OPPLEGG = [
 
 export default function EmneSide() {
   const { id } = useParams();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const emne = emner.find((e) => e.id === id);
   const kortStokk = flashcards[id];
   const oppgaveListe = oppgaver[id];
@@ -38,6 +38,7 @@ export default function EmneSide() {
 
   function velgOpplegg(o) {
     setValgt(o.id);
+    setSearchParams({ tab: o.id }, { replace: true });
     if (window.goatcounter && window.goatcounter.count) {
       window.goatcounter.count({
         path: `${id}/${o.id}`,
@@ -105,7 +106,7 @@ export default function EmneSide() {
               <button
                 type="button"
                 className={styles.tilbakeOpplegg}
-                onClick={() => setValgt(null)}
+                onClick={() => { setValgt(null); setSearchParams({}, { replace: true }); }}
               >
                 ← Tilbake{sammendragData && sammendragData.length > 0 ? ' til fagteksten' : ''}
               </button>
