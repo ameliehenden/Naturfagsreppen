@@ -8,7 +8,20 @@ export const forsok = {
     { tittel: `Havforsuring, observasjon av pH i vann` },
     { tittel: `Havnivåstigning, varmt vann utvider seg` },
     { tittel: `Havnivåstigning, issmelting` },
-    { tittel: `Gass i kaldt og varmt vann` },
+    {
+      tittel: `Gass i kaldt og varmt vann`,
+      innledning: `Kaldt vann holder på mer gass enn varmt vann. Havet er et viktig lager for CO₂ på jorda, samtidig vet vi at temperaturen både på land og i vann er på vei opp på grunn av klimaendringene. Kullsyre i brus er faktisk bare CO₂ som har blitt trykket ned i brusen og reagerer med vannet til karbonsyre. Når du åpner korken, frigjøres karbondioksidet og siver ut i luften igjen. Du kan sammenligne havet med en gigantisk, tam brusflaske.`,
+      utstyr: [
+        `En kald brus`,
+        `En varm brus`,
+      ],
+      slik: [
+        `Skru av korken på de to brusflaskene og observer om du hører eller kjenner forskjell når du åpner dem.`,
+      ],
+      sporsmal: [
+        `Hvordan påvirker global oppvarming havets evne til å være et lager for CO₂?`,
+      ],
+    },
   ],
   'geologi': [
     { tittel: `Studere havbunnen i Google Maps` },
