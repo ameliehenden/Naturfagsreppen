@@ -212,6 +212,7 @@ export const sammendrag = {
     {
       tittel: `Miljøproblemer i dag`,
       tekst: `Vi står overfor flere store miljøproblemer samtidig. De viktigste er økt drivhuseffekt fra klimagasser, forurensning, miljøgifter og mikroplast, tap av biologisk mangfold, avskoging og overutnyttelse. Mange av disse henger sammen og forsterker hverandre.`,
+      bilde: `sammendrag/klima/miljoutfordringer.png`,
     },
     {
       tittel: `Føre-var-prinsippet og forvaltning`,
