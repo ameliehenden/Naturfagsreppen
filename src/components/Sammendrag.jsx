@@ -25,6 +25,25 @@ export default function Sammendrag({ avsnitt }) {
               <Figur navn={a.figur} />
             </div>
           )}
+          {a.bilde && (
+            <img
+              src={import.meta.env.BASE_URL + a.bilde}
+              alt={a.bildeAlt || a.tittel}
+              className={styles.bildeImg}
+            />
+          )}
+          {a.bilder && (
+            <div className={styles.bilderGrid}>
+              {a.bilder.map((b, bi) => (
+                <img
+                  key={bi}
+                  src={import.meta.env.BASE_URL + b}
+                  alt={`${a.tittel} – bilde ${bi + 1}`}
+                  className={styles.bildeImg}
+                />
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </div>

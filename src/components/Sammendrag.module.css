@@ -74,3 +74,33 @@
   border-radius: 12px;
   padding: 0.5rem;
 }
+
+.bildeImg {
+  display: block;
+  max-width: 100%;
+  margin-top: 0.75rem;
+  border-radius: 10px;
+}
+
+.bilderGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.bilderGrid .bildeImg {
+  margin-top: 0;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .bilderGrid {
+    grid-template-columns: 1fr;
+  }
+  .bilderGrid .bildeImg {
+    height: 180px;
+  }
+}

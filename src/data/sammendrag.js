@@ -211,47 +211,7 @@ export const sammendrag = {
     },
     {
       tittel: `Miljøproblemer i dag`,
-      tekst: `Vi står overfor flere store miljøproblemer samtidig. De viktigste er økt drivhuseffekt fra klimagasser, forurensning, miljøgifter og mikroplast, tap av biologisk mangfold, ødeleggelse av ozonlaget, avskoging og overbeiting. Mange av disse henger sammen og forsterker hverandre.`,
-    },
-    {
-      tittel: `Biologisk mangfold`,
-      tekst: `Biologisk mangfold er variasjonen av liv på jorda. Det omfatter den genetiske variasjonen innenfor arter og populasjoner, mangfoldet av ulike arter, og mangfoldet av økosystemer og naturtyper. Et stort mangfold gjør naturen mer robust og bedre i stand til å tåle endringer. Når arter dør ut, svekkes dette mangfoldet, og det kan ikke skapes på nytt.`,
-    },
-    {
-      tittel: `Kulturlandskap`,
-      tekst: `Et kulturlandskap er et landskap som er formet av menneskelig aktivitet, og som oftest av jordbruk. En blomstereng er et godt eksempel: den er skapt og holdt ved like av slått og beite, og er hjemsted for mange truede arter. Slutter jordbruket, gror enga igjen, og artene som levde der, forsvinner. Kulturlandskapet er altså avhengig av at vi fortsetter å bruke det.`,
-    },
-    {
-      tittel: `Vær og klima`,
-      tekst: `Vær er tilstanden i atmosfæren akkurat nå, altså sol, regn, vind og temperatur, og det endrer seg fra dag til dag. Klima er gjennomsnittsværet på et sted over en lang periode, vanligvis 30 år. Én enkelt periode med ekstremvær er derfor ikke i seg selv en klimaendring; men hvis været endrer seg varig over lang tid, snakker vi om klimaendring. Jorda deles inn i klimasoner: tropisk, subtropisk, temperert og polart klima.`,
-    },
-    {
-      tittel: `Drivhuseffekten`,
-      tekst: `Drivhuseffekten gjør at ikke all varmen fra sola slipper ut igjen i verdensrommet. Du kan sammenligne det med å legge en god, varm dyne over jorda. Effekten styres av klimagasser som karbondioksid (CO₂) og vanndamp. En passe drivhuseffekt er helt nødvendig for livet, uten den ville det vært iskaldt om natta og glovarmt om dagen. Men når vi slipper ut mer klimagasser, blir drivhuseffekten sterkere, og temperaturen på jorda stiger. Det kaller vi global oppvarming.`,
-    },
-    {
-      tittel: `Ozonlaget`,
-      tekst: `Ozonlaget ligger høyt oppe i atmosfæren og stopper de mest energirike og farlige strålene fra sola. Det påvirker ikke temperaturen på jorda særlig mye, det er altså noe annet enn drivhuseffekten. På 1900-tallet ble ozonlaget skadet av KFK-gasser, slik at det oppstod et «ozonhull». Etter at disse gassene ble forbudt gjennom internasjonalt samarbeid, er ozonlaget nå på bedringens vei og ventes å være bygd opp igjen rundt 2050.`,
-    },
-    {
-      tittel: `Hvorfor slipper vi ut så mye CO₂?`,
-      tekst: `Det meste av CO₂-utslippene kommer fra at vi skaffer oss energi. Når vi brenner fossilt brensel, kull, olje og gass, for å lage strøm eller drive bilene våre, blir CO₂ et avfallsstoff. En slik forbrenningsreaksjon skjer når et brennbart stoff (ofte et hydrokarbon) reagerer med oksygen og danner karbondioksid og vann, samtidig som det frigjøres varme. For å slippe ut mindre CO₂ kan vi gå over til fornybare energikilder.`,
-    },
-    {
-      tittel: `Karbonkretsløpet`,
-      tekst: `Karbon finnes i alt levende, og mengden karbonatomer på jorda er den samme hele tiden, det er hvor de befinner seg som endrer seg. I fotosyntesen tar produsentene (plantene) opp CO₂ og bygger glukose. Forbrukerne spiser plantene, og gjennom celleåndingen brytes glukosen ned igjen slik at CO₂ frigjøres til atmosfæren. Nedbrytere frigjør også CO₂ når de bryter ned døde organismer. Noe organisk materiale blir ikke brutt ned, ved mangel på oksygen lagres karbonet i millioner av år som kull, olje og gass. Når vi brenner dette fossile brenselet, frigjøres det gamle karbonet igjen, og CO₂-mengden i atmosfæren øker. Å brenne fornybar biomasse gir også CO₂, men det er mindre skadelig fordi karbonet nylig ble tatt opp fra atmosfæren og inngår i det naturlige kretsløpet.`,
-    },
-    {
-      tittel: `Konsekvenser: ekstremvær`,
-      tekst: `En sterkere drivhuseffekt gir en varmere atmosfære, og varm luft kan holde på mer vann. Det kan gi kraftigere regn og flom. Varmt havvann gir sterkere orkaner med mer vind og nedbør. Når temperaturforskjellene mellom steder endrer seg, endres også vindmønstrene. Derfor kan noen områder få ekstrem tørke, mens andre får ekstrem nedbør. Global oppvarming forsterker ofte forskjellene: de som har det tørt fra før, får det enda tørrere, og de som har det vått, får det enda våtere.`,
-    },
-    {
-      tittel: `Havis og selvforsterkende effekter`,
-      tekst: `Temperaturen stiger over hele kloden, men ikke jevnt, det går raskest ved polene, særlig i Arktis. Dette går hardt ut over havisen. Hvit is reflekterer mye av sollyset tilbake til verdensrommet, men når isen smelter, kommer mørkt hav fram som i stedet tar opp varmen. Da blir det varmere, og enda mer is smelter. Dette kaller vi en selvforsterkende effekt (feedbackmekanisme). Mindre havis betyr også mindre biologisk mangfold, fordi mange arter er helt avhengige av isen.`,
-    },
-    {
-      tittel: `Havforsuring`,
-      tekst: `Havet inneholder mye CO₂, og kaldt vann klarer å holde på mer CO₂ enn varmt. Etter at vi begynte å slippe ut mer CO₂, har havet tatt opp store mengder, men til slutt klarer det ikke å ta opp mer. Jo mer CO₂ havet tar opp, desto surere blir vannet (lavere pH). Dette skader dyr og alger som har skall av kalk, fordi kalken løses opp i surt vann.`,
+      tekst: `Vi står overfor flere store miljøproblemer samtidig. De viktigste er økt drivhuseffekt fra klimagasser, forurensning, miljøgifter og mikroplast, tap av biologisk mangfold, avskoging og overutnyttelse. Mange av disse henger sammen og forsterker hverandre.`,
     },
     {
       tittel: `Føre-var-prinsippet og forvaltning`,
@@ -264,6 +224,56 @@ export const sammendrag = {
     {
       tittel: `Interessekonflikter`,
       tekst: `Ofte må vi veie ulike hensyn mot hverandre, og da oppstår interessekonflikter. Et isfritt Arktis kan åpne for skipsfart og olje, men er en katastrofe for naturen. Ved Aralsjøen ble elvene ledet bort for å vanne jordbruk, slik at verdens fjerde største innsjø nesten forsvant, og fiskerne mistet livsgrunnlaget. Ved Altaelva sto utbygging av kraftverk mot å bevare laksen og samiske rettigheter. Slike saker viser at vern av natur og bruk av natur kan komme i konflikt, og at det sjelden finnes enkle svar.`,
+    },
+    {
+      tittel: `Biologisk mangfold`,
+      tekst: `Biologisk mangfold er variasjonen av liv på jorda. Det omfatter den genetiske variasjonen innenfor arter og populasjoner, mangfoldet av ulike arter, og mangfoldet av økosystemer og naturtyper. Et stort mangfold gjør naturen mer robust og bedre i stand til å tåle endringer. Når arter dør ut, svekkes dette mangfoldet, og det kan ikke skapes på nytt.`,
+    },
+    {
+      tittel: `Kulturlandskap`,
+      tekst: `Et kulturlandskap er et landskap som er formet av menneskelig aktivitet, og som oftest av jordbruk. En blomstereng er et godt eksempel: den er skapt og holdt ved like av slått og beite, og er hjemsted for mange truede arter. Slutter jordbruket, gror enga igjen, og artene som levde der, forsvinner. Kulturlandskapet er altså avhengig av at vi fortsetter å bruke det.`,
+      bilde: `sammendrag/klima/kulturlandskap.png`,
+    },
+    {
+      tittel: `Karbonkretsløpet`,
+      tekst: `Karbon finnes i alt levende, og mengden karbonatomer på jorda er den samme hele tiden, det er hvor de befinner seg som endrer seg. I fotosyntesen tar produsentene (plantene) opp CO₂ og bygger glukose. Forbrukerne spiser plantene, og gjennom celleåndingen brytes glukosen ned igjen slik at CO₂ frigjøres til atmosfæren. Nedbrytere frigjør også CO₂ når de bryter ned døde organismer. Noe organisk materiale blir ikke brutt ned, ved mangel på oksygen lagres karbonet i millioner av år som kull, olje og gass. Når vi brenner dette fossile brenselet, frigjøres det gamle karbonet igjen, og CO₂-mengden i atmosfæren øker. Å brenne fornybar biomasse gir også CO₂, men det er mindre skadelig fordi karbonet nylig ble tatt opp fra atmosfæren og inngår i det raske kretsløpet.`,
+      bilde: `sammendrag/klima/karbonkretslopet.png`,
+    },
+    {
+      tittel: `Vær og klima`,
+      tekst: `Vær er tilstanden i atmosfæren akkurat nå, altså sol, regn, vind og temperatur, og det endrer seg fra dag til dag. Klima er gjennomsnittsværet på et sted over en lang periode, vanligvis 30 år. Én enkelt periode med ekstremvær er derfor ikke i seg selv en klimaendring; men hvis været endrer seg varig over lang tid, snakker vi om klimaendring. Jorda deles inn i klimasoner: tropisk, subtropisk, temperert og polart klima. Tropisk sone finner du rundt ekvator og forbindes ofte med regnskog. Her er klimaet varmt og fuktig og det er stabilt året gjennom. Subtropisk sone finner du utenfor den tropiske sonen og forbindes ofte med ørken. Her er det ofte svært lite nedbør, varmt om dagen og kaldt om natten. Temperert klima er det klimaet vi forbinder med klimaet i Sør-Norge og store deler av Europa. Fuktig, med årstider. Polart klima finner vi helt nord og helt sør på kloden og forbindes med tundra og evig is. Samtidig regnes denne sonen også som tørr, med lite nedbør.`,
+      bilde: `sammendrag/klima/klimasoner.png`,
+    },
+    {
+      tittel: `Drivhuseffekten`,
+      tekst: `Drivhuseffekten gjør at ikke all varmen fra sola slipper ut igjen i verdensrommet. Du kan sammenligne det med å legge en god, varm dyne over jorda. Effekten styres av klimagasser som karbondioksid (CO₂) og vanndamp. En passe drivhuseffekt er helt nødvendig for livet, uten den ville det vært iskaldt om natta og glovarmt om dagen. Men når vi slipper ut mer klimagasser, blir drivhuseffekten sterkere, og temperaturen på jorda stiger. Det kaller vi global oppvarming. Strålingen fra sola kommer i form av UV-stråler og synlig lys, det vi kaller kortbølget stråling. Synlig lys passerer stort sett rett gjennom atmosfæren og ned til jordoverflata, hvor den varmer opp bakken. Jorda stråler også selv ut varme, men siden jorda er mye kaldere enn sola, stråler den ikke ut lys. Jorda stråler ut langbølgede, infrarøde stråler. Det er denne strålingen, på vei ut fra jorda, som ikke får passere fritt gjennom atmosfæren, fordi drivhusgassene absorberer den. Drivhusgassene varmes opp og stråler varmen ut igjen, noe mot verdensrommet og noe tilbake til jorda. Jo mer drivhusgass i atmosfæren, jo mindre varme klarer å slippe ut fra jorda, noe som bidrar til global oppvarming.`,
+      bilde: `sammendrag/klima/drivhuseffekten.png`,
+    },
+    {
+      tittel: `Hvorfor slipper vi ut så mye CO₂?`,
+      tekst: `Det meste av CO₂-utslippene kommer fra at vi skaffer oss energi. Når vi brenner fossilt brensel, kull, olje og gass, for å lage strøm eller drive bilene våre, blir CO₂ et avfallsstoff. En slik forbrenningsreaksjon skjer når et brennbart stoff (ofte et hydrokarbon) reagerer med oksygen og danner karbondioksid og vann, samtidig som det frigjøres varme. For å slippe ut mindre CO₂ kan vi gå over til fornybare energikilder som vannkraft, vindkraft eller solenergi.`,
+    },
+    {
+      tittel: `Konsekvenser: ekstremvær`,
+      tekst: `En sterkere drivhuseffekt gir en varmere atmosfære, og varm luft kan holde på mer vann. Det kan gi kraftigere regn og flom. Varmt havvann gir sterkere orkaner med mer vind og nedbør. Når temperaturforskjellene mellom steder endrer seg, endres også vindmønstrene. Derfor kan noen områder få ekstrem tørke, mens andre får ekstrem nedbør. Global oppvarming forsterker ofte forskjellene: de som har det tørt fra før, får det enda tørrere, og de som har det vått, får det enda våtere.`,
+      bilder: [
+        `sammendrag/klima/konsekvenser-ekstremvaer.png`,
+        `sammendrag/klima/havis-1.png`,
+        `sammendrag/klima/havis-2.png`,
+        `sammendrag/klima/havis-3.png`,
+      ],
+    },
+    {
+      tittel: `Havis og selvforsterkende effekter`,
+      tekst: `Temperaturen stiger over hele kloden, men ikke jevnt, det går raskest ved polene, særlig i Arktis. Dette går hardt ut over havisen. Hvit is reflekterer mye av sollyset tilbake til verdensrommet, men når isen smelter, kommer mørkt hav fram som i stedet tar opp varmen. Da blir det varmere, og enda mer is smelter. Dette kaller vi en selvforsterkende effekt (feedbackmekanisme). Mindre havis betyr også mindre biologisk mangfold, fordi mange arter er helt avhengige av isen.`,
+    },
+    {
+      tittel: `Havforsuring`,
+      tekst: `Havet inneholder mye CO₂, og kaldt vann klarer å holde på mer CO₂ enn varmt. Etter at vi begynte å slippe ut mer CO₂, har havet tatt opp store mengder, men til slutt klarer det ikke å ta opp mer. Jo mer CO₂ havet tar opp, desto surere blir vannet (lavere pH). Dette skader dyr og alger som har skall av kalk, fordi kalken løses opp i surt vann.`,
+    },
+    {
+      tittel: `Ozonlaget`,
+      tekst: `Ozonlaget ligger høyt oppe i atmosfæren og stopper de mest energirike og farlige strålene fra sola. Det påvirker ikke temperaturen på jorda særlig mye, det er altså noe annet enn drivhuseffekten. På 1900-tallet ble ozonlaget skadet av KFK-gasser, slik at det oppstod et «ozonhull». Etter at disse gassene ble forbudt gjennom internasjonalt samarbeid, er ozonlaget nå på bedringens vei og ventes å være bygd opp igjen rundt 2050.`,
     },
   ],
   'kjemi': [
