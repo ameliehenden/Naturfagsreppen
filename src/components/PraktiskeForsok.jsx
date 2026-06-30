@@ -16,6 +16,10 @@ export default function PraktiskeForsok({ forsok }) {
                   <>
                     {f.innledning && <p className={styles.tekst}>{f.innledning}</p>}
 
+                    {f.bilde && (
+                      <img src={f.bilde} alt={f.bildeAlt || f.tittel} className={styles.bilde} />
+                    )}
+
                     {f.utstyr && (
                       <>
                         <h4 className={styles.deltittel}>Du trenger</h4>

@@ -10,6 +10,8 @@ export const forsok = {
     { tittel: `Havnivåstigning, issmelting` },
     {
       tittel: `Gass i kaldt og varmt vann`,
+      bilde: `/Naturfagsreppen/forsok/gass-brus.png`,
+      bildeAlt: `En kald og en varm brusflaske`,
       innledning: `Kaldt vann holder på mer gass enn varmt vann. Havet er et viktig lager for CO₂ på jorda, samtidig vet vi at temperaturen både på land og i vann er på vei opp på grunn av klimaendringene. Kullsyre i brus er faktisk bare CO₂ som har blitt trykket ned i brusen og reagerer med vannet til karbonsyre. Når du åpner korken, frigjøres karbondioksidet og siver ut i luften igjen. Du kan sammenligne havet med en gigantisk, tam brusflaske.`,
       utstyr: [
         `En kald brus`,
