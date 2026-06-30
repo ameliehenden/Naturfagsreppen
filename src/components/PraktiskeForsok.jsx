@@ -14,7 +14,11 @@ export default function PraktiskeForsok({ forsok }) {
 
                 {harInnhold ? (
                   <>
-                    {f.innledning && <p className={styles.tekst}>{f.innledning}</p>}
+                    {f.innledning && (
+                      Array.isArray(f.innledning)
+                        ? f.innledning.map((avsnitt, j) => <p key={j} className={styles.tekst}>{avsnitt}</p>)
+                        : <p className={styles.tekst}>{f.innledning}</p>
+                    )}
 
                     {f.bilde && (
                       <img src={f.bilde} alt={f.bildeAlt || f.tittel} className={styles.bilde} />
@@ -40,9 +44,12 @@ export default function PraktiskeForsok({ forsok }) {
                     {f.slik && (
                       <>
                         <h4 className={styles.deltittel}>Slik gjør du</h4>
-                        <ol className={styles.steg}>
-                          {f.slik.map((s, j) => <li key={j}>{s}</li>)}
-                        </ol>
+                        {f.slik.length === 1
+                          ? <p className={styles.tekst}>{f.slik[0]}</p>
+                          : <ol className={styles.steg}>
+                              {f.slik.map((s, j) => <li key={j}>{s}</li>)}
+                            </ol>
+                        }
                       </>
                     )}
 
