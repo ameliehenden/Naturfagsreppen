@@ -39,6 +39,8 @@ export default function SammenhengSide() {
               ? <img key={i} className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt="" />
               : item.type === 'liste'
               ? <ul key={i} className={styles.liste}>{item.punkt.map((p, j) => <li key={j} className={styles.listePunkt}>{p}</li>)}</ul>
+              : item.type === 'overskrift'
+              ? <h2 key={i} className={styles.underoverskrift}>{item.verdi}</h2>
               : <p key={i} className={styles.tekst}>{item.verdi}</p>
           )
         ) : (
