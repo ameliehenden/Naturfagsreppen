@@ -5,9 +5,70 @@
 // resultat og bilder.
 export const forsok = {
   'klima-og-baerekraft': [
-    { tittel: `Havforsuring, observasjon av pH i vann` },
-    { tittel: `Havnivåstigning, varmt vann utvider seg` },
-    { tittel: `Havnivåstigning, issmelting` },
+    {
+      tittel: `Havforsuring, observasjon av pH i vann`,
+      innledning: [
+        `I dette forsøket skal du påvise at CO₂ i vann gir lavere pH. Pusten vår inneholder CO₂ siden cellene våre driver celleånding. Dersom du blåser ned i et glass vann som inneholder en syre-base-indikator, vil du kunne observere at vannet får lavere pH.`,
+        `Det som skjer er at CO₂-molekylene reagerer med vannmolekylene og danner karbonsyre (H₂CO₃). Karbonsyre spaltes i vann og frigir et H⁺-ion. Det er H⁺-ionet som gjør vannet surt.`,
+        `CO₂ + H₂O → H₂CO₃`,
+        `H₂CO₃ → H⁺ + HCO₃⁻`,
+      ],
+      utstyr: [
+        `Begerglass`,
+        `Vann`,
+        `Sugerør`,
+        `BTB (syre-base-indikator)`,
+        `Plastfolie`,
+      ],
+      slik: [
+        `Bland noen dråper BTB i et begerglass med vann.`,
+        `Sett i sugerøret og trekk over plastfolie slik at det danner et lokk der kun sugerøret stikker ut.`,
+        `Blås bobler i vannet til du ser at fargen går fra blå til gul.`,
+      ],
+    },
+    {
+      tittel: `Havnivåstigning, varmt vann utvider seg`,
+      innledning: [
+        `Vi vet at havet stiger, men det skyldes ikke bare at is på land smelter og renner ut i havet. Vi må også ta hensyn til at vann utvider seg når det varmes opp.`,
+        `Vann har en litt rar oppførsel når det kommer til volum og tyngde. Vannet er tyngst og tar minst plass når det er 4 grader kaldt. Når vannet varmes opp vil det utvide seg. Dette er årsaken til at global oppvarming bidrar til at havet stiger.`,
+      ],
+      utstyr: [
+        `Målesylinder (100 ml)`,
+        `Vann`,
+        `Gryte eller vannkoker`,
+      ],
+      slik: [
+        `Fyll målesylinderen til nøyaktig 90 ml med kjøleskapskaldt vann.`,
+        `Kok opp en gryte eller vannkoker med vann.`,
+        `Skru av platen eller vannkokeren.`,
+        `Sett målesylinderen nedi det kokende vannet.`,
+        `Vent 5 minutter og les av vannstanden.`,
+      ],
+    },
+    {
+      tittel: `Havnivåstigning, issmelting`,
+      innledning: [
+        `I dette forsøket skal du se på forskjellen i havnivåstigning når isen ligger på land og når isen flyter i vannet (havis).`,
+        `Det er kun isen som ligger på land og smelter og renner ut i havet, som påvirker havnivået. Havis påvirker ikke havnivået når den smelter, fordi vann som fryser utvider seg men beholder samme vekt. Isen som flyter tar nøyaktig like mye plass under vann som det smeltede vannet vil fylle – ingenting renner ned fra overflaten.`,
+      ],
+      utstyr: [
+        `Konditorfarge`,
+        `Form eller pose til store isbiter`,
+        `2 begerglass`,
+        `Tusj`,
+        `Stein`,
+        `Fryseboks`,
+      ],
+      slik: [
+        `Bland konditorfarge i vann og frys til litt store isbiter.`,
+        `Hell vann i 2 begerglass.`,
+        `Legg en stein i det ene glasset slik at den stikker litt opp over overflaten.`,
+        `Legg isbiter i det andre begerglasset.`,
+        `Marker med tusj nøyaktig hvor vannoverflaten er i begge glass.`,
+        `Legg en isbit oppå steinen i det første glasset, slik at den ikke faller i vannet.`,
+        `Vent til isen har smeltet og observer hva som har skjedd med vannstanden i glassene.`,
+      ],
+    },
     {
       tittel: `Gass i kaldt og varmt vann`,
       bilde: `/Naturfagsreppen/forsok/gass-brus.png`,
