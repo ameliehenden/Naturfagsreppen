@@ -34,7 +34,7 @@ export default function Sammendrag({ avsnitt }) {
             />
           )}
           {a.bilder && (
-            <div className={styles.bilderGrid}>
+            <div className={styles.bilderGrid} style={a.bilderBredd ? { maxWidth: a.bilderBredd } : undefined}>
               {a.bilder.map((b, bi) => (
                 <img
                   key={bi}

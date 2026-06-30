@@ -264,6 +264,7 @@ export const sammendrag = {
         `sammendrag/klima/havis-2.png`,
         `sammendrag/klima/havis-3.png`,
       ],
+      bilderBredd: `75%`,
     },
     {
       tittel: `Havis og selvforsterkende effekter`,
