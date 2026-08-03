@@ -16,7 +16,7 @@ export default function Om() {
 
         <div className={styles.tekst}>
           <p>
-            Dette læreverket er utviklet av Amelie Henden, lektor ved Dirdal Skule, med
+            Dette læreverket er utviklet av Amelie Henden, lektor ved Dirdal Skule. Med
             over ti års erfaring fra naturfagsundervisning på ungdomsskolen, og med en faglig bakgrunn innen klima og geofysikk er denne nettsiden tilpasset det elevene trenger.
           </p>
           <p>
