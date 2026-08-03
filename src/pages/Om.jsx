@@ -21,8 +21,8 @@ export default function Om() {
             en faglig bakgrunn innen klima og geofysikk er denne nettsiden tilpasset det elevene trenger.
           </p>
           <p>
-            Nettsiden er et godt repeteringsverktøy før både kapittelprøver og muntlig
-            eksamen. Nettsiden har faglig innhold knyttet til hele pensum i naturfag,
+            Naturfagsreppen er et godt repeteringsverktøy før både kapittelprøver og muntlig
+            eksamen. Den har et faglig innhold knyttet til hele pensum i naturfag,
             presentert på en oversiktlig og ryddig måte. Elevene kan repetere faguttrykk
             eller opparbeide seg en god forståelse for sammenheng mellom de ulike emnene.
           </p>
