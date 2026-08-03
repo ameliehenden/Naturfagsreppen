@@ -18,8 +18,7 @@ export default function Om() {
           <p>
             Dette læreverket er utviklet av Amelie Henden, lektor ved Dirdal Skule, med
             over ti års erfaring fra naturfagsundervisning på ungdomsskolen. Med
-            en faglig bakgrunn innen klima og geofysikk har jeg laget en digital
-            ressurs tilpasset det elevene faktisk trenger.
+            en faglig bakgrunn innen klima og geofysikk er denne nettsiden tilpasset det elevene trenger.
           </p>
           <p>
             Nettsiden er et godt repeteringsverktøy før både kapittelprøver og muntlig
