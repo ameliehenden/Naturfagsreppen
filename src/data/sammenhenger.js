@@ -67,8 +67,9 @@ export const sammenhenger = {
         slug: `okologi`,
         farge: `#1b7a3e`,
         innhold: [
-          { type: 'tekst', verdi: `I alle økosystemer starter energiflyten med sola. Produsentene (planter og alger) fanger solenergi gjennom fotosyntesen og lagrer den som kjemisk energi i organisk materiale. Denne energien overføres til primærforbrukerne som spiser plantene, og videre til sekundærforbrukerne.` },
-          { type: 'tekst', verdi: `For hvert ledd i næringskjeden går omtrent 90 % av energien tapt som varme, bare rundt 10 % overføres til neste nivå. Derfor er det alltid langt færre toppredatorer enn byttedyr i et økosystem, og derfor kan jorda forsørge langt flere mennesker dersom vi spiser planter fremfor kjøtt.` },
+          { type: 'tekst', verdi: `I alle økosystemer starter energiflyten med sola. Produsentene (planter og alger) fanger solenergi gjennom fotosyntesen og lagrer den som kjemisk energi. Når primærforbrukerne spiser plantene, f. eks en larve, får de energien som planten en gang lagret. Larven bruker energien til blant annet bevegelse og varme. Videre til sekundærforbrukerne, kanskje en mus, spiser larven og får da energien som larven inneholdt på det tidspunktet den ble spist. Musa bruker mye av energien selv, men noe lagres og musa vokser. Dersom musa til slutt blir spist av en rev får reven energien musa hadde. Når reven dør vil energien fordeles ut igjen til blant annet nedbrytere.` },
+          { type: 'tekst', verdi: `For hvert ledd i næringskjeden går omtrent 90 % av energien tapt som varme, bare rundt 10 % overføres til neste nivå. Derfor er det alltid langt færre rovdyr høyt oppe i næringskjeden enn byttedyr i et økosystem, og derfor kan jorda forsørge langt flere mennesker dersom vi spiser planter fremfor kjøtt.` },
+          { type: 'bilde', src: `sammenhenger/energi-i-okosystemer.png` },
         ],
       },
     ],
@@ -82,8 +83,9 @@ export const sammenhenger = {
         slug: `energi`,
         farge: `#f39c12`,
         innhold: [
-          { type: 'tekst', verdi: `All energi i levende systemer starter med sola. Produsentene, planter og alger, fanger solenergi gjennom fotosyntesen og lagrer den som kjemisk energi i glukose. Denne energien overføres videre til forbrukerne som spiser dem, og videre til neste trofiske nivå.` },
-          { type: 'tekst', verdi: `For hvert trinn i næringskjeden går omtrent 90 % av energien tapt som varme, bare ca. 10 % overføres til neste ledd. Det er derfor det alltid er langt færre toppredatorer enn byttedyr i et økosystem, og derfor kan jorda brødfø langt flere mennesker dersom vi spiser planter fremfor kjøtt.` },
+          { type: 'tekst', verdi: `I alle økosystemer starter energiflyten med sola. Produsentene (planter og alger) fanger solenergi gjennom fotosyntesen og lagrer den som kjemisk energi. Når primærforbrukerne spiser plantene, f. eks en larve, får de energien som planten en gang lagret. Larven bruker energien til blant annet bevegelse og varme. Videre til sekundærforbrukerne, kanskje en mus, spiser larven og får da energien som larven inneholdt på det tidspunktet den ble spist. Musa bruker mye av energien selv, men noe lagres og musa vokser. Dersom musa til slutt blir spist av en rev får reven energien musa hadde. Når reven dør vil energien fordeles ut igjen til blant annet nedbrytere.` },
+          { type: 'tekst', verdi: `For hvert ledd i næringskjeden går omtrent 90 % av energien tapt som varme, bare rundt 10 % overføres til neste nivå. Derfor er det alltid langt færre rovdyr høyt oppe i næringskjeden enn byttedyr i et økosystem, og derfor kan jorda forsørge langt flere mennesker dersom vi spiser planter fremfor kjøtt.` },
+          { type: 'bilde', src: `sammenhenger/energi-i-okosystemer.png` },
         ],
       },
       {
