@@ -14,7 +14,7 @@ export const sammendrag = {
     {
       tittel: `Jordas indre`,
       tekst: `Jorda er bygget opp av lag, litt som en løk. Innerst finner vi den indre kjernen, som er fast og svært varm. Rundt denne ligger den ytre kjernen, som er noe mykere. Videre utover finner vi mantelen, som består av halvfast stein som beveger seg svært langsomt. Ytterst finner vi jordskorpen, det tynne, faste laget vi lever på. Jordskorpen er faktisk tynnere i forhold til resten av jorda enn skallet på en fersken er i forhold til frukten.`,
-      figur: `jordas-lag`,
+      bilde: `sammendrag/geologi/jordas-indre.png`,
     },
     {
       tittel: `Ytre og indre krefter`,
