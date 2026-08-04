@@ -33,7 +33,11 @@
       "mcp__Claude_Browser__preview_stop",
       "mcp__Claude_Browser__get_page_text",
       "mcp__Claude_Browser__read_network_requests",
-      "mcp__Claude_Browser__form_input"
+      "mcp__Claude_Browser__form_input",
+      "mcp__Claude_Browser__preview_list",
+      "mcp__Claude_Browser__zoom",
+      "mcp__Claude_Browser__scroll_to",
+      "mcp__Claude_Browser__hover"
     ],
     "ask": [
       "Bash(rm *)",
