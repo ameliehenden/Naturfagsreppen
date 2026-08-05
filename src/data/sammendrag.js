@@ -52,7 +52,7 @@ export const sammendrag = {
     },
     {
       tittel: `Jordas historie og livets utvikling`,
-      tekst: `Jorda ble dannet for omtrent 4,5 milliarder år siden. Overflaten var i begynnelsen dekket av lava, men etter hvert størknet den til jordskorpen vi kjenner i dag. De første sporene av liv finner vi for rundt 3,8 milliarder år siden. Tida før avanserte livsformer oppsto for ca. 550 millioner år siden kaller vi jordas urtid. Siden da har livet utviklet seg gjennom evolusjon: organismer som er godt tilpasset miljøet overlever og får avkom, og slik endrer arter seg over tid. Det biologiske mangfoldet, altså variasjonen av gener, arter og naturtyper, er viktig for at økosystemene skal fungere og tåle forandringer. Mennesket og sjimpansen har felles forfedre, og det som skiller oss fra apene er blant annet at vi går oppreist, har tommelen på motsatt side, har et svært utviklet hjerne og bruker avansert språk og teknologi.`,
+      tekst: `Jorda ble dannet for omtrent 4,5 milliarder år siden. Jordoverflaten var i begynnelsen dekket av lava, men etter hvert størknet den til jordskorpen vi kjenner i dag. Havene ble dannet av vann som kom med meteoritter. De første sporene av liv finner vi for rundt 3,8 milliarder år siden. På den tida hadde vi ikke oksygen i atmosfæren, men livet som oppstod i havet var en blågrønn bakterie som kunne drive fotosyntesen. Oksygen er et biprodukt av fotosyntesen og dette førte til at havet, og etter hvert atmosfæren, ble oksygenholdig slik vi kjenner den i dag.`,
     },
   ],
   'celler-og-livets-utvikling': [
