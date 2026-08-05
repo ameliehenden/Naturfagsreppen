@@ -42,7 +42,10 @@ export const sammendrag = {
     },
     {
       tittel: `Vulkaner og jordskjelv`,
-      tekst: `Langs sprekkene mellom kontinentalplatene skjer det mye geologisk aktivitet. Der plater glir mot hverandre, presses en plate ned under den andre og smelter om til magma. Denne magmaen kan trenge opp og danne vulkaner. Der plater glir forbi hverandre, bygges det opp spenninger som plutselig frigjøres som jordskjelv. Et kart over registrerte jordskjelv og vulkanutbrudd viser tydelig hvor disse sprekksystemene befinner seg. Jordskjelv i havet kan skape enorme bølger kalt tsunamier. Vulkaner slipper også ut store mengder karbondioksid og andre gasser. Dette er en naturlig del av karbonkretsløpet, men menneskeskapte utslipp er langt større og skjer mye raskere enn det naturen klarer å håndtere.`,
+      tekst: [
+        `Langs sprekkene mellom kontinentalplatene skjer det mye geologisk aktivitet. Der en havbunnplate og en kontinentalplate glir mot hverandre, presses havbunnsplaten ned under den andre og smelter om til magma. Denne magmaen er lett og kan trenge opp gjennom jordskorpa og danne vulkaner. I tillegg til stor vulkansk aktivitet er disse områdene også utsatt for jordskjelv og tsunamier. Der plater glir forbi hverandre, bygges det opp spenninger som plutselig frigjøres som jordskjelv. Et kart over registrerte jordskjelv og vulkanutbrudd viser tydelig hvor disse sprekksystemene befinner seg.`,
+        `Vulkaner slipper også ut store mengder karbondioksid og andre gasser. Dette er en naturlig del av karbonkretsløpet, men menneskeskapte utslipp er langt større og skjer mye raskere enn det naturen klarer å håndtere.`,
+      ],
     },
     {
       tittel: `Jordas atmosfære og drivhuseffekten`,
