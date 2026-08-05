@@ -64,8 +64,11 @@ try {
   console.error(e);
 }
 
-const opplegg = hits.filter((x) => x.event);
+const sesjonar = hits.filter((x) => x.event && x.path === '~session');
+const opplegg = hits.filter((x) => x.event && x.path !== '~session');
 const sider = hits.filter((x) => !x.event);
+
+const unikeBesok = sesjonar[0]?.count ?? null;
 
 if (total === null) {
   total = sider.reduce((sum, x) => sum + (x.count ?? 0), 0);
@@ -74,7 +77,8 @@ if (total === null) {
 const L = [];
 L.push(`## Naturfagsreppen – rapport for ${datoTekst}`);
 L.push('');
-L.push(`**Besøk (sidevisninger):** ${total}`);
+L.push(`**Unike besøk:** ${unikeBesok ?? '–'}`);
+L.push(`**Sidevisninger totalt:** ${total}`);
 L.push('');
 if (opplegg.length) {
   L.push('**Opplegg åpnet:**');

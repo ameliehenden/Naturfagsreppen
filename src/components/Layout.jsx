@@ -8,6 +8,17 @@ export default function Layout() {
   const location = useLocation();
   const forsteVisning = useRef(true);
 
+  // Tell éitt unikt besøk per nettlesarøkt (sessionStorage hindrar dobbelttelling).
+  useEffect(() => {
+    if (sessionStorage.getItem('gc_session_counted')) return;
+    const timer = setTimeout(() => {
+      if (!window.goatcounter?.count) return;
+      sessionStorage.setItem('gc_session_counted', '1');
+      window.goatcounter.count({ path: '~session', title: 'Unikt besøk', event: true });
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   // Tell sidevisninger ved navigasjon. Selve tellekoden teller den første
   // sidelastingen automatisk, så vi hopper over den her for å unngå dobbelttelling.
   useEffect(() => {
