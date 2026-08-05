@@ -7,7 +7,9 @@ export default function Sammendrag({ avsnitt }) {
       {avsnitt.map((a, i) => (
         <div key={i} className={styles.avsnitt}>
           <h2 className={styles.tittel}>{a.tittel}</h2>
-          <p className={styles.tekst}>{a.tekst}</p>
+          {Array.isArray(a.tekst)
+            ? a.tekst.map((avs, ai) => <p key={ai} className={styles.tekst}>{avs}</p>)
+            : <p className={styles.tekst}>{a.tekst}</p>}
           {a.tabell && (
             <div className={styles.tabell}>
               {a.tabell.map((kol, k) => (
