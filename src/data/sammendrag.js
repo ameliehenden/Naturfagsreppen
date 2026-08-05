@@ -98,6 +98,14 @@ export const sammendrag = {
       tittel: `Dominante og recessive egenskaper`,
       tekst: `Siden du har ett sett med 23 kromosomer fra far og ett sett fra mor, har du to gener for hver egenskap. De to variantene av det samme genet kaller vi alleler. Ofte må det ene allelet vike for det andre, slik at bare ett av dem kommer til uttrykk. Det allelet som kommer til uttrykk kaller vi dominant, mens det som ikke kommer til uttrykk kaller vi vikende eller recessivt. Dette er grunnen til at enkelte egenskaper og arvelige sykdommer kan «hoppe over» generasjoner.`,
     },
+    {
+      tittel: `Darwin og utviklingslæra`,
+      tekst: [
+        `Charles Darwin er kjent for utviklingslæren, også kalt evolusjonsteorien. Han mente at alt liv på jorda er i slekt og har et felles opphav. Gjennom naturlig utvalg overlever de individene som er best tilpasset miljøet, og de fører egenskapene sine videre til neste generasjon. Over tid blir de gunstige egenskapene vanligere i bestanden.`,
+        `Tilfeldige genetiske endringer, kalt mutasjoner, skaper variasjon innenfor en art. Gjennom naturlig utvalg kan denne variasjonen over lang tid føre til at det oppstår nye arter. Et kjent eksempel er Darwins finker på Galápagosøyene: finker med felles opphav utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørke overlevde de finkene som hadde kraftige nebb og kunne knekke harde frø, og avkommet fikk større nebb – et tegn på at arten endret seg over tid.`,
+        `Mennesket og menneskeapene har en felles forfader langt tilbake i tid. For flere millioner år siden delte etterkommerne etter denne forfaderen seg i ulike retninger: én linje utviklet seg til dagens aper, og en annen linje utviklet seg til mennesket. Vi stammer altså ikke fra dagens aper, men vi har et felles opphav.`,
+      ],
+    },
   ],
   'immunsystemet': [
     {

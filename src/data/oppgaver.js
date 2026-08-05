@@ -137,6 +137,18 @@ export const oppgaver = {
       sporsmal: `Hvilken sammenheng er det mellom karbonkretsløpet og to prosesser som skjer i cellene?`,
       fasit: `Karbonkretsløpet består i hovedsak av fotosyntesen og celleåndingen. I fotosyntesen hentes karbondioksid fra atmosfæren og bygges om til glukose, slik at karbonet blir en del av alt levende. Celleåndingen er den motsatte prosessen: karbonet i glukosen omdannes tilbake til karbondioksid, som slippes ut i atmosfæren igjen.`,
     },
+    {
+      sporsmal: `Hva er Charles Darwin kjent for, og hva mente han med «naturlig utvalg»?`,
+      fasit: `Charles Darwin er kjent for utviklingslæren (evolusjonsteorien). Han mente at alt liv på jorda er i slekt og har et felles opphav. Med «naturlig utvalg» mente han at de individene som er best tilpasset miljøet, har størst sjanse til å overleve og få avkom. Dermed fører de egenskapene (genene) sine videre til neste generasjon, og over tid blir de gunstige egenskapene vanligere i bestanden.`,
+    },
+    {
+      sporsmal: `Hvordan forklarer evolusjonsteorien at ulike arter har utviklet seg? Gi minst ett eksempel.`,
+      fasit: `Tilfeldige genetiske endringer (mutasjoner) skaper variasjon innenfor en art. Gjennom naturlig utvalg overlever og formerer de best tilpassede individene seg, slik at de gunstige egenskapene blir vanligere. Over lang tid kan dette føre til at det oppstår nye arter. Et eksempel er Darwins finker på Galápagosøyene: finker med felles opphav utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørke overlevde de finkene som hadde kraftige nebb og kunne knekke harde frø, og avkommet deres fikk større nebb, et tegn på at arten endret seg over tid.`,
+    },
+    {
+      sporsmal: `Vi hører av og til at vi «stammer fra apene». Forklar hvorfor dette ikke er helt riktig.`,
+      fasit: `Vi stammer ikke fra dagens aper, men vi er i slekt med dem. Mennesket og menneskeapene har en felles forfader langt tilbake i tid. For flere millioner år siden delte etterkommerne etter denne forfaderen seg i ulike retninger, én linje utviklet seg til dagens aper, og en annen linje utviklet seg til mennesket. Det er altså feil å si at vi nedstammer fra apene; vi har bare et felles opphav.`,
+    },
   ],
   'nerve-og-hormonsystemet': [
     {
@@ -238,18 +250,6 @@ export const oppgaver = {
     {
       sporsmal: `Hva er en midthavsrygg?`,
       fasit: `En midthavsrygg er en fjellrygg på havbunnen, der to plater beveger seg fra hverandre. Når platene skilles, strømmer magma opp i sprekken, størkner og danner ny havbunn. Det er blant annet ved en midthavsrygg at Nord-Amerika og Europa ble skilt fra hverandre da Pangea sprakk opp.`,
-    },
-    {
-      sporsmal: `Vi hører av og til at vi «stammer fra apene». Forklar hvorfor dette ikke er helt riktig.`,
-      fasit: `Vi stammer ikke fra dagens aper, men vi er i slekt med dem. Mennesket og menneskeapene har en felles forfader langt tilbake i tid. For flere millioner år siden delte etterkommerne etter denne forfaderen seg i ulike retninger, én linje utviklet seg til dagens aper, og en annen linje utviklet seg til mennesket. Det er altså feil å si at vi nedstammer fra apene; vi har bare et felles opphav.`,
-    },
-    {
-      sporsmal: `Hva er Charles Darwin kjent for, og hva mente han med «naturlig utvalg»?`,
-      fasit: `Charles Darwin er kjent for utviklingslæren (evolusjonsteorien). Han mente at alt liv på jorda er i slekt og har et felles opphav. Med «naturlig utvalg» mente han at de individene som er best tilpasset miljøet, har størst sjanse til å overleve og få avkom. Dermed fører de egenskapene (genene) sine videre til neste generasjon, og over tid blir de gunstige egenskapene vanligere i bestanden.`,
-    },
-    {
-      sporsmal: `Hvordan forklarer evolusjonsteorien at ulike arter har utviklet seg? Gi minst ett eksempel.`,
-      fasit: `Tilfeldige genetiske endringer (mutasjoner) skaper variasjon innenfor en art. Gjennom naturlig utvalg overlever og formerer de best tilpassede individene seg, slik at de gunstige egenskapene blir vanligere. Over lang tid kan dette føre til at det oppstår nye arter. Et eksempel er Darwins finker på Galápagosøyene: finker med felles opphav utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørke overlevde de finkene som hadde kraftige nebb og kunne knekke harde frø, og avkommet deres fikk større nebb, et tegn på at arten endret seg over tid.`,
     },
   ],
   'kjemi': [
