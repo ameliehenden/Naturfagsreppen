@@ -23,6 +23,8 @@ export const sammendrag = {
         `De ytre kreftene kommer fra energien til sola og driver vind, nedbør, bølger og isbreer som gradvis sliper ned og former landskapet. Disse prosessene kalles for erosjon og forvitring. Det er altså sola som former overlata utenfra.`,
         `De indre kreftene kommer fra varmen til den halvfaste steinen i mantelen, som strømmer svært langsomt inne i jorda og skyver på kontinentalplatene. Jordas indre varme driver de store geologiske prosessene som knyttes til kontinentalplatene, vulkansk aktivitet, jordskjelv og varme kilder.`,
       ],
+      bilder: [`sammendrag/geologi/vulkan.jpg`, `sammendrag/geologi/varm-kilde.jpg`],
+      bilderBredd: `560px`,
     },
     {
       tittel: `Kontinentaldrift og plattektonikk`,
