@@ -28,7 +28,12 @@ export const sammendrag = {
     },
     {
       tittel: `Kontinentaldrift og plattektonikk`,
-      tekst: `Jordskorpen er delt inn i store steinplater kalt kontinentalplater, og disse platene beveger seg, svært langsomt, men hele tida. Hastigheten er omtrent 2 centimeter i året, noe som betyr at det faktisk blir litt lenger å reise fra Norge til USA hvert eneste år. Der plater beveger seg fra hverandre, strømmer magma opp og danner ny havbunn. Der de presser mot hverandre, kan fjell heves eller én plate skyves ned under den andre. Det var slik Atlanterhavet ble til: den eurasiske og den amerikanske platen sprakk fra hverandre i Tertiærtiden, for mellom 65 og 2 millioner år siden.`,
+      tekst: [
+        `Jordskorpen er delt inn i store steinplater kalt kontinentalplater, og disse platene beveger seg, svært langsomt, men hele tida. Hastigheten mellom kontinentalplatene som Europa og Nord-Amerika ligger på er omtrent 2 centimeter i året, noe som betyr at det faktisk blir litt lenger å reise fra Norge til USA hvert eneste år.`,
+        `Der to plater beveger seg fra hverandre, strømmer magma opp i sprekken mellom dem og lager en vulkansk fjellkjede. En slik vulkansk fjellkjede finnes midt i hele Atlanterhavet og går gjennom blant annet Island. Magmaen som strømmer opp fra disse vulkanene er tung og lager en tynn jordskorpe som blir til havbunn. Derfor kalles slike fjellkjeder for midthavsrygger. Atlanterhavet mellom Europa og Amerika ble til for over 100 millioner år siden da superkontinentet Pangea begynte å sprekke opp.`,
+        `Der to kontinentalplater presser mot hverandre dannes nye fjell. Himalaya er et eksempel på dette og denne fjellkjeden vokser enda i høyden. Et annet scenario er at én plate skyves ned under den andre. Dette skjer når det er ett kontinent og en havbunnsplate som kolliderer mot hverandre. Havbunn er tung og det er alltid havbunnen som vil skyves under kontinentalplata.`,
+        `En tredje mulighet er når kontinentalplater gnisser langs hverandre sidelengs. I disse områdene er det ikke nødvendigvis vulkansk aktivitet, men høy jordskjelvaktivitet.`,
+      ],
       figur: `kontinentaldrift`,
     },
     {
