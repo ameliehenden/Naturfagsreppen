@@ -18,7 +18,7 @@ export const sammendrag = {
     },
     {
       tittel: `Ytre og indre krefter`,
-      tekst: `Jordoverflata formes av to typer krefter. De ytre kreftene kommer fra energien til sola og driver vind, nedbør, bølger og isbreer som gradvis sliper ned og former landskapet. De indre kreftene kommer fra den halvfaste steinen i mantelen, som strømmer svært langsomt inne i jorda og driver kontinentalplatene. Det er altså sola som former overflata utenfra, mens jordas indre varme driver de store geologiske prosessene.`,
+      tekst: `Jordoverflata formes av to typer krefter, de indre og de ytre. De ytre kreftene kommer fra energien til sola og driver vind, nedbør, bølger og isbreer som gradvis sliper ned og former landskapet. De indre kreftene kommer fra den halvfaste steinen i mantelen, som strømmer svært langsomt inne i jorda og driver kontinentalplatene. Det er altså sola som former overflata utenfra, mens jordas indre varme driver de store geologiske prosessene.`,
     },
     {
       tittel: `Kontinentaldrift og plattektonikk`,
