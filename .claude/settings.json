@@ -3,6 +3,7 @@
     "allow": [
       "Edit",
       "Write",
+      "Bash(*)",
       "Bash(cd *)",
       "Bash(git *)",
       "Bash(git add *)",
