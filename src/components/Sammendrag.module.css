@@ -101,6 +101,14 @@
   font-style: italic;
 }
 
+.bildeKredit {
+  display: block;
+  font-size: 0.72rem;
+  color: #aaa;
+  margin: 0.2rem 0 0;
+  text-align: center;
+}
+
 .bilderGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

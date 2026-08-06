@@ -48,6 +48,7 @@ export default function Sammendrag({ avsnitt }) {
                 className={styles.bildeImg}
               />
               {a.bildeTekst && <figcaption className={styles.bildeTekst}>{a.bildeTekst}</figcaption>}
+              {a.bildeKredit && <p className={styles.bildeKredit}>{a.bildeKredit}</p>}
             </figure>
           )}
           {a.bilder && (
