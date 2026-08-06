@@ -11,10 +11,16 @@ export default function Sammendrag({ avsnitt }) {
             ? a.tekst.map((avs, ai) =>
                 typeof avs === 'string'
                   ? <p key={ai} className={styles.tekst}>{avs}</p>
-                  : <figure key={ai} className={styles.bildeFigure} style={avs.bildeBredd ? { maxWidth: avs.bildeBredd } : undefined}>
-                      <img src={import.meta.env.BASE_URL + avs.bilde} alt={avs.bildeAlt || ''} className={styles.bildeImg} />
-                      {avs.bildeTekst && <figcaption className={styles.bildeTekst}>{avs.bildeTekst}</figcaption>}
-                    </figure>
+                  : avs.bilder
+                    ? <div key={ai} className={styles.bilderGrid} style={avs.bilderBredd ? { maxWidth: avs.bilderBredd } : undefined}>
+                        {avs.bilder.map((b, bi) => (
+                          <img key={bi} src={import.meta.env.BASE_URL + b} alt={avs.bilderAlt?.[bi] || ''} className={styles.bildeImg} />
+                        ))}
+                      </div>
+                    : <figure key={ai} className={styles.bildeFigure} style={avs.bildeBredd ? { maxWidth: avs.bildeBredd } : undefined}>
+                        <img src={import.meta.env.BASE_URL + avs.bilde} alt={avs.bildeAlt || ''} className={styles.bildeImg} />
+                        {avs.bildeTekst && <figcaption className={styles.bildeTekst}>{avs.bildeTekst}</figcaption>}
+                      </figure>
               )
             : <p className={styles.tekst}>{a.tekst}</p>}
           {a.tabell && (
