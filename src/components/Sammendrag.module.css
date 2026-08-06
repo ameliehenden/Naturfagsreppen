@@ -83,14 +83,17 @@
 }
 
 .bildeFigure {
+  display: block;
   margin: 0.75rem 0 0;
 }
 
 .bildeFigure .bildeImg {
+  display: block;
   margin-top: 0;
 }
 
 .bildeTekst {
+  display: block;
   font-size: 0.8rem;
   color: #777;
   margin-top: 0.35rem;

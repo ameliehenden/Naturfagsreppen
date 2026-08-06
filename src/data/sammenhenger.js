@@ -319,7 +319,6 @@ export const sammenhenger = {
         farge: `#0e7a8a`,
         innhold: [
           { type: 'tekst', verdi: `Geologi og klima henger tett sammen over lange tidsskalaer. Vulkanutbrudd kan sende store mengder støv og SO₂ høyt opp i atmosfæren og blokkere sollys, noe som kan gi kortvarig global avkjøling. Vulkansk aktivitet tilfører også CO₂ til atmosfæren, men mengden er veldig liten sammenlignet med mengden menneskelig aktivitet slipper ut, og påvirker derfor ikke global oppvaring. I jordas forhistorie har derimot vulkaner påvirket klimaet, men da snakker vi om svært store utbrudd som har vart i tusenvis av år.` },
-          { type: 'bilde', src: `sammenhenger/vulkanutbrudd.jpg` },
           { type: 'bilde', src: `sammenhenger/pinatubo.jpg`, bildeTekst: `Pinatubo, 1991` },
           { type: 'tekst', verdi: `Geologiske lag i jordskorpa er et arkiv over jordens klimahistorie. Iskjerner fra Antarktis inneholder luftbobler som forteller om atmosfærens sammensetning hundretusenvis av år tilbake. Sedimentære bergarter og fossiler viser tidligere klimasoner. Denne historien gir oss perspektiv på dagens klimaendringer og hjelper oss å forstå hva som er menneskeskapt.` },
         ],
