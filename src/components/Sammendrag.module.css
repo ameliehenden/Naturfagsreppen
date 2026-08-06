@@ -82,6 +82,22 @@
   border-radius: 10px;
 }
 
+.bildeFigure {
+  margin: 0.75rem 0 0;
+}
+
+.bildeFigure .bildeImg {
+  margin-top: 0;
+}
+
+.bildeTekst {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.35rem;
+  text-align: center;
+  font-style: italic;
+}
+
 .bilderGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

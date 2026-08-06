@@ -100,6 +100,10 @@ export const sammendrag = {
     },
     {
       tittel: `Darwin og utviklingslæra`,
+      bilde: `sammendrag/celler/darwin.png`,
+      bildeAlt: `Charles Darwin`,
+      bildeBredd: `300px`,
+      bildeTekst: `Charles Darwin, ca. 1868`,
       tekst: [
         `Charles Darwin er kjent for utviklingslæren, også kalt evolusjonsteorien. Han mente at alt liv på jorda er i slekt og har et felles opphav. Gjennom naturlig utvalg overlever de individene som er best tilpasset miljøet, og de fører egenskapene sine videre til neste generasjon. Over tid blir de gunstige egenskapene vanligere i bestanden.`,
         `Tilfeldige genetiske endringer, kalt mutasjoner, skaper variasjon innenfor en art. Gjennom naturlig utvalg kan denne variasjonen over lang tid føre til at det oppstår nye arter. Et kjent eksempel er Darwins finker på Galápagosøyene: En art med finker utviklet ulike nebbformer tilpasset maten på hver øy. Under en tørkeperiode fant forskere ut at finkene som hadde kraftige nebb og som kunne knekke harde kaktusfrø i større grad overlevde enn finkene som hadde litt mindre nebb. Når fuglene som overlevde fikk unger arvet de foreldrene sine større nebb. Nebbstørrelsen til arten økte – et tegn på at arten endret seg over tid.`,
