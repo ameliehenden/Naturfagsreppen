@@ -41,11 +41,12 @@ export default function Sammendrag({ avsnitt }) {
             </div>
           )}
           {a.bilde && (
-            <figure className={styles.bildeFigure} style={a.bildeBredd ? { maxWidth: a.bildeBredd } : undefined}>
+            <figure className={styles.bildeFigure} style={a.bildeBredd ? { width: a.bildeBredd, maxWidth: '100%' } : undefined}>
               <img
                 src={import.meta.env.BASE_URL + a.bilde}
                 alt={a.bildeAlt || a.tittel}
                 className={styles.bildeImg}
+                style={a.bildeBredd ? { width: '100%' } : undefined}
               />
               {a.bildeTekst && <figcaption className={styles.bildeTekst}>{a.bildeTekst}</figcaption>}
               {a.bildeKredit && <p className={styles.bildeKredit}>{a.bildeKredit}</p>}
