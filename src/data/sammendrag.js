@@ -208,6 +208,7 @@ export const sammendrag = {
       tekst: `Et biom er et stort område med en bestemt, karakteristisk type vegetasjon (planteliv). Eksempler på biomer er regnskog, savanne, ørken, steppe, løvskog, barskog og tundra. Biomene er svært store og henger sammen med klimaet, så de endrer seg gjerne med breddegradene. I Norge finner vi blant annet sommergrønn løvskog, barskog og tundra.`,
       bilde: `sammendrag/okologi/vegetasjon1.png`,
       bildeBredd: `660px`,
+      bildeKredit: `Foto: Ville Koistinen, CC BY-SA 3.0, via Wikimedia Commons`,
     },
     {
       tittel: `Økosystem`,
