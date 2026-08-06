@@ -98,6 +98,10 @@ export const oppgaver = {
   ],
   'celler-og-livets-utvikling': [
     {
+      sporsmal: `Omtrent når og hvor oppstod livet på jorda?`,
+      fasit: `Livet oppstod for omtrent 3,7–3,8 milliarder år siden, og det oppstod i havet. De første organismene var encellede bakterier (blågrønnbakterier).`,
+    },
+    {
       sporsmal: `Hvilke kjennetegn har alt som er levende?`,
       fasit: `Alt levende er bygd opp av celler, tar til seg næring og skaffer seg energi, vokser og formerer seg, reagerer på ytre påvirkninger og inneholder arvestoff (DNA).`,
     },
@@ -231,10 +235,6 @@ export const oppgaver = {
     },
   ],
   'geologi': [
-    {
-      sporsmal: `Omtrent når og hvor oppstod livet på jorda?`,
-      fasit: `Livet oppstod for omtrent 3,7–3,8 milliarder år siden, og det oppstod i havet. De første organismene var encellede bakterier (blågrønnbakterier).`,
-    },
     {
       sporsmal: `Hvordan oppstod det oksygengass i atmosfæren? Beskriv så godt du kan.`,
       fasit: `De første organismene laget sin egen mat ved hjelp av fotosyntesen. Til det trengte de karbondioksid, som fantes i lufta, og hydrogen. Hydrogenet hentet de fra vannmolekyler, som de spaltet i fotosyntesen. De brukte selve hydrogenet, mens oksygenet ble til overs som et avfallsstoff. Oksygenet økte først sakte i havet, og da havet ikke kunne ta opp mer, begynte oksygenet å stige opp i atmosfæren.`,
