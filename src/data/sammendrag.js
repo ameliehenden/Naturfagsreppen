@@ -94,6 +94,10 @@ export const sammendrag = {
     {
       tittel: `Kromosomer, DNA og gener`,
       tekst: `Arvestoffet overfører informasjon fra én generasjon til den neste. Det er samlet i kromosomer inne i cellekjernen, og finnes i alle celler. Mennesket har 23 kromosompar, ett sett fra mor og ett sett fra far. Kromosomene er gigantiske, trådformede kjempemolekyler som kalles DNA. Når en celle deler seg, kopieres kromosomene slik at de nye cellene får med seg de samme genetiske kodene. Et gen er en liten bit av et DNA-molekyl, og inneholder oppskriften på et bestemt protein.`,
+      bilde: `sammendrag/celler/kromosomer.jpg`,
+      bildeAlt: `G-båndet kromosomanalyse`,
+      bildeTekst: `Kromomsomer tilhørende en kvinne (XX). Menn har ett X og ett Y kromosom.`,
+      bildeKredit: `Foto: Akiyo Hineno, Tomoki Kosho, Hiroyuki Kato, Yoshiki Sekijima, CC BY 4.0, via Wikimedia Commons`,
     },
     {
       tittel: `Oppskriften på en organisme`,
