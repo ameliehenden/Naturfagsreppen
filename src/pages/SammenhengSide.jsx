@@ -46,8 +46,10 @@ export default function SammenhengSide() {
                 </figure>
               : item.type === 'bilde'
               ? (item.bildeTekst || item.bildeKredit)
-                ? <figure key={i} className={styles.bildeFigure}>
-                    <img className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt={item.bildeTekst || ''} />
+                ? <figure key={i} className={styles.bildeFigure}
+                    style={item.bildeBredd ? { width: item.bildeBredd, maxWidth: '100%' } : undefined}>
+                    <img className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt={item.bildeTekst || ''}
+                      style={item.bildeBredd ? { width: '100%' } : undefined} />
                     {item.bildeTekst && <figcaption className={styles.bildeTekst}>{item.bildeTekst}</figcaption>}
                     {item.bildeKredit && <p className={styles.bildeKredit}>{item.bildeKredit}</p>}
                   </figure>
