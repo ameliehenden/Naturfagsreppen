@@ -26,6 +26,7 @@ export default function Sammendrag({ avsnitt }) {
                     : <figure key={ai} className={styles.bildeFigure} style={avs.bildeBredd ? { maxWidth: avs.bildeBredd } : undefined}>
                         <img src={import.meta.env.BASE_URL + avs.bilde} alt={avs.bildeAlt || ''} className={styles.bildeImg} />
                         {avs.bildeTekst && <figcaption className={styles.bildeTekst}>{avs.bildeTekst}</figcaption>}
+                        {avs.bildeKredit && <p className={styles.bildeKredit}>{avs.bildeKredit}</p>}
                       </figure>
               )
             : <p className={styles.tekst}>{a.tekst}</p>}

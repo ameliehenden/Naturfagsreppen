@@ -374,10 +374,11 @@ export const sammendrag = {
     },
     {
       tittel: `Ionebinding`,
-      tekst: `Når et atom gir fra seg eller tar opp elektroner, blir det elektrisk ladet, og da kaller vi det et ion. I en ionebinding gir det ene atomet fra seg elektroner og blir et positivt ion, mens det andre tar dem opp og blir et negativt ion. De motsatte ladningene trekker hverandre til seg og holder sammen. Et eksempel er vanlig bordsalt, natriumklorid: natrium gir fra seg sitt ene ytterelektron til klor, og de to ionene (Na⁺ og Cl⁻) binder seg sammen.`,
-      bilde: `sammendrag/kjemi/ionebinding.svg`,
-      bildeBredd: `500px`,
-      bildeKredit: `Illustrasjon: Lisawerner9, CC BY-SA 4.0, via Wikimedia Commons`,
+      tekst: [
+        `Når et atom gir fra seg eller tar opp elektroner, blir det elektrisk ladet, og da kaller vi det et ion. I en ionebinding gir det ene atomet fra seg elektroner og blir et positivt ion, mens det andre tar dem opp og blir et negativt ion. De motsatte ladningene trekker hverandre til seg og holder sammen. Et eksempel er vanlig bordsalt, natriumklorid: natrium gir fra seg sitt ene ytterelektron til klor, og de to ionene (Na⁺ og Cl⁻) binder seg sammen.`,
+        { bilde: `sammendrag/kjemi/ionebinding.svg`, bildeBredd: `500px`, bildeKredit: `Illustrasjon: Lisawerner9, CC BY-SA 4.0, via Wikimedia Commons` },
+        `Ionebinding finnes i alle salter, ikke bare i natriumklorid som vi i dagligtale kaller salt. Alle salt er bygd opp av positive og negative ion som danner et mønster som kalles krystallgitter, de leder strøm i oppløst form og de har høyt smelte- og kokepunkt.`,
+      ],
     },
     {
       tittel: `Elektronparbinding`,
