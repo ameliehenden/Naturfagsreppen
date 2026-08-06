@@ -343,6 +343,9 @@ export const sammendrag = {
     {
       tittel: `Grunnstoffer og periodesystemet`,
       tekst: `Et grunnstoff er et stoff som bare består av én type atom. Alle grunnstoffene vi kjenner, er samlet i periodesystemet, som forskeren Dmitrij Mendelejev laget. Her er stoffene sortert etter atomnummer, altså antall protoner. De vannrette radene kalles perioder, stoffer i samme periode har like mange elektronskall. De loddrette kolonnene kalles grupper, stoffer i samme gruppe har like mange elektroner i det ytterste skallet og dermed nokså like egenskaper. Metallene ligger til venstre i tabellen, og ikke-metallene til høyre.`,
+      bilde: `sammendrag/kjemi/periodesystemet.webp`,
+      bildeBredd: `700px`,
+      bildeKredit: `Illustrasjon: Kjemikar, CC BY-SA 4.0, via Wikimedia Commons`,
     },
     {
       tittel: `Grunnstoffamilier`,
