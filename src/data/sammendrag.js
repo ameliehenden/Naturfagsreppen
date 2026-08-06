@@ -370,7 +370,7 @@ export const sammendrag = {
     },
     {
       tittel: `8-regelen`,
-      tekst: `Alle atomer «ønsker seg» et fullt ytterste skall. Det innerste skallet har plass til 2 elektroner, mens det ytterste som regel er fullt når det har 8 elektroner, dette kaller vi 8-regelen. For å oppnå fullt ytterskall går atomene inn i kjemiske reaksjoner, der de enten gir fra seg, tar opp eller deler elektroner med andre atomer.`,
+      tekst: `Alle atomer «ønsker seg» et fullt ytterste skall. Det innerste skallet har plass til 2 elektroner, mens det ytterste som regel er fullt når det har 8 elektroner, dette kaller vi 8-regelen. For å oppnå fullt ytterskall går atomene inn i kjemiske reaksjoner, der de enten gir fra seg, tar opp eller deler elektroner med andre atomer. 8-regelen gjelder egentlig bare for stoff i periode 2 og 3, men siden de fleste grunnstoff vi ser på på ungdomsskolen ligger i de tre første periodene brukes 8-regelen flittig.`,
     },
     {
       tittel: `Ionebinding`,
