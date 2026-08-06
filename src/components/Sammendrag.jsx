@@ -11,7 +11,13 @@ export default function Sammendrag({ avsnitt }) {
             ? a.tekst.map((avs, ai) =>
                 typeof avs === 'string'
                   ? <p key={ai} className={styles.tekst}>{avs}</p>
-                  : avs.bilder
+                  : avs.liste
+                    ? <ul key={ai} className={styles.liste}>
+                        {avs.liste.map((punkt, pi) => (
+                          <li key={pi} className={styles.listePunkt}>{punkt}</li>
+                        ))}
+                      </ul>
+                    : avs.bilder
                     ? <div key={ai} className={styles.bilderGrid} style={avs.bilderBredd ? { maxWidth: avs.bilderBredd } : undefined}>
                         {avs.bilder.map((b, bi) => (
                           <img key={bi} src={import.meta.env.BASE_URL + b} alt={avs.bilderAlt?.[bi] || ''} className={styles.bildeImg} />

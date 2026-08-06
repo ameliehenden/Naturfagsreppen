@@ -71,8 +71,22 @@ export const sammendrag = {
     },
     {
       tittel: `Organellene og oppgavene deres`,
-      tekst: `Hver organelle har sin egen jobb. Mitokondriene er kraftverket i cella og skaffer energi gjennom celleåndingen. Cytoplasma er cellevæska som omgir organellene. Cellekjernen inneholder kromosomer og DNA, oppskriften på hvordan organismen skal bygges. Ribosomene bygger proteiner ut fra oppskriftene i cellekjernen, og cellemembranen holder hele cella samlet. Golgiapparatet sorterer proteiner og sender dem dit de skal. Lysosomene er renholdsverket som bryter ned avfallsstoffer. I plantecellene finner vi i tillegg kloroplaster, som inneholder grønt klorofyll og er der fotosyntesen skjer, en stiv cellevegg rundt cella, og en vakuole (saftrom) som holder trykket oppe og fungerer som vannreserve.`,
-      figur: `celle`,
+      tekst: [
+        `Hver organelle har sin egen jobb:`,
+        { liste: [
+          `Mitokondriene er kraftverket i cella og skaffer energi gjennom celleåndingen.`,
+          `Cytoplasma er cellevæska som omgir organellene.`,
+          `Cellekjernen inneholder kromosomer og DNA, oppskriften på hvordan organismen skal bygges.`,
+          `Ribosomene bygger proteiner ut fra oppskriftene i cellekjernen, og cellemembranen holder hele cella samlet. Golgiapparatet sorterer proteiner og sender dem dit de skal.`,
+          `Lysosomene er renholdsverket som bryter ned avfallsstoffer (finnes kun i dyreceller).`,
+        ]},
+        `I plantecellene finner vi i tillegg:`,
+        { liste: [
+          `Kloroplast som inneholder grønt klorofyll og er der fotosyntesen skjer`,
+          `Stiv cellevegg rundt cella`,
+          `Vakuole (saftrom) som holder trykket oppe og fungerer som vannreserve.`,
+        ]},
+      ],
     },
     {
       tittel: `Virus, levende eller ikke?`,
