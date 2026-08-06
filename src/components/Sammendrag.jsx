@@ -8,7 +8,14 @@ export default function Sammendrag({ avsnitt }) {
         <div key={i} className={styles.avsnitt}>
           <h2 className={styles.tittel}>{a.tittel}</h2>
           {Array.isArray(a.tekst)
-            ? a.tekst.map((avs, ai) => <p key={ai} className={styles.tekst}>{avs}</p>)
+            ? a.tekst.map((avs, ai) =>
+                typeof avs === 'string'
+                  ? <p key={ai} className={styles.tekst}>{avs}</p>
+                  : <figure key={ai} className={styles.bildeFigure} style={avs.bildeBredd ? { maxWidth: avs.bildeBredd } : undefined}>
+                      <img src={import.meta.env.BASE_URL + avs.bilde} alt={avs.bildeAlt || ''} className={styles.bildeImg} />
+                      {avs.bildeTekst && <figcaption className={styles.bildeTekst}>{avs.bildeTekst}</figcaption>}
+                    </figure>
+              )
             : <p className={styles.tekst}>{a.tekst}</p>}
           {a.tabell && (
             <div className={styles.tabell}>
