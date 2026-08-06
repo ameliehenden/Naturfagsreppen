@@ -112,6 +112,25 @@
   text-align: center;
 }
 
+.bilderMedInfoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.bilderMedInfoGrid .bildeFigure {
+  align-self: start;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .bilderMedInfoGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .bilderGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -52,6 +52,17 @@ export default function Sammendrag({ avsnitt }) {
               {a.bildeKredit && <p className={styles.bildeKredit}>{a.bildeKredit}</p>}
             </figure>
           )}
+          {a.bilderMedInfo && (
+            <div className={styles.bilderMedInfoGrid}>
+              {a.bilderMedInfo.map((b, bi) => (
+                <figure key={bi} className={styles.bildeFigure}>
+                  <img src={import.meta.env.BASE_URL + b.src} alt={b.bildeAlt || ''} className={styles.bildeImg} style={{ width: '100%' }} />
+                  {b.bildeTekst && <figcaption className={styles.bildeTekst}>{b.bildeTekst}</figcaption>}
+                  {b.bildeKredit && <p className={styles.bildeKredit}>{b.bildeKredit}</p>}
+                </figure>
+              ))}
+            </div>
+          )}
           {a.bilder && (
             <div className={styles.bilderGrid} style={a.bilderBredd ? { maxWidth: a.bilderBredd } : undefined}>
               {a.bilder.map((b, bi) => (
