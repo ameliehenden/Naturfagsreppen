@@ -35,7 +35,16 @@ export default function SammenhengSide() {
       <div className={styles.innhold}>
         {boks.innhold ? (
           boks.innhold.map((item, i) =>
-            item.type === 'bilde'
+            item.type === 'bilder'
+              ? <figure key={i} className={styles.bildeFigure}>
+                  <div className={styles.bilderGrid}>
+                    {item.srcs.map((src, si) => (
+                      <img key={si} className={styles.bilde} src={import.meta.env.BASE_URL + src} alt={item.bildeTekst || ''} />
+                    ))}
+                  </div>
+                  {item.bildeTekst && <figcaption className={styles.bildeTekst}>{item.bildeTekst}</figcaption>}
+                </figure>
+              : item.type === 'bilde'
               ? item.bildeTekst
                 ? <figure key={i} className={styles.bildeFigure}>
                     <img className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt={item.bildeTekst} />
