@@ -1,7 +1,7 @@
 // Kapittelsammendrag per emne. Nøkkelen er emnets id (se emner.js).
 // Hvert avsnitt har en tittel og en tekst.
 // Sammendraget vises som en fast tekst nederst på emnesiden.
-//
+// (Sist oppdatert: 2026-08-06)
 // SLIK LEGGER DU TIL ET AVSNITT: kopier blokken under og fyll inn:
 //
 //   {
