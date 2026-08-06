@@ -5,6 +5,7 @@
       "Write",
       "Bash(cd *)",
       "Bash(git *)",
+      "Bash(git add *)",
       "Bash(npm *)",
       "Bash(npx *)",
       "Bash(node *)",
