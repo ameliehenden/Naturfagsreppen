@@ -155,7 +155,7 @@ export const sammenhenger = {
         innhold: [
           { type: 'tekst', verdi: `Klimaproblemet er i bunn og grunn et kjemisk problem. CO₂, metan og lystgass er kjemiske molekyler med den egenskapen at de absorberer langbølget varmestråling og holder på varmen i atmosfæren. Jo mer av disse molekylene det er i atmosfæren, jo sterkere drivhuseffekt.` },
           { type: 'tekst', verdi: `Kjemi forklarer også havforsuring: CO₂ løser seg i havvann og reagerer med vann til karbonsyre (H₂CO₃), som frigjør H⁺-ioner og senker pH. Det gjør det vanskeligere for muslinger, koraller og andre dyr å bygge skall av kalsiumkarbonat. Kjemikunnskap er dermed nødvendig for å forstå klimakonsekvensene fullt ut.` },
-          { type: 'bilder', srcs: [`sammenhenger/emiliania1.jpg`, `sammenhenger/emiliania2.jpg`], bildeTekst: `Planteplankton Emiliania Huxleyi` },
+          { type: 'bilde', src: `sammenhenger/emiliania.jpg`, bildeTekst: `Planteplankton Emiliania Huxleyi`, bildeKredit: `Foto: Mathias Haunost, Ulf Riebesell, Francesco D'Amore, Ole Kelting og Lennart T. Bach, CC BY-SA 4.0, via Wikimedia Commons` },
           { type: 'tekst', verdi: `Små organismer i havet er viktig mat i økosystemer i havet. Når havet blir surere og varmere er det flere av disse som får problemer. På bildene ser du hvordan planteplankton som Emiliania Huxleyi kan få problemer med kalkplatene sine når pH'en går ned.` },
         ],
       },

@@ -45,10 +45,11 @@ export default function SammenhengSide() {
                   {item.bildeTekst && <figcaption className={styles.bildeTekst}>{item.bildeTekst}</figcaption>}
                 </figure>
               : item.type === 'bilde'
-              ? item.bildeTekst
+              ? (item.bildeTekst || item.bildeKredit)
                 ? <figure key={i} className={styles.bildeFigure}>
-                    <img className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt={item.bildeTekst} />
-                    <figcaption className={styles.bildeTekst}>{item.bildeTekst}</figcaption>
+                    <img className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt={item.bildeTekst || ''} />
+                    {item.bildeTekst && <figcaption className={styles.bildeTekst}>{item.bildeTekst}</figcaption>}
+                    {item.bildeKredit && <p className={styles.bildeKredit}>{item.bildeKredit}</p>}
                   </figure>
                 : <img key={i} className={styles.bilde} src={import.meta.env.BASE_URL + item.src} alt="" />
               : item.type === 'liste'
