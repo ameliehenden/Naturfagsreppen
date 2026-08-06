@@ -349,7 +349,7 @@ export const sammendrag = {
     {
       tittel: `Atomets oppbygging`,
       tekst: `Et atom er bygd opp av tre typer partikler. Innerst ligger atomkjernen, som inneholder protoner (positivt ladet) og nøytroner (uten ladning). Rundt kjernen suser elektronene (negativt ladet). Antallet protoner bestemmer hvilket grunnstoff atomet er, og dette tallet endrer seg aldri, et gullatom forblir et gullatom. Som hovedregel er det like mange elektroner som protoner, men antallet nøytroner kan variere.`,
-      bilde: `sammendrag/kjemi/atom.jpg`,
+      bilde: `sammendrag/kjemi/atom2.png`,
       bildeBredd: `400px`,
       bildeKredit: `Illustrasjon: Nwongh, CC BY-SA 4.0, via Wikimedia Commons`,
     },
