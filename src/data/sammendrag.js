@@ -43,6 +43,7 @@ export const sammendrag = {
       tittel: `Vulkaner og jordskjelv`,
       tekst: [
         `Langs sprekkene mellom kontinentalplatene skjer det mye geologisk aktivitet. Der en havbunnplate og en kontinentalplate glir mot hverandre, presses havbunnsplaten ned under den andre og smelter om til magma. Denne magmaen er lett og kan trenge opp gjennom jordskorpa og danne vulkaner. I tillegg til stor vulkansk aktivitet er disse områdene også utsatt for jordskjelv og tsunamier. Der plater glir forbi hverandre, bygges det opp spenninger som plutselig frigjøres som jordskjelv. Et kart over registrerte jordskjelv og vulkanutbrudd viser tydelig hvor disse sprekksystemene befinner seg.`,
+        { bilde: `sammendrag/geologi/pinatubo.jpg`, bildeAlt: `Pinatubo-utbruddet 1991`, bildeTekst: `Pinatubo, 1991` },
         `Vulkaner slipper også ut store mengder karbondioksid og andre gasser. Dette er en naturlig del av karbonkretsløpet, men menneskeskapte utslipp er langt større og skjer mye raskere enn det naturen klarer å håndtere.`,
       ],
     },

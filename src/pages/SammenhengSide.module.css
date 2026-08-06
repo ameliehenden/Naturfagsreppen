@@ -74,6 +74,22 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
+.bildeFigure {
+  margin: 1.5rem 0;
+}
+
+.bildeFigure .bilde {
+  margin: 0;
+}
+
+.bildeTekst {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.35rem;
+  text-align: center;
+  font-style: italic;
+}
+
 .tilbakeKnapp {
   display: inline-block;
   margin-top: 2rem;
