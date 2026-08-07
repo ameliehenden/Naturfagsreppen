@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Sikkerheitskopiar laga av Windows ("... – Kopi.jsx")
+*– Kopi.*
+* - Kopi.*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
