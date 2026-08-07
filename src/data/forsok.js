@@ -211,7 +211,40 @@ export const forsok = {
     },
   ],
   'seksualitet': [
-    { tittel: `Sugeevne i bind og tamponger` },
+    {
+      tittel: `Sugeevne i bind og tamponger`,
+      innledning: [
+        `I dette forsøket skal dere finne ut hvor mye væske ulike produkter klarer å suge opp. Dere skal teste et nattbind, et truseinnlegg, en tampong og en babybleie.`,
+        `Ved å måle nøyaktig med målesylinder får dere tall dere kan sammenligne, både produktene imellom og opp mot hvor mye en menstruasjon faktisk gir.`,
+      ],
+      utstyr: [
+        `Ett nattbind`,
+        `Ett truseinnlegg`,
+        `En tampong`,
+        `En bleie for baby`,
+        `Målesylinder`,
+        `Vann, gjerne farget med konditorfarge`,
+        `Et fat eller brett til hvert produkt`,
+        `Hansker`,
+      ],
+      slik: [
+        `Legg hvert produkt i hvert sitt fat. Gjett på forhånd hvilket som suger mest, og skriv ned hvor mye dere tror hvert av dem tar.`,
+        `Fyll målesylinderen med en kjent mengde vann, for eksempel 100 ml, og noter tallet. Farget vann gjør det lettere å se hvor væsken tar veien.`,
+        `Hell vann sakte over det første produktet, litt om gangen, og la det få tid til å trekke inn.`,
+        `Stopp når produktet ikke tar opp mer, altså når vannet begynner å renne av eller samle seg i fatet.`,
+        `Les av hvor mye vann som er igjen i målesylinderen. Mengden som er sugd opp, er startvolumet minus det som står igjen.`,
+        `Noter resultatet i en tabell, og gjenta med de andre produktene. Fyll opp målesylinderen på nytt hver gang.`,
+        `Sammenlign tallene, og sett produktene i rekkefølge etter hvor mye de tok opp.`,
+      ],
+      sporsmal: [
+        `Hvilket produkt sugde opp mest, og hvilket sugde opp minst?`,
+        `Stemte rekkefølgen med det dere trodde på forhånd?`,
+        `En vanlig menstruasjon gir omtrent 30–80 ml blod til sammen i løpet av hele perioden. Hvordan er det i forhold til det produktene klarte å ta opp?`,
+        `Hvis et bind tåler langt mer enn man blør på en dag, hva kan da være grunnen til at noen likevel blør gjennom?`,
+        `Hvorfor bør man bytte selv om produktet ikke er fullt?`,
+      ],
+      forklaring: `Forsøket viser at både bind, tamponger og bleier kan ta opp mye mer væske enn en vanlig menstruasjon gir. En hel menstruasjon ligger typisk på 30–80 ml til sammen, fordelt over flere dager, og mesteparten kommer de første dagene. Likevel hender det at folk blør gjennom, og det handler sjelden om at produktet er fullt. Vanligere årsaker er at bindet har forskjøvet seg, at det ikke ligger tett inntil, at størrelsen ikke passer til mengden, eller at man har ligget eller beveget seg slik at blodet havner utenom der bindet suger. En tampong som ikke er satt langt nok inn, kan lekke langs siden. At det er kapasitet igjen i produktet, er heller ingen grunn til å la det sitte. Blod som ligger varmt og fuktig, er et godt vekststed for bakterier, og det kan gi lukt og hudirritasjon. For tamponger er det i tillegg en liten risiko for toksisk sjokksyndrom (TSS), en sjelden, men alvorlig bakterieinfeksjon. Derfor bør en tampong ikke sitte inne lenger enn åtte timer, heller ikke om natten.`,
+    },
     { tittel: `Tre på kondom` },
   ],
   'energi': [
