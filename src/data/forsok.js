@@ -98,7 +98,43 @@ export const forsok = {
   ],
   'celler-og-livets-utvikling': [
     { tittel: `Se på tøffeldyr i mikroskop` },
-    { tittel: `Påvisning av stivelse i plantebaserte matvarer` },
+    {
+      tittel: `Påvisning av stivelse i plantebaserte matvarer`,
+      innledning: [
+        `I dette forsøket skal dere påvise stivelse i grønne blader. Stivelse er et karbohydrat som plantene lager i fotosyntesen og lagrer som opplagsnæring.`,
+        `Jodløsning skifter farge til blåsvart når den kommer i kontakt med stivelse. For at fargeendringen skal bli lett å se, må bladet først kokes og deretter avfarges i etanol, slik at det grønne klorofyllet forsvinner.`,
+      ],
+      utstyr: [
+        `Grønt blad, for eksempel fra pelargonia`,
+        `Begerglass (250 ml)`,
+        `Stort reagensglass med stativ`,
+        `Kokeplate, eventuelt gassbrenner med stativ og nett`,
+        `Etanol`,
+        `Jodløsning`,
+        `Dråpeteller`,
+        `Pinsett`,
+        `Petriskål`,
+        `Termometer`,
+        `Vernebriller og labfrakk`,
+      ],
+      slik: [
+        `Ta på labfrakk og vernebriller, og finn fram utstyret.`,
+        `Fyll begerglasset halvfullt med vann og kok det opp.`,
+        `Legg bladet i det kokende vannet, og la det ligge i ett til fire minutter.`,
+        `Slå av varmekilden før dere går videre. Dette er svært viktig, for etanol er brannfarlig.`,
+        `Fyll reagensglasset halvfullt med etanol, og legg bladet oppi.`,
+        `Sett reagensglasset ned i det varme vannet, og la etanolen trekke fargen ut av bladet. Bladet skal bli nesten fargeløst.`,
+        `Ta bladet opp med pinsett, og legg det i en petriskål.`,
+        `Drypp noen dråper jodløsning på bladet. Blir bladet blåsvart, har dere påvist stivelse.`,
+        `Vask utstyret etterpå.`,
+      ],
+      sporsmal: [
+        `Hva skjedde med fargen på bladet da det lå i etanol, og hvor ble det grønne fargestoffet av?`,
+        `Hvilken farge fikk bladet av jodløsningen, og hva betyr det?`,
+        `Hvorfor er det nødvendig å fjerne klorofyllet før dere tilsetter jod?`,
+        `Hvilke feilkilder kan gjøre fargeresultatet vanskelig å tolke?`,
+      ],
+    },
   ],
   'nerve-og-hormonsystemet': [
     { tittel: `Reflekser` },
@@ -188,7 +224,35 @@ export const forsok = {
     { tittel: `Tre på kondom` },
   ],
   'energi': [
-    { tittel: `Hvor mye energi bruker du?` },
+    {
+      tittel: `Hvor mye energi bruker du?`,
+      innledning: [
+        `I dette forsøket skal dere finne ut hvor mye energi kroppen bruker på en kort treningsøkt, og regne om energien til hvor mye lettmelk dere måtte drikke for å dekke forbruket.`,
+        `Energi kan verken skapes eller forsvinne, men den kan overføres fra én form til en annen. Når dere løfter kroppen opp på en stol, utfører dere et arbeid mot tyngdekraften. Arbeid regner vi ut som kraft ganger strekning, der kraften er massen deres ganget med tyngdeakselerasjonen på 9,81 N/kg.`,
+      ],
+      utstyr: [
+        `Stol`,
+        `Målebånd`,
+        `Stoppeklokke, for eksempel på mobilen`,
+        `Kalkulator`,
+        `Din egen masse i kilo`,
+      ],
+      slik: [
+        `Mål høyden på stolen i meter.`,
+        `Jobb to og to. Den ene tar tiden, mens den andre går opp og ned på stolen så mange ganger som mulig på ett minutt. Tell antall ganger.`,
+        `Regn ut tyngdekraften på kroppen din: kraft = masse × 9,81.`,
+        `Regn ut arbeidet for én oppstigning: arbeid = kraft × høyden på stolen. Svaret er energien i joule for å komme opp én gang.`,
+        `Gang med antall ganger du kom deg opp, så får du den totale energien du brukte.`,
+        `Ett gram lettmelk gir omtrent 1880 J. Del den totale energien på 1880 for å finne hvor mange gram melk energien tilsvarer.`,
+        `Kroppen klarer bare å utnytte rundt 10 % av energien i maten til fysisk arbeid. Gang derfor svaret med 10 for å finne hvor mye melk du faktisk måtte ha drukket.`,
+      ],
+      sporsmal: [
+        `Hvor mye energi brukte du på ett minutt, og hvor mye melk tilsvarer det?`,
+        `Ble det mer eller mindre melk enn du hadde trodd på forhånd?`,
+        `Hvilke feilkilder kan ha påvirket resultatet?`,
+        `Hva betyr det for regnestykket at kroppen bare utnytter cirka 10 % av energien til fysisk aktivitet?`,
+      ],
+    },
     { tittel: `Indusere strøm i en ledning` },
     {
       tittel: `Sitronbatteri`,
