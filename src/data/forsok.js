@@ -245,7 +245,36 @@ export const forsok = {
       ],
       forklaring: `Forsøket viser at både bind, tamponger og bleier kan ta opp mye mer væske enn en vanlig menstruasjon gir. En hel menstruasjon ligger typisk på 30–80 ml til sammen, fordelt over flere dager, og mesteparten kommer de første dagene. Likevel hender det at folk blør gjennom, og det handler sjelden om at produktet er fullt. Vanligere årsaker er at bindet har forskjøvet seg, at det ikke ligger tett inntil, at størrelsen ikke passer til mengden, eller at man har ligget eller beveget seg slik at blodet havner utenom der bindet suger. En tampong som ikke er satt langt nok inn, kan lekke langs siden. At det er kapasitet igjen i produktet, er heller ingen grunn til å la det sitte. Blod som ligger varmt og fuktig, er et godt vekststed for bakterier, og det kan gi lukt og hudirritasjon. For tamponger er det i tillegg en liten risiko for toksisk sjokksyndrom (TSS), en sjelden, men alvorlig bakterieinfeksjon. Derfor bør en tampong ikke sitte inne lenger enn åtte timer, heller ikke om natten.`,
     },
-    { tittel: `Tre på kondom` },
+    {
+      tittel: `Tre på kondom`,
+      innledning: [
+        `I dette forsøket skal dere bli kjent med kondomet i praksis. Målet er ikke å konkurrere om å være raskest, men å kjenne på hvordan det faktisk gjøres, og å oppdage brukerfeilene som er lette å gjøre når man ikke har prøvd før.`,
+        `Til å øve på bruker dere en modell. Mange skoler har isoporpeniser, men en banan, en agurk eller enden på en vaskemopp fungerer like godt.`,
+      ],
+      utstyr: [
+        `Kondomer, gjerne flere til hver elev`,
+        `En modell å tre kondomet på: isoporpenis, banan, agurk eller enden på en vaskemopp`,
+        `Søppelbøtte`,
+      ],
+      slik: [
+        `Se på pakken før dere åpner den. Finn holdbarhetsdatoen, og sjekk at pakken er hel. Kjenn at det er litt luft i den, da er den tett.`,
+        `Skyv kondomet til den ene siden av pakken, og riv forsiktig opp i hakket. Ikke bruk negler, tenner eller saks.`,
+        `Ta kondomet ut og se hvilken vei det skal. Kanten skal rulle seg ut på utsiden. Er dere i tvil, hold det opp og se hvilken vei det vil rulle av seg selv.`,
+        `Klem sammen tuppen så luften går ut, og hold fast mens dere ruller.`,
+        `Rull kondomet helt ned til roten på modellen.`,
+        `Prøv med vilje å begynne å rulle feil vei, og se hva som skjer. Et kondom som er begynt på feil vei, skal kastes.`,
+        `Ta av kondomet, knyt igjen og kast det i søpla, ikke i toalettet.`,
+        `Prøv flere ganger med nytt kondom til alle får det til.`,
+      ],
+      sporsmal: [
+        `Hvorfor må man klemme luften ut av tuppen før man ruller kondomet på?`,
+        `Hva kan skje om man åpner pakken med tenner eller negler?`,
+        `Hvorfor kan man ikke bruke et kondom om igjen?`,
+        `Hvorfor blir det ikke tryggere av å bruke to kondomer samtidig?`,
+        `Hvorfor skal et kondom som er begynt på feil vei, kastes i stedet for å snus?`,
+      ],
+      forklaring: `De fleste gangene et kondom svikter, skyldes det bruken og ikke kondomet. Luft i tuppen er en vanlig årsak: blir det ikke plass til sæden, kan trykket få kondomet til å sprekke. Negler, tenner og saks lager små rifter som er umulige å se, men som gjør at kondomet ryker. Et kondom som er begynt på feil vei, har allerede vært i kontakt med forvæske, som kan inneholde både sædceller og smittestoff. Snur man det, havner dette på utsiden, og derfor skal det kastes. To kondomer samtidig gjør det ikke tryggere, snarere tvert imot: gummi mot gummi gir friksjon, og da er sjansen større for at begge ryker. Et brukt kondom er strukket ut og kan ha små skader, så det skal aldri brukes om igjen. Holdbarhetsdatoen betyr noe fordi latex tørker ut og blir sprøtt med tiden. Og skal man bruke glidemiddel, må det være et med vann eller silikon: olje, fett og kremer bryter ned latex.`,
+    },
   ],
   'energi': [
     {
