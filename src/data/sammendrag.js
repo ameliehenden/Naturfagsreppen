@@ -179,6 +179,10 @@ export const sammendrag = {
     {
       tittel: `Vaksiner og folkehelsa`,
       tekst: `Vaksiner er noe av det viktigste vi har for folkehelsen. Når mange nok er vaksinert mot en sykdom, får vi det vi kaller flokkimmunitet: smittestoffet finner så få mottakelige personer at det ikke klarer å spre seg. Da beskyttes også de som ikke kan vaksinere seg selv, for eksempel nyfødte eller personer med svekket immunforsvar. På denne måten har vaksiner gjort at sykdommer som tidligere tok mange liv, i dag er sjeldne.`,
+      bilde: `sammendrag/immunsystemet/flokkimmunitet.jpg`,
+      bildeAlt: `Illustrasjon av flokkimmunitet i tre trinn`,
+      bildeBredd: `480px`,
+      bildeKredit: `Illustrasjon: Tkarcher, CC BY-SA 4.0, via Wikimedia Commons. Tekst oversatt til norsk.`,
     },
     {
       tittel: `Immunceller mot kreft`,
