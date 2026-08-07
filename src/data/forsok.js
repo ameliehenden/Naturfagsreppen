@@ -222,7 +222,7 @@ export const forsok = {
   ],
   'kjemi': [
     {
-      tittel: `Påvisningsreaksjoner, kalkvann`,
+      tittel: `Påvisningsreaksjoner`,
       innledning: [
         `Påvisningsreaksjoner er kjemiske reaksjoner vi bruker til å påvise hvilke stoffer eller egenskaper et stoff har.`,
         `I dette forsøket skal du finne ut hvilket stoff som befinner seg i beholder A, B og C. I beholderne finner du kokt potet, natriumhydroksid og natron. Ett av stoffene er basisk, ett inneholder stivelse og ett inneholder karbonat. Jobben din er å finne ut hva som er hvor.`,
