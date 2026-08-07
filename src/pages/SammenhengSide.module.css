@@ -103,7 +103,7 @@
   font-size: 0.8rem;
   color: #777;
   margin-top: 0.35rem;
-  text-align: center;
+  text-align: left;
   font-style: italic;
 }
 
@@ -112,7 +112,7 @@
   font-size: 0.72rem;
   color: #aaa;
   margin: 0.2rem 0 0;
-  text-align: center;
+  text-align: left;
 }
 
 .tilbakeKnapp {

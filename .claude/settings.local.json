@@ -1,18 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm create *)",
-      "Bash(npx create-vite@latest . --template react)",
-      "Bash(npx create-vite@latest naturfag-temp --template react)",
-      "Bash(mv /c/Naturfagsreppen/naturfag-temp/* /c/Naturfagsreppen/ && mv /c/Naturfagsreppen/naturfag-temp/.gitignore /c/Naturfagsreppen/ 2>/dev/null; rm -rf /c/Naturfagsreppen/naturfag-temp && ls /c/Naturfagsreppen/)",
-      "Bash(gh auth *)",
-      "PowerShell(gh auth status 2>&1)",
-      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); gh --version 2>&1)",
-      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); gh run watch --repo ameliehenden/Naturfagsreppen --exit-status \\(gh run list --repo ameliehenden/Naturfagsreppen --limit 1 --json databaseId --jq '.[0].databaseId'\\) 2>&1)",
-      "Skill(update-config)",
-      "Skill(update-config:*)",
       "Edit",
       "Write",
+
+      "Read(//c/Users/snegl/Downloads/**)",
+      "PowerShell(Get-ChildItem \"$env:USERPROFILE\\\\Downloads\"*)",
+      "PowerShell(Copy-Item \"$env:USERPROFILE\\\\Downloads\\\\*)",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Naturfagsreppen\\\\public\\\\*)",
+      "PowerShell(Add-Type -AssemblyName System.Drawing*)",
+
       "Bash(git *)",
       "Bash(npm *)",
       "Bash(npx *)",
@@ -24,11 +21,47 @@
       "PowerShell(node *)",
       "PowerShell(gh *)",
       "PowerShell($env:Path = *)",
+      "Bash(npm create *)",
+      "Bash(gh auth *)",
+      "Bash(gh run *)",
+      "Bash(gh api *)",
+      "Bash(gh workflow *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git commit --allow-empty -m ' *)",
+      "Bash(git push *)",
+
+      "Skill(update-config)",
+      "Skill(update-config:*)",
       "Skill(fewer-permission-prompts)",
       "Skill(fewer-permission-prompts:*)",
-      "PowerShell(Get-Content \"$env:USERPROFILE\\\\.claude\\\\projects\\\\C--Naturfagsreppen\\\\9af0e8e1-6eef-47cb-b670-0e1d69027b73.jsonl\" | ForEach-Object { try { $j = $_ | ConvertFrom-Json; if \\($j.message.role -eq \"assistant\"\\) { $j.message.content | Where-Object { $_.type -eq \"tool_use\" } | ForEach-Object { $name = $_.name; $cmd = if \\($name -eq \"Bash\" -or $name -eq \"PowerShell\"\\) { $_.input.command } else { \"\" }; [PSCustomObject]@{tool=$name;cmd=$cmd} } } } catch {} } | Group-Object tool | ForEach-Object { Write-Host \"=== $\\($_.Name\\) ===\"; $_.Group | Where-Object { $_.cmd } | ForEach-Object { $_.cmd.Split\\(\"`n\"\\)[0].Substring\\(0, [Math]::Min\\(120, $_.cmd.Length\\)\\) } | Group-Object | Sort-Object Count -Descending | Select-Object -First 30 | ForEach-Object { Write-Host \"$\\($_.Count\\)x $\\($_.Name\\)\" } })",
+
       "WebFetch(domain:www.goatcounter.com)",
-      "PowerShell($id = gh run list --repo ameliehenden/Naturfagsreppen --workflow daglig-rapport.yml --limit 1 --json databaseId,conclusion --jq '.[0].databaseId + \" \" + .[0].conclusion'; Write-Host \"Run: $id\"; Write-Host \"=== SAKENS INNHOLD ===\"; gh issue view 1 --repo ameliehenden/Naturfagsreppen --json title,body,assignees --jq '.title + \"`n`n\" + .body + \"`n`nTildelt: \" + \\(.assignees | map\\(.login\\) | join\\(\", \"\\)\\)' 2>&1)"
+      "WebFetch(domain:naturfagsreppen.goatcounter.com)",
+      "WebFetch(domain:www.githubstatus.com)",
+      "Bash(curl -s \"https://naturfagsreppen.goatcounter.com/api.json\")",
+      "Bash(curl -s \"https://naturfagsreppen.goatcounter.com/api.json\" -o gc_spec.json)",
+      "Bash(curl -s -o /dev/null -w \"Forside: %{http_code}\\\\n\" \"https://naturfagsreppen.goatcounter.com/\")",
+      "Bash(curl -s \"https://ameliehenden.github.io/Naturfagsreppen/\")",
+      "Bash(curl -s -o /dev/null -w \"count.js: %{http_code}\\\\n\" \"https://gc.zgo.at/count.js\")",
+      "Bash(curl -s \"https://gc.zgo.at/count.js\")",
+      "Bash(curl -s \"https://gc.zgo.at/count.js\" -o count_tmp.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://naturfagsreppen.no)",
+      "PowerShell(Resolve-DnsName *)",
+      "PowerShell($response = Invoke-WebRequest -Uri \"https://naturfagsreppen.no\" -MaximumRedirection 5 -UseBasicParsing -TimeoutSec 10 2>$null; Write-Host \"Status: $\\($response.StatusCode\\)\"; Write-Host \"Server: $\\($response.Headers['Server']\\)\")",
+      "PowerShell($response = Invoke-WebRequest -Uri \"http://naturfagsreppen.no\" -MaximumRedirection 5 -UseBasicParsing -TimeoutSec 10 2>$null; Write-Host \"Status: $\\($response.StatusCode\\)\"; Write-Host \"Server: $\\($response.Headers['Server']\\)\")",
+
+      "mcp__Claude_Preview__preview_start",
+      "mcp__visualize__show_widget",
+      "mcp__8f08f7a3-338a-49f6-b50d-f1bed44eb8e8__list_recent_files",
+
+      "Bash(pandoc *)",
+      "Bash(extract-text *)",
+      "Bash(pdftotext *)",
+      "Bash(pdftoppm *)",
+      "Bash(which pdftotext *)",
+      "Bash(command -v pdftotext)",
+      "Read(//c/Users/snegl/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/61036c55-0512-401c-83eb-eb42e4b6e613/52ad6f57-c633-46c9-b2d4-f4b6334c50ca/skills/pptx/**)"
     ]
   }
 }

@@ -90,7 +90,17 @@ export const sammendrag = {
     },
     {
       tittel: `Virus, levende eller ikke?`,
-      tekst: `Virus er ikke celler og mangler kjennetegnene på levende organismer. Derfor regnes de ikke som levende. Et virus består bare av arvestoff (DNA) med en proteinkappe rundt, og det er svært lite, mellom 10 og 100 ganger mindre enn en bakterie. For å formere seg er virus helt avhengige av levende celler. Når et virus invaderer en celle, tar virusets arvestoff kontroll over cella, og cella begynner å produsere nye virus i stedet for å gjøre sine egne oppgaver.`,
+      tekst: [
+        `Virus er ikke celler og mangler kjennetegnene på levende organismer. Derfor regnes de ikke som levende. Et virus består bare av arvestoff (DNA) med en proteinkappe rundt, og det er svært lite, mellom 10 og 100 ganger mindre enn en bakterie. For å formere seg er virus helt avhengige av levende celler. Når et virus invaderer en celle, tar virusets arvestoff kontroll over cella, og cella begynner å produsere nye virus i stedet for å gjøre sine egne oppgaver.`,
+        {
+          bilderRad: [
+            { src: `sammendrag/celler/bakterievirus.png`, alt: `Bakterievirus`, forhold: 0.38 },
+            { src: `sammendrag/celler/ebolavirus.jpg`, alt: `Ebolavirus`, forhold: 2.17 },
+            { src: `sammendrag/celler/coronavirus.png`, alt: `Coronavirus`, forhold: 1.0 },
+          ],
+          bildeTekst: `Virus har mange ulike utseender. Fra venstre: bakterievirus, ebolavirus og coronavirus`,
+        },
+      ],
     },
     {
       tittel: `Fotosyntesen`,

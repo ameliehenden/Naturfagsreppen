@@ -17,6 +17,22 @@ export default function Sammendrag({ avsnitt }) {
                           <li key={pi} className={styles.listePunkt}>{punkt}</li>
                         ))}
                       </ul>
+                    : avs.bilderRad
+                    ? <figure key={ai} className={styles.bilderRadFigure}>
+                        <div className={styles.bilderRad}>
+                          {avs.bilderRad.map((b, bi) => (
+                            <img
+                              key={bi}
+                              src={import.meta.env.BASE_URL + b.src}
+                              alt={b.alt || ''}
+                              className={styles.bilderRadImg}
+                              style={{ flex: `${b.forhold} 1 0` }}
+                            />
+                          ))}
+                        </div>
+                        {avs.bildeTekst && <figcaption className={styles.bildeTekst}>{avs.bildeTekst}</figcaption>}
+                        {avs.bildeKredit && <p className={styles.bildeKredit}>{avs.bildeKredit}</p>}
+                      </figure>
                     : avs.bilder
                     ? <div key={ai} className={styles.bilderGrid} style={avs.bilderBredd ? { maxWidth: avs.bilderBredd } : undefined}>
                         {avs.bilder.map((b, bi) => (

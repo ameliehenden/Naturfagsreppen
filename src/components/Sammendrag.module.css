@@ -112,7 +112,7 @@
   font-size: 0.8rem;
   color: #777;
   margin-top: 0.35rem;
-  text-align: center;
+  text-align: left;
   font-style: italic;
 }
 
@@ -121,7 +121,27 @@
   font-size: 0.72rem;
   color: #aaa;
   margin: 0.2rem 0 0;
-  text-align: center;
+  text-align: left;
+}
+
+.bilderRadFigure {
+  display: block;
+  margin: 0.75rem 0 0;
+}
+
+.bilderRad {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.bilderRadImg {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .bilderMedInfoGrid {
