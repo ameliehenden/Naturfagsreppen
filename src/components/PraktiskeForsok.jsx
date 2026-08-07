@@ -5,7 +5,7 @@ export default function PraktiskeForsok({ forsok }) {
     <div className={styles.wrapper}>
       <div className={styles.liste}>
         {forsok.map((f, i) => {
-          const harInnhold = f.innledning || f.utstyr || f.slik || f.fargeord || f.sporsmal || f.forklaring;
+          const harInnhold = f.innledning || f.utstyr || f.slik || f.fargeord || f.sporsmal || f.forklaring || f.bakgrunnsteori;
           return (
             <div key={i} className={`${styles.kort} ${harInnhold ? styles.kortApen : ''}`}>
               <span className={styles.nr}>{i + 1}</span>
@@ -66,6 +66,15 @@ export default function PraktiskeForsok({ forsok }) {
                       <>
                         <h4 className={styles.deltittel}>Hvorfor skjer dette?</h4>
                         <p className={styles.tekst}>{f.forklaring}</p>
+                      </>
+                    )}
+
+                    {f.bakgrunnsteori && (
+                      <>
+                        <h4 className={styles.deltittel}>Ta med i bakgrunnsteorien</h4>
+                        <ul className={styles.sporsmal}>
+                          {f.bakgrunnsteori.map((b, j) => <li key={j}>{b}</li>)}
+                        </ul>
                       </>
                     )}
                   </>

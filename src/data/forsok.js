@@ -144,7 +144,44 @@ export const forsok = {
     },
   ],
   'immunsystemet': [
-    { tittel: `Se på egne blodceller i mikroskop` },
+    {
+      tittel: `Se på egne blodceller i mikroskop`,
+      innledning: [
+        `I dette forsøket skal du undersøke dine egne blodceller i mikroskop. Blodet vårt består av hvite og røde blodceller, i tillegg til blodplater og blodplasma.`,
+        `De hvite blodcellene er de største, og de har cellekjerne. Derfor kan de farges med metylenblått, noe som gjør dem lettere å studere i mikroskop.`,
+      ],
+      utstyr: [
+        `Metylenblått`,
+        `Objektglass`,
+        `Dekkglass`,
+        `Destillert vann`,
+        `Mikroskop`,
+        `Blodstikker`,
+        `Steriliseringsutstyr`,
+        `Plaster`,
+        `Avfallsbøtte`,
+      ],
+      slik: [
+        `Steriliser fingertuppen. Stikk et hull på siden av fingeren med blodstikkeren, og klem ut en bloddråpe.`,
+        `Plasser bloddråpen på et objektglass, og stryk den utover med et annet objektglass. Utstryket bør være så tynt som mulig.`,
+        `La blodet tørke i cirka fem minutter ved romtemperatur. Blodet må være helt tørt før du går videre.`,
+        `Plasser to dråper metylenblått rett oppå det tørre blodet, og la det ligge i to minutter.`,
+        `Skyll glasset forsiktig med destillert vann til nesten all overskuddsfarge er borte. Ikke skyll for mye, og la ikke vannet renne fritt, for da skyller du bort blodcellene også.`,
+        `Legg et dekkglass over preparatet.`,
+        `Se på preparatet i mikroskop med liten forstørrelse først, og øk deretter forstørrelsen.`,
+      ],
+      sporsmal: [
+        `Hvilke celler tar opp farge, og hvilke gjør det ikke?`,
+        `Hvordan ser du forskjell på røde og hvite blodceller?`,
+        `Kan du se blodplater? Diameteren til en blodplate er bare rundt 20 % av diameteren til en rød blodcelle.`,
+        `Bruk preparatet ditt til å anslå forholdet mellom antall hvite og røde blodceller.`,
+      ],
+      bakgrunnsteori: [
+        `Funksjonen til de hvite blodcellene`,
+        `Funksjonen til de røde blodcellene`,
+        `Funksjonen til blodplatene`,
+      ],
+    },
   ],
   'seksualitet': [
     { tittel: `Sugeevne i bind og tamponger` },
