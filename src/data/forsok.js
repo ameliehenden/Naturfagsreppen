@@ -221,17 +221,134 @@ export const forsok = {
     },
   ],
   'kjemi': [
-    { tittel: `Påvisningsreaksjoner, kalkvann` },
-    { tittel: `Havforsuring` },
+    {
+      tittel: `Påvisningsreaksjoner, kalkvann`,
+      innledning: [
+        `Påvisningsreaksjoner er kjemiske reaksjoner vi bruker til å påvise hvilke stoffer eller egenskaper et stoff har.`,
+        `I dette forsøket skal du finne ut hvilket stoff som befinner seg i beholder A, B og C. I beholderne finner du kokt potet, natriumhydroksid og natron. Ett av stoffene er basisk, ett inneholder stivelse og ett inneholder karbonat. Jobben din er å finne ut hva som er hvor.`,
+      ],
+      utstyr: [
+        `Tre beholdere merket A, B og C med kokt potet, natriumhydroksid og natron`,
+        `Jodløsning`,
+        `Fenolftalein`,
+        `Saltsyre`,
+        `Dråpeteller`,
+        `Sikkerhetsutstyr`,
+      ],
+      slik: [
+        `Drypp et par dråper jodløsning i hver av beholderne. Blir fargen blåsvart, har du påvist stivelse.`,
+        `Drypp et par dråper fenolftalein i hver beholder. Blir den rosa, har du påvist basiske egenskaper.`,
+        `Drypp et par dråper saltsyre i hver beholder. Begynner det å bruse, har du påvist karbonat.`,
+        `Noter resultatet i en tabell, og sett et kryss hver gang du får en kjemisk reaksjon.`,
+      ],
+      sporsmal: [
+        `Hvilken beholder inneholder stivelse?`,
+        `Hvilken beholder er basisk?`,
+        `Hvilken beholder inneholder karbonat?`,
+      ],
+    },
+    {
+      tittel: `Havforsuring`,
+      innledning: [
+        `I dette forsøket skal du påvise at CO₂ i vann gir lavere pH. Pusten vår inneholder CO₂ siden cellene våre driver celleånding. Dersom du blåser ned i et glass vann som inneholder en syre-base-indikator, vil du kunne observere at vannet får lavere pH.`,
+        `Det som skjer er at CO₂-molekylene reagerer med vannmolekylene og danner karbonsyre (H₂CO₃). Karbonsyre spaltes i vann og frigir et H⁺-ion. Det er H⁺-ionet som gjør vannet surt.`,
+        `CO₂ + H₂O → H₂CO₃`,
+        `H₂CO₃ → H⁺ + HCO₃⁻`,
+      ],
+      utstyr: [
+        `Begerglass`,
+        `Vann`,
+        `Sugerør`,
+        `BTB (syre-base-indikator)`,
+        `Plastfolie`,
+      ],
+      slik: [
+        `Bland noen dråper BTB i et begerglass med vann.`,
+        `Sett i sugerøret og trekk over plastfolie slik at det danner et lokk der kun sugerøret stikker ut.`,
+        `Blås bobler i vannet til du ser at fargen går fra blå til gul.`,
+      ],
+    },
     { tittel: `Elektrolyse av kobberklorid` },
     { tittel: `Finne pH i ulike væsker` },
-    { tittel: `Kjemiske reaksjoner` },
-    { tittel: `Indikatorer` },
+    {
+      tittel: `Kjemiske reaksjoner`,
+      innledning: `I dette forsøket skal dere blande natron med ulike væsker og observere hva som skjer. Noen av blandingene gir en tydelig kjemisk reaksjon.`,
+      utstyr: [
+        `4 begerglass`,
+        `Eddik (7 %)`,
+        `Rødbetsaft`,
+        `Kaldt og varmt vann`,
+        `Natron`,
+        `Målesylinder`,
+      ],
+      slik: [
+        `Hell ½ dl kaldt vann i det første glasset.`,
+        `Hell ½ dl eddik (7 %) i det andre glasset.`,
+        `Hell ½ dl varmt vann i det tredje glasset.`,
+        `Hell ½ dl vann med 1 ts rødbetsaft i det fjerde glasset.`,
+        `Ha 1 ts natron i hvert av glassene, og observer hva som skjer.`,
+        `Utforsk blandingene videre. Hva skjer hvis dere heller eddik i glasset med rødbetsaft?`,
+      ],
+      sporsmal: [
+        `I hvilke glass ser dere en tydelig kjemisk reaksjon?`,
+        `Hva skjer når dere heller eddik i glasset med rødbetsaft?`,
+      ],
+      forklaring: `Gassen som dannes i reaksjonen mellom natron og eddik, er karbondioksid, den samme gassen som du puster ut. Tenner du en fyrstikk og stikker den ned i glasset, ser du at gassen slukker flammen. Læreren kan vise en større variant: ha ½ dl eddik og litt Zalo i et høyt glass, og tilsett 1 ts natron. Da får dere en vulkan. Gjør det i vasken, for det blir litt søl.`,
+    },
+    {
+      tittel: `Indikatorer`,
+      innledning: [
+        `I dette forsøket skal dere bruke rødkål som indikator til å finne ut om en væske er sur eller basisk.`,
+        `Rødkål inneholder et lilla fargestoff som endrer farge etter pH-en i væsken. Er væsken sur, blir fargen rosa. Er den basisk, blir den blå.`,
+      ],
+      utstyr: [
+        `Rødkål`,
+        `3 begerglass`,
+        `Stativ med rist`,
+        `Gassbrenner`,
+        `Fyrstikker`,
+        `Ulike løsninger`,
+        `Dråpeteller`,
+        `pH-papir`,
+        `Sikkerhetsutstyr`,
+      ],
+      slik: [
+        `Legg biter av rødkål i et begerglass og kok dem sammen med 1 dl vann i cirka fem minutter. Indikatoren er ferdig når vannet har blitt lilla.`,
+        `Fordel rødkålindikatoren i begerglassene.`,
+        `Tilsett noen dråper av den ene ukjente løsningen i ett av begerglassene.`,
+        `Tilsett noen dråper av den andre ukjente løsningen i et annet begerglass.`,
+        `Sammenlign fargene mot hverandre.`,
+      ],
+      sporsmal: [
+        `Hvilken av de ukjente løsningene var sur, og hvilken var basisk?`,
+        `Hvilken pH tror dere løsningene har? Gjett først, og test etterpå med pH-papir.`,
+        `Kan rødkål brukes til å bestemme hvor sur eller hvor basisk et stoff er?`,
+      ],
+    },
   ],
   'teknologi': [
     { tittel: `ASCII-koder` },
     { tittel: `Programmere fjernstyrt bil med Micro:Bit` },
-    { tittel: `Programmere trafikklys med Micro:Bit` },
+    {
+      tittel: `Programmere trafikklys med Micro:Bit`,
+      innledning: [
+        `I dette forsøket skal dere programmere et trafikklys som er koblet til en micro:bit, slik at lysene skifter i riktig rekkefølge.`,
+        `Digital verdi 1 betyr at strømmen er på, og digital verdi 0 betyr at den er av. P0 styrer rødt lys, P1 styrer gult lys og P2 styrer grønt lys. I utgangspunktet slår det gule lyset seg på og av hvert andre sekund.`,
+      ],
+      utstyr: [
+        `Trafikklys koblet til micro:bit`,
+        `Datamaskin`,
+      ],
+      slik: [
+        `Se på programmet slik det er fra før, og finn ut hva hver blokk gjør.`,
+        `Legg til flere blokker og endre koden slik at lyset skifter i riktig sekvens.`,
+        `Test programmet, og juster pausene til dere er fornøyde.`,
+      ],
+      sporsmal: [
+        `Hva synes dere er passelige pauser mellom lysskiftene?`,
+        `Bør pausene være like lange hver gang?`,
+      ],
+    },
   ],
   'vitenskap': [
     {
