@@ -507,26 +507,7 @@ export const forsok = {
   'teknologi': [
     { tittel: `ASCII-koder` },
     { tittel: `Programmere fjernstyrt bil med Micro:Bit` },
-    {
-      tittel: `Programmere trafikklys med Micro:Bit`,
-      innledning: [
-        `I dette forsøket skal dere programmere et trafikklys som er koblet til en micro:bit, slik at lysene skifter i riktig rekkefølge.`,
-        `Digital verdi 1 betyr at strømmen er på, og digital verdi 0 betyr at den er av. P0 styrer rødt lys, P1 styrer gult lys og P2 styrer grønt lys. I utgangspunktet slår det gule lyset seg på og av hvert andre sekund.`,
-      ],
-      utstyr: [
-        `Trafikklys koblet til micro:bit`,
-        `Datamaskin`,
-      ],
-      slik: [
-        `Se på programmet slik det er fra før, og finn ut hva hver blokk gjør.`,
-        `Legg til flere blokker og endre koden slik at lyset skifter i riktig sekvens.`,
-        `Test programmet, og juster pausene til dere er fornøyde.`,
-      ],
-      sporsmal: [
-        `Hva synes dere er passelige pauser mellom lysskiftene?`,
-        `Bør pausene være like lange hver gang?`,
-      ],
-    },
+    { tittel: `Programmere trafikklys med Micro:Bit` },
   ],
   'vitenskap': [
     {
