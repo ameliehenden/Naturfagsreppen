@@ -97,7 +97,37 @@ export const forsok = {
     { tittel: `Kartlegge arter og registrere i Artsobservasjoner` },
   ],
   'celler-og-livets-utvikling': [
-    { tittel: `Se på tøffeldyr i mikroskop` },
+    {
+      tittel: `Se på tøffeldyr i mikroskop`,
+      innledning: [
+        `Tøffeldyr er encellede organismer som lever i vann, og de har fått navnet sitt fordi de er formet omtrent som en tøffel. De trives blant annet der det har ligget tørt gress, og i dette forsøket skal dere lage deres eget oppsett for å få dem fram og studere dem i mikroskop.`,
+        `Forsøket handler like mye om å bli kjent med mikroskopet som om tøffeldyrene selv. Poenget er å oppdage at det finnes små organismer rundt oss overalt, som vi ikke kan se med det blotte øye.`,
+        `Merk at forsøket må planlegges i god tid, for vannet skal stå i et par dager før dere ser på det. Sensommeren er den beste tida, siden det da er lett å finne tørt gress.`,
+      ],
+      utstyr: [
+        `Tørt gress`,
+        `Begerglass`,
+        `Lunkent vann`,
+        `Dråpeteller`,
+        `Objektglass og dekkglass`,
+        `Mikroskop`,
+      ],
+      slik: [
+        `Gå ut og hent litt tørt gress.`,
+        `Legg gresset i et begerglass, og fyll på med lunkent vann.`,
+        `La begerglasset stå i romtemperatur i et par dager.`,
+        `Sug opp litt vann med dråpetelleren, og legg en dråpe på et objektglass. Ta gjerne vann fra ulike steder i glasset.`,
+        `Legg et dekkglass forsiktig over dråpen.`,
+        `Se på preparatet i mikroskop. Start med liten forstørrelse for å finne noe, og øk deretter forstørrelsen.`,
+        `Tegn eller beskriv det dere ser.`,
+      ],
+      sporsmal: [
+        `Ser dere noe som beveger seg, og hvordan beveger det seg?`,
+        `Hvor mange forskjellige typer organismer klarer dere å finne i én og samme dråpe?`,
+        `Hvorfor må vannet stå i et par dager før dere ser på det?`,
+        `Hva forteller dette forsøket om hva som finnes i vann og jord rundt oss?`,
+      ],
+    },
     {
       tittel: `Påvisning av stivelse i plantebaserte matvarer`,
       innledning: [
