@@ -620,6 +620,8 @@ export const sammenhenger = {
         innhold: [
           { type: 'tekst', verdi: `Evolusjonsteorien bygger på naturlig utvalg, der den som er best tilpasset vil overleve og føre genene sine videre. Dersom klimaet endres for mye for raskt, vil ikke artene lenger være godt tilpasset området de befinner seg i, og de kan dø eller bli tvunget til å flytte til andre områder.` },
           { type: 'tekst', verdi: `Dagens klimaendringer skjer langt raskere enn det mange arter klarer å tilpasse seg.` },
+          { type: 'tekst', verdi: `Charles Darwin la grunnlaget for evolusjonsteorien etter en reise til Galápagosøyene på 1830-tallet. Der la han merke til at finkene på de ulike øyene hadde nebb med ulik form og størrelse, tilpasset den maten som fantes akkurat der. Denne observasjonen ble et sentralt eksempel på hvordan naturlig utvalg gjør at arter tilpasser seg miljøet sitt over tid, og at klimaet er en av de miljøfaktorene som styrer denne tilpasningen.` },
+          { type: 'bilde', src: `sammendrag/celler/finker2.jpeg`, bildeTekst: `Darwins finker fra Galápagosøyene, med nebb tilpasset ulik føde.` },
         ],
       },
       {
