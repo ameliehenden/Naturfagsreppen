@@ -268,6 +268,10 @@ export const sammendrag = {
     {
       tittel: `Næringskjeder og næringsnett`,
       tekst: `En næringskjede viser hvem som blir spist av hvem, i en rett linje fra produsent til forbruker. Men i naturen spises de fleste artene av mer enn én annen art, og da får vi et næringsnett, som viser en større del av økosystemet. I havet er planteplankton og alger viktige produsenter, de er havets «planter», så små at vi må bruke mikroskop for å se dem, og de ligger nesten alltid nederst i næringskjeden.`,
+      bilde: `sammendrag/okologi/naeringsnett.png`,
+      bildeAlt: `Næringsnett i Arktis, fra planteplankton til isbjørn og mennesker`,
+      bildeBredd: `700px`,
+      bildeKredit: `Darnis, G. (2012). Visual representation of a Canadian-Arctic marine food web transitioning from coastal to open ocean [Figure 1] [Oversatt til norsk av A. Henden]. Springer. https://link.springer.com/article/10.1007/s10584-012-0483-8#Fig1`,
     },
     {
       tittel: `Kretsløpet i naturen`,
