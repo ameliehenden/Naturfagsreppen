@@ -129,11 +129,42 @@ function FotosynteseCelleanding() {
   );
 }
 
+function BiotiskAbiotisk() {
+  return (
+    <svg viewBox="0 0 460 300" role="img" aria-label="Biotiske og abiotiske faktorer i et økosystem, med eksempler på hver">
+      {/* overskrifter */}
+      <rect x="15" y="20" width="190" height="42" rx="12" fill="#d5f5e3" stroke="#27ae60" strokeWidth="3" />
+      <text x="110" y="46" fontSize="15" fontWeight="700" fill="#196f3d" textAnchor="middle">Biotiske faktorer</text>
+      <rect x="255" y="20" width="190" height="42" rx="12" fill="#d6eaf8" stroke="#2980b9" strokeWidth="3" />
+      <text x="350" y="46" fontSize="15" fontWeight="700" fill="#1a5276" textAnchor="middle">Abiotiske faktorer</text>
+
+      {/* piler på skrå utover og nedover */}
+      <line x1="95" y1="64" x2="50" y2="148" stroke="#27ae60" strokeWidth="3" />
+      <polygon points="43,136 57,136 50,148" transform="rotate(-28 50 148)" fill="#27ae60" />
+      <line x1="365" y1="64" x2="410" y2="148" stroke="#2980b9" strokeWidth="3" />
+      <polygon points="403,136 417,136 410,148" transform="rotate(28 410 148)" fill="#2980b9" />
+
+      {/* lister med eksempler */}
+      <rect x="10" y="155" width="200" height="130" rx="14" fill="#d5f5e3" stroke="#27ae60" strokeWidth="2.5" />
+      <text x="25" y="195" fontSize="13" fill="#196f3d">• Planter (produsenter)</text>
+      <text x="25" y="222" fontSize="13" fill="#196f3d">• Dyr (forbrukere)</text>
+      <text x="25" y="249" fontSize="13" fill="#196f3d">• Sopp og bakterier</text>
+
+      <rect x="250" y="155" width="200" height="130" rx="14" fill="#d6eaf8" stroke="#2980b9" strokeWidth="2.5" />
+      <text x="265" y="180" fontSize="13" fill="#1a5276">• Jord og berggrunn</text>
+      <text x="265" y="203" fontSize="13" fill="#1a5276">• Vann</text>
+      <text x="265" y="226" fontSize="13" fill="#1a5276">• Lys og temperatur</text>
+      <text x="265" y="249" fontSize="13" fill="#1a5276">• Klima</text>
+    </svg>
+  );
+}
+
 const FIGURER = {
   'jordas-lag': JordasLag,
   'kontinentaldrift': Kontinentaldrift,
   'celle': Celle,
   'fotosyntese-celleanding': FotosynteseCelleanding,
+  'biotisk-abiotisk': BiotiskAbiotisk,
 };
 
 export default function Figur({ navn }) {
