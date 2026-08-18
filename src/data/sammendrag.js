@@ -297,7 +297,11 @@ export const sammendrag = {
     },
     {
       tittel: `Interessekonflikter`,
-      tekst: `Ofte må vi veie ulike hensyn mot hverandre, og da oppstår interessekonflikter. Et isfritt Arktis kan åpne for skipsfart og olje, men er en katastrofe for naturen. Ved Aralsjøen ble elvene ledet bort for å vanne jordbruk, slik at verdens fjerde største innsjø nesten forsvant, og fiskerne mistet livsgrunnlaget. Ved Altaelva sto utbygging av kraftverk mot å bevare laksen og samiske rettigheter. Slike saker viser at vern av natur og bruk av natur kan komme i konflikt, og at det sjelden finnes enkle svar.`,
+      tekst: [
+        `Ofte må vi veie ulike hensyn mot hverandre, og da oppstår interessekonflikter. Et isfritt Arktis kan åpne for skipsfart og olje, men er en katastrofe for naturen. Ved Aralsjøen ble elvene ledet bort for å vanne jordbruk, slik at verdens fjerde største innsjø nesten forsvant, og fiskerne mistet livsgrunnlaget. Ved Altaelva sto utbygging av kraftverk mot å bevare laksen og samiske rettigheter. Slike saker viser at vern av natur og bruk av natur kan komme i konflikt, og at det sjelden finnes enkle svar.`,
+        `Et annet eksempel er Aralsjøen, på grensa mellom Usbekistan og Kasakhstan. Aralsjøen hadde et rikt dyreliv og var grunnlaget for en stor fiskerinæring og levebrød for menneskene som bodde rundt den. Men elvene som fylte sjøen, ble omdirigert til å vanne enorme bomullsplantasjer, og i løpet av noen få tiår tørket Aralsjøen nesten helt ut. Den tørrlagte sjøbunnen ligger nå igjen som en ørken full av salt og rester av sprøytemidler, som blåser opp i store støvstormer og gir helseproblemer for befolkningen i området. En liten del i nord er reddet etter at Kasakhstan bygde en demning i 2005, men det meste av det som en gang var en av verdens største innsjøer, er fortsatt borte.`,
+        { bilde: `sammendrag/klima/aral-sjoen.jpg`, bildeAlt: `Satellittbilder av Aralsjøen i 1989 og 2008`, bildeBredd: `600px`, bildeTekst: `Aralsjøen i 1989 (til venstre) og 2008 (til høyre).`, bildeKredit: `NASA/Wikimedia Commons` },
+      ],
     },
     {
       tittel: `Biologisk mangfold`,
@@ -347,6 +351,11 @@ export const sammendrag = {
     {
       tittel: `Havforsuring`,
       tekst: `Havet inneholder mye CO₂, og kaldt vann klarer å holde på mer CO₂ enn varmt. Etter at vi begynte å slippe ut mer CO₂, har havet tatt opp store mengder, men til slutt klarer det ikke å ta opp mer. Jo mer CO₂ havet tar opp, desto surere blir vannet (lavere pH). Dette skader dyr og alger som har skall av kalk, fordi kalken løses opp i surt vann.`,
+      bilde: `sammenhenger/emiliania2.jpg`,
+      bildeAlt: `Algen Emiliania Huxleyi, og skader på kalkplatene ved lav pH`,
+      bildeBredd: `660px`,
+      bildeTekst: `Bildet til venstre viser hvordan algen Emiliania Huxleyi skal se ut. Bildet til høyre viser utfordringer med skallene knytta til for lav pH.`,
+      bildeKredit: `Foto: Mathias Haunost, Ulf Riebesell, Francesco D'Amore, Ole Kelting og Lennart T. Bach, CC BY-SA 4.0, via Wikimedia Commons`,
     },
     {
       tittel: `Ozonlaget`,
