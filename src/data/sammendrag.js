@@ -257,7 +257,7 @@ export const sammendrag = {
     },
     {
       tittel: `Biotiske og abiotiske faktorer`,
-      tekst: `Alt i et økosystem deles i biotiske og abiotiske faktorer. Biotisk betyr levende, og omfatter produsenter, forbrukere og nedbrytere, altså planter, dyr og andre organismer. Abiotisk betyr ikke-levende, og omfatter blant annet jord, berggrunn, temperatur, lys, vann og klima. Dette gjelder ikke bare ting som aldri har vært og aldri kommer til å bli levende, men også rester etter noe som har vært levende. En død organisme regnes altså fortsatt som abiotisk, siden den ikke er levende akkurat nå. De abiotiske faktorene påvirker hvilke organismer som kan leve i et område. Endrer for eksempel temperaturen seg, kan arter som er tilpasset det gamle klimaet få problemer eller dø ut, mens nye arter kan komme til, og hele naturtypen kan endre seg.`,
+      tekst: `Alt i et økosystem deles i biotiske og abiotiske faktorer. Biotisk betyr levende, og omfatter produsenter, forbrukere og nedbrytere, altså planter, dyr og andre organismer, både levende og døde. En organisme blir altså ikke abiotisk bare fordi den dør. Abiotisk betyr ikke-levende, og omfatter ting som aldri har vært og aldri kommer til å bli levende, som næringsstoffer, jord, berggrunn, temperatur, lys, vann og klima. De abiotiske faktorene påvirker hvilke organismer som kan leve i et område. Endrer for eksempel temperaturen seg, kan arter som er tilpasset det gamle klimaet få problemer eller dø ut, mens nye arter kan komme til, og hele naturtypen kan endre seg.`,
       figur: `biotisk-abiotisk`,
     },
     {
