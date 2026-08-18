@@ -165,7 +165,7 @@ function ProdusenterForbrukereNedbrytere() {
       cx: 78, x: 6,
       navn: `Produsenter`,
       fill: '#d5f5e3', stroke: '#27ae60', tekstfarge: '#196f3d',
-      punkter: ['Trær og gress', 'Alger', 'Mose'],
+      punkter: ['Trær og gress', 'Alger', 'Planteplankton', 'Mose'],
     },
     {
       cx: 230, x: 158,
@@ -177,7 +177,7 @@ function ProdusenterForbrukereNedbrytere() {
       cx: 382, x: 310,
       navn: `Nedbrytere`,
       fill: '#f2e6d3', stroke: '#7d5230', tekstfarge: '#5c3d1e',
-      punkter: ['Sopp', 'Bakterier', 'Meitemark'],
+      punkter: ['Sopp', 'Bakterier', 'Meitemark', 'Insekter'],
     },
   ];
   return (
