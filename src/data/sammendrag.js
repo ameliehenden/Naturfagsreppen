@@ -257,12 +257,13 @@ export const sammendrag = {
     },
     {
       tittel: `Biotiske og abiotiske faktorer`,
-      tekst: `Alt i et økosystem deles i biotiske og abiotiske faktorer. Biotisk betyr levende, og omfatter produsenter, forbrukere og nedbrytere, altså planter, dyr og andre organismer. Abiotisk betyr ikke-levende, og omfatter blant annet jord, berggrunn, temperatur, lys, vann og klima. De abiotiske faktorene påvirker hvilke organismer som kan leve i et område. Endrer for eksempel temperaturen seg, kan arter som er tilpasset det gamle klimaet få problemer eller dø ut, mens nye arter kan komme til, og hele naturtypen kan endre seg.`,
+      tekst: `Alt i et økosystem deles i biotiske og abiotiske faktorer. Biotisk betyr levende, og omfatter produsenter, forbrukere og nedbrytere, altså planter, dyr og andre organismer. Abiotisk betyr ikke-levende, og omfatter blant annet jord, berggrunn, temperatur, lys, vann og klima. Dette gjelder ikke bare ting som aldri har vært og aldri kommer til å bli levende, men også rester etter noe som har vært levende. En død organisme regnes altså fortsatt som abiotisk, siden den ikke er levende akkurat nå. De abiotiske faktorene påvirker hvilke organismer som kan leve i et område. Endrer for eksempel temperaturen seg, kan arter som er tilpasset det gamle klimaet få problemer eller dø ut, mens nye arter kan komme til, og hele naturtypen kan endre seg.`,
       figur: `biotisk-abiotisk`,
     },
     {
       tittel: `Produsenter, forbrukere og nedbrytere`,
       tekst: `De levende organismene har ulike roller. Produsentene er plantene. De kalles produsenter fordi de lager sin egen mat, glukose, gjennom fotosyntesen (vann + karbondioksid blir til glukose og oksygen). Glukosen bruker de til å bygge seg selv og vokse. Forbrukerne er dyrene; de driver ikke fotosyntese og må spise planter eller andre dyr for å få energi. Nedbryterne spiser døde planter og dyr og bryter dem ned, slik at næringsstoffene går tilbake til jorda og kan tas opp av nye produsenter. Uten planter finnes det ingen mat, verken til forbrukere eller nedbrytere, så alle næringskjeder starter med en plante.`,
+      figur: `produsenter-forbrukere-nedbrytere`,
     },
     {
       tittel: `Næringskjeder og næringsnett`,
