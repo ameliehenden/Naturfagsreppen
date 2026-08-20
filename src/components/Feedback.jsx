@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import styles from './Feedback.module.css';
 
-const MOTTAKER = 'amelie-he@gjesdalskolen.com';
+// FormSubmit-alias for skule-e-posten (unngår å vise e-postadressa i klartekst i sidekoden)
+const MOTTAKER = '24865e9c544dc052469f26ef493795e9';
 
 export default function Feedback() {
   const [apen, setApen] = useState(false);
