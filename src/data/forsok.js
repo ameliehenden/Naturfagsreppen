@@ -6,27 +6,6 @@
 export const forsok = {
   'klima-og-baerekraft': [
     {
-      tittel: `Havforsuring, observasjon av pH i vann`,
-      innledning: [
-        `I dette forsøket skal du påvise at CO₂ i vann gir lavere pH. Pusten vår inneholder CO₂ siden cellene våre driver celleånding. Dersom du blåser ned i et glass vann som inneholder en syre-base-indikator, vil du kunne observere at vannet får lavere pH.`,
-        `Det som skjer er at CO₂-molekylene reagerer med vannmolekylene og danner karbonsyre (H₂CO₃). Karbonsyre spaltes i vann og frigir et H⁺-ion. Det er H⁺-ionet som gjør vannet surt.`,
-        `CO₂ + H₂O → H₂CO₃`,
-        `H₂CO₃ → H⁺ + HCO₃⁻`,
-      ],
-      utstyr: [
-        `Begerglass`,
-        `Vann`,
-        `Sugerør`,
-        `BTB (syre-base-indikator)`,
-        `Plastfolie`,
-      ],
-      slik: [
-        `Bland noen dråper BTB i et begerglass med vann.`,
-        `Sett i sugerøret og trekk over plastfolie slik at det danner et lokk der kun sugerøret stikker ut.`,
-        `Blås bobler i vannet til du ser at fargen går fra blå til gul.`,
-      ],
-    },
-    {
       tittel: `Havnivåstigning, varmt vann utvider seg`,
       innledning: [
         `Vi vet at havet stiger, men det skyldes ikke bare at is på land smelter og renner ut i havet. Vi må også ta hensyn til at vann utvider seg når det varmes opp.`,
@@ -71,7 +50,7 @@ export const forsok = {
     },
     {
       tittel: `Gass i kaldt og varmt vann`,
-      bilde: `/Naturfagsreppen/forsok/gass-brus.png`,
+      bilde: `/forsok/gass-brus.png`,
       bildeAlt: `En kald og en varm brusflaske`,
       innledning: [
         `Kaldt vann holder på mer gass enn varmt vann. Havet er et viktig lager for CO₂ på jorda, samtidig vet vi at temperaturen både på land og i vann er på vei opp på grunn av klimaendringene.`,
@@ -84,9 +63,31 @@ export const forsok = {
       ],
       slik: [
         `Skru av korken på de to brusflaskene og observer om du hører eller kjenner forskjell når du åpner dem.`,
+        `Sett så den kalde brusflasken tilbake i et kaldt kjøleskap med korken av, og den varme brusen i romtemperatur med korken av. Smak på brusen dagen etter og beskriv mengden kullsyre i de to flaskene.`,
       ],
       sporsmal: [
         `Hvordan påvirker global oppvarming havets evne til å være et lager for CO₂?`,
+      ],
+    },
+    {
+      tittel: `Havforsuring, observasjon av pH i vann`,
+      innledning: [
+        `I dette forsøket skal du påvise at CO₂ i vann gir lavere pH. Pusten vår inneholder CO₂ siden cellene våre driver celleånding. Dersom du blåser ned i et glass vann som inneholder en syre-base-indikator, vil du kunne observere at vannet får lavere pH.`,
+        `Det som skjer er at CO₂-molekylene reagerer med vannmolekylene og danner karbonsyre (H₂CO₃). Karbonsyre spaltes i vann og frigir et H⁺-ion. Det er H⁺-ionet som gjør vannet surt.`,
+        `CO₂ + H₂O → H₂CO₃`,
+        `H₂CO₃ → H⁺ + HCO₃⁻`,
+      ],
+      utstyr: [
+        `Begerglass`,
+        `Vann`,
+        `Sugerør`,
+        `BTB (syre-base-indikator)`,
+        `Plastfolie`,
+      ],
+      slik: [
+        `Bland noen dråper BTB i et begerglass med vann.`,
+        `Sett i sugerøret og trekk over plastfolie slik at det danner et lokk der kun sugerøret stikker ut.`,
+        `Blås bobler i vannet til du ser at fargen går fra blå til gul.`,
       ],
     },
   ],
