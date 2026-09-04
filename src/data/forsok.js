@@ -6,6 +6,30 @@
 export const forsok = {
   'klima-og-baerekraft': [
     {
+      tittel: `Havnivåstigning, issmelting`,
+      innledning: [
+        `I dette forsøket skal du se på forskjellen i havnivåstigning når isen ligger på land og når isen flyter i vannet (havis).`,
+        `Det er kun isen som ligger på land og smelter og renner ut i havet, som påvirker havnivået. Havis påvirker ikke havnivået når den smelter, fordi vann som fryser utvider seg men beholder samme vekt. Isen som flyter tar nøyaktig like mye plass under vann som det smeltede vannet vil fylle – ingenting renner ned fra overflaten.`,
+      ],
+      utstyr: [
+        `Konditorfarge`,
+        `Form eller pose til store isbiter`,
+        `2 begerglass`,
+        `Tusj`,
+        `Stein`,
+        `Fryseboks`,
+      ],
+      slik: [
+        `Bland konditorfarge i vann og frys til litt store isbiter.`,
+        `Hell vann i 2 begerglass.`,
+        `Legg en stein i det ene glasset slik at den stikker litt opp over overflaten.`,
+        `Legg isbiter i det andre begerglasset.`,
+        `Marker med tusj nøyaktig hvor vannoverflaten er i begge glass.`,
+        `Legg en isbit oppå steinen i det første glasset, slik at den ikke faller i vannet.`,
+        `Vent til isen har smeltet og observer hva som har skjedd med vannstanden i glassene.`,
+      ],
+    },
+    {
       tittel: `Havnivåstigning, varmt vann utvider seg`,
       innledning: [
         `Vi vet at havet stiger, men det skyldes ikke bare at is på land smelter og renner ut i havet. Vi må også ta hensyn til at vann utvider seg når det varmes opp.`,
@@ -42,30 +66,6 @@ export const forsok = {
       ],
       sporsmal: [
         `Hvor mye økte vannstanden i målesylinderen?`,
-      ],
-    },
-    {
-      tittel: `Havnivåstigning, issmelting`,
-      innledning: [
-        `I dette forsøket skal du se på forskjellen i havnivåstigning når isen ligger på land og når isen flyter i vannet (havis).`,
-        `Det er kun isen som ligger på land og smelter og renner ut i havet, som påvirker havnivået. Havis påvirker ikke havnivået når den smelter, fordi vann som fryser utvider seg men beholder samme vekt. Isen som flyter tar nøyaktig like mye plass under vann som det smeltede vannet vil fylle – ingenting renner ned fra overflaten.`,
-      ],
-      utstyr: [
-        `Konditorfarge`,
-        `Form eller pose til store isbiter`,
-        `2 begerglass`,
-        `Tusj`,
-        `Stein`,
-        `Fryseboks`,
-      ],
-      slik: [
-        `Bland konditorfarge i vann og frys til litt store isbiter.`,
-        `Hell vann i 2 begerglass.`,
-        `Legg en stein i det ene glasset slik at den stikker litt opp over overflaten.`,
-        `Legg isbiter i det andre begerglasset.`,
-        `Marker med tusj nøyaktig hvor vannoverflaten er i begge glass.`,
-        `Legg en isbit oppå steinen i det første glasset, slik at den ikke faller i vannet.`,
-        `Vent til isen har smeltet og observer hva som har skjedd med vannstanden i glassene.`,
       ],
     },
     {
