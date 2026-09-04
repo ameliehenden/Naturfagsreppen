@@ -14,14 +14,31 @@ export const forsok = {
       utstyr: [
         `Målesylinder (100 ml)`,
         `Vann`,
-        `Gryte eller vannkoker`,
+        `Gryte, vannkoker eller gassbrenner`,
       ],
       slik: [
         `Fyll målesylinderen til nøyaktig 90 ml med kjøleskapskaldt vann.`,
-        `Kok opp en gryte eller vannkoker med vann.`,
-        `Skru av platen eller vannkokeren.`,
+        `Kok opp vann i en gryte, vannkoker eller et begerglass over en gassbrenner.`,
+        `Skru av platen, vannkokeren eller gassbrenneren.`,
         `Sett målesylinderen nedi det kokende vannet.`,
         `Vent 5 minutter og les av vannstanden.`,
+      ],
+      bilder: [
+        {
+          src: `/forsok/havniva-varme-1.jpg`,
+          alt: `Målesylinder fylt til 90 ml med kaldt vann`,
+          tekst: `1. Før forsøket: 90 ml kaldt vann.`,
+        },
+        {
+          src: `/forsok/havniva-varme-2.jpg`,
+          alt: `Målesylinderen står i et begerglass med varmt vann over en gassbrenner`,
+          tekst: `2. Underveis: sylinderen står i det varme vannet.`,
+        },
+        {
+          src: `/forsok/havniva-varme-3.jpg`,
+          alt: `Vannstanden i målesylinderen har steget til over 90 ml`,
+          tekst: `3. Etter 5 minutter: vannstanden har steget.`,
+        },
       ],
     },
     {

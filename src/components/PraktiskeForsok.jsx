@@ -53,6 +53,17 @@ export default function PraktiskeForsok({ forsok }) {
                       </>
                     )}
 
+                    {f.bilder && (
+                      <div className={styles.bilderRad}>
+                        {f.bilder.map((b, j) => (
+                          <figure key={j} className={styles.bildeFigur}>
+                            <img src={b.src} alt={b.alt || f.tittel} className={styles.bilderRadImg} />
+                            {b.tekst && <figcaption className={styles.bildetekst}>{b.tekst}</figcaption>}
+                          </figure>
+                        ))}
+                      </div>
+                    )}
+
                     {f.sporsmal && (
                       <>
                         <h4 className={styles.deltittel}>Tenk over</h4>

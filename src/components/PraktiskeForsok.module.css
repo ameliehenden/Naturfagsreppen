@@ -75,6 +75,41 @@
   border-radius: 8px;
 }
 
+.bilderRad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem;
+  margin: 1rem 0 0;
+}
+
+@media (max-width: 480px) {
+  .bilderRad {
+    grid-template-columns: 1fr;
+    max-width: 260px;
+  }
+}
+
+.bildeFigur {
+  margin: 0;
+}
+
+.bilderRadImg {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f1f5f9;
+}
+
+.bildetekst {
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: #555;
+  text-align: center;
+}
+
 .deltittel {
   margin: 1rem 0 0.3rem;
   font-size: 0.95rem;
