@@ -40,6 +40,9 @@ export const forsok = {
           tekst: `3. Etter 5 minutter: vannstanden har steget.`,
         },
       ],
+      sporsmal: [
+        `Hvor mye økte vannstanden i målesylinderen?`,
+      ],
     },
     {
       tittel: `Havnivåstigning, issmelting`,
