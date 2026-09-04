@@ -49,18 +49,18 @@ export const forsok = {
       ],
       bilder: [
         {
-          src: `/forsok/havniva-varme-1.jpg`,
-          alt: `Målesylinder fylt til 90 ml med kaldt vann`,
-          tekst: `1. Før forsøket: 90 ml kaldt vann.`,
+          src: `/forsok/havniva-varme-for.jpg`,
+          alt: `Nærbilde av vannstanden i målesylinderen med kaldt vann, litt under 90 ml`,
+          tekst: `1. Før forsøket: kaldt vann i målesylinderen.`,
         },
         {
-          src: `/forsok/havniva-varme-2.jpg`,
+          src: `/forsok/havniva-varme-underveis.jpg`,
           alt: `Målesylinderen står i et begerglass med varmt vann over en gassbrenner`,
           tekst: `2. Underveis: sylinderen står i det varme vannet.`,
         },
         {
-          src: `/forsok/havniva-varme-3.jpg`,
-          alt: `Vannstanden i målesylinderen har steget til over 90 ml`,
+          src: `/forsok/havniva-varme-etter.jpg`,
+          alt: `Nærbilde av vannstanden i målesylinderen etter oppvarming, nå oppe på 90 ml`,
           tekst: `3. Etter 5 minutter: vannstanden har steget.`,
         },
       ],
