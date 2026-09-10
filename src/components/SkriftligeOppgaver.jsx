@@ -50,7 +50,9 @@ function Oppgave({ nr, oppgave }) {
         <div className={styles.resultat}>
           <div className={styles.fasit}>
             <span className={styles.fasitTittel}>Fasit</span>
-            <p>{oppgave.fasit}</p>
+            {Array.isArray(oppgave.fasit)
+              ? oppgave.fasit.map((avsnitt, i) => <p key={i}>{avsnitt}</p>)
+              : <p>{oppgave.fasit}</p>}
             {oppgave.fasitBilde && (
               <img
                 className={styles.fasitBilde}
