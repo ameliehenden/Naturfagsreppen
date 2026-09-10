@@ -50,6 +50,10 @@ export const oppgaver = {
       fasit: `En feedbackmekanisme er når en endring forsterker (eller demper) seg selv. Eksempel: når havis smelter, tar mørkt hav opp mer varme, som gjør at enda mer is smelter, en selvforsterkende effekt.`,
     },
     {
+      sporsmal: `Forklar hva en interessekonflikt er og grei ut om minst ett eksempel på en interessekonflikt du kjenner til.`,
+      fasit: `En interessekonflikt er når to eller flere parter har ulike ønsker eller behov knyttet til det samme området eller den samme ressursen, slik at det ene ønsket går ut over det andre. I miljøsaker står hensynet til natur og dyreliv ofte mot økonomiske interesser, arbeidsplasser eller behovet for energi. Eksempel: vindkraftutbyggingen på Fosen. Utbyggerne og myndighetene ønsket mer fornybar energi og lavere klimagassutslipp, mens reindriftssamene mistet viktige beiteområder for reinen. Høyesterett kom fram til at utbyggingen krenket samenes rettigheter. Andre eksempler kan være oppdrettsanlegg som gir arbeidsplasser, men sprer lakselus til villaksen, hyttebygging i fjellet som tar leveområdene til villreinen, eller gruvedrift som gir inntekter, men forurenser en fjord.`,
+    },
+    {
       sporsmal: `Gi eksempler på samenes tradisjonelle kunnskap om naturen, og hvordan den kan bidra til bærekraftig forvaltning.`,
       fasit: `Samene har lang erfaring med å bruke naturen bærekraftig, blant annet gjennom reindrift der dyrene flyttes etter årstidene slik at beitene ikke blir overbeitet. Denne tradisjonelle kunnskapen kan hjelpe oss å forvalte naturressursene på en bærekraftig måte.`,
     },
