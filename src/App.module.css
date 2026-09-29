@@ -20,6 +20,12 @@
   font-size: 0.9rem;
 }
 
+.opphavsrett {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.65);
+}
+
 @media (max-width: 600px) {
   .innhold {
     padding: 1.5rem 1rem 3rem;

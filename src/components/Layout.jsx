@@ -41,6 +41,9 @@ export default function Layout() {
             <p>
               <strong>Naturfagsreppen</strong>, et digitalt læreverk for 10. trinn, basert på Kunnskapsløftet (LK20).
             </p>
+            <p className={styles.opphavsrett}>
+              © {new Date().getFullYear()} Amelie Henden. Alle rettigheter forbeholdt. Innhold, tekst og kode er beskyttet etter åndsverkloven og kan ikke kopieres, gjenbrukes eller distribueres uten skriftlig samtykke. Bilder fra andre er merket med egen kreditering og lisens.
+            </p>
           </footer>
         )}
       </main>
