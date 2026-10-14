@@ -70,8 +70,9 @@ export const sammenhenger = {
         slug: `nervesystemet`,
         farge: `#c0392b`,
         innhold: [
-          { type: 'tekst', verdi: `Hjernen og nervesystemet er blant de mest energikrevende delene av kroppen. Hjernen utgjør bare rundt 2 % av kroppsvekten, men bruker hele 20 % av kroppens energiforbruk. For at nerveceller skal kunne sende signaler, må de opprettholde et elektrisk potensial over membranen sin, og det krever kontinuerlig bruk av ATP.` },
-          { type: 'tekst', verdi: `Signaloverføringen i en nervecelle skjer ved at natriumioner strømmer inn og kaliumioner strømmer ut over membranen. Etter at signalet er sendt, må ionegradientene gjenopprettes av ionepumper som bruker ATP. Dersom tilførselen av glukose eller oksygen stopper, for eksempel ved et slag, vil nervecellene raskt miste evnen til å sende signaler.` },
+          { type: 'tekst', verdi: `Hjernen bruker mye energi. Den veier bare rundt 2 % av hele kroppen, men bruker omtrent 20 % av all energien kroppen bruker. Det betyr at hjernen bruker mye mer energi enn de fleste andre deler av kroppen, selv når du sover.` },
+          { type: 'tekst', verdi: `Nervecellene sender hele tiden små elektriske signaler til hverandre og til resten av kroppen. Det er slik vi tenker, kjenner, ser og beveger oss. For å kunne sende disse signalene trenger nervecellene energi. Energien får de fra glukose (sukker) og oksygen, som blodet frakter til hjernen. I cellene blir glukosen gjort om til energi gjennom celleånding.` },
+          { type: 'tekst', verdi: `Hvis hjernen ikke får nok glukose eller oksygen, slutter nervecellene raskt å fungere. Derfor kan du bli trøtt og ukonsentrert hvis du ikke har spist, og derfor er det så farlig hvis blodet ikke kommer fram til hjernen, for eksempel ved et hjerneslag.` },
         ],
       },
       {
@@ -495,8 +496,9 @@ export const sammenhenger = {
         slug: `energi`,
         farge: `#f39c12`,
         innhold: [
-          { type: 'tekst', verdi: `Hjernen er kroppens mest energikrevende organ. Den utgjør bare ca. 2 % av kroppsvekten, men bruker hele 20 % av kroppens energiforbruk i hvile. Nerveceller bruker ATP kontinuerlig for å opprettholde et elektrisk potensial over cellemembran, dette er forutsetningen for å kunne sende nervesignaler.` },
-          { type: 'tekst', verdi: `Når et nervesignal (aksjonspotensial) sendes, strømmer natriumioner inn og kaliumioner ut over membranen. Etter signalet må ionepumper bruke ATP for å gjenopprette gradientene. Dersom hjernen mister tilførselen av glukose eller oksygen i bare noen minutter, som ved et hjerneslag, begynner nerveceller å dø.` },
+          { type: 'tekst', verdi: `Hjernen bruker mye energi. Den veier bare rundt 2 % av hele kroppen, men bruker omtrent 20 % av all energien kroppen bruker. Det betyr at hjernen bruker mye mer energi enn de fleste andre deler av kroppen, selv når du sover.` },
+          { type: 'tekst', verdi: `Nervecellene sender hele tiden små elektriske signaler til hverandre og til resten av kroppen. Det er slik vi tenker, kjenner, ser og beveger oss. For å kunne sende disse signalene trenger nervecellene energi. Energien får de fra glukose (sukker) og oksygen, som blodet frakter til hjernen. I cellene blir glukosen gjort om til energi gjennom celleånding.` },
+          { type: 'tekst', verdi: `Hvis hjernen ikke får nok glukose eller oksygen, slutter nervecellene raskt å fungere. Derfor kan du bli trøtt og ukonsentrert hvis du ikke har spist, og derfor er det så farlig hvis blodet ikke kommer fram til hjernen, for eksempel ved et hjerneslag. Da kan nerveceller dø etter bare noen minutter.` },
         ],
       },
       {
