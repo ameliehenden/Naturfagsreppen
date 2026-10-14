@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="527" height="305" viewBox="-25 -140 527 305">
+<title>Bølgelengde og amplitude</title>
+<defs>
+	<marker id="EndArrow" viewBox="0 0 10 10" refX="10" refY="5" markerUnits="strokeWidth" orient="auto" markerWidth="10" markerHeight="10">
+		<polyline points="10,5 0,10 4,5 0,0 10,5" fill="black"/>
+	</marker>
+	<marker id="StartArrow" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="strokeWidth" orient="auto" markerWidth="10" markerHeight="10">
+		<polyline points="0,5 10,0 6,5 10,10 0,5" fill="black"/>
+	</marker>
+</defs>
+<rect x="-25" y="-140" width="527" height="305" fill="white"/>
+<g style="stroke:black;stroke-width:1;fill:none">
+	<rect x="0" y="-120" width="500" height="220"/>
+	<g marker-end="url(#EndArrow)" marker-start="url(#StartArrow)">
+		<line x1="50" x2="250" y1="-90" y2="-90"/>
+		<line x1="450" x2="450" y1="0" y2="-75"/>
+	</g>
+	<path d="M0,0 H500" stroke-dasharray="10,4"/>
+	<path id="zero" d="M120,-10 v20"/>
+	<use xlink:href="#zero" transform="translate(120)"/>
+	<use xlink:href="#zero" transform="translate(240)"/>
+	<use xlink:href="#zero" transform="translate(360)"/>
+</g>
+
+<path d="M0,0 q50,-150 100,0 t100,0 t100,0 t100,0 t100,0" style="stroke:red;stroke-width:2;fill:none"/>
+<g font-size="20" fill="black" font-family="Arial, Helvetica, sans-serif">
+	<text x="-10" y="70" transform="rotate(-90,-10,70)">utslag &#x27F6;</text>
+	<text x="225" y="-125">Bølge</text>
+	<text x="210" y="120">avstand &#x27F6;</text>
+	<text x="145" y="-93">&#x3BB;</text>
+	<text x="455" y="-30">y</text>
+	<text x="10" y="140">&#x3BB; = bølgelengde</text>
+	<text x="10" y="160">y = amplitude</text>
+</g>
+</svg>

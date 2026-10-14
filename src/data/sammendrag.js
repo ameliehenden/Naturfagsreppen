@@ -502,6 +502,9 @@ export const sammendrag = {
     {
       tittel: `Bølger: amplitude, bølgelengde og frekvens`,
       tekst: `En bølge beskrives med tre størrelser. Amplituden er høyden fra midten av bølgen opp til en bølgetopp (eller ned til en bølgebunn), og henger sammen med hvor mye energi bølgen har. Bølgelengden er avstanden mellom to like punkter på bølgen, for eksempel fra én bølgetopp til den neste. Frekvensen er antallet svingninger (bølger) per sekund. Når en bølge brer seg utover et større område, blir amplituden mindre (energien fordeles), mens frekvensen og bølgelengden er de samme. Derfor blir for eksempel lyden svakere jo lenger unna kilden du kommer.`,
+      bilde: `sammendrag/energi/bolge.svg`,
+      bildeAlt: `En bølge der bølgelengden (λ) og amplituden (y) er markert`,
+      bildeBredd: `500px`,
     },
     {
       tittel: `Det elektromagnetiske spekteret`,
