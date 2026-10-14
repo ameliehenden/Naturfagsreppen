@@ -466,6 +466,10 @@ export const sammendrag = {
     {
       tittel: `Energiformer`,
       tekst: `Energi finnes i mange former og mange steder: energi i mat, i musklene våre, i lyd, i en strukket strikk og i en vedkubbe, elektrisk energi, og strålingsenergi fra sola. Energien kan overføres fra én form til en annen, og fra én ting til en annen.`,
+      bilde: `sammendrag/energi/baal.jpg`,
+      bildeAlt: `Vedkubber som brenner i en peis`,
+      bildeBredd: `500px`,
+      bildeTekst: `Når vedkubber brenner, frigjøres energien som en gang ble lagret ved hjelp av fotosyntesen.`,
     },
     {
       tittel: `Energiloven`,
