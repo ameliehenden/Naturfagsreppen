@@ -357,7 +357,36 @@ export const forsok = {
         `Hva betyr det for regnestykket at kroppen bare utnytter cirka 10 % av energien til fysisk aktivitet?`,
       ],
     },
-    { tittel: `Indusere strøm i en ledning` },
+    {
+      tittel: `Indusere strøm i en ledning`,
+      innledning: [
+        `I dette forsøket skal dere lage strøm ved hjelp av en spole og en magnet, akkurat slik en generator i et kraftverk gjør.`,
+        `Når en magnet beveger seg inni eller ved siden av en spole, settes elektronene i ledningen i bevegelse. Vi sier at det induseres strøm. Dere skal undersøke hva som skal til for å få strøm, og hva som gjør at det blir mer eller mindre strøm.`,
+      ],
+      utstyr: [
+        `En spole`,
+        `En stavmagnet`,
+        `Amperemeter eller voltmeter`,
+        `2 ledninger med krokodilleklemmer`,
+      ],
+      slik: [
+        `Koble spolen til amperemeteret (eller voltmeteret) med ledningene og krokodilleklemmene, slik at dere får en lukket krets. Still måleren inn på det minste måleområdet.`,
+        `La magneten ligge helt i ro inni spolen. Får dere noe utslag på måleren?`,
+        `Stikk magneten raskt inn i spolen, og trekk den raskt ut igjen. Følg godt med på måleren. Hva skjer med utslaget når magneten går inn, og når den går ut?`,
+        `Beveg magneten sakte inn og ut av spolen. Sammenlign utslaget med det dere fikk da dere beveget den raskt.`,
+        `Snu magneten slik at den andre polen peker mot spolen, og gjenta forsøket. Hva skjer med retningen på utslaget?`,
+        `Hold magneten i ro, og beveg spolen i stedet. Får dere strøm nå også?`,
+        `Skriv ned resultatene i en tabell, og rydd utstyret på plass.`,
+      ],
+      sporsmal: [
+        `Hva må til for at det skal induseres strøm i spolen?`,
+        `Hvorfor blir det ingen strøm når magneten ligger i ro?`,
+        `Hvordan påvirker farten på magneten hvor mye strøm dere får?`,
+        `Hva skjer når dere snur magneten, og hvorfor tror dere det skjer?`,
+        `Hvor i samfunnet bruker vi denne måten å lage strøm på?`,
+      ],
+      forklaring: `Rundt en magnet finnes et magnetfelt. Når magnetfeltet inni spolen endrer seg, fordi magneten eller spolen beveger seg, settes elektronene i ledningen i bevegelse, og det induseres strøm. Ligger magneten i ro, endrer ikke magnetfeltet seg, og det blir ingen strøm. Jo raskere magneten beveges, desto raskere endrer magnetfeltet seg, og desto større blir strømmen. Spoler med flere viklinger og sterkere magneter gir også mer strøm. Når magneten går inn i spolen, går strømmen én vei, og når den går ut igjen, eller når dere snur magneten, går strømmen motsatt vei. Dette kalles vekselstrøm. Det er nøyaktig dette som skjer i en generator: i vannkraftverk, vindmøller og andre kraftverk roterer en magnet inni en spole (eller omvendt), og bevegelsesenergi blir omdannet til elektrisk energi.`,
+    },
     {
       tittel: `Sitronbatteri`,
       innledning: `I dette forsøket skal dere bruke en sitron til å lage et batteri. Målet er å få en diode (en liten lampe) til å lyse ved å koble ulike metaller til sitronen.`,
