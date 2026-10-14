@@ -51,6 +51,7 @@ export const sammenhenger = {
         innhold: [
           { type: 'tekst', verdi: `Sammenhengen mellom energi og klima handler først og fremst om hvilke energikilder vi velger. Forbrenning av fossile brensler, kull, olje og naturgass, frigjør CO₂ som har vært lagret i millioner av år, og dette bidraget til den økte drivhuseffekten og global oppvarming.` },
           { type: 'tekst', verdi: `Fornybare energikilder som sol, vind og vannkraft produserer elektrisitet uten å slippe ut fossilt CO₂. Overgangen fra fossile til fornybare energikilder er derfor et av de viktigste tiltakene for å bremse klimaendringene. Fossil energi sto for over 80 % av verdens energiforbruk i 2023.` },
+          { type: 'bilde', src: `sammenhenger/energi.png` },
         ],
       },
       {

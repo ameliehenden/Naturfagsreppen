@@ -502,6 +502,8 @@ export const sammendrag = {
     {
       tittel: `Det elektromagnetiske spekteret`,
       tekst: `Det elektromagnetiske spekteret er en oversikt over alle de elektromagnetiske bølgelengdene og hva vi kaller dem. De lengste bølgene er radiobølger, og de korteste er gammastråler. I en liten del på midten finner vi det synlige lyset, der rødt lys har litt lengre bølgelengde enn blått. Stråling brukes til utrolig mye teknologi i dag: WiFi, Bluetooth, radio, fjernkontroller, GPS via satellitter, røntgen og laser, alt sammen bruker elektromagnetisk stråling.`,
+      bilde: `sammenhenger/energi.png`,
+      bildeAlt: `Det elektromagnetiske spekteret, fra radiobølger til gammastråler`,
     },
     {
       tittel: `Krefter`,
