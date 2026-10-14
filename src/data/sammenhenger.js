@@ -257,6 +257,16 @@ export const sammenhenger = {
         innhold: [
           { type: 'tekst', verdi: `All teknologi er avhengig av energi for å fungere, fra den minste mikrokontroller til store industrianlegg. Datamaskiner, servere og internett alene bruker enorme mengder elektrisitet globalt. Energieffektiv design er derfor en viktig del av bærekraftig teknologiutvikling.` },
           { type: 'tekst', verdi: `Teknologi er samtidig nøkkelen til å produsere mer fornybar energi. Solcellepaneler, vindturbiner, smarte strømnett og batteriteknologi er alle teknologiske løsninger som gjør det mulig å erstatte fossile brensler. Uten teknologisk innovasjon kan vi ikke løse energiutfordringen.` },
+          { type: 'overskrift', verdi: `Stråling som bærer informasjon` },
+          { type: 'tekst', verdi: `Stråling er energi som brer seg utover som bølger. Elektromagnetisk stråling, som radiobølger, mikrobølger og infrarødt lys, trenger ikke noe stoff å bevege seg i, og kan reise gjennom lufta og til og med gjennom det tomme verdensrommet. Det gjør strålingen perfekt til å sende informasjon trådløst.` },
+          { type: 'tekst', verdi: `All trådløs kommunikasjon bygger på det samme prinsippet: en sender gjør om informasjon, for eksempel lyd, tekst eller bilder, til et signal som sendes ut som stråling. En mottaker fanger opp strålingen og gjør signalet om til informasjon igjen. Informasjonen sendes som et mønster i bølgene, ofte som digitale signaler av nuller og enere.` },
+          { type: 'overskrift', verdi: `Sendere og mottakere rundt oss` },
+          { type: 'liste', punkt: [
+            `Mobiltelefonen er både sender og mottaker. Den sender og tar imot radiobølger til og fra mobilmaster når du ringer eller bruker internett. WiFi og Bluetooth bruker også radiobølger, bare over kortere avstander.`,
+            `Satellitter sender data til jorda med radiobølger og mikrobølger. GPS-mottakeren i telefonen din fanger opp signaler fra flere satellitter samtidig og regner ut hvor du er. Værsatellitter sender bilder av skyer og havis, og TV-satellitter sender TV-signaler.`,
+            `Fjernkontrollen til TV-en er en sender som bruker infrarødt lys. Når du trykker på en knapp, blinker en liten lampe foran på fjernkontrollen i et bestemt mønster. Mottakeren i TV-en kjenner igjen mønsteret og vet om den skal skru opp lyden eller bytte kanal. Det infrarøde lyset kan vi ikke se med øynene, men prøv å se på lampen gjennom kameraet på en mobil!`,
+          ] },
+          { type: 'tekst', verdi: `Ulike typer stråling har ulik bølgelengde, og teknologien velger den bølgelengden som passer best. Radiobølger er lange og kan reise langt og gå rundt hindringer, mens infrarødt lys stoppes av vegger og derfor bare virker i samme rom. Jo mer energi signalet sendes ut med, jo lenger kan det nå, men signalet blir svakere jo lenger unna senderen du kommer, fordi energien fordeles over et større område.` },
         ],
       },
       {
