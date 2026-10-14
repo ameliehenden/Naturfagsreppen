@@ -651,10 +651,6 @@ export const flashcards = {
       forklaring: `Lagrer energi som vi kan bruke når vi trenger den. I et batteri er det metallene og hvordan de gir fra seg elektroner, som lager strømmen.`,
     },
     {
-      begrep: `Spenningsrekka`,
-      forklaring: `En rekke som viser hvor lett ulike metaller gir fra seg elektroner. Jo lenger fra hverandre to metaller står, desto større spenning gir de, som i et sitronbatteri.`,
-    },
-    {
       begrep: `Forbrenningsreaksjon`,
       forklaring: `En kjemisk reaksjon der et brennbart stoff reagerer med oksygen og danner karbondioksid og vann, samtidig som det frigjøres varme. Brukes i mange kraftverk.`,
     },
