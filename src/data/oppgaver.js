@@ -329,8 +329,8 @@ export const oppgaver = {
       fasit: `Energiloven sier at energi ikke kan skapes eller forsvinne, bare overføres fra én form til en annen. For eksempel kan bevegelsesenergien i vinden overføres til elektrisk energi ved hjelp av en vindmølle.`,
     },
     {
-      sporsmal: `En ball slippes fra 1 meters høyde, treffer bakken og spretter opp igjen, men ikke like høyt. Forklar hvor energien blir av. Bruk fagord.`,
-      fasit: `Ballen har en viss mengde energi når den slippes. På veien ned og i sammenstøtet mister den noe energi: noe går til luftmotstand, noe til å deformere ballen (og kanskje bakken), noe blir til lydbølger, og en liten del blir til varme. Fordi en del av energien er overført til andre former, har ballen mindre bevegelsesenergi igjen og kommer derfor ikke like høyt opp som den startet.`,
+      sporsmal: `En lærer mister en bok i gulvet. Boka blir liggende og spretter ikke opp igjen. Forklar hvor energien blir av. Bruk fagord.`,
+      fasit: `Mens boka ligger i læreren sin hånd, har den stillingsenergi (potensiell energi). Når den faller, blir stillingsenergien gjort om til bevegelsesenergi (kinetisk energi), og en liten del går til å overvinne luftmotstanden. Når boka treffer gulvet, stopper den helt, men energien forsvinner ikke, den blir overført til andre energiformer: noe blir til lyd (smellet vi hører), noe blir til vibrasjoner i gulvet, noe brukes til å deformere boka, for eksempel ved at hjørnet blir trykt inn, og noe blir til varme i boka og gulvet. Ifølge energiloven er summen av all denne energien like stor som stillingsenergien boka hadde før den falt.`,
     },
     {
       sporsmal: `Elektrisk strøm er en type bevegelsesenergi. Hva trenger vi for å lage (indusere) strøm? Forklar ut fra forsøket.`,
