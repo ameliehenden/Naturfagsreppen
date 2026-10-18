@@ -331,7 +331,7 @@ export const forsok = {
     {
       tittel: `Hvor mye energi bruker du?`,
       innledning: [
-        `I dette forsøket skal dere finne ut hvor mye energi kroppen bruker på en kort treningsøkt, og regne om energien til hvor mye lettmelk dere måtte drikke for å dekke forbruket.`,
+        `I dette forsøket skal dere finne ut hvor mange ganger dere må gå opp på en stol for å bruke opp energien i én rute melkesjokolade. Til slutt skal dere sammenligne med et glass lettmelk.`,
         `Energi kan verken skapes eller forsvinne, men den kan overføres fra én form til en annen. Når dere løfter kroppen opp på en stol, utfører dere et arbeid mot tyngdekraften. Arbeid regner vi ut som kraft ganger strekning, der kraften er massen deres ganget med tyngdeakselerasjonen på 9,81 N/kg.`,
       ],
       utstyr: [
@@ -340,21 +340,26 @@ export const forsok = {
         `Stoppeklokke, for eksempel på mobilen`,
         `Kalkulator`,
         `Din egen masse i kilo`,
+        `En rute melkesjokolade (én rute veier omtrent 6 gram)`,
       ],
       slik: [
         `Mål høyden på stolen i meter.`,
         `Jobb to og to. Den ene tar tiden, mens den andre går opp og ned på stolen så mange ganger som mulig på ett minutt. Tell antall ganger.`,
         `Regn ut tyngdekraften på kroppen din: kraft = masse × 9,81.`,
         `Regn ut arbeidet for én oppstigning: arbeid = kraft × høyden på stolen. Svaret er energien i joule for å komme opp én gang.`,
-        `Gang med antall ganger du kom deg opp, så får du den totale energien du brukte.`,
-        `Ett gram lettmelk gir omtrent 1880 J. Del den totale energien på 1880 for å finne hvor mange gram melk energien tilsvarer.`,
-        `Kroppen klarer bare å utnytte rundt 10 % av energien i maten til fysisk arbeid. Gang derfor svaret med 10 for å finne hvor mye melk du faktisk måtte ha drukket.`,
+        `Kroppen klarer bare å utnytte rundt 10 % av energien i maten til fysisk arbeid. Gang derfor svaret fra forrige punkt med 10. Da får du hvor mye energi fra maten du bruker på én oppstigning.`,
+        `Ett gram melkesjokolade gir omtrent 22 400 J. Én rute på 6 gram gir derfor omtrent 134 400 J.`,
+        `Del energien i sjokoladeruten på energien du bruker per oppstigning. Svaret er hvor mange ganger du må gå opp på stolen for å forbrenne én rute.`,
+        `Bruk antallet du klarte på ett minutt til å regne ut hvor mange minutter det tar.`,
+        `Sammenlign med lettmelk: Ett gram lettmelk gir omtrent 1880 J, og et glass (2 dl) veier omtrent 200 gram. Regn ut hvor mange ganger du må gå opp på stolen for å forbrenne et glass lettmelk.`,
       ],
       sporsmal: [
-        `Hvor mye energi brukte du på ett minutt, og hvor mye melk tilsvarer det?`,
-        `Ble det mer eller mindre melk enn du hadde trodd på forhånd?`,
-        `Hvilke feilkilder kan ha påvirket resultatet?`,
-        `Hva betyr det for regnestykket at kroppen bare utnytter cirka 10 % av energien til fysisk aktivitet?`,
+        `Hvor mange ganger må du gå opp på stolen for å forbrenne én sjokoladerute, og hvor lang tid tar det?`,
+        `Hvor mange ganger må du gå opp for å forbrenne et glass lettmelk? Hva gir mest energi per gram, sjokolade eller melk?`,
+        `En hel sjokoladeplate på 200 gram har omtrent 33 ruter. Hvor lenge måtte du ha holdt på for å forbrenne hele plata?`,
+        `Ble resultatet slik du hadde trodd på forhånd?`,
+        `Feilkilder: Vi har sagt at kroppen utnytter 10 % av energien i maten. Egentlig utnytter musklene nærmere 20–25 %. Samtidig har vi ikke regnet med energien du bruker når du går ned igjen, eller energien kroppen bruker på å holde seg varm og ha puls og pust i gang. Hvordan tror du disse feilkildene påvirker svaret ditt?`,
+        `Hvilke andre feilkilder kan ha påvirket resultatet?`,
       ],
     },
     {
