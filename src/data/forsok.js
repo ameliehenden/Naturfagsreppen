@@ -332,7 +332,7 @@ export const forsok = {
       tittel: `Hvor mye energi bruker du?`,
       innledning: [
         `I dette forsøket skal dere finne ut hvor mange ganger dere må gå opp på en stol for å bruke opp energien i én rute melkesjokolade. Til slutt skal dere sammenligne med et glass lettmelk.`,
-        `Energi kan verken skapes eller forsvinne, men den kan overføres fra én form til en annen. Når dere løfter kroppen opp på en stol, utfører dere et arbeid mot tyngdekraften. Arbeid regner vi ut som kraft ganger strekning, der kraften er massen deres ganget med tyngdeakselerasjonen på 9,81 N/kg.`,
+        `Energi kan verken skapes eller forsvinne, men den kan overføres fra én form til en annen. Når dere løfter kroppen opp på en stol, utfører dere et arbeid mot tyngdekraften. Arbeid regner vi ut som kraft ganger strekning, der kraften er massen deres ganget med tyngdeakselerasjonen på 9,81 m/s².`,
       ],
       utstyr: [
         `Stol`,
