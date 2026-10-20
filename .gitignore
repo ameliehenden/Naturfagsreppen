@@ -26,3 +26,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dokumenter og bilete som berre skal liggje lokalt, ikkje paa GitHub
+Dokumenter/
+/*.docx
+/*.pptx
+/*.jpg
+
