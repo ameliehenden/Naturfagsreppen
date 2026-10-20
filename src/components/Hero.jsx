@@ -1,11 +1,6 @@
 import styles from './Hero.module.css';
 
 export default function Hero() {
-  function scrollTilEmner(e) {
-    e.preventDefault();
-    document.getElementById('emner')?.scrollIntoView({ behavior: 'smooth' });
-  }
-
   return (
     <section className={styles.hero}>
       <div className={styles.inner}>
@@ -18,7 +13,6 @@ export default function Hero() {
           <h1 className={styles.tittel}>
             Naturfag for <span className={styles.uthev}>ungdomsskolen</span>
           </h1>
-
         </div>
       </div>
     </section>
