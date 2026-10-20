@@ -65,7 +65,9 @@ try {
 }
 
 const sesjonar = hits.filter((x) => x.event && x.path === '~session');
-const opplegg = hits.filter((x) => x.event && x.path !== '~session');
+const passord = hits.filter((x) => x.event && x.path.startsWith('~passord-'));
+const opplegg = hits.filter((x) => x.event && x.path !== '~session' && !x.path.startsWith('~passord-'));
+const passordTal = (rolle) => passord.find((x) => x.path === `~passord-${rolle}`)?.count ?? 0;
 const sider = hits.filter((x) => !x.event);
 
 const unikeBesok = sesjonar[0]?.count ?? null;
@@ -79,6 +81,8 @@ L.push(`## Naturfagsreppen – rapport for ${datoTekst}`);
 L.push('');
 L.push(`**Unike besøk:** ${unikeBesok ?? '–'}`);
 L.push(`**Sidevisninger totalt:** ${total}`);
+L.push(`**Låst opp med elevpassord:** ${passordTal('elev')}`);
+L.push(`**Låst opp med gjestepassord:** ${passordTal('gjest')}`);
 L.push('');
 if (opplegg.length) {
   L.push('**Opplegg åpnet:**');

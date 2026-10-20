@@ -42,6 +42,12 @@ export async function provPassord(passord) {
       // Brukar minneRolle.
     }
     window.dispatchEvent(new Event(HENDING));
+    // Tel kor mange som låser opp med kvart passord (anonymt, via GoatCounter).
+    window.goatcounter?.count?.({
+      path: `~passord-${rolle}`,
+      title: rolle === 'elev' ? 'Elevpassord brukt' : 'Gjestepassord brukt',
+      event: true,
+    });
   }
   return rolle;
 }
