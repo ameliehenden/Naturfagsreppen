@@ -83,6 +83,20 @@ export const emner = [
     kapitler: [],
   },
   {
+    id: 'klima-og-baerekraft',
+    tittel: 'Klima og bærekraft',
+    open: true, // Krev ikkje passord
+    ikon: '🌱',
+    farge: '#0e7a8a',
+    beskrivelse: 'Klimaendringer, naturressurser og bærekraftig utvikling.',
+    kapitler: [
+      'Klima og klimaendringer',
+      'Naturressurser og forbruk',
+      'Forurensning og avfall',
+      'FNs bærekraftsmål',
+    ],
+  },
+  {
     id: 'jorda',
     tittel: 'Jorda',
     ikon: '🌍',
@@ -93,19 +107,6 @@ export const emner = [
       'Bergarter og mineraler',
       'Vann og atmosfære',
       'Jorda i solsystemet',
-    ],
-  },
-  {
-    id: 'kropp-og-helse',
-    tittel: 'Kropp og helse',
-    ikon: '🧬',
-    farge: '#c0392b',
-    beskrivelse: 'Nerve- og hormonsystemet, immunsystemet og seksualitet.',
-    kapitler: [
-      'Celler og arvestoff',
-      'Organsystemer',
-      'Pubertet og seksualitet',
-      'Sykdom og immunforsvar',
     ],
   },
   {
@@ -131,16 +132,16 @@ export const emner = [
     ],
   },
   {
-    id: 'klima-og-baerekraft',
-    tittel: 'Klima og bærekraft',
-    ikon: '🌱',
-    farge: '#0e7a8a',
-    beskrivelse: 'Klimaendringer, naturressurser og bærekraftig utvikling.',
+    id: 'kropp-og-helse',
+    tittel: 'Kropp og helse',
+    ikon: '🧬',
+    farge: '#c0392b',
+    beskrivelse: 'Nerve- og hormonsystemet, immunsystemet og seksualitet.',
     kapitler: [
-      'Klima og klimaendringer',
-      'Naturressurser og forbruk',
-      'Forurensning og avfall',
-      'FNs bærekraftsmål',
+      'Celler og arvestoff',
+      'Organsystemer',
+      'Pubertet og seksualitet',
+      'Sykdom og immunforsvar',
     ],
   },
   {

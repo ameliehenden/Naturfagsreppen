@@ -20,7 +20,7 @@ export default function Emnekort({ emne }) {
         <h2 className={styles.tittel}>{emne.tittel}</h2>
       </div>
       <p className={styles.beskrivelse}>{emne.beskrivelse}</p>
-      {rolle
+      {rolle || emne.open
         ? <Link to={`/emne/${emne.id}`} className={styles.knapp}>Start emnet →</Link>
         : <span className={`${styles.knapp} ${styles.laast}`}>🔒 Krever passord</span>
       }
