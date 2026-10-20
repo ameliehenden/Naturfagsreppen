@@ -90,6 +90,16 @@
   opacity: 0.85;
 }
 
+.laast {
+  background: #e4e4e4;
+  color: #555;
+  cursor: default;
+}
+
+.laast:hover {
+  opacity: 1;
+}
+
 .knapp:focus-visible {
   outline: 3px solid var(--emne-farge);
   outline-offset: 3px;

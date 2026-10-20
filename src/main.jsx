@@ -4,6 +4,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import Layout from './components/Layout'
 import ScrollToTop from './components/ScrollToTop'
+import Laast from './components/Laast'
 import Hjem from './pages/Hjem'
 import JordaSide from './pages/JordaSide'
 import KroppOgHelseSide from './pages/KroppOgHelseSide'
@@ -19,11 +20,11 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Hjem />} />
-          <Route path="/emne/jorda" element={<JordaSide />} />
-          <Route path="/emne/kropp-og-helse" element={<KroppOgHelseSide />} />
-          <Route path="/emne/teknologi-og-vitenskap" element={<TeknologiSide />} />
-          <Route path="/emne/:id" element={<EmneSide />} />
-          <Route path="/sammenheng/:id/:slug" element={<SammenhengSide />} />
+          <Route path="/emne/jorda" element={<Laast><JordaSide /></Laast>} />
+          <Route path="/emne/kropp-og-helse" element={<Laast><KroppOgHelseSide /></Laast>} />
+          <Route path="/emne/teknologi-og-vitenskap" element={<Laast><TeknologiSide /></Laast>} />
+          <Route path="/emne/:id" element={<Laast><EmneSide /></Laast>} />
+          <Route path="/sammenheng/:id/:slug" element={<Laast><SammenhengSide /></Laast>} />
           <Route path="/om" element={<Om />} />
         </Route>
       </Routes>

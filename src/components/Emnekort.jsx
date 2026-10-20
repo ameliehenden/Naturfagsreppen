@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
+import { useTilgang } from '../tilgang';
 import styles from './Emnekort.module.css';
 
 export default function Emnekort({ emne }) {
+  const rolle = useTilgang();
   return (
     <article
       className={styles.kort}
@@ -18,7 +20,10 @@ export default function Emnekort({ emne }) {
         <h2 className={styles.tittel}>{emne.tittel}</h2>
       </div>
       <p className={styles.beskrivelse}>{emne.beskrivelse}</p>
-      <Link to={`/emne/${emne.id}`} className={styles.knapp}>Start emnet →</Link>
+      {rolle
+        ? <Link to={`/emne/${emne.id}`} className={styles.knapp}>Start emnet →</Link>
+        : <span className={`${styles.knapp} ${styles.laast}`}>🔒 Krever passord</span>
+      }
     </article>
   );
 }

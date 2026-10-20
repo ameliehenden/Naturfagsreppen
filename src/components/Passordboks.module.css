@@ -1,0 +1,68 @@
+.boks {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1rem 1.25rem;
+  margin-top: 1.5rem;
+  max-width: 460px;
+}
+
+.tekst {
+  display: block;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.6rem;
+}
+
+.rad {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.felt {
+  flex: 1;
+  min-width: 0;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.felt:focus-visible {
+  outline: 3px solid #1a1a2e;
+  outline-offset: 1px;
+}
+
+.knapp {
+  padding: 0.55rem 1.2rem;
+  background: #1a1a2e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.knapp:hover {
+  opacity: 0.85;
+}
+
+.gjest {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0.75rem 0 0;
+  line-height: 1.5;
+}
+
+.gjest a {
+  color: #1a1a2e;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.feil {
+  color: #b3261e;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0;
+}
