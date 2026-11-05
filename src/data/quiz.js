@@ -1129,15 +1129,6 @@ export const quiz = {
         `Kraft = masse × fart.`,
       ],
     },
-    {
-      sporsmal: `Hvorfor er bilbeltet med på å redde liv i et kræsj?`,
-      riktig: `Det gjør kræsjtiden lengre, slik at akselerasjonen blir mindre, og fordeler kraften over en større flate.`,
-      feil: [
-        `Det gjør at farten endres raskere, slik at kræsjet går fortere over.`,
-        `Det øker tyngdekraften som holder deg fast i setet.`,
-        `Det fjerner all kraft fra kræsjet helt.`,
-      ],
-    },
   ],
   'teknologi': [
     {

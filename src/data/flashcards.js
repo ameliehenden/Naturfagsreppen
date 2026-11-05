@@ -690,18 +690,6 @@ export const flashcards = {
       begrep: `Arbeid`,
       forklaring: `Det en kraft gjør når den flytter på noe. Arbeid = kraft × strekning, og måles i newtonmeter (Nm) eller joule (J).`,
     },
-    {
-      begrep: `Effekt`,
-      forklaring: `Hvor raskt et arbeid blir gjort. Effekt = arbeid delt på tid.`,
-    },
-    {
-      begrep: `Akselerasjon`,
-      forklaring: `Hvor raskt farten endrer seg (fartsendring delt på tid). Uten en kraft som dytter eller drar, blir det ingen akselerasjon.`,
-    },
-    {
-      begrep: `Newtons 2. lov`,
-      forklaring: `Kraft = masse × akselerasjon (F = m · a). Jo større kraft, desto større akselerasjon for samme masse.`,
-    },
   ],
   'teknologi': [
     {
