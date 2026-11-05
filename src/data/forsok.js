@@ -594,6 +594,40 @@ export const forsok = {
     { tittel: `ASCII-koder` },
     { tittel: `Programmere fjernstyrt bil med Micro:Bit` },
     { tittel: `Programmere trafikklys med Micro:Bit` },
+    {
+      tittel: `Lag en elektromagnet`,
+      innledning: [
+        `I dette forsøket skal dere lage en magnet som kan skrus av og på, ved hjelp av et batteri, en ledning og en jernspiker.`,
+        `Når det går strøm gjennom en ledning, dannes det et magnetfelt rundt ledningen. Tvinner vi ledningen til en spole rundt en jernkjerne, blir magnetfeltet mye sterkere. Dette kalles en elektromagnet.`,
+      ],
+      utstyr: [
+        `Isolert kobbertråd (omtrent 1 meter)`,
+        `En stor jernspiker`,
+        `Et batteri (1,5 V eller 4,5 V)`,
+        `2 krokodilleklemmer eller teip til å feste ledningen til batteriet`,
+        `Binders`,
+        `Sandpapir eller saks til å fjerne isolasjonen på ledningsendene`,
+      ],
+      slik: [
+        `Fjern litt av isolasjonen i begge ender av kobbertråden.`,
+        `Tvinn tråden tett rundt spikeren, 20 ganger, og alltid i samme retning. La det være litt ledning til overs i hver ende.`,
+        `Koble ledningsendene til hver sin pol på batteriet, slik at dere får en lukket krets.`,
+        `Hold spikeren over en haug med binders, og tell hvor mange binders den klarer å løfte. Skriv tallet i en tabell.`,
+        `Koble fra batteriet mens spikeren fortsatt holder bindersene. Hva skjer?`,
+        `Tvinn tråden 20 ganger til rundt spikeren, slik at dere får 40 viklinger, og tell hvor mange binders den løfter nå. Prøv gjerne med enda flere viklinger.`,
+        `Trekk spikeren ut av spolen, og test hvor mange binders spolen klarer å løfte uten spiker.`,
+        `Husk å koble fra batteriet når dere ikke måler. Ledningen og batteriet kan bli varme, og batteriet tømmes fort. Rydd utstyret på plass til slutt.`,
+      ],
+      sporsmal: [
+        `Hva skjedde med bindersene da dere koblet fra batteriet, og hvorfor?`,
+        `Hvordan påvirket antall viklinger hvor mange binders elektromagneten klarte å løfte?`,
+        `Hvilken rolle har spikeren i elektromagneten?`,
+        `Hva er fordelen med en elektromagnet sammenlignet med en vanlig magnet?`,
+        `Hvor tror du elektromagneter brukes i teknologien rundt oss?`,
+        `Hvilke feilkilder kan ha påvirket resultatet?`,
+      ],
+      forklaring: `Elektrisk strøm lager et magnetfelt rundt ledningen. Når ledningen er tvinnet til en spole, legger magnetfeltene fra alle viklingene seg sammen, og jo flere viklinger, desto sterkere blir magneten. Jernspikeren blir selv magnetisk så lenge det går strøm gjennom spolen, og gjør magnetfeltet mye sterkere. Når strømmen brytes, forsvinner magnetfeltet nesten helt, og bindersene faller. Det er dette som er det smarte med elektromagneter: vi kan skru dem av og på. De brukes for eksempel i høyttalere, elektriske motorer, ringeklokker og i store kraner som løfter skrapjern.`,
+    },
   ],
   'vitenskap': [
     {
