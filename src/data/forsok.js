@@ -347,7 +347,7 @@ export const forsok = {
         `Mål høyden på stolen i meter.`,
         `Jobb to og to. Den ene tar tiden, mens den andre går opp og ned på stolen så mange ganger som mulig på ett minutt. Tell antall ganger.`,
         `Regn ut tyngdekraften på kroppen din: kraft = masse × 9,81.`,
-        `Regn ut arbeidet for én oppstigning: arbeid = kraft × høyden på stolen. Svaret er energien i joule for å komme opp én gang.`,
+        `Energien arbeidet har brukt er gitt i «Joule». For å finne ut hvor mange joule du har brukt på en oppstigning må vi regne ut arbeidet som er gjort. Arbeid = kraft × høyden på stolen (gitt i meter).`,
         `Kroppen klarer bare å utnytte rundt 20 % av energien i maten til fysisk arbeid. Gang derfor svaret fra forrige punkt med 5. Da får du hvor mye energi fra maten du bruker på én oppstigning.`,
         `Ett gram melkesjokolade gir omtrent 22 400 J. Én rute på 6 gram gir derfor omtrent 134 400 J.`,
         `Del energien i sjokoladeruten på energien du bruker per oppstigning. Svaret er hvor mange ganger du må gå opp på stolen for å forbrenne én rute.`,
