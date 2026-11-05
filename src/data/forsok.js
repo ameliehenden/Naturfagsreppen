@@ -624,9 +624,10 @@ export const forsok = {
         `Hvilken rolle har spikeren i elektromagneten?`,
         `Hva er fordelen med en elektromagnet sammenlignet med en vanlig magnet?`,
         `Hvor tror du elektromagneter brukes i teknologien rundt oss?`,
+        `Mange generatorer i kraftverk bruker elektromagneter, altså strøm for å lage strøm. Hvorfor bryter ikke dette med energiloven?`,
         `Hvilke feilkilder kan ha påvirket resultatet?`,
       ],
-      forklaring: `Elektrisk strøm lager et magnetfelt rundt ledningen. Når ledningen er tvinnet til en spole, legger magnetfeltene fra alle viklingene seg sammen, og jo flere viklinger, desto sterkere blir magneten. Jernspikeren blir selv magnetisk så lenge det går strøm gjennom spolen, og gjør magnetfeltet mye sterkere. Når strømmen brytes, forsvinner magnetfeltet nesten helt, og bindersene faller. Det er dette som er det smarte med elektromagneter: vi kan skru dem av og på. De brukes for eksempel i høyttalere, elektriske motorer, ringeklokker og i store kraner som løfter skrapjern.`,
+      forklaring: `Elektrisk strøm lager et magnetfelt rundt ledningen. Når ledningen er tvinnet til en spole, legger magnetfeltene fra alle viklingene seg sammen, og jo flere viklinger, desto sterkere blir magneten. Jernspikeren blir selv magnetisk så lenge det går strøm gjennom spolen, og gjør magnetfeltet mye sterkere. Når strømmen brytes, forsvinner magnetfeltet nesten helt, og bindersene faller. Det er dette som er det smarte med elektromagneter: vi kan skru dem av og på. De brukes for eksempel i høyttalere, elektriske motorer, ringeklokker og i store kraner som løfter skrapjern. Sammenhengen mellom strøm og magnetisme går begge veier: strøm kan lage magnetisme, og bevegelse i et magnetfelt kan lage strøm. Derfor bruker mange generatorer elektromagneter. De bruker bare en liten del av strømmen som produseres, og energien kommer fra det som driver generatoren, for eksempel fallende vann. Det samme fenomenet ligger bak trådløse signaler: når strømmen i en antenne skifter retning veldig raskt, sendes det ut elektromagnetisk stråling.`,
     },
   ],
   'vitenskap': [
