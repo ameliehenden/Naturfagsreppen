@@ -359,7 +359,6 @@ export const forsok = {
         `Tenk over alle veiene energien i sjokoladen tok. Hvor kom energien i sjokoladen fra? Hvor ble den av da du spiste sjokoladen og gikk opp på stolen, og hvilke energiformer ble den til?`,
         `Hvor mange ganger må du gå opp for å forbrenne et glass lettmelk? Hva gir mest energi per gram, sjokolade eller melk?`,
         `En hel sjokoladeplate på 200 gram har 24 ruter. Hvor lenge måtte du ha holdt på for å forbrenne hele plata?`,
-        `Ble resultatet slik du hadde trodd på forhånd?`,
         `Feilkilder: Vi har regnet med at kroppen utnytter 20 % av energien i maten, men dette er et omtrentlig tall som varierer litt fra person til person. Samtidig har vi ikke regnet med energien du bruker når du går ned igjen. Hvordan tror du disse feilkildene påvirker svaret ditt?`,
         `Hvilke andre feilkilder kan ha påvirket resultatet?`,
       ],
