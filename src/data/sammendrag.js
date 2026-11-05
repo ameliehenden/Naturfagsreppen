@@ -521,16 +521,8 @@ export const sammendrag = {
       tekst: `Masse betyr stoffmengde, altså hvor mye stoff (protoner, nøytroner og elektroner) en gjenstand er bygd opp av. Masse måles i kilogram (kg) og er alltid den samme. Tyngde er derimot en kraft: tyngdekraften trekker gjenstanden mot jorda med en kraft på omtrent 10 ganger massen (egentlig 9,81). En gjenstand på 50 kg har derfor en tyngde på cirka 500 N på jorda. På månen, der tyngdekraften er svakere, blir tyngden bare rundt 80 N, men massen er fortsatt 50 kg. Tyngden varierer altså med hvor du er, mens massen alltid er den samme.`,
     },
     {
-      tittel: `Arbeid og effekt`,
-      tekst: `I fysikken gjør en kraft et arbeid når den flytter på noe. Arbeid regnes ut som kraft ganger strekning, og måles i newtonmeter (Nm) eller joule (J). Dytter du en vogn med en kraft på 10 N i 20 meter, har du gjort et arbeid på 200 joule. Effekt forteller hvor raskt arbeidet blir gjort: effekt er arbeid delt på tid. Springer du opp en bakke på 15 minutter, eller går rolig på halvannen time, gjør du det samme arbeidet, men effekten er mye større når du springer.`,
-    },
-    {
-      tittel: `Fart, akselerasjon og Newtons 2. lov`,
-      tekst: `Gjennomsnittsfart regnes ut som strekning delt på tid. Akselerasjon er fartsendring delt på tid, altså hvor raskt farten endrer seg. For at noe skal øke eller minke i fart, må det virke en kraft som dytter eller drar; uten krefter blir det ingen akselerasjon. Dette er kjernen i Newtons 2. lov, som sier at kraft = masse × akselerasjon (F = m · a).`,
-    },
-    {
-      tittel: `Hvorfor bilbeltet redder liv`,
-      tekst: `Et bilbelte er et godt eksempel på fysikk i praksis. I et kræsj endres farten veldig mye på svært kort tid, det gir en enorm akselerasjon, som er farlig for kroppen. Bilbeltet gjør «kræsjtiden» litt lengre, slik at akselerasjonen blir mindre og kræsjet mindre farlig. I tillegg fordeler beltet kraften fra kræsjet over en større flate av kroppen. Det er samme idé som at en nål lett går gjennom en pappeske, mens en flat hånd ikke gjør det, kraften virker på et mye mindre areal med nåla.`,
+      tittel: `Arbeid og energi i mat`,
+      tekst: `I fysikken gjør en kraft et arbeid når den flytter på noe. Arbeid regnes ut som kraft ganger strekning, og måles i newtonmeter (Nm) eller joule (J). Dytter du en vogn med en kraft på 10 N i 20 meter, har du gjort et arbeid på 200 joule. Arbeid og energi måles i samme enhet, fordi arbeid er energi som blir overført. Derfor finner vi joule også på matvarer. På emballasjen står energien oppgitt i kilojoule (kJ), der 1 kJ er 1000 joule. 100 gram melkesjokolade inneholder for eksempel omtrent 2240 kJ, altså 22 400 joule per gram. Slik kan vi sammenligne energien i maten vi spiser med arbeidet vi gjør.`,
     },
   ],
   'teknologi': [
