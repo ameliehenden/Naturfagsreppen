@@ -16,7 +16,12 @@ export default function PraktiskeForsok({ forsok }) {
                   <>
                     {f.innledning && (
                       Array.isArray(f.innledning)
-                        ? f.innledning.map((avsnitt, j) => <p key={j} className={styles.tekst}>{avsnitt}</p>)
+                        ? f.innledning.map((avsnitt, j) => (
+                            avsnitt.bilde
+                              ? <img key={j} src={avsnitt.bilde} alt={avsnitt.bildeAlt || f.tittel} className={styles.bilde}
+                                  style={avsnitt.bildeBredd ? { width: avsnitt.bildeBredd } : undefined} />
+                              : <p key={j} className={styles.tekst}>{avsnitt}</p>
+                          ))
                         : <p className={styles.tekst}>{f.innledning}</p>
                     )}
 
