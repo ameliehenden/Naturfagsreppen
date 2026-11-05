@@ -356,7 +356,7 @@ export const forsok = {
         `Sammenlign med lettmelk: Ett gram lettmelk gir omtrent 1880 J, og et glass (2 dl) veier omtrent 200 gram. Regn ut på samme måte hvor mange ganger du må gå opp på stolen for å forbrenne et glass lettmelk.`,
       ],
       sporsmal: [
-        `Hvor mange ganger må du gå opp på stolen for å forbrenne én sjokoladerute, og hvor lang tid tar det?`,
+        `Tenk over alle veiene energien i sjokoladen tok. Hvor ble den av da du spiste sjokoladen og gikk opp på stolen, og hvilke energiformer ble den til?`,
         `Hvor mange ganger må du gå opp for å forbrenne et glass lettmelk? Hva gir mest energi per gram, sjokolade eller melk?`,
         `En hel sjokoladeplate på 200 gram har 24 ruter. Hvor lenge måtte du ha holdt på for å forbrenne hele plata?`,
         `Ble resultatet slik du hadde trodd på forhånd?`,
