@@ -41,6 +41,12 @@ export default function Flashcards({ kort }) {
     }
   }
 
+  function forrigeKort() {
+    if (index === 0) return;
+    setIndex(index - 1);
+    setVist(false);
+  }
+
   if (ferdig) {
     return (
       <div className={styles.wrapper}>
@@ -81,6 +87,15 @@ export default function Flashcards({ kort }) {
         <span className={styles.hint}>
           {vist ? 'Trykk for neste kort →' : 'Trykk for å snu'}
         </span>
+      </button>
+
+      <button
+        type="button"
+        className={styles.nytt}
+        onClick={forrigeKort}
+        disabled={index === 0}
+      >
+        ← Forrige kort
       </button>
 
       <button type="button" className={styles.bytt} onClick={byttRekkefolge}>

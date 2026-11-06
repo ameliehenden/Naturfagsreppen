@@ -3,6 +3,8 @@ import styles from './Feedback.module.css';
 
 // FormSubmit-alias for skule-e-posten (unngår å vise e-postadressa i klartekst i sidekoden)
 const MOTTAKER = '24865e9c544dc052469f26ef493795e9';
+// Gi opp etter 15 sekunder, slik at knappen ikke henger hvis tjenesten er nede
+const TIDSAVBRUDD_MS = 15000;
 
 export default function Feedback() {
   const [apen, setApen] = useState(false);
@@ -36,9 +38,12 @@ export default function Feedback() {
     e.preventDefault();
     if (!tekst.trim()) return;
     setStatus('sender');
+    const kontroller = new AbortController();
+    const tidsavbrudd = setTimeout(() => kontroller.abort(), TIDSAVBRUDD_MS);
     try {
       const res = await fetch(`https://formsubmit.co/ajax/${MOTTAKER}`, {
         method: 'POST',
+        signal: kontroller.signal,
         headers: {
           'Content-Type': 'application/json',
           Accept: 'application/json',
@@ -55,6 +60,8 @@ export default function Feedback() {
       setTekst('');
     } catch {
       setStatus('feil');
+    } finally {
+      clearTimeout(tidsavbrudd);
     }
   }
 
@@ -128,7 +135,7 @@ export default function Feedback() {
                 />
                 {status === 'feil' && (
                   <p className={styles.feilmelding} role="alert">
-                    Noe gikk galt. Sjekk nettforbindelsen og prøv igjen.
+                    Tilbakemeldingen ble ikke sendt. Tjenesten som sender meldingene kan være nede akkurat nå. Prøv igjen litt senere.
                   </p>
                 )}
                 <button
