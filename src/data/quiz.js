@@ -19,7 +19,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva kjennetegner mantelen?`,
-      riktig: `Den utgjør mesteparten av jordas volum og består av varmt, halvfast bergartsmateriale.`,
+      riktig: `Den utgjør mesteparten av jordas volum og er varm og halvfast.`,
       feil: [
         `Den er helt flytende og befinner seg mellom jordskorpen og kjernen.`,
         `Den er det innerste laget av jorda og består av fast jern og nikkel.`,
@@ -31,13 +31,13 @@ export const quiz = {
       riktig: `Bevegelsene i den flytende yttre kjernen av jern og nikkel.`,
       feil: [
         `Rotasjonen til den faste indre kjernen.`,
-        `Konveksjonsstrømmene i mantelen.`,
+        `Konveksjonsstrømmene i mantelen under jordskorpen.`,
         `Den elektriske aktiviteten i jordskorpen.`,
       ],
     },
     {
       sporsmal: `Hva er den indre kjernen?`,
-      riktig: `Det innerste laget av jorda, fast jern og nikkel med temperaturer rundt 5000–6000°C.`,
+      riktig: `Det innerste laget av jorda, fast jern og nikkel.`,
       feil: [
         `Det innerste laget av jorda, flytende jern og nikkel.`,
         `Det innerste laget av jorda, smeltet stein og mineraler.`,
@@ -156,11 +156,11 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er nedbryternes rolle i et økosystem?`,
-      riktig: `De bryter ned dødt organisk materiale slik at næringsstoffer frigjøres og kan tas opp av planter igjen.`,
+      riktig: `De bryter ned dødt materiale, så næringsstoffer kan tas opp igjen.`,
       feil: [
         `De spiser levende planter og dyr og overfører energi oppover i næringskjeden.`,
         `De produserer oksygen ved å bryte ned mineraler i jorda.`,
-        `De renser lufta ved å absorbere CO₂ fra atmosfæren.`,
+        `De renser lufta ved å absorbere CO₂ fra atmosfæren og lagre den i jorda.`,
       ],
     },
     {
@@ -183,7 +183,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er et økosystem?`,
-      riktig: `Et avgrenset naturområde med alle levende organismer og de ikke-levende omgivelsene som påvirker hverandre.`,
+      riktig: `Et område der levende organismer og ikke-levende omgivelser påvirker hverandre.`,
       feil: [
         `Et avgrenset naturområde der det bare lever organismer, uten innflytelse fra miljøet.`,
         `Alle levende organismer på jorda og samspillet mellom dem.`,
@@ -201,7 +201,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er biologisk mangfold?`,
-      riktig: `Summen av all genetisk variasjon, alle arter og alle naturtyper i et område.`,
+      riktig: `All variasjon i gener, arter og naturtyper i et område.`,
       feil: [
         `Antallet dyrearter som finnes i et bestemt naturreservat.`,
         `Antallet plante- og dyrearter som er registrert i et land.`,
@@ -210,16 +210,16 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er rødlista?`,
-      riktig: `En oversikt over arter som er truet av utryddelse, inndelt i kategorier etter risiko for utdøing.`,
+      riktig: `En oversikt over arter som er truet, inndelt etter risiko for utdøing.`,
       feil: [
         `En oversikt over invasive fremmede arter som truer norsk natur.`,
         `En oversikt over alle ville dyr og planter som er fredet i Norge.`,
-        `En liste over naturområder som er truet av utbygging og inngrep.`,
+        `En liste over naturområder som er truet av utbygging og andre inngrep i naturen.`,
       ],
     },
     {
       sporsmal: `Hva avgjør hvilken klimasone et område tilhører?`,
-      riktig: `Breddegrad, havstrømmer og terreng bestemmer klimaet og dermed hvilke organismer som kan leve der.`,
+      riktig: `Breddegrad, havstrømmer og terreng bestemmer klimaet i området.`,
       feil: [
         `Bare breddegraden bestemmer klimasonen og hvilke organismer som lever der.`,
         `Jordas rotasjon og havets størrelse bestemmer klimasonen.`,
@@ -228,7 +228,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva skjer dersom en art i et næringsnett forsvinner?`,
-      riktig: `Det kan påvirke hele næringsnettet, siden mange andre arter kan miste mat eller få ukontrollert vekst.`,
+      riktig: `Det kan påvirke mange andre arter i hele næringsnettet.`,
       feil: [
         `Bare den arten som spiste den forsvunne arten, blir påvirket.`,
         `Næringsnettet tilpasser seg umiddelbart uten konsekvenser.`,
@@ -248,7 +248,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er naturlig utvalg?`,
-      riktig: `Prosessen der individer med gunstige egenskaper overlever og formerer seg mer, slik at egenskapene spres i populasjonen.`,
+      riktig: `Prosessen der individer med gunstige egenskaper overlever og får flest avkom.`,
       feil: [
         `Prosessen der individer aktivt velger partnere med de beste egenskapene for å forsterke dem.`,
         `Prosessen der individer med ugunstige egenskaper dør umiddelbart og ikke etterlater seg avkom.`,
@@ -259,9 +259,9 @@ export const quiz = {
       sporsmal: `Hva har plantecellen som dyrecellen mangler?`,
       riktig: `Cellevegg, kloroplaster og en stor vakuole.`,
       feil: [
-        `Cellekjerne og ribosomer.`,
-        `Cellemembran og mitokondrier.`,
-        `Cellevegg og mitokondrier.`,
+        `Cellekjerne, ribosomer og cellemembran.`,
+        `Cellemembran, mitokondrier og en stor vakuole.`,
+        `Cellevegg, mitokondrier og en cellekjerne.`,
       ],
     },
     {
@@ -311,7 +311,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er DNA?`,
-      riktig: `Stoffet som inneholder arveoppskriften for alle levende organismer, bygd opp av fire baser i en dobbel spiral.`,
+      riktig: `Stoffet som inneholder arveoppskriften, bygd opp av fire baser.`,
       feil: [
         `En type protein som styrer cellens aktivitet og finnes i cellemembran.`,
         `Et sukkermolekyl som er cellens viktigste energikilde.`,
@@ -365,7 +365,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva menes med at to arter har felles stamfar?`,
-      riktig: `At begge artene stammer fra den samme forfedrearten og har utviklet seg fra den i ulike retninger.`,
+      riktig: `At begge artene har utviklet seg fra den samme forfedrearten.`,
       feil: [
         `At begge artene bor i det samme geografiske området og har tilpasset seg likt.`,
         `At de to artene er genetisk identiske og ikke kan skilles fra hverandre.`,
@@ -374,7 +374,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hvilke kjennetegn har alt som er levende?`,
-      riktig: `Det er bygd opp av celler, tar til seg næring, vokser, formerer seg og inneholder arvestoff.`,
+      riktig: `Det er bygd opp av celler, tar til seg næring, vokser og formerer seg.`,
       feil: [
         `Det er bygd opp av celler, kan bevege seg og puster inn oksygen.`,
         `Det inneholder arvestoff, men trenger verken næring eller å formere seg.`,
@@ -405,7 +405,7 @@ export const quiz = {
       feil: [
         `Tre gener som sammen danner ett kromosom.`,
         `Tre ribosomer som jobber med samme protein samtidig.`,
-        `Tre aminosyrer som til sammen utgjør ett ferdig protein.`,
+        `Tre aminosyrer som til sammen utgjør ett ferdig protein i cellen.`,
       ],
     },
     {
@@ -457,7 +457,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er drivhuseffekten?`,
-      riktig: `At drivhusgassene i atmosfæren fanger opp varmestråling fra jorda og sender den tilbake, slik at det holder seg varmt nok til å leve.`,
+      riktig: `At drivhusgasser holder på varmestråling fra jorda.`,
       feil: [
         `At ozonlaget slipper gjennom solstrålene og varmer opp jorda.`,
         `At sola sender ut stadig mer energi mot jorda.`,
@@ -466,7 +466,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er drivhusgasser?`,
-      riktig: `Gasser som fanger opp varmestråling og påvirker temperaturen på jorda.`,
+      riktig: `Gasser som fanger opp varmestråling fra jorda.`,
       feil: [
         `Gasser som bare finnes inne i drivhus.`,
         `Gasser som bryter ned ozonlaget i atmosfæren.`,
@@ -478,7 +478,7 @@ export const quiz = {
       riktig: `At den gjennomsnittlige temperaturen på jorda stiger.`,
       feil: [
         `At hele kloden blir like mye varmere overalt.`,
-        `At sommeren blir varmere over hele verden hvert år.`,
+        `At sommeren blir varmere over hele verden for hvert år som går.`,
         `At sola varmer opp jordas overflate mer enn før.`,
       ],
     },
@@ -502,25 +502,25 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er et kulturlandskap?`,
-      riktig: `Et landskap som er påvirket av mennesker, ofte gjennom jord- og skogbruk.`,
+      riktig: `Et landskap som er formet av mennesker, ofte gjennom jordbruk.`,
       feil: [
         `En by der mennesker har bygd og formet hele området.`,
-        `Et landskap der det har skjedd store, historiske hendelser.`,
+        `Et landskap der det har skjedd store, historiske hendelser for lenge siden.`,
         `Et naturområde som er fredet og ikke kan bygges ut.`,
       ],
     },
     {
       sporsmal: `Hva er fornybare ressurser?`,
-      riktig: `Ressurser som fornyes i naturen, og som kan brukes uten at de nødvendigvis brukes opp.`,
+      riktig: `Ressurser som fornyes i naturen og ikke nødvendigvis tar slutt.`,
       feil: [
-        `Ressurser som aldri kan ta slutt, uansett hvor mye vi bruker.`,
+        `Ressurser som aldri kan ta slutt, uansett hvor mye vi bruker av dem.`,
         `Ressurser som mennesker kan lage mer av når vi trenger det.`,
         `Ressurser som finnes i svært store mengder, som olje og gass.`,
       ],
     },
     {
       sporsmal: `Hva er en interessekonflikt?`,
-      riktig: `Når to grupper har ulike interesser i et naturområde, og den enes bruk ødelegger for den andre.`,
+      riktig: `Når ulike grupper har motstridende interesser i et naturområde.`,
       feil: [
         `Når to forskningsgrupper vil bruke det samme området til å forske på det samme.`,
         `Når mennesker er uenige om hvordan de skal stemme ved et valg.`,
@@ -538,7 +538,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er hovedårsaken til økt havnivå?`,
-      riktig: `Innlandsis på land smelter og renner ut i havet, og varmere vann utvider seg.`,
+      riktig: `Innlandsis smelter, og varmere vann utvider seg.`,
       feil: [
         `Havisen i Arktis smelter og fyller havet med mer vann.`,
         `Det regner mye mer enn før, slik at havet fylles opp.`,
@@ -612,7 +612,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva gjør T-cellene (drepecellene)?`,
-      riktig: `De dreper kroppens egne celler som er blitt syke, for eksempel virusinfiserte celler og kreftceller.`,
+      riktig: `De dreper kroppens egne celler som er blitt syke.`,
       feil: [
         `De lager antistoffer som merker smittestoff.`,
         `De spiser bakterier i en prosess kalt fagocytose.`,
@@ -621,11 +621,11 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er et antistoff?`,
-      riktig: `Et protein som passer til ett bestemt smittestoff og merker det for ødeleggelse.`,
+      riktig: `Et protein som passer til ett bestemt smittestoff.`,
       feil: [
-        `En etecelle som spiser opp inntrengere.`,
-        `Et smittestoff som gjør oss syke.`,
-        `En celle som frakter oksygen i blodet.`,
+        `En etecelle som spiser opp inntrengere i kroppen.`,
+        `Et smittestoff som kommer inn i kroppen og gjør oss syke.`,
+        `En celle som frakter oksygen rundt i blodet til cellene.`,
       ],
     },
     {
@@ -641,23 +641,23 @@ export const quiz = {
       sporsmal: `Hvorfor er feber nyttig når vi er syke?`,
       riktig: `Smittestoffene formerer seg saktere, samtidig som immunforsvaret jobber mer effektivt.`,
       feil: [
-        `Feber dreper alle bakterier i kroppen umiddelbart.`,
-        `Feber gjør at vi lager flere røde blodceller.`,
-        `Feber hindrer at vi blir smittet på nytt senere.`,
+        `Feber dreper alle bakterier i kroppen umiddelbart, uansett type.`,
+        `Feber gjør at vi lager flere røde blodceller som frakter ekstra oksygen.`,
+        `Feber hindrer at vi blir smittet av samme sykdom på nytt senere.`,
       ],
     },
     {
       sporsmal: `Hva inneholder en vaksine?`,
       riktig: `Svekkede eller døde smittestoff, eller deler av dem.`,
       feil: [
-        `Ferdige antistoffer som virker med en gang.`,
+        `Ferdige antistoffer som virker med en gang etter stikket.`,
         `Antibiotika som dreper bakterier i kroppen.`,
         `Levende, fullt smittsomme virus.`,
       ],
     },
     {
       sporsmal: `Hvordan virker en vaksine?`,
-      riktig: `Kroppen lager antistoffer og hukommelsesceller uten at du blir ordentlig syk.`,
+      riktig: `Kroppen lager antistoffer og hukommelsesceller.`,
       feil: [
         `Den dreper smittestoffet direkte slik antibiotika gjør.`,
         `Den styrker huden og slimhinnene så smitte ikke kommer inn.`,
@@ -666,19 +666,19 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er flokkimmunitet?`,
-      riktig: `Når så mange er immune at smittestoffet ikke klarer å spre seg, slik at også de uvaksinerte beskyttes.`,
+      riktig: `Når så mange er immune at smittestoffet ikke klarer å spre seg.`,
       feil: [
-        `Når én person er immun mot alle kjente sykdommer.`,
+        `Når én person er immun mot alle kjente sykdommer gjennom hele livet.`,
         `Når immunforsvaret angriper kroppens egne celler.`,
         `Når en hel familie blir syke av samme smittestoff samtidig.`,
       ],
     },
     {
       sporsmal: `Hvorfor regnes ikke virus som levende?`,
-      riktig: `De må kapre en levende celle for å kunne formere seg.`,
+      riktig: `De må kapre en levende celle for å formere seg.`,
       feil: [
         `De er for små til å inneholde noe arvestoff.`,
-        `De består bare av vann og salter.`,
+        `De består bare av vann og salter, uten noe arvestoff.`,
         `De kan bare leve i kaldt vann.`,
       ],
     },
@@ -713,7 +713,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er oppgaven til det motoriske systemet?`,
-      riktig: `Å sende beskjeder fra sentralnervesystemet ut til musklene og styre bevegelsene.`,
+      riktig: `Å sende beskjeder fra sentralnervesystemet ut til musklene.`,
       feil: [
         `Å sende informasjon fra sansene inn til sentralnervesystemet.`,
         `Å styre kjertler, hjerte og fordøyelse uten viljen.`,
@@ -722,9 +722,9 @@ export const quiz = {
     },
     {
       sporsmal: `Hva gjør det autonome systemet?`,
-      riktig: `Styrer kjertler, glatt muskulatur og hjertet, det vi ikke styrer med viljen.`,
+      riktig: `Styrer det vi ikke styrer med viljen, som hjertet.`,
       feil: [
-        `Styrer musklene vi beveger med viljen.`,
+        `Styrer musklene vi beveger med viljen, som armer og bein.`,
         `Sender informasjon fra sansene til hjernen.`,
         `Lager nye nerveceller når noen blir skadet.`,
       ],
@@ -740,16 +740,16 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er en refleks?`,
-      riktig: `En rask, automatisk reaksjon der signalet går til ryggmargen og rett tilbake, uten å gå om hjernen.`,
+      riktig: `En rask, automatisk reaksjon som går via ryggmargen og ikke hjernen.`,
       feil: [
         `En reaksjon der hjernen nøye vurderer hva som er best å gjøre.`,
-        `En bevegelse vi bestemmer oss for med viljen.`,
+        `En bevegelse vi bestemmer oss for med viljen, etter å ha tenkt oss om.`,
         `Et hormon som skilles ut når vi blir redde.`,
       ],
     },
     {
       sporsmal: `Hva er et hormon?`,
-      riktig: `Et kjemisk signalstoff som sendes med blodet til en bestemt mottaker i kroppen.`,
+      riktig: `Et kjemisk signalstoff som sendes med blodet.`,
       feil: [
         `Et elektrisk signal som sendes raskt gjennom nervene.`,
         `En celle som frakter oksygen rundt i kroppen.`,
@@ -758,16 +758,16 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er den viktigste forskjellen på nervesystemet og hormonsystemet?`,
-      riktig: `Nervesignaler går raskt og virker kort tid, mens hormoner virker langsommere, men ofte over lengre tid.`,
+      riktig: `Nervesignaler virker raskt og kort, hormoner langsommere og lenger.`,
       feil: [
         `Nervesystemet bruker blodet, mens hormonsystemet bruker nervene.`,
-        `Hormonsystemet er raskt, mens nervesystemet er tregt.`,
+        `Hormonsystemet er raskt og virker kort, mens nervesystemet er tregt og virker lenge.`,
         `Bare nervesystemet gir beskjeder; hormonsystemet lagrer energi.`,
       ],
     },
     {
       sporsmal: `Hvorfor kalles hypofysen den overordnede hormonkjertelen?`,
-      riktig: `Fordi den styrer de andre hormonkjertlene og bestemmer om de skal lage mer eller mindre hormon.`,
+      riktig: `Fordi den styrer de andre hormonkjertlene.`,
       feil: [
         `Fordi den er den største hormonkjertelen i kroppen.`,
         `Fordi den lager alle hormonene kroppen trenger.`,
@@ -776,7 +776,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hvilken oppgave har adrenalin?`,
-      riktig: `Det gjør kroppen klar til å kjempe eller flykte, blant annet med raskere hjerteslag.`,
+      riktig: `Det gjør kroppen klar til å kjempe eller flykte.`,
       feil: [
         `Det senker blodsukkeret og lagrer energi som fett.`,
         `Det sørger for at kroppen vokser.`,
@@ -785,7 +785,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hvordan samarbeider insulin og glukagon?`,
-      riktig: `Insulin senker blodsukkeret, og glukagon øker det, sammen holder de blodsukkeret stabilt.`,
+      riktig: `Insulin senker blodsukkeret, og glukagon øker det.`,
       feil: [
         `Begge senker blodsukkeret så raskt som mulig.`,
         `Insulin øker blodsukkeret, og glukagon senker det.`,
@@ -794,7 +794,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er forskjellen på legemidler og rusmidler?`,
-      riktig: `Legemidler brukes for å forebygge, lindre eller kurere sykdom, mens rusmidler tas for å bli ruset og endre humør og bevissthet.`,
+      riktig: `Legemidler brukes mot sykdom, mens rusmidler tas for å bli ruset.`,
       feil: [
         `Legemidler tas for å bli ruset, mens rusmidler brukes mot sykdom.`,
         `Det er ingen forskjell, det er to ord for det samme.`,
@@ -807,33 +807,33 @@ export const quiz = {
       feil: [
         `All bruk av legemidler mot sykdom.`,
         `En type hormon kroppen lager selv under trening.`,
-        `En lovlig metode for å bygge muskler raskere.`,
+        `En lovlig metode for å bygge muskler raskere gjennom hard trening.`,
       ],
     },
     {
       sporsmal: `Hvorfor passer rusmidler og doping inn under temaet nerve- og hormonsystemet?`,
-      riktig: `Fordi de griper inn i signalene i nerve- og hormonsystemet, rusmidler virker på hjernen, og doping forstyrrer hormonsystemet.`,
+      riktig: `Fordi de griper inn i signalene i nerve- og hormonsystemet.`,
       feil: [
-        `Fordi de bare påvirker musklene og ingenting annet.`,
+        `Fordi de bare påvirker musklene og ingenting annet i kroppen.`,
         `Fordi de styrker immunforsvaret mot sykdom.`,
         `Fordi de lages naturlig i hormonkjertlene.`,
       ],
     },
     {
       sporsmal: `Hva er forskjellen på diabetes type 1 og type 2?`,
-      riktig: `Type 1 er medfødt og skyldes mangel på insulin, mens type 2 er en livsstilssykdom der kroppen har blitt mindre følsom for sitt eget insulin.`,
+      riktig: `Ved type 1 mangler kroppen insulin, ved type 2 er den mindre følsom for det.`,
       feil: [
-        `Type 1 er en livsstilssykdom, mens type 2 er medfødt.`,
+        `Type 1 er en livsstilssykdom, mens type 2 er medfødt og skyldes mangel på insulin.`,
         `Type 1 skyldes for mye insulin, mens type 2 skyldes for mye glukagon.`,
         `Det er ingen forskjell, det er to navn på samme sykdom.`,
       ],
     },
     {
       sporsmal: `Hvordan kan miljøgifter påvirke hormonsystemet?`,
-      riktig: `Noen miljøgifter ligner kroppens egne hormoner, slik at kroppen tar feil av dem og de sender uønskede beskjeder.`,
+      riktig: `Noen miljøgifter ligner hormoner, så kroppen tar feil av dem.`,
       feil: [
         `De dreper alle nervecellene de kommer i kontakt med.`,
-        `De styrker hormonsystemet slik at det virker raskere.`,
+        `De styrker hormonsystemet slik at det virker raskere enn det skal.`,
         `De bygger muskler på samme måte som doping.`,
       ],
     },
@@ -877,16 +877,16 @@ export const quiz = {
     },
     {
       sporsmal: `Hva forteller en gruppe (loddrett kolonne) i periodesystemet?`,
-      riktig: `At stoffene har like mange elektroner i ytterste skall og dermed nokså like egenskaper.`,
+      riktig: `At stoffene har like mange elektroner i ytterste skall.`,
       feil: [
-        `At stoffene har like mange elektronskall.`,
+        `At stoffene har like mange elektronskall og derfor er like tunge.`,
         `At stoffene har nøyaktig samme antall nøytroner.`,
         `At stoffene alltid reagerer med hverandre.`,
       ],
     },
     {
       sporsmal: `Hva kjennetegner edelgassene?`,
-      riktig: `De har fullt ytterste skall og er svært stabile, så de reagerer nesten ikke med andre stoffer.`,
+      riktig: `De har fullt ytterste skall og reagerer nesten ikke.`,
       feil: [
         `De har ett elektron i ytterste skall og reagerer veldig lett.`,
         `De mangler ett elektron og reagerer lett for å lage salt.`,
@@ -897,23 +897,23 @@ export const quiz = {
       sporsmal: `Hva sier 8-regelen?`,
       riktig: `At atomer «ønsker seg» 8 elektroner i ytterste skall (2 i det innerste).`,
       feil: [
-        `At alle atomer har 8 protoner i kjernen.`,
+        `At alle atomer har 8 protoner i kjernen og 8 elektroner rundt den.`,
         `At et atom kan ha maksimalt 8 skall.`,
         `At det alltid dannes 8 nye stoffer i en reaksjon.`,
       ],
     },
     {
       sporsmal: `Hva skjer i en ionebinding?`,
-      riktig: `Det ene atomet gir fra seg elektroner og blir positivt, det andre tar dem opp og blir negativt, og de motsatte ladningene holder sammen.`,
+      riktig: `Ett atom gir fra seg elektroner, et annet tar dem opp.`,
       feil: [
-        `Atomene deler elektroner med hverandre likt.`,
+        `Atomene deler elektroner med hverandre, slik at begge får fullt skall.`,
         `Atomene bytter protoner i kjernen.`,
         `Atomene smelter sammen til ett nytt atom.`,
       ],
     },
     {
       sporsmal: `Hva er en elektronparbinding?`,
-      riktig: `En binding der atomer deler elektroner med hverandre, som i vann og metan.`,
+      riktig: `En binding der atomer deler elektroner med hverandre.`,
       feil: [
         `En binding der et atom gir fra seg elektroner til et annet.`,
         `En binding mellom to ioner med motsatt ladning.`,
@@ -922,10 +922,10 @@ export const quiz = {
     },
     {
       sporsmal: `Hva betyr massebevaring i en kjemisk reaksjon?`,
-      riktig: `At atomer verken kan skapes eller forsvinne, så det er like mange atomer før og etter.`,
+      riktig: `At det er like mange atomer før og etter reaksjonen.`,
       feil: [
         `At stoffene alltid veier mer etter reaksjonen.`,
-        `At noen atomer forsvinner når nye stoffer dannes.`,
+        `At noen atomer forsvinner når nye stoffer dannes i reaksjonen.`,
         `At massen alltid blir til energi.`,
       ],
     },
@@ -934,7 +934,7 @@ export const quiz = {
       riktig: `Karbondioksid og vann, samtidig som det frigjøres varme.`,
       feil: [
         `Oksygen og glukose, samtidig som det frigjøres varme.`,
-        `Bare vanndamp, uten at det dannes noen gass.`,
+        `Bare vanndamp, uten at det dannes noen gass eller frigjøres varme.`,
         `Hydrogen og rent karbon.`,
       ],
     },
@@ -962,12 +962,12 @@ export const quiz = {
       feil: [
         `OH-gruppene som syren tar opp fra vannet.`,
         `Nøytronene i syremolekylene.`,
-        `At syren tar opp H⁺-ioner fra omgivelsene.`,
+        `At syren tar opp H⁺-ioner fra omgivelsene når den løses i vann.`,
       ],
     },
     {
       sporsmal: `Hva viser pH-skalaen?`,
-      riktig: `Hvor sur eller basisk en løsning er, på en skala fra 0 til 14.`,
+      riktig: `Hvor sur eller basisk en løsning er.`,
       feil: [
         `Hvor mye et stoff veier.`,
         `Hvor mange atomer et molekyl består av.`,
@@ -976,16 +976,16 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er forskjellen på en sterk og en svak syre?`,
-      riktig: `I en sterk syre gir alle molekylene fra seg H⁺-ioner, mens i en svak syre gir bare noen av dem fra seg H⁺-ioner.`,
+      riktig: `I en sterk syre gir alle molekylene fra seg H⁺, i en svak bare noen.`,
       feil: [
         `En sterk syre har lav pH fordi den inneholder mer vann.`,
-        `En sterk syre tar opp H⁺-ioner, mens en svak gir dem fra seg.`,
+        `En sterk syre tar opp H⁺-ioner fra vannet, mens en svak gir dem fra seg.`,
         `En sterk syre er alltid organisk, mens en svak alltid er uorganisk.`,
       ],
     },
     {
       sporsmal: `Hva er forskjellen på organiske og uorganiske syrer?`,
-      riktig: `Organiske syrer er som regel svake og finnes i planter og dyr, mens uorganiske syrer ofte er sterke og finnes i mineraler.`,
+      riktig: `Organiske syrer er som regel svake, uorganiske ofte sterke.`,
       feil: [
         `Organiske syrer er alltid sterkere enn uorganiske syrer.`,
         `Organiske syrer inneholder ikke karbon, men det gjør uorganiske.`,
@@ -994,18 +994,18 @@ export const quiz = {
     },
     {
       sporsmal: `Hva skjer når en syre og en base nøytraliserer hverandre?`,
-      riktig: `Basen tar opp H⁺-ionene fra syren, slik at både de sure og de basiske egenskapene forsvinner.`,
+      riktig: `Basen tar opp H⁺-ionene, så de sure egenskapene forsvinner.`,
       feil: [
         `Syren og basen forsterker hverandre og blir farligere.`,
         `Det dannes en enda sterkere syre.`,
-        `Løsningen blir mer basisk enn før.`,
+        `Løsningen blir mer basisk enn før, uansett hvor mye syre som er med.`,
       ],
     },
   ],
   'energi': [
     {
       sporsmal: `Hva er bevegelsesenergi?`,
-      riktig: `Energien noe har når det er i bevegelse, som en rullende ball eller vinden.`,
+      riktig: `Energien noe har når det er i bevegelse.`,
       feil: [
         `Lagret energi som ennå ikke er satt i bevegelse.`,
         `Energien som finnes i en vedkubbe før den brennes.`,
@@ -1023,7 +1023,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva sier energiloven?`,
-      riktig: `Energi kan verken skapes eller forsvinne, bare overføres fra én form til en annen.`,
+      riktig: `Energi kan verken skapes eller forsvinne, bare skifte form.`,
       feil: [
         `Energi blir borte litt etter litt hver gang den brukes.`,
         `Energi kan lages fra ingenting hvis man har en generator.`,
@@ -1032,25 +1032,25 @@ export const quiz = {
     },
     {
       sporsmal: `Hva mener vi med at energi går fra høyverdig til lavverdig form?`,
-      riktig: `Den går fra en form som er lett å utnytte til en som er vanskelig å utnytte, som spredt varme.`,
+      riktig: `Den blir vanskeligere å utnytte, for eksempel som spredt varme.`,
       feil: [
         `At energien blir kraftigere og lettere å bruke for hver overgang.`,
         `At mengden energi øker når den skifter form.`,
-        `At energien forsvinner helt til slutt.`,
+        `At energien forsvinner helt til slutt og aldri kan brukes igjen.`,
       ],
     },
     {
       sporsmal: `Hva er elektrisk strøm?`,
-      riktig: `Elektroner som beveger seg i samme retning gjennom en ledning.`,
+      riktig: `Elektroner som beveger seg gjennom en ledning.`,
       feil: [
         `Protoner som hopper mellom to magneter.`,
         `Varme som sprer seg utover i en metalltråd.`,
-        `Lys som sendes gjennom en ledning.`,
+        `Lys som sendes gjennom en ledning fra en lyspære.`,
       ],
     },
     {
       sporsmal: `Hva trenger du for å lage (indusere) strøm?`,
-      riktig: `En spole og en magnet som beveges i forhold til hverandre.`,
+      riktig: `En spole og en magnet i bevegelse.`,
       feil: [
         `To like metaller som ligger helt i ro.`,
         `En sitron og et stykke papir.`,
@@ -1059,7 +1059,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er det egentlig som avgjør hvor sterkt et sitronbatteri blir?`,
-      riktig: `Metallene som brukes, og hvor langt fra hverandre de står i spenningsrekka.`,
+      riktig: `Hvilke metaller som brukes.`,
       feil: [
         `Hvor sur sitronen er.`,
         `Hvor stor sitronen er.`,
@@ -1068,20 +1068,20 @@ export const quiz = {
     },
     {
       sporsmal: `Hvorfor kan lys reise gjennom verdensrommet, mens lyd ikke kan?`,
-      riktig: `Fordi lys er stråling som ikke trenger noe stoff, mens lyd må ha et stoff å bevege seg i.`,
+      riktig: `Fordi lys ikke trenger noe stoff, mens lyd må ha et stoff.`,
       feil: [
-        `Fordi lys er mye raskere enn lyd.`,
+        `Fordi lys er mye raskere enn lyd og derfor kommer seg gjennom.`,
         `Fordi lyd er en form for stråling, men lys er det ikke.`,
         `Fordi verdensrommet er for kaldt for lyd.`,
       ],
     },
     {
       sporsmal: `Hva er amplituden til en bølge?`,
-      riktig: `Høyden fra midten av bølgen opp til en bølgetopp, den henger sammen med energien i bølgen.`,
+      riktig: `Høyden fra midten av bølgen opp til en bølgetopp.`,
       feil: [
-        `Avstanden mellom to bølgetopper.`,
-        `Antall bølger per sekund.`,
-        `Hvor raskt bølgen beveger seg.`,
+        `Avstanden fra én bølgetopp til den neste bølgetoppen.`,
+        `Antall bølger som passerer per sekund.`,
+        `Hvor raskt bølgen beveger seg gjennom lufta.`,
       ],
     },
     {
@@ -1095,7 +1095,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er forskjellen på masse og tyngde?`,
-      riktig: `Masse er stoffmengden og er alltid den samme, mens tyngde er en kraft som varierer med hvor du er.`,
+      riktig: `Masse er stoffmengden, mens tyngde er en kraft.`,
       feil: [
         `Masse er en kraft, mens tyngde er stoffmengden.`,
         `De er to ord for nøyaktig det samme.`,
@@ -1113,7 +1113,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva forteller effekten oss?`,
-      riktig: `Hvor raskt et arbeid blir gjort (arbeid delt på tid).`,
+      riktig: `Hvor raskt et arbeid blir gjort.`,
       feil: [
         `Hvor stor kraft som brukes.`,
         `Hvor lang strekning noe flyttes.`,
@@ -1145,7 +1145,7 @@ export const quiz = {
       riktig: `Lager elektrisk strøm ved å bevege en magnet inni en spole.`,
       feil: [
         `Endrer spenningen på strømmen i strømnettet.`,
-        `Lagrer elektrisk energi til senere bruk.`,
+        `Lagrer elektrisk energi til senere bruk, som et batteri.`,
         `Gjør digitale signaler om til analoge.`,
       ],
     },
@@ -1169,7 +1169,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er forskjellen på et analogt og et digitalt signal?`,
-      riktig: `Et analogt signal endrer seg jevnt og flytende, mens et digitalt signal består av tall, oftest 0 og 1.`,
+      riktig: `Et analogt signal endrer seg jevnt, mens et digitalt består av tall.`,
       feil: [
         `Et digitalt signal endrer seg jevnt, mens et analogt består av tall.`,
         `Analoge signaler er alltid trådløse, digitale er alltid med kabel.`,
@@ -1196,16 +1196,16 @@ export const quiz = {
     },
     {
       sporsmal: `Hvilke deler må til for at et elektronisk kommunikasjonssystem skal virke?`,
-      riktig: `Blant annet en sender, en mottaker, informasjon, en adresse og en vei (ruting).`,
+      riktig: `En sender, en mottaker, informasjon, en adresse og en vei.`,
       feil: [
-        `Bare en sender og litt strøm.`,
-        `Kun en datamaskin med skjerm.`,
-        `En generator og en transformator.`,
+        `Bare en sender, en strømkilde og informasjon som skal sendes ut.`,
+        `Kun en datamaskin med skjerm og et tastatur.`,
+        `En generator, en transformator og en lang kabel.`,
       ],
     },
     {
       sporsmal: `Hvilken type trådløs kommunikasjon har lengst rekkevidde?`,
-      riktig: `Satellitt, som kan nå nesten hvor som helst på jorda.`,
+      riktig: `Satellitt.`,
       feil: [
         `Bluetooth.`,
         `Wifi.`,
@@ -1214,11 +1214,11 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er en IP-adresse?`,
-      riktig: `En unik adresse som alt som kobler seg til internett får tildelt.`,
+      riktig: `En unik adresse som alt på internett får tildelt.`,
       feil: [
         `Navnet på nettleseren du bruker.`,
         `En type kabel som kobler datamaskiner sammen.`,
-        `Et passord som beskytter nettsiden din.`,
+        `Et passord som beskytter nettsiden din mot hackere.`,
       ],
     },
     {
@@ -1232,18 +1232,18 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er ASCII?`,
-      riktig: `En standard der hver bokstav har sitt eget tall, så tekst kan gjøres om til binær kode.`,
+      riktig: `En standard der hver bokstav har sitt eget tall.`,
       feil: [
-        `Et program for å redigere bilder.`,
+        `Et program for å redigere bilder og tekst på datamaskinen.`,
         `En type trådløst nettverk.`,
         `Navnet på den første datamaskinen.`,
       ],
     },
     {
       sporsmal: `Hva er en algoritme?`,
-      riktig: `En nøyaktig oppskrift, steg for steg, på hvordan en oppgave skal løses.`,
+      riktig: `En nøyaktig oppskrift, steg for steg.`,
       feil: [
-        `En feil i et dataprogram.`,
+        `En feil i et dataprogram som får det til å stoppe.`,
         `En type datamaskin.`,
         `Et trådløst signal.`,
       ],
@@ -1265,7 +1265,7 @@ export const quiz = {
       feil: [
         `Hvilket kjønn man er født med.`,
         `Hvilket kjønn man selv opplever at man er.`,
-        `Hvilket prevensjonsmiddel man bruker.`,
+        `Hvilket prevensjonsmiddel man bruker når man har sex.`,
       ],
     },
     {
@@ -1279,9 +1279,9 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er LHBTQ+?`,
-      riktig: `En paraplybetegnelse for alle som har en annen kombinasjon av kjønn, legning og identitet enn den vanligste.`,
+      riktig: `En paraplybetegnelse for ulike kjønn, legninger og identiteter.`,
       feil: [
-        `Navnet på en bestemt seksuell legning.`,
+        `Navnet på én bestemt seksuell legning, altså hvem man blir forelsket i.`,
         `En type prevensjonsmiddel.`,
         `En seksuelt overførbar infeksjon.`,
       ],
@@ -1291,7 +1291,7 @@ export const quiz = {
       riktig: `At man kan bli tiltrukket av både eget og motsatt kjønn.`,
       feil: [
         `At man ikke blir tiltrukket av noen.`,
-        `At man bare blir tiltrukket av samme kjønn.`,
+        `At man bare blir tiltrukket av personer av samme kjønn som en selv.`,
         `At man er født med trekk fra begge kjønn.`,
       ],
     },
@@ -1315,7 +1315,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hvorfor er det viktig å teste seg for SOI etter ubeskyttet sex?`,
-      riktig: `Fordi mange SOI gir få eller ingen symptomer, men likevel kan smitte videre og skade kroppen.`,
+      riktig: `Fordi mange SOI gir få symptomer, men likevel kan smitte.`,
       feil: [
         `Fordi alle SOI alltid gir tydelige symptomer med en gang.`,
         `Fordi SOI bare smitter hvis man tester seg.`,
@@ -1344,14 +1344,14 @@ export const quiz = {
       sporsmal: `Hva beskytter HPV-vaksinen mot?`,
       riktig: `Kjønnsvorter og enkelte former for kreft.`,
       feil: [
-        `Alle seksuelt overførbare infeksjoner.`,
+        `Alle seksuelt overførbare infeksjoner som finnes.`,
         `Graviditet.`,
         `Hiv og aids.`,
       ],
     },
     {
       sporsmal: `Hva er forskjellen på hormonell og ikke-hormonell prevensjon?`,
-      riktig: `Hormonell prevensjon, som p-piller, bruker hormoner for å hindre graviditet, mens ikke-hormonell, som kondom og kobberspiral, ikke gjør det.`,
+      riktig: `P-piller bruker hormoner for å hindre graviditet, det gjør ikke kondom.`,
       feil: [
         `Hormonell prevensjon beskytter mot SOI, det gjør aldri ikke-hormonell.`,
         `Det er ingen forskjell, det er to navn på det samme.`,
@@ -1362,7 +1362,7 @@ export const quiz = {
       sporsmal: `Hvor kan ungdom få veiledning og prevensjon billig eller gratis?`,
       riktig: `Hos helsesykepleier eller på helsestasjon for ungdom.`,
       feil: [
-        `Bare hos en privat lege mot full betaling.`,
+        `Bare hos en privat lege mot full betaling etter henvisning.`,
         `Bare på apoteket uten å snakke med noen.`,
         `Ingen steder før man er myndig.`,
       ],
@@ -1382,14 +1382,14 @@ export const quiz = {
       sporsmal: `Hva betyr ordet «teori» i vitenskapen?`,
       riktig: `En grundig testet forklaring som er støttet av svært mye bevis.`,
       feil: [
-        `En løs gjetning man ikke har undersøkt.`,
-        `En mening en forsker har uten bevis.`,
-        `Et forsøk som ikke er gjennomført ennå.`,
+        `En løs gjetning man ikke har undersøkt nærmere.`,
+        `En mening en forsker har uten å ha bevis for det.`,
+        `Et forsøk som ikke er gjennomført ennå, men som er planlagt.`,
       ],
     },
     {
       sporsmal: `Hva er en feilkilde?`,
-      riktig: `Noe som kan ha påvirket resultatet og gjort det mindre sikkert.`,
+      riktig: `Noe som kan ha påvirket resultatet.`,
       feil: [
         `Selve konklusjonen i et forsøk.`,
         `En kilde man har brukt til bakgrunnsteori.`,
@@ -1398,7 +1398,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er en kontrollgruppe?`,
-      riktig: `En gruppe som ikke får behandlingen man tester, og som man sammenligner med.`,
+      riktig: `En gruppe som ikke får behandlingen man tester.`,
       feil: [
         `Gruppen som får dobbelt så mye av behandlingen.`,
         `De som styrer hele forsøket.`,
@@ -1407,7 +1407,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er en modell i naturfag?`,
-      riktig: `En forenkling av virkeligheten som hjelper oss å forstå noe vi ikke kan se direkte.`,
+      riktig: `En forenkling av virkeligheten.`,
       feil: [
         `En nøyaktig kopi av virkeligheten i full størrelse.`,
         `En person som viser fram et forsøk.`,
@@ -1434,7 +1434,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er bias?`,
-      riktig: `Skjevhet eller forutinntatthet som kan farge et resultat i en bestemt retning.`,
+      riktig: `Skjevhet som kan farge et resultat.`,
       feil: [
         `Et måleinstrument som brukes i forsøk.`,
         `Et annet ord for et godt og sikkert resultat.`,
@@ -1443,7 +1443,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er fagfellevurdering?`,
-      riktig: `At andre forskere kontrollerer et arbeid før det blir publisert.`,
+      riktig: `At andre forskere kontrollerer et arbeid.`,
       feil: [
         `At forskeren karaktersetter sitt eget arbeid.`,
         `At elevene retter hverandres prøver.`,
@@ -1461,7 +1461,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hva er en variabel i et forsøk?`,
-      riktig: `Noe som kan endre seg, og som man enten endrer med vilje eller måler.`,
+      riktig: `Noe som kan endre seg i forsøket.`,
       feil: [
         `Noe som aldri kan forandre seg.`,
         `Et annet ord for konklusjonen.`,
@@ -1470,7 +1470,7 @@ export const quiz = {
     },
     {
       sporsmal: `Hvorfor er det viktig å nevne feilkilder i en rapport?`,
-      riktig: `Fordi det viser hvor sikre resultatene er, og hva som kunne påvirket dem.`,
+      riktig: `Fordi det viser hvor sikre resultatene er.`,
       feil: [
         `Fordi rapporten må være så lang som mulig.`,
         `Fordi feilkilder beviser at forsøket var mislykket.`,
@@ -1482,13 +1482,13 @@ export const quiz = {
       riktig: `Hypotesen er det vi tror på forhånd, mens konklusjonen er det vi finner ut etterpå.`,
       feil: [
         `Det er to ord for nøyaktig det samme.`,
-        `Hypotesen kommer etter forsøket, konklusjonen før.`,
+        `Hypotesen kommer etter forsøket, mens konklusjonen kommer før forsøket.`,
         `Hypotesen er alltid riktig, konklusjonen alltid feil.`,
       ],
     },
     {
       sporsmal: `Hvorfor er det viktig at forskning blir etterprøvd av andre?`,
-      riktig: `For å sjekke at resultatene er pålitelige og ikke bare gjelder én gang.`,
+      riktig: `For å sjekke at resultatene er pålitelige.`,
       feil: [
         `For at forskeren skal få mer betalt.`,
         `For å gjøre forskningen vanskeligere å forstå.`,
