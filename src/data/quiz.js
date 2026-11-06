@@ -1120,15 +1120,6 @@ export const quiz = {
         `Hvor stor masse en gjenstand har.`,
       ],
     },
-    {
-      sporsmal: `Hva sier Newtons 2. lov?`,
-      riktig: `Kraft = masse × akselerasjon (F = m · a).`,
-      feil: [
-        `Kraft = masse delt på akselerasjon.`,
-        `Kraft = arbeid × tid.`,
-        `Kraft = masse × fart.`,
-      ],
-    },
   ],
   'teknologi': [
     {
